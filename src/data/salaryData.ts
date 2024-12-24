@@ -48,4 +48,20 @@ export const companySalaries: CompanySalary[] = [
     experience: '7 Years',
     salary: 120000,
   },
+  {
+    company: 'LINE',
+    level: 'Senior',
+    position: 'Distributed Systems (Back-End)',
+    experience: '7 Years',
+    salary: 91000,
+    stock: 5833,
+  },
+  {
+    company: 'SET',
+    level: 'Senior',
+    position: 'Software Engineering Manager',
+    experience: '10 Years',
+    salary: 90000,
+    targetBonus: 90000,
+  }
 ];
