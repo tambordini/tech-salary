@@ -1,0 +1,39 @@
+{
+  "name": "tech-salary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.2",
+    "@tsconfig/svelte": "^5.0.4",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.49",
+    "prettier": "^3.0.3",
+    "svelte": "^5.14.3",
+    "svelte-check": "^4.1.1",
+    "svelte-preprocess": "^6.0.3",
+    "tailwindcss": "^3.4.17",
+    "tslib": "^2.8.1",
+    "typescript": "~5.3.3",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "@types/chart.js": "^2.9.41",
+    "chart.js": "^4.4.7"
+  }
+}
