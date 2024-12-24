@@ -41,4 +41,11 @@ export const companySalaries: CompanySalary[] = [
     salary: 100000,
     targetBonus: 16667,
   },
+  {
+    company: 'True Digital Group',
+    level: 'IT Specialist',
+    position: 'Distributed Systems (Back-End)',
+    experience: '7 Years',
+    salary: 120000,
+  },
 ];
