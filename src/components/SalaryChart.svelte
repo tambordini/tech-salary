@@ -12,10 +12,10 @@
 
   const getColorForPosition = (position: string) => {
     const colors: { [key: string]: string } = {
-      'Software Engineer': '#FF6384',
-      'Senior Software Engineer': '#36A2EB',
-      'Tech Lead': '#4BC0C0',
-      'Software Architect': '#9966FF',
+      'Full Stack': '#FF6384',
+      'API Development (Back-End)': '#36A2EB',
+      'Distributed Systems (Back-End)': '#4BC0C0',
+      'Software Engineering Manager': '#9966FF',
       CTO: '#FF9F40',
     };
     return colors[position] || '#FFCD56';
