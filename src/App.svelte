@@ -1,7 +1,11 @@
 <script lang="ts">
   import { companySalaries } from './data/salaryData';
+  import { customSalaries } from './stores/salaryStore';
   import SalaryChart from './components/SalaryChart.svelte';
   import SalaryTable from './components/SalaryTable.svelte';
+  import SalaryCalculator from './components/SalaryCalculator.svelte';
+
+  $: combinedSalaryData = [...companySalaries, ...$customSalaries];
 </script>
 
 <main class="min-h-screen bg-gray-50 py-8">
@@ -31,10 +35,18 @@
 
         <section class="mb-12">
           <h2 class="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
+            <span class="mr-2">🎯</span>
+            คำนวณตำแหน่งเงินเดือนของคุณ
+          </h2>
+          <SalaryCalculator salaryData={combinedSalaryData} />
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
             <span class="mr-2">📈</span>
             การกระจายตัวของเงินเดือน
           </h2>
-          <SalaryChart salaryData={companySalaries} />
+          <SalaryChart salaryData={combinedSalaryData} />
         </section>
 
         <section class="mb-12">
@@ -42,7 +54,7 @@
             <span class="mr-2">🏢</span>
             รายการเงินเดือนตามบริษัท
           </h2>
-          <SalaryTable salaryData={companySalaries} />
+          <SalaryTable salaryData={combinedSalaryData} />
         </section>
       </div>
     </div>

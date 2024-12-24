@@ -11,6 +11,12 @@
       maximumFractionDigits: 0,
     });
   };
+
+  $: sortedSalaryData = [...salaryData].sort((a, b) => {
+    const totalA = (a.salary || 0) + (a.stock || 0) + (a.targetBonus || 0);
+    const totalB = (b.salary || 0) + (b.stock || 0) + (b.targetBonus || 0);
+    return totalB - totalA;
+  });
 </script>
 
 <div class="container mx-auto p-4">
@@ -28,7 +34,7 @@
         </tr>
       </thead>
       <tbody>
-        {#each salaryData as { company, position, level, experience, salary, stock: monthlyStock, targetBonus }, i}
+        {#each sortedSalaryData as { company, position, level, experience, salary, stock: monthlyStock, targetBonus }, i}
           <tr
             class="border-b last:border-b-0 {i % 2 === 0
               ? 'bg-white'
