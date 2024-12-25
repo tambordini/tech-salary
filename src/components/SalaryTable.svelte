@@ -39,13 +39,39 @@
   function prevPage() {
     if (currentPage > 1) currentPage--;
   }
+
+  function generatePageNumbers(current: number, total: number): (number | string)[] {
+    const pages: (number | string)[] = [];
+    const delta = 2;
+
+    for (let i = 1; i <= total; i++) {
+      if (
+        i === 1 || // First page
+        i === total || // Last page
+        (i >= current - delta && i <= current + delta) // Pages around current
+      ) {
+        pages.push(i);
+      } else if (
+        (i === current - delta - 1 && i > 1) || // Before current range
+        (i === current + delta + 1 && i < total) // After current range
+      ) {
+        pages.push('...');
+      }
+    }
+
+    return [...new Set(pages)]; // Remove duplicates
+  }
+
+  function goToPage(page: number) {
+    currentPage = page;
+  }
 </script>
 
 <div class="container mx-auto p-4">
   <div class="overflow-x-auto rounded-lg shadow-lg">
     <table class="min-w-full bg-white">
       <thead>
-        <tr class="bg-gray-800 text-white">
+        <tr class="bg-[#0056a9] text-white">
           <th class="px-6 py-3 text-left text-sm font-semibold">Company</th>
           <th class="px-6 py-3 text-left text-sm font-semibold">Position</th>
           <th class="px-6 py-3 text-left text-sm font-semibold">Level</th>
@@ -60,9 +86,9 @@
           <tr
             class="border-b last:border-b-0 transition-all duration-500 {i % 2 === 0
               ? 'bg-white'
-              : 'bg-gray-50'} {isNewEntry(company, position)
+              : 'bg-slate-50'} {isNewEntry(company, position)
               ? 'bg-green-100 animate-pulse'
-              : 'hover:bg-blue-50'}"
+              : 'hover:bg-[#0056a9]/5'}"
           >
             <td class="px-6 py-4 text-sm">{company}</td>
             <td class="px-6 py-4 text-sm">{position}</td>
@@ -77,31 +103,49 @@
     </table>
   </div>
 
-  <div class="mt-4 flex items-center justify-between px-4">
-    <div class="text-sm text-gray-700">
+  <div class="mt-4 flex flex-col sm:flex-row items-center justify-between px-4 gap-4">
+    <div class="text-sm text-black">
       Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(
         currentPage * itemsPerPage,
         sortedSalaryData.length,
       )} of {sortedSalaryData.length} entries
     </div>
-    <div class="flex space-x-2">
+    <div class="flex items-center gap-2">
       <button
         on:click={prevPage}
         disabled={currentPage === 1}
-        class="px-4 py-2 text-sm font-medium rounded-md {currentPage === 1
-          ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-          : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}"
+        class="px-3 py-1 text-sm font-medium rounded-md border {currentPage === 1
+          ? 'bg-gray-50 text-gray-400 border-gray-200 cursor-not-allowed'
+          : 'bg-white text-[#0056a9] border-[#0056a9] hover:bg-[#0056a9]/5'}"
+        aria-label="Previous page"
       >
-        Previous
+        ←
       </button>
+
+      {#each generatePageNumbers(currentPage, totalPages) as page}
+        {#if typeof page === 'string'}
+          <span class="px-3 py-1 text-black">{page}</span>
+        {:else}
+          <button
+            on:click={() => goToPage(page)}
+            class="px-3 py-1 text-sm font-medium rounded-md border {currentPage === page
+              ? 'bg-[#0056a9] text-white border-[#0056a9]'
+              : 'bg-white text-[#0056a9] border-[#0056a9] hover:bg-[#0056a9]/5'}"
+          >
+            {page}
+          </button>
+        {/if}
+      {/each}
+
       <button
         on:click={nextPage}
         disabled={currentPage === totalPages}
-        class="px-4 py-2 text-sm font-medium rounded-md {currentPage === totalPages
-          ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-          : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}"
+        class="px-3 py-1 text-sm font-medium rounded-md border {currentPage === totalPages
+          ? 'bg-gray-50 text-gray-400 border-gray-200 cursor-not-allowed'
+          : 'bg-white text-[#0056a9] border-[#0056a9] hover:bg-[#0056a9]/5'}"
+        aria-label="Next page"
       >
-        Next
+        →
       </button>
     </div>
   </div>
