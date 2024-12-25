@@ -23,13 +23,27 @@
     return colors[position] || '#FFCD56';
   };
 
+  const parseExperience = (exp: string): number => {
+    // Remove "Years" and trim whitespace
+    const cleanExp = exp.replace(/Years?/i, '').trim();
+    
+    if (cleanExp.includes('-')) {
+      // If range (e.g., "5-8"), calculate average
+      const [min, max] = cleanExp.split('-').map(n => parseFloat(n));
+      return (min + max) / 2;
+    }
+    // Single number
+    return parseFloat(cleanExp);
+  };
+
   const processData = (data: CompanySalary[]) => {
     const groupedData = data.reduce(
       (acc, entry) => {
         const key = `${entry.experience}-${entry.position}`;
         if (!acc[key]) {
           acc[key] = {
-            experience: parseFloat(entry.experience),
+            experience: parseExperience(entry.experience),
+            originalExperience: entry.experience,
             position: entry.position,
             salaries: [],
             companies: new Set(),
@@ -41,7 +55,13 @@
       },
       {} as Record<
         string,
-        { experience: number; position: string; salaries: number[]; companies: Set<string> }
+        { 
+          experience: number; 
+          originalExperience: string;
+          position: string; 
+          salaries: number[]; 
+          companies: Set<string> 
+        }
       >,
     );
 
@@ -49,6 +69,7 @@
       x: data.experience,
       y: Math.round(data.salaries.reduce((a, b) => a + b, 0) / data.salaries.length),
       position: data.position,
+      originalExperience: data.originalExperience,
       count: data.salaries.length,
       companies: Array.from(data.companies),
       minSalary: Math.min(...data.salaries),
@@ -141,7 +162,7 @@
                 const point = ctx.raw as any;
                 return [
                   `Position: ${point.position}`,
-                  `Experience: ${point.x} years`,
+                  `Experience: ${point.originalExperience}`,
                   `Average Salary: ${point.y.toLocaleString()} ฿`,
                   `Salary Range: ${point.minSalary.toLocaleString()} - ${point.maxSalary.toLocaleString()} ฿`,
                   `Number of Positions: ${point.count}`,

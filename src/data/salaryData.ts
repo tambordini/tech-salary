@@ -63,5 +63,13 @@ export const companySalaries: CompanySalary[] = [
     experience: '10 Years',
     salary: 90000,
     targetBonus: 90000,
-  }
+  },
+  {
+    company: 'KBTG',
+    level: 'Senior',
+    position: 'Full Stack',
+    experience: '5-10 Years',
+    salary: 87000,
+    targetBonus: 20833,
+  },
 ];

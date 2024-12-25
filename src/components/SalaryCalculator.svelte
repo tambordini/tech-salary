@@ -17,49 +17,154 @@
   let experience = '';
   let company = '';
   let position = '';
+  let isCalculating = false;
+  let isSubmitting = false;
+  let errors: Record<string, string> = {};
   let result: { rank: number; total: number; percentile: number } | null = null;
 
-  function calculateRank() {
-    const salaryNum = Number(salary);
-    if (!salaryNum) return;
-
-    const allSalaries = salaryData.flatMap((company) => company.salary).sort((a, b) => b - a);
-
-    // Find how many salaries are greater than or equal to the input salary
-    const rank = allSalaries.filter((s) => s >= salaryNum).length;
-    const total = allSalaries.length;
-    // Calculate percentile based on how many salaries are below the input salary
-    const percentile = ((total - rank) / total) * 100;
-
-    result = { rank, total, percentile };
+  // Add debounce utility
+  function debounce<T extends (...args: any[]) => void>(
+    fn: T,
+    delay: number,
+  ): (...args: Parameters<T>) => void {
+    let timeoutId: ReturnType<typeof setTimeout>;
+    return (...args: Parameters<T>) => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => fn(...args), delay);
+    };
   }
 
-  function addToData() {
-    if (!salary || !experience || !company || !position) return;
+  // Separate validation functions for each field
+  function validateSalary(value: string) {
+    const num = Number(value.replace(/,/g, ''));
+    if (!value) return 'กรุณาระบุเงินเดือน';
+    if (num < 1000) return 'เงินเดือนต้องมากกว่า 1,000 บาท';
+    if (num > 1000000) return 'เงินเดือนต้องไม่เกิน 1,000,000 บาท';
+    return '';
+  }
 
-    const newEntry: CompanySalary = {
-      company,
-      position,
-      level: 'Custom',
-      experience,
-      salary: Number(salary),
+  function validateExperience(value: string) {
+    const num = Number(value);
+    if (!value) return 'กรุณาระบุประสบการณ์';
+    if (num < 0) return 'ประสบการณ์ต้องไม่ต่ำกว่า 0 ปี';
+    if (num > 50) return 'ประสบการณ์ต้องไม่เกิน 50 ปี';
+    return '';
+  }
+
+  function validateCompany(value: string) {
+    if (!value) return 'กรุณาระบุชื่อบริษัท';
+    if (value.length < 2) return 'ชื่อบริษัทต้องมีอย่างน้อย 2 ตัวอักษร';
+    return '';
+  }
+
+  function validatePosition(value: string) {
+    if (!value) return 'กรุณาระบุตำแหน่ง';
+    if (value.length < 2) return 'ตำแหน่งต้องมีอย่างน้อย 2 ตัวอักษร';
+    return '';
+  }
+
+  // Debounced validation handlers
+  const debouncedValidateSalary = debounce((value: string) => {
+    errors.salary = validateSalary(value);
+  }, 300);
+
+  const debouncedValidateExperience = debounce((value: string) => {
+    errors.experience = validateExperience(value);
+  }, 300);
+
+  const debouncedValidateCompany = debounce((value: string) => {
+    errors.company = validateCompany(value);
+  }, 300);
+
+  const debouncedValidatePosition = debounce((value: string) => {
+    errors.position = validatePosition(value);
+  }, 300);
+
+  // Modified input handlers
+  function handleSalaryInput(event: Event) {
+    const input = event.target as HTMLInputElement;
+    const value = input.value.replace(/,/g, '');
+    salary = value;
+    input.value = formatSalary(value);
+    debouncedValidateSalary(value);
+  }
+
+  function handleExperienceInput(event: Event) {
+    const value = (event.target as HTMLInputElement).value;
+    experience = value;
+    debouncedValidateExperience(value);
+  }
+
+  function handleCompanyInput(event: Event) {
+    const value = (event.target as HTMLInputElement).value;
+    company = value;
+    debouncedValidateCompany(value);
+  }
+
+  function handlePositionInput(event: Event) {
+    const value = (event.target as HTMLInputElement).value;
+    position = value;
+    debouncedValidatePosition(value);
+  }
+
+  // Modified validateForm to use all validation functions
+  function validateForm() {
+    errors = {
+      salary: validateSalary(salary),
+      experience: validateExperience(experience),
+      company: validateCompany(company),
+      position: validatePosition(position),
     };
+    return Object.values(errors).every((error) => !error);
+  }
 
-    customSalaries.update((entries) => [...entries, newEntry]);
+  // Format salary with commas
+  function formatSalary(value: string) {
+    return value.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  }
 
-    // Set the newest entry identifier
-    newestEntry.set(`${company}-${position}`);
+  async function calculateRank() {
+    if (!validateForm()) return;
 
-    // Clear the highlight after 3 seconds
-    setTimeout(() => {
-      newestEntry.set(null);
-    }, 3000);
+    isCalculating = true;
+    try {
+      const salaryNum = Number(salary.replace(/,/g, ''));
+      const allSalaries = salaryData.flatMap((company) => company.salary).sort((a, b) => b - a);
+      const rank = allSalaries.filter((s) => s >= salaryNum).length;
+      const total = allSalaries.length;
+      const percentile = ((total - rank) / total) * 100;
+      result = { rank, total, percentile };
+    } finally {
+      isCalculating = false;
+    }
+  }
 
-    // Reset form
-    salary = '';
-    experience = '';
-    company = '';
-    position = '';
+  async function addToData() {
+    if (!validateForm()) return;
+
+    isSubmitting = true;
+    try {
+      const newEntry: CompanySalary = {
+        company,
+        position,
+        level: 'Custom',
+        experience,
+        salary: Number(salary.replace(/,/g, '')),
+      };
+
+      customSalaries.update((entries) => [...entries, newEntry]);
+      newestEntry.set(`${company}-${position}`);
+      setTimeout(() => newestEntry.set(null), 3000);
+
+      // Reset form
+      salary = '';
+      experience = '';
+      company = '';
+      position = '';
+      errors = {};
+    } finally {
+      isSubmitting = false;
+    }
   }
 </script>
 
@@ -81,14 +186,19 @@
           <label for="salary" class="block text-sm font-medium text-gray-700">เงินเดือน</label>
           <input
             id="salary"
-            type="number"
+            type="text"
             inputmode="numeric"
-            pattern="[0-9]*"
-            bind:value={salary}
-            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500
-                   focus:border-blue-500 transition-all duration-200 text-base md:text-sm"
+            on:input={handleSalaryInput}
+            on:blur={handleSalaryInput}
+            class="w-full p-3 border rounded-lg transition-all duration-200 text-base md:text-sm
+                   {errors.salary
+              ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+              : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
             placeholder="ระบุเงินเดือน"
           />
+          {#if errors.salary}
+            <p class="text-red-500 text-sm mt-1">{errors.salary}</p>
+          {/if}
         </div>
 
         <div class="space-y-2">
@@ -96,13 +206,21 @@
           <input
             id="year"
             type="number"
-            inputmode="numeric"
-            pattern="[0-9]*"
+            min="0"
+            max="50"
+            step="0.5"
+            on:input={handleExperienceInput}
+            on:blur={handleExperienceInput}
             bind:value={experience}
-            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500
-                   focus:border-blue-500 transition-all duration-200 text-base md:text-sm"
+            class="w-full p-3 border rounded-lg transition-all duration-200 text-base md:text-sm
+                   {errors.experience
+              ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+              : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
             placeholder="ระบุจำนวนปี"
           />
+          {#if errors.experience}
+            <p class="text-red-500 text-sm mt-1">{errors.experience}</p>
+          {/if}
         </div>
 
         <div class="space-y-2">
@@ -110,13 +228,19 @@
           <input
             id="company"
             type="text"
-            inputmode="text"
-            autocomplete="organization"
+            on:input={handleCompanyInput}
+            on:blur={handleCompanyInput}
             bind:value={company}
-            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500
-                   focus:border-blue-500 transition-all duration-200 text-base md:text-sm"
+            minlength="2"
+            class="w-full p-3 border rounded-lg transition-all duration-200 text-base md:text-sm
+                   {errors.company
+              ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+              : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
             placeholder="ระบุชื่อบริษัท"
           />
+          {#if errors.company}
+            <p class="text-red-500 text-sm mt-1">{errors.company}</p>
+          {/if}
         </div>
 
         <div class="space-y-2">
@@ -124,32 +248,42 @@
           <input
             id="position"
             type="text"
-            inputmode="text"
-            autocomplete="organization-title"
+            on:input={handlePositionInput}
+            on:blur={handlePositionInput}
             bind:value={position}
-            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500
-                   focus:border-blue-500 transition-all duration-200 text-base md:text-sm"
+            minlength="2"
+            class="w-full p-3 border rounded-lg transition-all duration-200 text-base md:text-sm
+                   {errors.position
+              ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+              : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
             placeholder="ระบุตำแหน่ง"
           />
+          {#if errors.position}
+            <p class="text-red-500 text-sm mt-1">{errors.position}</p>
+          {/if}
         </div>
       </div>
 
       <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6">
         <button
           on:click={calculateRank}
+          disabled={isCalculating}
           class="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white py-4 sm:py-3 px-6
-                 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200
-                 font-medium shadow-sm hover:shadow-md text-base md:text-sm"
+                 rounded-lg transition-all duration-200 font-medium shadow-sm hover:shadow-md
+                 disabled:opacity-50 disabled:cursor-not-allowed
+                 {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
         >
-          คำนวณอันดับ
+          {isCalculating ? 'กำลังคำนวณ...' : 'คำนวณอันดับ'}
         </button>
         <button
           on:click={addToData}
+          disabled={isSubmitting}
           class="flex-1 bg-gradient-to-r from-green-600 to-green-700 text-white py-4 sm:py-3 px-6
-                 rounded-lg hover:from-green-700 hover:to-green-800 transition-all duration-200
-                 font-medium shadow-sm hover:shadow-md text-base md:text-sm"
+                 rounded-lg transition-all duration-200 font-medium shadow-sm hover:shadow-md
+                 disabled:opacity-50 disabled:cursor-not-allowed
+                 {isSubmitting ? 'opacity-75' : 'hover:from-green-700 hover:to-green-800'}"
         >
-          เพิ่มข้อมูล
+          {isSubmitting ? 'กำลังบันทึก...' : 'เพิ่มข้อมูล'}
         </button>
       </div>
     </div>

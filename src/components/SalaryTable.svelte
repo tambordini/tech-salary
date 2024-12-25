@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { CompanySalary } from '../types/salary';
   import { newestEntry } from '../stores/salaryStore';
+  import type { CompanySalary } from '../types/salary';
   export let salaryData: CompanySalary[];
 
   const itemsPerPage = 5;
@@ -74,7 +74,6 @@
         <tr class="bg-gradient-to-r from-[#0056a9] to-[#0066cc] text-white">
           <th class="px-6 py-4 text-left text-sm font-semibold tracking-wider">Company</th>
           <th class="px-6 py-4 text-left text-sm font-semibold tracking-wider">Position</th>
-          <th class="px-6 py-4 text-left text-sm font-semibold tracking-wider">Level</th>
           <th class="px-6 py-4 text-left text-sm font-semibold tracking-wider">Experience</th>
           <th class="px-6 py-4 text-right text-sm font-semibold tracking-wider">Base Salary</th>
           <th class="px-6 py-4 text-right text-sm font-semibold tracking-wider">Monthly Stock</th>
@@ -82,7 +81,7 @@
         </tr>
       </thead>
       <tbody class="divide-y divide-gray-100">
-        {#each paginatedData as { company, position, level, experience, salary, stock: monthlyStock, targetBonus }, i}
+        {#each paginatedData as { company, position, experience, salary, stock: monthlyStock, targetBonus }, i}
           <tr
             class="transition-colors duration-200 {i % 2 === 0
               ? 'bg-white'
@@ -92,7 +91,6 @@
           >
             <td class="px-6 py-4 text-sm font-medium text-gray-900">{company}</td>
             <td class="px-6 py-4 text-sm text-gray-700">{position}</td>
-            <td class="px-6 py-4 text-sm text-gray-700">{level}</td>
             <td class="px-6 py-4 text-sm text-gray-700">{experience}</td>
             <td class="px-6 py-4 text-sm text-right font-medium text-gray-900"
               >{formatCurrency(salary)}</td
