@@ -1,14 +1,16 @@
 <script lang="ts">
   import Chart from 'chart.js/auto';
-  import type { CompanySalary } from '../types/salary';
-  import { onDestroy } from 'svelte';
+  import { onDestroy, onMount } from 'svelte';
+  import { tooltip } from '../actions/tooltip';
   import { newestEntry } from '../stores/salaryStore';
+  import type { CompanySalary } from '../types/salary';
 
   export let salaryData: CompanySalary[];
 
   let chart: Chart;
   let chartCanvas: HTMLCanvasElement;
   let resizeObserver: ResizeObserver;
+  let isMobileView = false;
 
   const getColorForPosition = (position: string) => {
     const colors: { [key: string]: string } = {
@@ -53,6 +55,22 @@
       maxSalary: Math.max(...data.salaries),
     }));
   };
+
+  const formatSalary = (salary: number) => salary.toLocaleString() + ' ฿';
+
+  const getTableData = (data: CompanySalary[]) => {
+    return processData(salaryData).sort((a, b) => b.y - a.y);
+  };
+
+  const checkMobileView = () => {
+    isMobileView = window.innerWidth < 768;
+  };
+
+  onMount(() => {
+    checkMobileView();
+    window.addEventListener('resize', checkMobileView);
+    return () => window.removeEventListener('resize', checkMobileView);
+  });
 
   const initChart = () => {
     if (!chartCanvas || !salaryData) return;
@@ -183,6 +201,15 @@
     });
   };
 
+  const formatSalaryRange = (min: number, max: number) => {
+    return `${formatSalary(min)} - ${formatSalary(max)}`;
+  };
+
+  const getCompanyPreview = (companies: string[]) => {
+    if (companies.length <= 2) return companies.join(', ');
+    return `${companies.slice(0, 2).join(', ')} +${companies.length - 2}`;
+  };
+
   $: {
     if (chartCanvas && salaryData) {
       initChart();
@@ -210,6 +237,99 @@
   });
 </script>
 
-<div class="w-full h-[500px] space-y-4">
-  <canvas bind:this={chartCanvas}></canvas>
+<div class="w-full space-y-4">
+  {#if isMobileView}
+    <div class="space-y-4 px-4">
+      <h2 class="text-xl font-bold text-gray-800 mb-4">Tech Salaries Overview</h2>
+      <div class="grid gap-4">
+        {#each getTableData(salaryData) as row}
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-200 hover:shadow-lg hover:-translate-y-1"
+          >
+            <div class="p-4">
+              <div class="flex items-center justify-between mb-3">
+                <div class="flex items-center gap-2 min-w-0 flex-1 mr-2">
+                  <div
+                    class="w-4 h-4 rounded-full flex-shrink-0"
+                    style="background-color: {getColorForPosition(row.position)}"
+                  ></div>
+                  <h3
+                    class="font-semibold text-gray-800 truncate"
+                    use:tooltip={{ content: row.position }}
+                  >
+                    {row.position}
+                  </h3>
+                </div>
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 rounded-full text-sm flex-shrink-0"
+                >
+                  {row.count} positions
+                </span>
+              </div>
+
+              <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Average Salary:</span>
+                  <span class="text-lg font-bold text-green-600">{formatSalary(row.y)}</span>
+                </div>
+
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Experience:</span>
+                  <span class="font-medium">{row.x} years</span>
+                </div>
+
+                <div class="pt-2 border-t">
+                  <p class="text-sm text-gray-600">Salary Range:</p>
+                  <p class="font-medium text-gray-800">
+                    {formatSalaryRange(row.minSalary, row.maxSalary)}
+                  </p>
+                </div>
+
+                <div class="pt-2">
+                  <p class="text-sm text-gray-600">Companies:</p>
+                  <p class="text-sm text-gray-800 line-clamp-1">
+                    {getCompanyPreview(row.companies)}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {#if $newestEntry === `${row.companies[0]}-${row.position}`}
+              <div class="bg-green-50 px-4 py-2 border-t border-green-100">
+                <p class="text-sm text-green-600 flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  Newly Added
+                </p>
+              </div>
+            {/if}
+          </div>
+        {/each}
+      </div>
+    </div>
+  {:else}
+    <div class="h-[500px]">
+      <canvas bind:this={chartCanvas}></canvas>
+    </div>
+  {/if}
 </div>
+
+<style>
+  :global(.tippy-box) {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+
+  :global(.tippy-arrow) {
+    color: #333;
+  }
+</style>
