@@ -63,7 +63,7 @@
   }
 </script>
 
-<div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+<div class="bg-white p-4 sm:p-8 rounded-xl shadow-lg border border-gray-100">
   <button
     on:click={() => (isExpanded = !isExpanded)}
     class="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-lg
@@ -76,15 +76,17 @@
 
   {#if isExpanded}
     <div transition:slide={{ duration: 300 }} class="mt-6">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
         <div class="space-y-2">
           <label for="salary" class="block text-sm font-medium text-gray-700">เงินเดือน</label>
           <input
             id="salary"
             type="number"
+            inputmode="numeric"
+            pattern="[0-9]*"
             bind:value={salary}
             class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500
-                   focus:border-blue-500 transition-all duration-200"
+                   focus:border-blue-500 transition-all duration-200 text-base md:text-sm"
             placeholder="ระบุเงินเดือน"
           />
         </div>
@@ -94,9 +96,11 @@
           <input
             id="year"
             type="number"
+            inputmode="numeric"
+            pattern="[0-9]*"
             bind:value={experience}
             class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500
-                   focus:border-blue-500 transition-all duration-200"
+                   focus:border-blue-500 transition-all duration-200 text-base md:text-sm"
             placeholder="ระบุจำนวนปี"
           />
         </div>
@@ -106,9 +110,11 @@
           <input
             id="company"
             type="text"
+            inputmode="text"
+            autocomplete="organization"
             bind:value={company}
             class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500
-                   focus:border-blue-500 transition-all duration-200"
+                   focus:border-blue-500 transition-all duration-200 text-base md:text-sm"
             placeholder="ระบุชื่อบริษัท"
           />
         </div>
@@ -116,29 +122,32 @@
         <div class="space-y-2">
           <label for="position" class="block text-sm font-medium text-gray-700">ตำแหน่ง</label>
           <input
+            id="position"
             type="text"
+            inputmode="text"
+            autocomplete="organization-title"
             bind:value={position}
             class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500
-                   focus:border-blue-500 transition-all duration-200"
+                   focus:border-blue-500 transition-all duration-200 text-base md:text-sm"
             placeholder="ระบุตำแหน่ง"
           />
         </div>
       </div>
 
-      <div class="flex gap-4 mt-6">
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6">
         <button
           on:click={calculateRank}
-          class="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6
+          class="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white py-4 sm:py-3 px-6
                  rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200
-                 font-medium shadow-sm hover:shadow-md"
+                 font-medium shadow-sm hover:shadow-md text-base md:text-sm"
         >
           คำนวณอันดับ
         </button>
         <button
           on:click={addToData}
-          class="flex-1 bg-gradient-to-r from-green-600 to-green-700 text-white py-3 px-6
+          class="flex-1 bg-gradient-to-r from-green-600 to-green-700 text-white py-4 sm:py-3 px-6
                  rounded-lg hover:from-green-700 hover:to-green-800 transition-all duration-200
-                 font-medium shadow-sm hover:shadow-md"
+                 font-medium shadow-sm hover:shadow-md text-base md:text-sm"
         >
           เพิ่มข้อมูล
         </button>
