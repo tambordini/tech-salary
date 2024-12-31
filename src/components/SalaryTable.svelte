@@ -67,17 +67,17 @@
   }
 </script>
 
-<div class="container mx-auto p-4">
+<div class="container mx-auto p-2 sm:p-4">
   <div class="overflow-x-auto rounded-xl shadow-lg border border-gray-100">
-    <table class="min-w-full bg-white">
+    <table class="min-w-full bg-white text-sm sm:text-base">
       <thead>
         <tr class="bg-gradient-to-r from-[#0056a9] to-[#0066cc] text-white">
-          <th class="px-6 py-4 text-left text-sm font-semibold tracking-wider">Company</th>
-          <th class="px-6 py-4 text-left text-sm font-semibold tracking-wider">Position</th>
-          <th class="px-6 py-4 text-left text-sm font-semibold tracking-wider">Experience</th>
-          <th class="px-6 py-4 text-right text-sm font-semibold tracking-wider">Base Salary</th>
-          <th class="px-6 py-4 text-right text-sm font-semibold tracking-wider">Monthly Stock</th>
-          <th class="px-6 py-4 text-right text-sm font-semibold tracking-wider">Bonus</th>
+          <th class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider">Company</th>
+          <th class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider">Position</th>
+          <th class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider">Experience</th>
+          <th class="px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider">Base Salary</th>
+          <th class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider">Monthly Stock</th>
+          <th class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider">Bonus</th>
         </tr>
       </thead>
       <tbody class="divide-y divide-gray-100">
@@ -89,16 +89,16 @@
               ? 'bg-green-50 animate-pulse'
               : 'hover:bg-blue-50/50'}"
           >
-            <td class="px-6 py-4 text-sm font-medium text-gray-900">{company}</td>
-            <td class="px-6 py-4 text-sm text-gray-700">{position}</td>
-            <td class="px-6 py-4 text-sm text-gray-700">{experience}</td>
-            <td class="px-6 py-4 text-sm text-right font-medium text-gray-900"
+            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm font-medium text-gray-900">{company}</td>
+            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-gray-700">{position}</td>
+            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-gray-700">{experience}</td>
+            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
               >{formatCurrency(salary)}</td
             >
-            <td class="px-6 py-4 text-sm text-right font-medium text-gray-900"
+            <td class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
               >{formatCurrency(monthlyStock)}</td
             >
-            <td class="px-6 py-4 text-sm text-right font-medium text-gray-900"
+            <td class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
               >{formatCurrency(targetBonus)}</td
             >
           </tr>
@@ -107,7 +107,7 @@
     </table>
   </div>
 
-  <div class="mt-6 flex flex-col sm:flex-row items-center justify-between px-4 gap-4">
+  <div class="mt-4 sm:mt-6 flex flex-col sm:flex-row items-center justify-between px-2 sm:px-4 gap-4">
     <div class="text-sm text-gray-700">
       Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(
         currentPage * itemsPerPage,

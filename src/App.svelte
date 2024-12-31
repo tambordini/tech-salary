@@ -21,23 +21,25 @@
 {#if isLoading}
   <Loading />
 {:else}
-  <main class="min-h-screen bg-gray-50 py-8">
-    <div class="max-w-[900px] mx-auto py-12 px-8">
+  <main class="min-h-screen bg-gray-50 py-4">
+    <div class="max-w-[1024px] mx-auto py-4 px-4 sm:py-8 sm:px-8">
       <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div class="bg-header text-white p-12 bg-center bg-no-repeat bg-cover">
-          <h1 class="text-3xl font-bold text-center mb-4">
+        <div class="bg-header text-white p-6 sm:p-12 bg-center bg-no-repeat bg-cover">
+          <h1 class="text-xl sm:text-3xl font-bold text-center mb-4">
             การวิเคราะห์เงินเดือนวิศวกรซอฟต์แวร์ในประเทศไทย
           </h1>
           <div class="text-center text-gray-100">
-            <p class="text-lg flex items-center justify-center">
-              Powered By: <img src={OddsLogo} alt="ODDS Logo" class="h-6 ml-2" />
+            <p class="text-base sm:text-lg flex items-center justify-center">
+              Powered By: <img src={OddsLogo} alt="ODDS Logo" class="h-4 sm:h-6 ml-2" />
             </p>
           </div>
         </div>
 
-        <div class="p-8">
-          <section class="mb-12">
-            <h2 class="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
+        <div class="p-4 sm:p-8">
+          <section class="mb-8 sm:mb-12">
+            <h2
+              class="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-gray-800 flex items-center"
+            >
               <span class="mr-2">📊</span>
               บทคัดย่อ
             </h2>
