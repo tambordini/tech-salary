@@ -129,7 +129,7 @@
                 label: {
                   display: true,
                   content: `Median: ${medianSalary.toLocaleString()} ฿`,
-                  position: 'end',
+                  position: 'center',
                 },
               },
             },
