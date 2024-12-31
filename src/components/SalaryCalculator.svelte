@@ -22,7 +22,6 @@
   let errors: Record<string, string> = {};
   let result: { rank: number; total: number; percentile: number } | null = null;
 
-  // Add debounce utility
   function debounce<T extends (...args: any[]) => void>(
     fn: T,
     delay: number,
@@ -34,7 +33,6 @@
     };
   }
 
-  // Separate validation functions for each field
   function validateSalary(value: string) {
     const num = Number(value.replace(/,/g, ''));
     if (!value) return 'กรุณาระบุเงินเดือน';
@@ -63,7 +61,6 @@
     return '';
   }
 
-  // Debounced validation handlers
   const debouncedValidateSalary = debounce((value: string) => {
     errors.salary = validateSalary(value);
   }, 300);
@@ -107,7 +104,6 @@
     debouncedValidatePosition(value);
   }
 
-  // Modified validateForm to use all validation functions
   function validateForm() {
     errors = {
       salary: validateSalary(salary),
