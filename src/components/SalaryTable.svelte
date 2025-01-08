@@ -6,8 +6,13 @@
   const itemsPerPage = 5;
   let currentPage = 1;
 
-  const formatCurrency = (amount: number | null | undefined): string => {
-    if (amount == null) return '-';
+  const formatCurrency = (amount: string | number | null | undefined): string => {
+    if (amount == null || amount === 'N/A') return '-';
+    if (typeof amount === 'string') {
+      const numAmount = parseFloat(amount);
+      if (isNaN(numAmount)) return '-';
+      amount = numAmount;
+    }
     return amount.toLocaleString('th-TH', {
       style: 'currency',
       currency: 'THB',
@@ -21,8 +26,8 @@
   }
 
   $: sortedSalaryData = [...salaryData].sort((a, b) => {
-    const totalA = (a.salary || 0) + (a.stock || 0) + (a.targetBonus || 0);
-    const totalB = (b.salary || 0) + (b.stock || 0) + (b.targetBonus || 0);
+    const totalA = (Number(a.salary) || 0) + (Number(a.stock) || 0) + (Number(a.bonus) || 0);
+    const totalB = (Number(b.salary) || 0) + (Number(b.stock) || 0) + (Number(b.bonus) || 0);
     return totalB - totalA;
   });
 
@@ -45,21 +50,14 @@
     const delta = 2;
 
     for (let i = 1; i <= total; i++) {
-      if (
-        i === 1 || // First page
-        i === total || // Last page
-        (i >= current - delta && i <= current + delta) // Pages around current
-      ) {
+      if (i === 1 || i === total || (i >= current - delta && i <= current + delta)) {
         pages.push(i);
-      } else if (
-        (i === current - delta - 1 && i > 1) || // Before current range
-        (i === current + delta + 1 && i < total) // After current range
-      ) {
+      } else if ((i === current - delta - 1 && i > 1) || (i === current + delta + 1 && i < total)) {
         pages.push('...');
       }
     }
 
-    return [...new Set(pages)]; // Remove duplicates
+    return [...new Set(pages)];
   }
 
   function goToPage(page: number) {
@@ -72,34 +70,70 @@
     <table class="min-w-full bg-white text-sm sm:text-base">
       <thead>
         <tr class="bg-gradient-to-r from-[#0056a9] to-[#0066cc] text-white">
-          <th class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider">Company</th>
-          <th class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider">Position</th>
-          <th class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider">Experience</th>
-          <th class="px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider">Base Salary</th>
-          <th class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider">Monthly Stock</th>
-          <th class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider">Bonus</th>
+          <th
+            class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider"
+            >Company</th
+          >
+          <th
+            class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider"
+            >Level</th
+          >
+          <th
+            class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider"
+            >Tag</th
+          >
+          <th
+            class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider"
+            >Experience</th
+          >
+          <th
+            class="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs sm:text-sm font-semibold tracking-wider"
+            >Total Compensation</th
+          >
+          <th
+            class="px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider"
+            >Base Salary</th
+          >
+          <th
+            class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider"
+            >Monthly Stock</th
+          >
+          <th
+            class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-right text-xs sm:text-sm font-semibold tracking-wider"
+            >Bonus</th
+          >
         </tr>
       </thead>
       <tbody class="divide-y divide-gray-100">
-        {#each paginatedData as { company, position, experience, salary, stock: monthlyStock, targetBonus }, i}
+        {#each paginatedData as { company, level, tag, experience, totalCompensation, salary, stock, bonus }, i}
           <tr
             class="transition-colors duration-200 {i % 2 === 0
               ? 'bg-white'
-              : 'bg-slate-50/50'} {isNewEntry(company, position)
+              : 'bg-slate-50/50'} {isNewEntry(company, level)
               ? 'bg-green-50 animate-pulse'
               : 'hover:bg-blue-50/50'}"
           >
-            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm font-medium text-gray-900">{company}</td>
-            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-gray-700">{position}</td>
+            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm font-medium text-gray-900"
+              >{company}</td
+            >
+            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-gray-700">{level}</td>
+            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-gray-700">{tag}</td>
             <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-gray-700">{experience}</td>
-            <td class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
+            <td
+              class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
+              >{formatCurrency(totalCompensation)}</td
+            >
+            <td
+              class="px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
               >{formatCurrency(salary)}</td
             >
-            <td class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
-              >{formatCurrency(monthlyStock)}</td
+            <td
+              class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
+              >{formatCurrency(stock)}</td
             >
-            <td class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
-              >{formatCurrency(targetBonus)}</td
+            <td
+              class="hidden sm:table-cell px-3 py-3 sm:px-6 sm:py-4 text-xs sm:text-sm text-right font-medium text-gray-900"
+              >{formatCurrency(bonus)}</td
             >
           </tr>
         {/each}
@@ -107,7 +141,9 @@
     </table>
   </div>
 
-  <div class="mt-4 sm:mt-6 flex flex-col sm:flex-row items-center justify-between px-2 sm:px-4 gap-4">
+  <div
+    class="mt-4 sm:mt-6 flex flex-col sm:flex-row items-center justify-between px-2 sm:px-4 gap-4"
+  >
     <div class="text-sm text-gray-700">
       Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(
         currentPage * itemsPerPage,

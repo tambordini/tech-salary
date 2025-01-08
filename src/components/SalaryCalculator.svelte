@@ -16,11 +16,15 @@
   let salary = '';
   let experience = '';
   let company = '';
-  let position = '';
   let isCalculating = false;
   let isSubmitting = false;
   let errors: Record<string, string> = {};
   let result: { rank: number; total: number; percentile: number } | null = null;
+
+  let level = '';
+  let tag = '';
+  let stock = '';
+  let bonus = '';
 
   function debounce<T extends (...args: any[]) => void>(
     fn: T,
@@ -55,9 +59,30 @@
     return '';
   }
 
-  function validatePosition(value: string) {
-    if (!value) return 'กรุณาระบุตำแหน่ง';
-    if (value.length < 2) return 'ตำแหน่งต้องมีอย่างน้อย 2 ตัวอักษร';
+  function validateLevel(value: string) {
+    if (!value) return 'กรุณาระบุระดับตำแหน่ง';
+    if (value.length < 2) return 'ระดับตำแหน่งต้องมีอย่างน้อย 2 ตัวอักษร';
+    return '';
+  }
+
+  function validateTag(value: string) {
+    if (!value) return 'กรุณาระบุแท็ก';
+    return '';
+  }
+
+  function validateStock(value: string) {
+    const num = Number(value.replace(/,/g, ''));
+    if (!value) return ''; // Optional field
+    if (num < 0) return 'มูลค่าหุ้นต้องไม่ต่ำกว่า 0 บาท';
+    if (num > 10000000) return 'มูลค่าหุ้นต้องไม่เกิน 10,000,000 บาท';
+    return '';
+  }
+
+  function validateBonus(value: string) {
+    const num = Number(value.replace(/,/g, ''));
+    if (!value) return ''; // Optional field
+    if (num < 0) return 'โบนัสต้องไม่ต่ำกว่า 0 บาท';
+    if (num > 1000000) return 'โบนัสต้องไม่เกิน 1,000,000 บาท';
     return '';
   }
 
@@ -73,8 +98,20 @@
     errors.company = validateCompany(value);
   }, 300);
 
-  const debouncedValidatePosition = debounce((value: string) => {
-    errors.position = validatePosition(value);
+  const debouncedValidateLevel = debounce((value: string) => {
+    errors.level = validateLevel(value);
+  }, 300);
+
+  const debouncedValidateTag = debounce((value: string) => {
+    errors.tag = validateTag(value);
+  }, 300);
+
+  const debouncedValidateStock = debounce((value: string) => {
+    errors.stock = validateStock(value);
+  }, 300);
+
+  const debouncedValidateBonus = debounce((value: string) => {
+    errors.bonus = validateBonus(value);
   }, 300);
 
   // Modified input handlers
@@ -98,10 +135,20 @@
     debouncedValidateCompany(value);
   }
 
-  function handlePositionInput(event: Event) {
-    const value = (event.target as HTMLInputElement).value;
-    position = value;
-    debouncedValidatePosition(value);
+  function handleStockInput(event: Event) {
+    const input = event.target as HTMLInputElement;
+    const value = input.value.replace(/,/g, '');
+    stock = value;
+    input.value = formatSalary(value);
+    debouncedValidateStock(value);
+  }
+
+  function handleBonusInput(event: Event) {
+    const input = event.target as HTMLInputElement;
+    const value = input.value.replace(/,/g, '');
+    bonus = value;
+    input.value = formatSalary(value);
+    debouncedValidateBonus(value);
   }
 
   function validateForm() {
@@ -109,7 +156,10 @@
       salary: validateSalary(salary),
       experience: validateExperience(experience),
       company: validateCompany(company),
-      position: validatePosition(position),
+      level: validateLevel(level),
+      tag: validateTag(tag),
+      stock: validateStock(stock),
+      bonus: validateBonus(bonus),
     };
     return Object.values(errors).every((error) => !error);
   }
@@ -125,7 +175,10 @@
     isCalculating = true;
     try {
       const salaryNum = Number(salary.replace(/,/g, ''));
-      const allSalaries = salaryData.flatMap((company) => company.salary).sort((a, b) => b - a);
+      const allSalaries = salaryData
+        .flatMap((company) => company.totalCompensation)
+        .filter((salary): salary is number => typeof salary === 'number' && !isNaN(salary))
+        .sort((a, b) => b - a);
       const rank = allSalaries.filter((s) => s >= salaryNum).length;
       const total = allSalaries.length;
       const percentile = ((total - rank) / total) * 100;
@@ -140,23 +193,33 @@
 
     isSubmitting = true;
     try {
+      const baseSalary = Number(salary.replace(/,/g, ''));
+      const stockValue = Number(stock.replace(/,/g, '')) || 0;
+      const bonusValue = Number(bonus.replace(/,/g, '')) || 0;
+
       const newEntry: CompanySalary = {
         company,
-        position,
-        level: 'Custom',
+        level,
+        tag,
         experience,
-        salary: Number(salary.replace(/,/g, '')),
+        salary: baseSalary,
+        stock: stockValue,
+        bonus: bonusValue,
+        totalCompensation: baseSalary + stockValue + bonusValue,
       };
 
       customSalaries.update((entries) => [...entries, newEntry]);
-      newestEntry.set(`${company}-${position}`);
+      newestEntry.set(`${company}-${level}`);
       setTimeout(() => newestEntry.set(null), 3000);
 
       // Reset form
       salary = '';
       experience = '';
       company = '';
-      position = '';
+      level = '';
+      tag = '';
+      stock = '';
+      bonus = '';
       errors = {};
     } finally {
       isSubmitting = false;
@@ -177,86 +240,152 @@
 
   {#if isExpanded}
     <div transition:slide={{ duration: 300 }} class="mt-6">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-        <div class="space-y-2">
-          <label for="salary" class="block text-sm font-medium text-gray-700">เงินเดือน</label>
-          <input
-            id="salary"
-            type="text"
-            inputmode="numeric"
-            on:input={handleSalaryInput}
-            on:blur={handleSalaryInput}
-            class="w-full p-3 border rounded-lg transition-all duration-200 text-base md:text-sm
-                   {errors.salary
-              ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
-            placeholder="ระบุเงินเดือน"
-          />
-          {#if errors.salary}
-            <p class="text-red-500 text-sm mt-1">{errors.salary}</p>
-          {/if}
+      <div class="space-y-8">
+        <div class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="space-y-2">
+              <label for="salary" class="block text-sm font-medium text-gray-700">เงินเดือน *</label
+              >
+              <input
+                id="salary"
+                type="text"
+                inputmode="numeric"
+                on:input={handleSalaryInput}
+                on:blur={handleSalaryInput}
+                class="w-full p-3 border rounded-lg transition-all duration-200
+               {errors.salary
+                  ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+                  : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
+                placeholder="ระบุเงินเดือน"
+              />
+              {#if errors.salary}
+                <p class="text-red-500 text-sm mt-1">{errors.salary}</p>
+              {/if}
+            </div>
+
+            <div class="space-y-2">
+              <label for="year" class="block text-sm font-medium text-gray-700"
+                >ประสบการณ์ (ปี) *</label
+              >
+              <input
+                id="year"
+                type="number"
+                min="0"
+                max="50"
+                step="0.5"
+                on:input={handleExperienceInput}
+                on:blur={handleExperienceInput}
+                bind:value={experience}
+                class="w-full p-3 border rounded-lg transition-all duration-200
+               {errors.experience
+                  ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+                  : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
+                placeholder="ระบุจำนวนปี"
+              />
+              {#if errors.experience}
+                <p class="text-red-500 text-sm mt-1">{errors.experience}</p>
+              {/if}
+            </div>
+          </div>
         </div>
 
-        <div class="space-y-2">
-          <label for="year" class="block text-sm font-medium text-gray-700">ประสบการณ์ (ปี)</label>
-          <input
-            id="year"
-            type="number"
-            min="0"
-            max="50"
-            step="0.5"
-            on:input={handleExperienceInput}
-            on:blur={handleExperienceInput}
-            bind:value={experience}
-            class="w-full p-3 border rounded-lg transition-all duration-200 text-base md:text-sm
-                   {errors.experience
-              ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
-            placeholder="ระบุจำนวนปี"
-          />
-          {#if errors.experience}
-            <p class="text-red-500 text-sm mt-1">{errors.experience}</p>
-          {/if}
+        <div class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="space-y-2">
+              <label for="company" class="block text-sm font-medium text-gray-700">บริษัท *</label>
+              <input
+                id="company"
+                type="text"
+                on:input={handleCompanyInput}
+                on:blur={handleCompanyInput}
+                bind:value={company}
+                minlength="2"
+                class="w-full p-3 border rounded-lg transition-all duration-200
+               {errors.company
+                  ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+                  : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
+                placeholder="ระบุชื่อบริษัท"
+              />
+              {#if errors.company}
+                <p class="text-red-500 text-sm mt-1">{errors.company}</p>
+              {/if}
+            </div>
+
+            <div class="space-y-2">
+              <label for="level" class="block text-sm font-medium text-gray-700"
+                >ระดับตำแหน่ง *</label
+              >
+              <input
+                id="level"
+                type="text"
+                bind:value={level}
+                on:input={(e) => debouncedValidateLevel((e.target as HTMLInputElement).value)}
+                class="w-full p-3 border rounded-lg transition-all duration-200
+               {errors.level ? 'border-red-500' : 'border-gray-300'}"
+                placeholder="เช่น Senior, Staff"
+              />
+              {#if errors.level}
+                <p class="text-red-500 text-sm mt-1">{errors.level}</p>
+              {/if}
+            </div>
+
+            <div class="space-y-2">
+              <label for="tag" class="block text-sm font-medium text-gray-700">แท็ก *</label>
+              <input
+                id="tag"
+                type="text"
+                bind:value={tag}
+                on:input={(e) => debouncedValidateTag((e.target as HTMLInputElement).value)}
+                class="w-full p-3 border rounded-lg transition-all duration-200
+               {errors.tag ? 'border-red-500' : 'border-gray-300'}"
+                placeholder="เช่น Frontend, Backend"
+              />
+              {#if errors.tag}
+                <p class="text-red-500 text-sm mt-1">{errors.tag}</p>
+              {/if}
+            </div>
+          </div>
         </div>
 
-        <div class="space-y-2">
-          <label for="company" class="block text-sm font-medium text-gray-700">บริษัท</label>
-          <input
-            id="company"
-            type="text"
-            on:input={handleCompanyInput}
-            on:blur={handleCompanyInput}
-            bind:value={company}
-            minlength="2"
-            class="w-full p-3 border rounded-lg transition-all duration-200 text-base md:text-sm
-                   {errors.company
-              ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
-            placeholder="ระบุชื่อบริษัท"
-          />
-          {#if errors.company}
-            <p class="text-red-500 text-sm mt-1">{errors.company}</p>
-          {/if}
-        </div>
+        <!-- Additional Compensation Section -->
+        <div class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="space-y-2">
+              <label for="stock" class="block text-sm font-medium text-gray-700"
+                >มูลค่าหุ้นต่อปี</label
+              >
+              <input
+                id="stock"
+                type="text"
+                inputmode="numeric"
+                on:input={handleStockInput}
+                on:blur={handleStockInput}
+                class="w-full p-3 border rounded-lg transition-all duration-200
+               {errors.stock ? 'border-red-500' : 'border-gray-300'}"
+                placeholder="ระบุมูลค่าหุ้น"
+              />
+              {#if errors.stock}
+                <p class="text-red-500 text-sm mt-1">{errors.stock}</p>
+              {/if}
+            </div>
 
-        <div class="space-y-2">
-          <label for="position" class="block text-sm font-medium text-gray-700">ตำแหน่ง</label>
-          <input
-            id="position"
-            type="text"
-            on:input={handlePositionInput}
-            on:blur={handlePositionInput}
-            bind:value={position}
-            minlength="2"
-            class="w-full p-3 border rounded-lg transition-all duration-200 text-base md:text-sm
-                   {errors.position
-              ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'}"
-            placeholder="ระบุตำแหน่ง"
-          />
-          {#if errors.position}
-            <p class="text-red-500 text-sm mt-1">{errors.position}</p>
-          {/if}
+            <div class="space-y-2">
+              <label for="bonus" class="block text-sm font-medium text-gray-700">โบนัสต่อปี</label>
+              <input
+                id="bonus"
+                type="text"
+                inputmode="numeric"
+                on:input={handleBonusInput}
+                on:blur={handleBonusInput}
+                class="w-full p-3 border rounded-lg transition-all duration-200
+               {errors.bonus ? 'border-red-500' : 'border-gray-300'}"
+                placeholder="ระบุโบนัส"
+              />
+              {#if errors.bonus}
+                <p class="text-red-500 text-sm mt-1">{errors.bonus}</p>
+              {/if}
+            </div>
+          </div>
         </div>
       </div>
 

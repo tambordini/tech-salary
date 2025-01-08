@@ -1,9 +1,10 @@
 export interface CompanySalary {
   company: string;
   level: string;
-  position: string;
+  tag: string;
   experience: string;
   salary: number;
-  stock?: number;
-  targetBonus?: number;
+  stock: number;
+  bonus: number;
+  totalCompensation?: number;
 }
