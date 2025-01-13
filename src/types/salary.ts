@@ -6,5 +6,5 @@ export interface CompanySalary {
   salary: number;
   stock: number;
   bonus: number;
-  totalCompensation?: number;
+  totalCompensation: number;
 }

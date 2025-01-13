@@ -5,6 +5,7 @@
   import SalaryChart from './components/SalaryChart.svelte';
   import SalaryTable from './components/SalaryTable.svelte';
   import SalaryCalculator from './components/SalaryCalculator.svelte';
+  import SalaryBoosting from './components/SalaryBoosting.svelte';
   import Loading from './components/Loading.svelte';
   import OddsLogo from './assets/images/odds_logo.svg';
 
@@ -72,6 +73,14 @@
               รายการเงินเดือนตามบริษัท
             </h2>
             <SalaryTable salaryData={combinedSalaryData} />
+          </section>
+
+          <section class="mb-12">
+            <h2 class="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
+              <span class="mr-2">🎯</span>
+              ทักษะที่จำเป็นสำหรับตำแหน่งงาน
+            </h2>
+            <SalaryBoosting/>
           </section>
         </div>
       </div>
