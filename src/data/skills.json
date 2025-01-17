@@ -1,0 +1,382 @@
+[
+    {
+        "tagName": "Lead",
+        "position": "Tech Lead, Senior Front-End Developer",
+        "company": "",
+        "yearsOfExperience": 10,
+        "requiredSkills": [
+            "HTML5, CSS3, Sass/LESS",
+            "JavaScript (ES6+), TypeScript",
+            "React.js, Vue.js, Angular",
+            "State Management (Redux, Vuex, MobX)",
+            "Responsive Design (Mobile-First, Bootstrap, TailwindCSS)",
+            "Git (GitHub, GitLab, Bitbucket)",
+            "Performance Optimization (Lazy Loading, Code Splitting)",
+            "Web Accessibility (WCAG, A11Y)",
+            "Testing (Jest, Cypress, Playwright)",
+            "Build Tools (Webpack, Vite, Rollup)",
+            "GraphQL and REST API",
+            "Progressive Web Apps (Service Workers, IndexedDB)",
+            "CI/CD Pipelines for Front-End (Netlify, GitHub Actions)"
+        ],
+        "benefits": [
+            "Social Security",
+            "Health Insurance (OPD/IPD)",
+            "Annual Leave (10-20 days)",
+            "Flexible Working Hours",
+            "Hybrid/Remote Work",
+            "Training Budget",
+            "Performance Bonus",
+            "Salary Adjustment",
+            "Team Activities (Company Trip, Parties)",
+            "Stock Options (for startups)",
+            "Profit Sharing",
+            "Overseas Training or Business Trips"
+        ],
+        "salaryRange": [130000, 180000]
+    },
+    {
+        "tagName": "Lead",
+        "position": "VP IT Project Management",
+        "company": "บริษัท ซิลค์สแปน จำกัด (SILKSPAN Co., Ltd.)",
+        "yearsOfExperience": 5,
+        "requiredSkills": [
+            "Proficiency in IT Project Management (5+ years)",
+            "Strong knowledge of project scope, objectives, and technical feasibility",
+            "Experience with resource allocation and project planning",
+            "Ability to develop and track detailed project plans",
+            "Skilled in managing project scope, schedule, and cost changes",
+            "Expertise in risk management to minimize project risks",
+            "Proficiency in performance measurement tools and techniques",
+            "Budget management and financial analysis skills",
+            "Experience in generating daily, weekly, and monthly performance reports",
+            "Strong problem identification and improvement recommendation skills",
+            "2+ years of experience in data querying",
+            "Bachelor's or Master's degree in Computer Science, IT, or related fields",
+            "Ability to work on-site at the office"
+        ],
+        "benefits": [
+            "Annual salary adjustment",
+            "Special paid leave (e.g., marriage, maternity, funeral)",
+            "Legal paid leave (personal, sick, vacation)",
+            "13+ public holidays",
+            "Annual Leave (6-14 days)",
+            "Financial assistance for special occasions",
+            "Medical expense support",
+            "Attendance bonus",
+            "Performance incentives",
+            "Phone and parking allowance (certain positions)",
+            "Accident and health insurance",
+            "Annual flu vaccination",
+            "Training and development programs",
+            "Company uniforms",
+            "Lunch allowance (Saturday work)",
+            "Social security",
+            "Workmen's compensation fund",
+            "Recreational activities (e.g., parties, trips)"
+        ],
+        "salaryRange": [100000, 150000]
+    },
+    {
+        "tagName": "Lead",
+        "position": "Lead Software Engineer (React.js+ Node.js) - AOS",
+        "company": "ASCGroup",
+        "yearsOfExperience": 9,
+        "requiredSkills": [
+            "7+ years of development experience",
+            "2+ years as Team Lead",
+            "Strong in Node.js, React.js, NestJS",
+            "Experience with Oracle, PostgreSQL, SQL",
+            "Proficient in OOP and system design",
+            "Solid understanding of responsive design",
+            "Coaching and mentoring skills",
+            "Leadership and communication skills",
+            "Bachelor's degree in Computer Science or related field"
+        ],
+        "benefits": [
+            "Monthly attendance bonus",
+            "Life insurance and social security",
+            "Provident fund",
+            "Annual company trips",
+            "Laptop rental allowance",
+            "Birthday gifts",
+            "Congratulatory gift baskets",
+            "Employee uniforms"
+        ],
+        "salaryRange": [80000, 130000]
+    },
+    {
+        "tagName": "Lead",
+        "position": "Technical Lead (.net+Angular) - AOS",
+        "company": "ASCGroup",
+        "yearsOfExperience": 9,
+        "requiredSkills": [
+            "5+ years of technical experience (3+ years in product/service implementation)",
+            "Expertise in Angular, React.js, or Vue.js",
+            "Strong in .Net, .Net Core, and C#",
+            "Proficient in JavaScript, jQuery, HTML, CSS",
+            "Experience with cloud-based and open-source systems",
+            "Strong SQL Server skills",
+            "Team management and mentoring skills",
+            "Excellent verbal and written communication skills"
+        ],
+        "benefits": [
+            "Monthly attendance bonus",
+            "Life insurance and social security",
+            "Provident fund",
+            "Annual company trips",
+            "Laptop rental allowance",
+            "Birthday gifts",
+            "Congratulatory gift baskets",
+            "Employee uniforms"
+        ],
+        "salaryRange": [80000, 130000]
+    },
+    {
+        "tagName": "Web Development (Front-End)",
+        "position": "",
+        "company": "",
+        "yearsOfExperience": 10,
+        "requiredSkills": [
+            "HTML5, CSS3, Sass/LESS",
+            "JavaScript (ES6+), TypeScript",
+            "React.js, Vue.js, Angular",
+            "State Management (Redux, Vuex, MobX)",
+            "Responsive Design (Mobile-First, Bootstrap, TailwindCSS)",
+            "Git (GitHub, GitLab, Bitbucket)",
+            "Performance Optimization (Lazy Loading, Code Splitting)",
+            "Web Accessibility (WCAG, A11Y)",
+            "Testing (Jest, Cypress, Playwright)",
+            "Build Tools (Webpack, Vite, Rollup)",
+            "GraphQL and REST API",
+            "Progressive Web Apps (Service Workers, IndexedDB)",
+            "CI/CD Pipelines for Front-End (Netlify, GitHub Actions)"
+        ],
+        "benefits": [
+            "Social Security",
+            "Health Insurance (OPD/IPD)",
+            "Annual Leave (10-20 days)",
+            "Flexible Working Hours",
+            "Hybrid/Remote Work",
+            "Training Budget",
+            "Performance Bonus",
+            "Salary Adjustment",
+            "Team Activities (Company Trip, Parties)",
+            "Stock Options (for startups)",
+            "Profit Sharing",
+            "Overseas Training or Business Trips"
+        ],
+        "salaryRange": [70000, 120000]
+    },
+    {
+        "tagName": "Web Development (Front-End)",
+        "position": "Senior UX/UI design",
+        "company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
+        "yearsOfExperience": 3,
+        "requiredSkills": [
+            "2-3 years of experience as a UX/UI Designer",
+            "Proficiency in Figma (components, auto layout, design systems)",
+            "Strong understanding of UX principles and interaction design",
+            "Experience with usability testing and data-driven design",
+            "Ability to create responsive, pixel-perfect designs",
+            "Detail-oriented with consistency across products",
+            "Excellent communication and collaboration skills"
+        ],
+        "benefits": [
+            "Annual Leave (12 days)",
+            "Lunch provided",
+            "Coffee and hot/cold beverages"
+        ],
+        "salaryRange": [40000, 100000]
+    },
+    {
+        "tagName": "Backend",
+        "position": "Java Developer",
+        "company": "บริษัท มายกรุ๊ป อินเทลลิเจ้นท์ จำกัด",
+        "yearsOfExperience": 5,
+        "requiredSkills": [
+            "Java development (3+ years)",
+            "Java fundamentals and OOP",
+            "Spring, Spring Boot, Hibernate, MyBatis",
+            "SQL (MySQL, PostgreSQL, Oracle)",
+            "NoSQL (Redis, MongoDB)",
+            "Design patterns",
+            "Coding standards and documentation"
+        ],
+        "benefits": [
+            "Social security",
+            "Health insurance",
+            "Employee uniforms",
+            "Festive events and activities",
+            "Annual salary adjustment (performance-based)",
+            "Annual bonus (performance-based)",
+            "Overseas trips (performance-based)"
+        ],
+        "salaryRange": [100000, 150000]
+    },
+    {
+        "tagName": "API Development (Back-End)",
+        "position": "Java Programmer",
+        "company": "ASCGroup",
+        "yearsOfExperience": 2,
+        "requiredSkills": [
+            "Bachelor's degree in Computer Science or related fields",
+            "2+ years of Java development experience",
+            "Proficient in Java frameworks, APIs, and Jasper",
+            "Experience with Eclipse, WebSphere, JBOSS, and SoapUI",
+            "Strong knowledge of software design patterns and architecture",
+            "Familiar with databases and DBMS",
+            "Understanding of networks, OS, and IDEs",
+            "Knowledge of configuration management"
+        ],
+        "benefits": [
+            "Monthly attendance bonus",
+            "Life insurance and social security",
+            "Provident fund",
+            "Annual company trips",
+            "Laptop rental allowance",
+            "Birthday gifts",
+            "Congratulatory gift baskets",
+            "Employee uniforms"
+        ],
+        "salaryRange": [35000, 70000]
+    },
+    {
+        "tagName": "Backend",
+        "position": "Sr. Developer (Java)",
+        "company": "ASCGroup",
+        "yearsOfExperience": 3,
+        "requiredSkills": [
+            "Bachelor's degree in IT, MIS, Computer Science, or related fields",
+            "3+ years of experience in Java programming",
+            "Proficiency in Java, SQL, Python, and .Net",
+            "Experience with Oracle and MySQL databases",
+            "Knowledge of Microservices and IT Security",
+            "Strong debugging and troubleshooting skills"
+        ],
+        "benefits": [
+            "Monthly attendance bonus",
+            "Life insurance and social security",
+            "Provident fund",
+            "Annual company trips",
+            "Laptop rental allowance",
+            "Birthday gifts",
+            "Congratulatory gift baskets",
+            "Employee uniforms"
+        ],
+        "salaryRange": [50000, 100000]
+    },
+    {
+        "tagName": "Backend",
+        "position": "C# .Net Programmer",
+        "company": "The Prodigy (Thailand) Co., Ltd.",
+        "yearsOfExperience": 2,
+        "requiredSkills": [
+            "Bachelor's degree in Computer Science, Computer Engineering, MIS, or related fields",
+            "2+ years of experience with VB.NET, ASP.NET, C#.NET, or .NET Framework",
+            "Proficiency in Oracle Database and Microsoft SQL Server",
+            "Experience with ASP.NET MVC (version 2 or 3)",
+            "Strong understanding of OOP concepts and UML diagrams",
+            "Ability to work independently with minimal supervision",
+            "Good English communication skills",
+            "Strong analytical and quantitative skills"
+        ],
+        "benefits": [
+            "Flexible working hours",
+            "Housing allowance",
+            "Overtime pay",
+            "Travel allowance",
+            "Work from home",
+            "Laptop Allowance",
+            "Diligent Allowance"
+        ],
+        "salaryRange": [30000, 50000]
+    },
+    {
+        "tagName": "API Development (Back-End)",
+        "position": "Java Developer",
+        "company": "The Prodigy (Thailand) Co., Ltd.",
+        "yearsOfExperience": 2,
+        "requiredSkills": [
+            "Bachelor's degree in IT, Computer Science, or related fields",
+            "2+ years of software development experience",
+            "Strong proficiency in Java and Spring Boot",
+            "Experience with backend API development",
+            "Knowledge of databases: MySQL, SQL Server, Oracle, PostgreSQL",
+            "Ability to work independently and follow defined processes",
+            "Problem-solving and debugging skills"
+        ],
+        "benefits": [
+            "Flexible working hours",
+            "Housing allowance",
+            "Overtime pay",
+            "Travel allowance",
+            "Work from home",
+            "Laptop Allowance",
+            "Diligent Allowance"
+        ],
+        "salaryRange": [35000, 120000]
+    },    
+    {
+        "tagName": "DevOps",
+        "position": "DevOps",
+        "company": "บริษัท มายออเดอร์ อินเทลลิเจนซ์ จำกัด",
+        "yearsOfExperience": 2,
+        "requiredSkills": [
+            "1-2+ years of experience as Backend Developer, Fullstack Developer, DevOps, or SRE",
+            "Proficiency with cloud platforms (AWS, GCP, or Azure)",
+            "Knowledge of container orchestration (Docker, Kubernetes, Podman)",
+            "Ability to write Bash scripts",
+            "Understanding of JavaScript, TypeScript, or Python",
+            "Strong knowledge of networking, security, and system architecture",
+            "Experience with version control (Git, GitHub, GitLab, or Bitbucket)",
+            "Familiarity with CI/CD tools (Jenkins, GitLab CI, or GitHub Actions)",
+            "Understanding of infrastructure as code (Terraform, CloudFormation, Ansible) is a plus",
+            "Knowledge of GitOps (ArgoCD, FluxCD) is a plus",
+            "Experience with API Gateway (Nginx, Kong) is a plus"
+        ],
+        "benefits": [
+            "Annual Leave (6 days)",
+            "Personal leave (6 days)",
+            "Sick leave (30 days)",
+            "Social security",
+            "Annual holidays",
+            "Annual party",
+            "Lunch provided (for office employees)",
+            "Domestic and international outings",
+            "Annual bonus (performance-based)",
+            "Snacks provided",
+            "Office supplies",
+            "20,000 THB/month for training courses",
+            "MacBook provided after probation (for developers)",
+            "700 THB/month internet allowance"
+        ],
+        "salaryRange": [70000, 100000]
+    },
+    {
+        "tagName": "Testing (SDET)",
+        "position": "Automate Tester",
+        "company": "The Prodigy (Thailand) Co., Ltd.",
+        "yearsOfExperience": 3,
+        "requiredSkills": [
+            "Bachelor's degree in Computer Science, Engineering, or related fields",
+            "Experience in Insurance, Banking, or Financial sectors is a plus",
+            "1+ years of experience with Robot Framework for automated testing",
+            "Proficiency in English communication",
+            "Ability to create and execute SIT/UAT plans",
+            "Experience in documenting system manuals and test scenarios",
+            "Problem-solving and collaboration skills",
+            "Ability to start immediately is an advantage"
+        ],
+        "benefits": [
+            "Flexible working hours",
+            "Housing allowance",
+            "Overtime pay",
+            "Travel allowance",
+            "Work from home",
+            "Laptop Allowance",
+            "Diligent Allowance"
+        ],
+        "salaryRange": [30000, 90000]
+    }
+]
