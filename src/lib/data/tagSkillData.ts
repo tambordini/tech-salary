@@ -1,4 +1,4 @@
-import type { TagSkill } from '../types/tagSkill';
+import type { TagSkill } from '$lib/types/tagSkill';
 import skillsJsonData from './skills.json';
 
 export const tagSkills: TagSkill[] = skillsJsonData.map((item) => ({

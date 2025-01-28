@@ -1,4 +1,4 @@
-import type { CompanySalary } from '../types/salary';
+import type { CompanySalary } from '$lib/types/salary';
 import salaryJsonData from './data.json';
 
 export const companySalaries: CompanySalary[] = salaryJsonData.map((item) => ({
