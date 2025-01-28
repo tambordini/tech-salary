@@ -1,1523 +1,1500 @@
 [
-    {
-        "tagName": "Lead",
-        "position": "Tech Lead, Senior Front-End Developer",
-        "company": "SCB Tech X Co., Ltd.",
-        "yearsOfExperience": 15,
-        "requiredSkills": [
-            "Bachelor's/Master's degree in Computer Science, Computer Engineering, or related fields",
-            "15+ years of software development experience (Java, JavaScript, TypeScript)",
-            "5+ years of experience managing software development teams as a Technical Lead",
-            "Proficiency in development frameworks/libraries (Spring Boot, NodeJS)",
-            "Experience with CI/CD workflows and Git version control",
-            "Strong knowledge of SQL/NoSQL databases (MySQL, MongoDB)",
-            "Familiarity with web/mobile development (iOS, Android, HTML5, CSS)",
-            "Experience with cloud platforms (AWS, GCP, Azure) and web services (RESTful, SOAP, JSON, XML)",
-            "Understanding of Microservice architecture and Enterprise Integration Patterns",
-            "Experience with message queues (Kafka) for integration solutions",
-            "Knowledge of testing frameworks (JUnit, Mockito, Jest) and automation tools (Espresso, Cypress, Robot Framework)",
-            "Strong presentation, interpersonal, and team collaboration skills",
-            "Ability to motivate and cultivate teams, challenge ideas, and communicate effectively",
-            "Good command of English (written and spoken)"
-        ],
-        "benefits": [
-            "Annual Leave (15 Days)",
-            "Birthday Leave",
-            "Monthly phone allowance",
-            "Generous annual bonus",
-            "Social security",
-            "Group insurance (health, accident, and life)",
-            "Provident fund (3-15%, employee-selected)",
-            "Employee savings cooperative",
-            "Flexible benefits (e.g., LASIK, smartwatches, gym memberships, laser clinics, ergonomic products, lifestyle purchases)",
-            "Special mortgage rates for home loans",
-            "Shuttle service to MRT & BTS",
-            "Employee cafeteria",
-            "On-site marketplace",
-            "Automated beverage machines (e.g., Tao Bin)",
-            "Multipurpose sports fields and football pitches",
-            "Fitness center",
-            "On-site medical clinic",
-            "Medical telecare services",
-            "Mental health counseling services",
-            "On-site health massage center",
-            "Co-working space"
-        ],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "Lead",
-        "position": "Tech Lead, Senior Front-End Developer",
-        "company": "N/A",
-        "yearsOfExperience": 10,
-        "requiredSkills": [
-            "HTML5, CSS3, Sass/LESS",
-            "JavaScript (ES6+), TypeScript",
-            "React.js, Vue.js, Angular",
-            "State Management (Redux, Vuex, MobX)",
-            "Responsive Design (Mobile-First, Bootstrap, TailwindCSS)",
-            "Git (GitHub, GitLab, Bitbucket)",
-            "Performance Optimization (Lazy Loading, Code Splitting)",
-            "Web Accessibility (WCAG, A11Y)",
-            "Testing (Jest, Cypress, Playwright)",
-            "Build Tools (Webpack, Vite, Rollup)",
-            "GraphQL and REST API",
-            "Progressive Web Apps (Service Workers, IndexedDB)",
-            "CI/CD Pipelines for Front-End (Netlify, GitHub Actions)"
-        ],
-        "benefits": [
-            "Social Security",
-            "Health Insurance (OPD/IPD)",
-            "Annual Leave (10-20 days)",
-            "Flexible Working Hours",
-            "Hybrid/Remote Work",
-            "Training Budget",
-            "Performance Bonus",
-            "Salary Adjustment",
-            "Team Activities (Company Trip, Parties)",
-            "Stock Options (for startups)",
-            "Profit Sharing",
-            "Overseas Training or Business Trips"
-        ],
-        "salaryRange": [130000, 180000]
-    },
-    {
-        "tagName": "Lead",
-        "position": "VP IT Project Management",
-        "company": "บริษัท ซิลค์สแปน จำกัด (SILKSPAN Co., Ltd.)",
-        "yearsOfExperience": 5,
-        "requiredSkills": [
-            "Proficiency in IT Project Management (5+ years)",
-            "Strong knowledge of project scope, objectives, and technical feasibility",
-            "Experience with resource allocation and project planning",
-            "Ability to develop and track detailed project plans",
-            "Skilled in managing project scope, schedule, and cost changes",
-            "Expertise in risk management to minimize project risks",
-            "Proficiency in performance measurement tools and techniques",
-            "Budget management and financial analysis skills",
-            "Experience in generating daily, weekly, and monthly performance reports",
-            "Strong problem identification and improvement recommendation skills",
-            "2+ years of experience in data querying",
-            "Bachelor's or Master's degree in Computer Science, IT, or related fields",
-            "Ability to work on-site at the office"
-        ],
-        "benefits": [
-            "Annual salary adjustment",
-            "Special paid leave (e.g., marriage, maternity, funeral)",
-            "Legal paid leave (personal, sick, vacation)",
-            "13+ public holidays",
-            "Annual Leave (6-14 days)",
-            "Financial assistance for special occasions",
-            "Medical expense support",
-            "Attendance bonus",
-            "Performance incentives",
-            "Phone and parking allowance (certain positions)",
-            "Accident and health insurance",
-            "Annual flu vaccination",
-            "Training and development programs",
-            "Company uniforms",
-            "Lunch allowance (Saturday work)",
-            "Social security",
-            "Workmen's compensation fund",
-            "Recreational activities (e.g., parties, trips)"
-        ],
-        "salaryRange": [100000, 150000]
-    },
-    {
-        "tagName": "Lead",
-        "position": "Lead Software Engineer (React.js+ Node.js) - AOS",
-        "company": "ASCGroup",
-        "yearsOfExperience": 9,
-        "requiredSkills": [
-            "7+ years of development experience",
-            "2+ years as Team Lead",
-            "Strong in Node.js, React.js, NestJS",
-            "Experience with Oracle, PostgreSQL, SQL",
-            "Proficient in OOP and system design",
-            "Solid understanding of responsive design",
-            "Coaching and mentoring skills",
-            "Leadership and communication skills",
-            "Bachelor's degree in Computer Science or related field"
-        ],
-        "benefits": [
-            "Monthly attendance bonus",
-            "Life insurance and social security",
-            "Provident fund",
-            "Annual company trips",
-            "Laptop rental allowance",
-            "Birthday gifts",
-            "Congratulatory gift baskets",
-            "Employee uniforms"
-        ],
-        "salaryRange": [80000, 130000]
-    },
-    {
-        "tagName": "Lead",
-        "position": "Technical Lead (.net+Angular) - AOS",
-        "company": "ASCGroup",
-        "yearsOfExperience": 9,
-        "requiredSkills": [
-            "5+ years of technical experience (3+ years in product/service implementation)",
-            "Expertise in Angular, React.js, or Vue.js",
-            "Strong in .Net, .Net Core, and C#",
-            "Proficient in JavaScript, jQuery, HTML, CSS",
-            "Experience with cloud-based and open-source systems",
-            "Strong SQL Server skills",
-            "Team management and mentoring skills",
-            "Excellent verbal and written communication skills"
-        ],
-        "benefits": [
-            "Monthly attendance bonus",
-            "Life insurance and social security",
-            "Provident fund",
-            "Annual company trips",
-            "Laptop rental allowance",
-            "Birthday gifts",
-            "Congratulatory gift baskets",
-            "Employee uniforms"
-        ],
-        "salaryRange": [80000, 130000]
-    },
-    
-    {
-        "tagName": "Mobile (iOS + Android)",
-        "position": "Mobile Developer (Flutter)",
-        "company": "Tech Soft Holding Co., Ltd.",
-        "yearsOfExperience": 10,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science, IT, or related fields",
-            "2+ years of experience in Mobile Application Development",
-            "Proficiency in Flutter, Android Studio, C#.Net, .Net Core, and Full Stack Development",
-            "Experience with SQL Server and GitLab",
-            "Knowledge of Web Application Development using C#.Net, MVC, and .Net Core (preferred)",
-            "Experience with Web Service APIs and Oracle Database (preferred)",
-            "Ability to learn new programming languages and technologies quickly",
-            "Strong teamwork and ability to work under pressure"
-        ],
-        "benefits": [
-            "Annual Leave (6 days), increasing by 1 day annually",
-            "Sick leave (30 days)",
-            "Life and accident insurance (after 4-month probation)",
-            "Social security",
-            "Annual salary adjustment",
-            "Annual health check-up",
-            "At least 3 personal leave days per year with supporting documents",
-            "Company outing and staff party",
-            "2 employee uniforms (after probation)",
-            "IT skill training programs",
-            "Company-provided notebook",
-            "Birthday gift"
-        ],
-        "salaryRange": [40000, 60000]
-    },
-    {
-        "tagName": "Mobile (iOS + Android)",
-        "position": "Flutter Developer",
-        "company": "AMASS CORPORATION (THAILAND) CO., LTD.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of experience in mobile development using Flutter, Kotlin, and Swift",
-            "Ability to design and analyze requirements",
-            "Experience with production support (preferred)",
-            "Knowledge of MVC and MVVM architecture patterns",
-            "Proficiency in writing efficient queries and using data structures",
-            "Experience with CI/CD pipelines and Git version control",
-            "Familiarity with Agile methodology (preferred)",
-            "Strong communication and multitasking skills",
-            "Understanding of app security best practices",
-            "Ability to build responsive UIs and custom packages in Flutter",
-            "Problem-solving and debugging skills for system enhancements and issue resolution",
-            "Experience with app testing and quality assurance",
-            "Ability to document projects and code effectively"
-        ],
-        "benefits": [],
-        "salaryRange": [0, 0]
-    },
+	{
+		"tagName": "Lead",
+		"position": "Tech Lead, Senior Front-End Developer",
+		"company": "SCB Tech X Co., Ltd.",
+		"yearsOfExperience": 15,
+		"requiredSkills": [
+			"Bachelor's/Master's degree in Computer Science, Computer Engineering, or related fields",
+			"15+ years of software development experience (Java, JavaScript, TypeScript)",
+			"5+ years of experience managing software development teams as a Technical Lead",
+			"Proficiency in development frameworks/libraries (Spring Boot, NodeJS)",
+			"Experience with CI/CD workflows and Git version control",
+			"Strong knowledge of SQL/NoSQL databases (MySQL, MongoDB)",
+			"Familiarity with web/mobile development (iOS, Android, HTML5, CSS)",
+			"Experience with cloud platforms (AWS, GCP, Azure) and web services (RESTful, SOAP, JSON, XML)",
+			"Understanding of Microservice architecture and Enterprise Integration Patterns",
+			"Experience with message queues (Kafka) for integration solutions",
+			"Knowledge of testing frameworks (JUnit, Mockito, Jest) and automation tools (Espresso, Cypress, Robot Framework)",
+			"Strong presentation, interpersonal, and team collaboration skills",
+			"Ability to motivate and cultivate teams, challenge ideas, and communicate effectively",
+			"Good command of English (written and spoken)"
+		],
+		"benefits": [
+			"Annual Leave (15 Days)",
+			"Birthday Leave",
+			"Monthly phone allowance",
+			"Generous annual bonus",
+			"Social security",
+			"Group insurance (health, accident, and life)",
+			"Provident fund (3-15%, employee-selected)",
+			"Employee savings cooperative",
+			"Flexible benefits (e.g., LASIK, smartwatches, gym memberships, laser clinics, ergonomic products, lifestyle purchases)",
+			"Special mortgage rates for home loans",
+			"Shuttle service to MRT & BTS",
+			"Employee cafeteria",
+			"On-site marketplace",
+			"Automated beverage machines (e.g., Tao Bin)",
+			"Multipurpose sports fields and football pitches",
+			"Fitness center",
+			"On-site medical clinic",
+			"Medical telecare services",
+			"Mental health counseling services",
+			"On-site health massage center",
+			"Co-working space"
+		],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "Lead",
+		"position": "Tech Lead, Senior Front-End Developer",
+		"company": "N/A",
+		"yearsOfExperience": 10,
+		"requiredSkills": [
+			"HTML5, CSS3, Sass/LESS",
+			"JavaScript (ES6+), TypeScript",
+			"React.js, Vue.js, Angular",
+			"State Management (Redux, Vuex, MobX)",
+			"Responsive Design (Mobile-First, Bootstrap, TailwindCSS)",
+			"Git (GitHub, GitLab, Bitbucket)",
+			"Performance Optimization (Lazy Loading, Code Splitting)",
+			"Web Accessibility (WCAG, A11Y)",
+			"Testing (Jest, Cypress, Playwright)",
+			"Build Tools (Webpack, Vite, Rollup)",
+			"GraphQL and REST API",
+			"Progressive Web Apps (Service Workers, IndexedDB)",
+			"CI/CD Pipelines for Front-End (Netlify, GitHub Actions)"
+		],
+		"benefits": [
+			"Social Security",
+			"Health Insurance (OPD/IPD)",
+			"Annual Leave (10-20 days)",
+			"Flexible Working Hours",
+			"Hybrid/Remote Work",
+			"Training Budget",
+			"Performance Bonus",
+			"Salary Adjustment",
+			"Team Activities (Company Trip, Parties)",
+			"Stock Options (for startups)",
+			"Profit Sharing",
+			"Overseas Training or Business Trips"
+		],
+		"salaryRange": [130000, 180000]
+	},
+	{
+		"tagName": "Lead",
+		"position": "VP IT Project Management",
+		"company": "บริษัท ซิลค์สแปน จำกัด (SILKSPAN Co., Ltd.)",
+		"yearsOfExperience": 5,
+		"requiredSkills": [
+			"Proficiency in IT Project Management (5+ years)",
+			"Strong knowledge of project scope, objectives, and technical feasibility",
+			"Experience with resource allocation and project planning",
+			"Ability to develop and track detailed project plans",
+			"Skilled in managing project scope, schedule, and cost changes",
+			"Expertise in risk management to minimize project risks",
+			"Proficiency in performance measurement tools and techniques",
+			"Budget management and financial analysis skills",
+			"Experience in generating daily, weekly, and monthly performance reports",
+			"Strong problem identification and improvement recommendation skills",
+			"2+ years of experience in data querying",
+			"Bachelor's or Master's degree in Computer Science, IT, or related fields",
+			"Ability to work on-site at the office"
+		],
+		"benefits": [
+			"Annual salary adjustment",
+			"Special paid leave (e.g., marriage, maternity, funeral)",
+			"Legal paid leave (personal, sick, vacation)",
+			"13+ public holidays",
+			"Annual Leave (6-14 days)",
+			"Financial assistance for special occasions",
+			"Medical expense support",
+			"Attendance bonus",
+			"Performance incentives",
+			"Phone and parking allowance (certain positions)",
+			"Accident and health insurance",
+			"Annual flu vaccination",
+			"Training and development programs",
+			"Company uniforms",
+			"Lunch allowance (Saturday work)",
+			"Social security",
+			"Workmen's compensation fund",
+			"Recreational activities (e.g., parties, trips)"
+		],
+		"salaryRange": [100000, 150000]
+	},
+	{
+		"tagName": "Lead",
+		"position": "Lead Software Engineer (React.js+ Node.js) - AOS",
+		"company": "ASCGroup",
+		"yearsOfExperience": 9,
+		"requiredSkills": [
+			"7+ years of development experience",
+			"2+ years as Team Lead",
+			"Strong in Node.js, React.js, NestJS",
+			"Experience with Oracle, PostgreSQL, SQL",
+			"Proficient in OOP and system design",
+			"Solid understanding of responsive design",
+			"Coaching and mentoring skills",
+			"Leadership and communication skills",
+			"Bachelor's degree in Computer Science or related field"
+		],
+		"benefits": [
+			"Monthly attendance bonus",
+			"Life insurance and social security",
+			"Provident fund",
+			"Annual company trips",
+			"Laptop rental allowance",
+			"Birthday gifts",
+			"Congratulatory gift baskets",
+			"Employee uniforms"
+		],
+		"salaryRange": [80000, 130000]
+	},
+	{
+		"tagName": "Lead",
+		"position": "Technical Lead (.net+Angular) - AOS",
+		"company": "ASCGroup",
+		"yearsOfExperience": 9,
+		"requiredSkills": [
+			"5+ years of technical experience (3+ years in product/service implementation)",
+			"Expertise in Angular, React.js, or Vue.js",
+			"Strong in .Net, .Net Core, and C#",
+			"Proficient in JavaScript, jQuery, HTML, CSS",
+			"Experience with cloud-based and open-source systems",
+			"Strong SQL Server skills",
+			"Team management and mentoring skills",
+			"Excellent verbal and written communication skills"
+		],
+		"benefits": [
+			"Monthly attendance bonus",
+			"Life insurance and social security",
+			"Provident fund",
+			"Annual company trips",
+			"Laptop rental allowance",
+			"Birthday gifts",
+			"Congratulatory gift baskets",
+			"Employee uniforms"
+		],
+		"salaryRange": [80000, 130000]
+	},
 
-    {
-        "tagName": "Web Development (Front-End)",
-        "position": "Frontend Developer (React)",
-        "company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
-        "yearsOfExperience": 4,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science, IT, or related fields",
-            "4+ years of front-end development experience",
-            "Strong expertise in React, TypeScript, and JavaScript (ES5/ES6+)",
-            "Experience with Redux and Redux-Saga",
-            "Proficiency in CSS and preprocessors like SASS",
-            "Hands-on experience with Storybook for component-driven development",
-            "Knowledge of testing frameworks (Jest, Cypress) and end-to-end testing",
-            "Familiarity with modern build tools like Webpack",
-            "Ability to write clean, scalable, and maintainable code",
-            "Excellent problem-solving skills and attention to detail",
-            "Strong communication and collaboration skills"
-        ],
-        "benefits": [
-            "Work from Anywhere policy",
-            "Flexible working hours",
-            "Vacation leave and birthday leave",
-            "Annual health checkup",
-            "Group health insurance",
-            "Provident fund"
-        ],
-        "salaryRange": [70000, 120000]
-    },
-    {
-        "tagName": "Web Development (Front-End)",
-        "position": "-",
-        "company": "N/A",
-        "yearsOfExperience": 10,
-        "requiredSkills": [
-            "HTML5, CSS3, Sass/LESS",
-            "JavaScript (ES6+), TypeScript",
-            "React.js, Vue.js, Angular",
-            "State Management (Redux, Vuex, MobX)",
-            "Responsive Design (Mobile-First, Bootstrap, TailwindCSS)",
-            "Git (GitHub, GitLab, Bitbucket)",
-            "Performance Optimization (Lazy Loading, Code Splitting)",
-            "Web Accessibility (WCAG, A11Y)",
-            "Testing (Jest, Cypress, Playwright)",
-            "Build Tools (Webpack, Vite, Rollup)",
-            "GraphQL and REST API",
-            "Progressive Web Apps (Service Workers, IndexedDB)",
-            "CI/CD Pipelines for Front-End (Netlify, GitHub Actions)"
-        ],
-        "benefits": [
-            "Social Security",
-            "Health Insurance (OPD/IPD)",
-            "Annual Leave (10-20 days)",
-            "Flexible Working Hours",
-            "Hybrid/Remote Work",
-            "Training Budget",
-            "Performance Bonus",
-            "Salary Adjustment",
-            "Team Activities (Company Trip, Parties)",
-            "Stock Options (for startups)",
-            "Profit Sharing",
-            "Overseas Training or Business Trips"
-        ],
-        "salaryRange": [70000, 120000]
-    },
-    {
-        "tagName": "Web Development (Front-End)",
-        "position": "Front-End Developer (AI & Web3)",
-        "company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of experience in HTML5, CSS, JavaScript, and TypeScript",
-            "Proficiency in modern frameworks like Next.js and React",
-            "Experience with Redux, Tailwind CSS, and responsive design",
-            "Knowledge of Git-based workflows and version control",
-            "Understanding of cross-browser compatibility and front-end optimization",
-            "Experience with React Native for mobile app development (plus)",
-            "Knowledge of blockchain and Web3 interfaces (plus)"
-        ],
-        "benefits": [
-            "Annual Leave (12 days)",
-            "Lunch provided",
-            "Coffee and hot/cold beverages"
-        ],
-        "salaryRange": [40000, 100000]
-    },
-    {
-        "tagName": "Web Development (Front-End)",
-        "position": "-",
-        "company": "N/A",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Proven experience as an Angular/TypeScript Developer or similar role",
-            "Strong understanding of Angular framework concepts including components, services, routing, and dependency injection",
-            "Experience with version control systems (Git)",
-            "Familiarity with automated testing frameworks like Jasmine and Karma",
-            "Knowledge of front-end build tools like Angular CLI"
-        ],
-        "benefits": [],
-        "salaryRange": [40000, 100000]
-    }, 
+	{
+		"tagName": "Mobile (iOS + Android)",
+		"position": "Mobile Developer (Flutter)",
+		"company": "Tech Soft Holding Co., Ltd.",
+		"yearsOfExperience": 10,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science, IT, or related fields",
+			"2+ years of experience in Mobile Application Development",
+			"Proficiency in Flutter, Android Studio, C#.Net, .Net Core, and Full Stack Development",
+			"Experience with SQL Server and GitLab",
+			"Knowledge of Web Application Development using C#.Net, MVC, and .Net Core (preferred)",
+			"Experience with Web Service APIs and Oracle Database (preferred)",
+			"Ability to learn new programming languages and technologies quickly",
+			"Strong teamwork and ability to work under pressure"
+		],
+		"benefits": [
+			"Annual Leave (6 days), increasing by 1 day annually",
+			"Sick leave (30 days)",
+			"Life and accident insurance (after 4-month probation)",
+			"Social security",
+			"Annual salary adjustment",
+			"Annual health check-up",
+			"At least 3 personal leave days per year with supporting documents",
+			"Company outing and staff party",
+			"2 employee uniforms (after probation)",
+			"IT skill training programs",
+			"Company-provided notebook",
+			"Birthday gift"
+		],
+		"salaryRange": [40000, 60000]
+	},
+	{
+		"tagName": "Mobile (iOS + Android)",
+		"position": "Flutter Developer",
+		"company": "AMASS CORPORATION (THAILAND) CO., LTD.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of experience in mobile development using Flutter, Kotlin, and Swift",
+			"Ability to design and analyze requirements",
+			"Experience with production support (preferred)",
+			"Knowledge of MVC and MVVM architecture patterns",
+			"Proficiency in writing efficient queries and using data structures",
+			"Experience with CI/CD pipelines and Git version control",
+			"Familiarity with Agile methodology (preferred)",
+			"Strong communication and multitasking skills",
+			"Understanding of app security best practices",
+			"Ability to build responsive UIs and custom packages in Flutter",
+			"Problem-solving and debugging skills for system enhancements and issue resolution",
+			"Experience with app testing and quality assurance",
+			"Ability to document projects and code effectively"
+		],
+		"benefits": [],
+		"salaryRange": [0, 0]
+	},
 
-    {
-        "tagName": "Backend",
-        "position": "Backend Developer (Golang / JAVA / Kotlin)",
-        "company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
-        "yearsOfExperience": 4,
-        "requiredSkills": [
-            "Proficiency in developing and maintaining RESTful APIs",
-            "Familiarity with microservices architecture and event-driven systems",
-            "Expertise in backend performance optimization, debugging, and monitoring",
-            "Strong skills in designing scalable backend systems using Golang or Java Spring Boot",
-            "Database experience with SQL (MySQL) and NoSQL (MongoDB)",
-            "Experience with caching tools like Redis",
-            "Familiarity with messaging systems like Apache Kafka",
-            "Experience with backend testing frameworks (Mockito, Go's testing library)",
-            "Knowledge of monitoring tools (Prometheus, Grafana, ELK/EFK Stack, Rancher)",
-            "Hands-on experience with Docker, Kubernetes, and CI/CD pipelines (GitLab CI)",
-            "Knowledge of real-time communication protocols (e.g., WebSocket)",
-            "Understanding of authentication mechanisms (JWT, OAuth 2.0)",
-            "Ability to write clean, maintainable, and scalable code",
-            "Strong problem-solving skills and attention to detail",
-            "Excellent communication and collaboration skills"
-        ],
-        "benefits": [
-            "Work from Anywhere policy",
-            "Flexible working hours",
-            "Vacation leave and birthday leave",
-            "Annual health checkup",
-            "Group health insurance",
-            "Provident fund"
-        ],
-        "salaryRange": [70000, 120000]
-    },
-    {
-        "tagName": "Backend",
-        "position": "Backend Developer",
-        "company": "ธนาคารกรุงไทย จำกัด (มหาชน)",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Java fundamentals and OOP",
-            "Spring, Spring Boot, Hibernate, MyBatis"
-        ],
-        "benefits": [
-            "Performance-based bonus (based on bank performance)",
-            "Low-interest home and car loans",
-            "Free medical care at public hospitals",
-            "Provident fund",
-            "Social security fund",
-            "Work from home (1 office day per month, currently)",
-            "Annual Leave (15 days)"
-        ],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "Backend",
-        "position": "Java Developer",
-        "company": "บริษัท มายกรุ๊ป อินเทลลิเจ้นท์ จำกัด",
-        "yearsOfExperience": 5,
-        "requiredSkills": [
-            "Java development (3+ years)",
-            "Java fundamentals and OOP",
-            "Spring, Spring Boot, Hibernate, MyBatis",
-            "SQL (MySQL, PostgreSQL, Oracle)",
-            "NoSQL (Redis, MongoDB)",
-            "Design patterns",
-            "Coding standards and documentation"
-        ],
-        "benefits": [
-            "Social security",
-            "Health insurance",
-            "Employee uniforms",
-            "Festive events and activities",
-            "Annual salary adjustment (performance-based)",
-            "Annual bonus (performance-based)",
-            "Overseas trips (performance-based)"
-        ],
-        "salaryRange": [100000, 150000]
-    },
-    {
-        "tagName": "Backend",
-        "position": "Sr. Developer (Java)",
-        "company": "ASCGroup",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Bachelor's degree in IT, MIS, Computer Science, or related fields",
-            "3+ years of experience in Java programming",
-            "Proficiency in Java, SQL, Python, and .Net",
-            "Experience with Oracle and MySQL databases",
-            "Knowledge of Microservices and IT Security",
-            "Strong debugging and troubleshooting skills"
-        ],
-        "benefits": [
-            "Monthly attendance bonus",
-            "Life insurance and social security",
-            "Provident fund",
-            "Annual company trips",
-            "Laptop rental allowance",
-            "Birthday gifts",
-            "Congratulatory gift baskets",
-            "Employee uniforms"
-        ],
-        "salaryRange": [50000, 100000]
-    },
-    {
-        "tagName": "Backend",
-        "position": "C# .Net Programmer",
-        "company": "The Prodigy (Thailand) Co., Ltd.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science, Computer Engineering, MIS, or related fields",
-            "2+ years of experience with VB.NET, ASP.NET, C#.NET, or .NET Framework",
-            "Proficiency in Oracle Database and Microsoft SQL Server",
-            "Experience with ASP.NET MVC (version 2 or 3)",
-            "Strong understanding of OOP concepts and UML diagrams",
-            "Ability to work independently with minimal supervision",
-            "Good English communication skills",
-            "Strong analytical and quantitative skills"
-        ],
-        "benefits": [
-            "Flexible working hours",
-            "Housing allowance",
-            "Overtime pay",
-            "Travel allowance",
-            "Work from home",
-            "Laptop Allowance",
-            "Diligent Allowance"
-        ],
-        "salaryRange": [30000, 50000]
-    },
-    {
-        "tagName": "Backend",
-        "position": "Back-End Developer (AI & Web3)",
-        "company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of experience as a Backend Developer",
-            "Proficiency in Node.js, Python, or similar backend languages",
-            "Experience with SQL and NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB)",
-            "Knowledge of RESTful API design and GraphQL",
-            "Experience integrating AI APIs (e.g., image/video generation)",
-            "Understanding of blockchain, smart contracts, and Web3 libraries (e.g., web3.js, ethers.js)",
-            "Familiarity with cloud platforms (AWS, GCP) and containerization (Docker) is a plus",
-            "Strong problem-solving and communication skills"
-        ],
-        "benefits": [
-            "Annual Leave (12 days)",
-            "Provided lunch",
-            "Coffee and hot/cold beverages"
-        ],
-        "salaryRange": [25000, 100000]
-    },
+	{
+		"tagName": "Web Development (Front-End)",
+		"position": "Frontend Developer (React)",
+		"company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
+		"yearsOfExperience": 4,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science, IT, or related fields",
+			"4+ years of front-end development experience",
+			"Strong expertise in React, TypeScript, and JavaScript (ES5/ES6+)",
+			"Experience with Redux and Redux-Saga",
+			"Proficiency in CSS and preprocessors like SASS",
+			"Hands-on experience with Storybook for component-driven development",
+			"Knowledge of testing frameworks (Jest, Cypress) and end-to-end testing",
+			"Familiarity with modern build tools like Webpack",
+			"Ability to write clean, scalable, and maintainable code",
+			"Excellent problem-solving skills and attention to detail",
+			"Strong communication and collaboration skills"
+		],
+		"benefits": [
+			"Work from Anywhere policy",
+			"Flexible working hours",
+			"Vacation leave and birthday leave",
+			"Annual health checkup",
+			"Group health insurance",
+			"Provident fund"
+		],
+		"salaryRange": [70000, 120000]
+	},
+	{
+		"tagName": "Web Development (Front-End)",
+		"position": "-",
+		"company": "N/A",
+		"yearsOfExperience": 10,
+		"requiredSkills": [
+			"HTML5, CSS3, Sass/LESS",
+			"JavaScript (ES6+), TypeScript",
+			"React.js, Vue.js, Angular",
+			"State Management (Redux, Vuex, MobX)",
+			"Responsive Design (Mobile-First, Bootstrap, TailwindCSS)",
+			"Git (GitHub, GitLab, Bitbucket)",
+			"Performance Optimization (Lazy Loading, Code Splitting)",
+			"Web Accessibility (WCAG, A11Y)",
+			"Testing (Jest, Cypress, Playwright)",
+			"Build Tools (Webpack, Vite, Rollup)",
+			"GraphQL and REST API",
+			"Progressive Web Apps (Service Workers, IndexedDB)",
+			"CI/CD Pipelines for Front-End (Netlify, GitHub Actions)"
+		],
+		"benefits": [
+			"Social Security",
+			"Health Insurance (OPD/IPD)",
+			"Annual Leave (10-20 days)",
+			"Flexible Working Hours",
+			"Hybrid/Remote Work",
+			"Training Budget",
+			"Performance Bonus",
+			"Salary Adjustment",
+			"Team Activities (Company Trip, Parties)",
+			"Stock Options (for startups)",
+			"Profit Sharing",
+			"Overseas Training or Business Trips"
+		],
+		"salaryRange": [70000, 120000]
+	},
+	{
+		"tagName": "Web Development (Front-End)",
+		"position": "Front-End Developer (AI & Web3)",
+		"company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of experience in HTML5, CSS, JavaScript, and TypeScript",
+			"Proficiency in modern frameworks like Next.js and React",
+			"Experience with Redux, Tailwind CSS, and responsive design",
+			"Knowledge of Git-based workflows and version control",
+			"Understanding of cross-browser compatibility and front-end optimization",
+			"Experience with React Native for mobile app development (plus)",
+			"Knowledge of blockchain and Web3 interfaces (plus)"
+		],
+		"benefits": ["Annual Leave (12 days)", "Lunch provided", "Coffee and hot/cold beverages"],
+		"salaryRange": [40000, 100000]
+	},
+	{
+		"tagName": "Web Development (Front-End)",
+		"position": "-",
+		"company": "N/A",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Proven experience as an Angular/TypeScript Developer or similar role",
+			"Strong understanding of Angular framework concepts including components, services, routing, and dependency injection",
+			"Experience with version control systems (Git)",
+			"Familiarity with automated testing frameworks like Jasmine and Karma",
+			"Knowledge of front-end build tools like Angular CLI"
+		],
+		"benefits": [],
+		"salaryRange": [40000, 100000]
+	},
 
-    {
-        "tagName": "API Development (Back-End)",
-        "position": "Senior Software Engineer (Golang)",
-        "company": "Wisesight (Thailand) Co., Ltd.",
-        "yearsOfExperience": 4,
-        "requiredSkills": [
-            "4+ years of experience with Go and databases (MySQL, PostgreSQL, MongoDB)",
-            "1+ years of experience with Docker, Kubernetes, IaaC, RabbitMQ, Redis, gRPC, REST, and CI/CD",
-            "Proficiency in writing clean, high-quality code and improving existing code",
-            "Familiarity with Linux environments",
-            "Passion for software development best practices",
-            "Experience with AWS platforms and Social Network APIs (Facebook, Twitter) is a plus",
-            "Understanding of Agile Manifesto or Scrum Framework is a plus",
-            "Strong communication skills, including with non-technical stakeholders"
-        ],
-        "benefits": [
-            "Social Security",
-            "Group Health Insurance",
-            "Dentistry Fee",
-            "Work from home 12 Days/Year",
-            "Medical Checkup",
-            "Annual Bonus",
-            "Salary & Performance Reviews",
-            "Flexible working hours",
-            "Sports clubs support",
-            "MacBook for Developer"
+	{
+		"tagName": "Backend",
+		"position": "Backend Developer (Golang / JAVA / Kotlin)",
+		"company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
+		"yearsOfExperience": 4,
+		"requiredSkills": [
+			"Proficiency in developing and maintaining RESTful APIs",
+			"Familiarity with microservices architecture and event-driven systems",
+			"Expertise in backend performance optimization, debugging, and monitoring",
+			"Strong skills in designing scalable backend systems using Golang or Java Spring Boot",
+			"Database experience with SQL (MySQL) and NoSQL (MongoDB)",
+			"Experience with caching tools like Redis",
+			"Familiarity with messaging systems like Apache Kafka",
+			"Experience with backend testing frameworks (Mockito, Go's testing library)",
+			"Knowledge of monitoring tools (Prometheus, Grafana, ELK/EFK Stack, Rancher)",
+			"Hands-on experience with Docker, Kubernetes, and CI/CD pipelines (GitLab CI)",
+			"Knowledge of real-time communication protocols (e.g., WebSocket)",
+			"Understanding of authentication mechanisms (JWT, OAuth 2.0)",
+			"Ability to write clean, maintainable, and scalable code",
+			"Strong problem-solving skills and attention to detail",
+			"Excellent communication and collaboration skills"
+		],
+		"benefits": [
+			"Work from Anywhere policy",
+			"Flexible working hours",
+			"Vacation leave and birthday leave",
+			"Annual health checkup",
+			"Group health insurance",
+			"Provident fund"
+		],
+		"salaryRange": [70000, 120000]
+	},
+	{
+		"tagName": "Backend",
+		"position": "Backend Developer",
+		"company": "ธนาคารกรุงไทย จำกัด (มหาชน)",
+		"yearsOfExperience": 3,
+		"requiredSkills": ["Java fundamentals and OOP", "Spring, Spring Boot, Hibernate, MyBatis"],
+		"benefits": [
+			"Performance-based bonus (based on bank performance)",
+			"Low-interest home and car loans",
+			"Free medical care at public hospitals",
+			"Provident fund",
+			"Social security fund",
+			"Work from home (1 office day per month, currently)",
+			"Annual Leave (15 days)"
+		],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "Backend",
+		"position": "Java Developer",
+		"company": "บริษัท มายกรุ๊ป อินเทลลิเจ้นท์ จำกัด",
+		"yearsOfExperience": 5,
+		"requiredSkills": [
+			"Java development (3+ years)",
+			"Java fundamentals and OOP",
+			"Spring, Spring Boot, Hibernate, MyBatis",
+			"SQL (MySQL, PostgreSQL, Oracle)",
+			"NoSQL (Redis, MongoDB)",
+			"Design patterns",
+			"Coding standards and documentation"
+		],
+		"benefits": [
+			"Social security",
+			"Health insurance",
+			"Employee uniforms",
+			"Festive events and activities",
+			"Annual salary adjustment (performance-based)",
+			"Annual bonus (performance-based)",
+			"Overseas trips (performance-based)"
+		],
+		"salaryRange": [100000, 150000]
+	},
+	{
+		"tagName": "Backend",
+		"position": "Sr. Developer (Java)",
+		"company": "ASCGroup",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Bachelor's degree in IT, MIS, Computer Science, or related fields",
+			"3+ years of experience in Java programming",
+			"Proficiency in Java, SQL, Python, and .Net",
+			"Experience with Oracle and MySQL databases",
+			"Knowledge of Microservices and IT Security",
+			"Strong debugging and troubleshooting skills"
+		],
+		"benefits": [
+			"Monthly attendance bonus",
+			"Life insurance and social security",
+			"Provident fund",
+			"Annual company trips",
+			"Laptop rental allowance",
+			"Birthday gifts",
+			"Congratulatory gift baskets",
+			"Employee uniforms"
+		],
+		"salaryRange": [50000, 100000]
+	},
+	{
+		"tagName": "Backend",
+		"position": "C# .Net Programmer",
+		"company": "The Prodigy (Thailand) Co., Ltd.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science, Computer Engineering, MIS, or related fields",
+			"2+ years of experience with VB.NET, ASP.NET, C#.NET, or .NET Framework",
+			"Proficiency in Oracle Database and Microsoft SQL Server",
+			"Experience with ASP.NET MVC (version 2 or 3)",
+			"Strong understanding of OOP concepts and UML diagrams",
+			"Ability to work independently with minimal supervision",
+			"Good English communication skills",
+			"Strong analytical and quantitative skills"
+		],
+		"benefits": [
+			"Flexible working hours",
+			"Housing allowance",
+			"Overtime pay",
+			"Travel allowance",
+			"Work from home",
+			"Laptop Allowance",
+			"Diligent Allowance"
+		],
+		"salaryRange": [30000, 50000]
+	},
+	{
+		"tagName": "Backend",
+		"position": "Back-End Developer (AI & Web3)",
+		"company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of experience as a Backend Developer",
+			"Proficiency in Node.js, Python, or similar backend languages",
+			"Experience with SQL and NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB)",
+			"Knowledge of RESTful API design and GraphQL",
+			"Experience integrating AI APIs (e.g., image/video generation)",
+			"Understanding of blockchain, smart contracts, and Web3 libraries (e.g., web3.js, ethers.js)",
+			"Familiarity with cloud platforms (AWS, GCP) and containerization (Docker) is a plus",
+			"Strong problem-solving and communication skills"
+		],
+		"benefits": ["Annual Leave (12 days)", "Provided lunch", "Coffee and hot/cold beverages"],
+		"salaryRange": [25000, 100000]
+	},
 
-        ],
-        "salaryRange": [70000, 90000]
-    },
-    {
-        "tagName": "API Development (Back-End)",
-        "position": "Java Programmer",
-        "company": "Tech Soft Holding Co., Ltd.",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "3+ years of experience as a Java Developer (Spring Boot)",
-            "Skill in Docker, Jenkins, CI/CD, and Kubernetes (preferred)",
-            "Positive thinking and growth mindset",
-            "Familiarity with Agile practices (plus)"
-        ],
-        "benefits": [
-            "Annual Leave (6 days), increasing by 1 day annually",
-            "Sick leave (30 days)",
-            "Life and accident insurance (after 4-month probation)",
-            "Social security",
-            "Annual salary adjustment",
-            "Annual health check-up",
-            "At least 3 personal leave days per year with supporting documents",
-            "Company outing and staff party",
-            "2 employee uniforms (after probation)",
-            "IT skill training programs",
-            "Company-provided notebook",
-            "Birthday gift"
-        ],
-        "salaryRange": [40000, 90000]
-    },
-    {
-        "tagName": "API Development (Back-End)",
-        "position": "Java Programmer",
-        "company": "ASCGroup",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science or related fields",
-            "2+ years of Java development experience",
-            "Proficient in Java frameworks, APIs, and Jasper",
-            "Experience with Eclipse, WebSphere, JBOSS, and SoapUI",
-            "Strong knowledge of software design patterns and architecture",
-            "Familiar with databases and DBMS",
-            "Understanding of networks, OS, and IDEs",
-            "Knowledge of configuration management"
-        ],
-        "benefits": [
-            "Monthly attendance bonus",
-            "Life insurance and social security",
-            "Provident fund",
-            "Annual company trips",
-            "Laptop rental allowance",
-            "Birthday gifts",
-            "Congratulatory gift baskets",
-            "Employee uniforms"
-        ],
-        "salaryRange": [35000, 70000]
-    },
-    {
-        "tagName": "API Development (Back-End)",
-        "position": "Java Developer",
-        "company": "The Prodigy (Thailand) Co., Ltd.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "Bachelor's degree in IT, Computer Science, or related fields",
-            "2+ years of software development experience",
-            "Strong proficiency in Java and Spring Boot",
-            "Experience with backend API development",
-            "Knowledge of databases: MySQL, SQL Server, Oracle, PostgreSQL",
-            "Ability to work independently and follow defined processes",
-            "Problem-solving and debugging skills"
-        ],
-        "benefits": [
-            "Flexible working hours",
-            "Housing allowance",
-            "Overtime pay",
-            "Travel allowance",
-            "Work from home",
-            "Laptop Allowance",
-            "Diligent Allowance"
-        ],
-        "salaryRange": [35000, 120000]
-    },
+	{
+		"tagName": "API Development (Back-End)",
+		"position": "Senior Software Engineer (Golang)",
+		"company": "Wisesight (Thailand) Co., Ltd.",
+		"yearsOfExperience": 4,
+		"requiredSkills": [
+			"4+ years of experience with Go and databases (MySQL, PostgreSQL, MongoDB)",
+			"1+ years of experience with Docker, Kubernetes, IaaC, RabbitMQ, Redis, gRPC, REST, and CI/CD",
+			"Proficiency in writing clean, high-quality code and improving existing code",
+			"Familiarity with Linux environments",
+			"Passion for software development best practices",
+			"Experience with AWS platforms and Social Network APIs (Facebook, Twitter) is a plus",
+			"Understanding of Agile Manifesto or Scrum Framework is a plus",
+			"Strong communication skills, including with non-technical stakeholders"
+		],
+		"benefits": [
+			"Social Security",
+			"Group Health Insurance",
+			"Dentistry Fee",
+			"Work from home 12 Days/Year",
+			"Medical Checkup",
+			"Annual Bonus",
+			"Salary & Performance Reviews",
+			"Flexible working hours",
+			"Sports clubs support",
+			"MacBook for Developer"
+		],
+		"salaryRange": [70000, 90000]
+	},
+	{
+		"tagName": "API Development (Back-End)",
+		"position": "Java Programmer",
+		"company": "Tech Soft Holding Co., Ltd.",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"3+ years of experience as a Java Developer (Spring Boot)",
+			"Skill in Docker, Jenkins, CI/CD, and Kubernetes (preferred)",
+			"Positive thinking and growth mindset",
+			"Familiarity with Agile practices (plus)"
+		],
+		"benefits": [
+			"Annual Leave (6 days), increasing by 1 day annually",
+			"Sick leave (30 days)",
+			"Life and accident insurance (after 4-month probation)",
+			"Social security",
+			"Annual salary adjustment",
+			"Annual health check-up",
+			"At least 3 personal leave days per year with supporting documents",
+			"Company outing and staff party",
+			"2 employee uniforms (after probation)",
+			"IT skill training programs",
+			"Company-provided notebook",
+			"Birthday gift"
+		],
+		"salaryRange": [40000, 90000]
+	},
+	{
+		"tagName": "API Development (Back-End)",
+		"position": "Java Programmer",
+		"company": "ASCGroup",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science or related fields",
+			"2+ years of Java development experience",
+			"Proficient in Java frameworks, APIs, and Jasper",
+			"Experience with Eclipse, WebSphere, JBOSS, and SoapUI",
+			"Strong knowledge of software design patterns and architecture",
+			"Familiar with databases and DBMS",
+			"Understanding of networks, OS, and IDEs",
+			"Knowledge of configuration management"
+		],
+		"benefits": [
+			"Monthly attendance bonus",
+			"Life insurance and social security",
+			"Provident fund",
+			"Annual company trips",
+			"Laptop rental allowance",
+			"Birthday gifts",
+			"Congratulatory gift baskets",
+			"Employee uniforms"
+		],
+		"salaryRange": [35000, 70000]
+	},
+	{
+		"tagName": "API Development (Back-End)",
+		"position": "Java Developer",
+		"company": "The Prodigy (Thailand) Co., Ltd.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"Bachelor's degree in IT, Computer Science, or related fields",
+			"2+ years of software development experience",
+			"Strong proficiency in Java and Spring Boot",
+			"Experience with backend API development",
+			"Knowledge of databases: MySQL, SQL Server, Oracle, PostgreSQL",
+			"Ability to work independently and follow defined processes",
+			"Problem-solving and debugging skills"
+		],
+		"benefits": [
+			"Flexible working hours",
+			"Housing allowance",
+			"Overtime pay",
+			"Travel allowance",
+			"Work from home",
+			"Laptop Allowance",
+			"Diligent Allowance"
+		],
+		"salaryRange": [35000, 120000]
+	},
 
-    {
-        "tagName": "DevOps",
-        "position": "DevOps Engineer",
-        "company": "AMASS CORPORATION (THAILAND) CO., LTD.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of experience in DevOps or related roles",
-            "Proficiency in Linux system engineering",
-            "Experience with CI/CD pipelines (preferably GitHub Actions)",
-            "Infrastructure as Code (IaC) experience with Terraform",
-            "Familiarity with configuration management tools (Ansible, Salt)",
-            "Experience with binary/artifact management (e.g., JFrog Artifactory)",
-            "Knowledge of logging and monitoring tools (Grafana, Promtail, Loki)",
-            "Kubernetes administration and Helm experience (preferred)",
-            "Experience with AWS services (e.g., EC2, ECS, RDS, S3, Lambda, API Gateway, Elasticache, EKS, etc.)",
-            "Proficiency in at least one programming language (preferably Python, Java, Node.js, or Angular)",
-            "Experience with Kafka platform management",
-            "Familiarity with Keycloak or API Management tools",
-            "Knowledge of GitOps tools (e.g., ArgoCD)",
-            "Ability to ensure compliance with security, regulatory, and audit requirements"
-        
-        ],
-        "benefits": [],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "DevOps",
-        "position": "DevOps",
-        "company": "บริษัท มายออเดอร์ อินเทลลิเจนซ์ จำกัด",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "1-2+ years of experience as Backend Developer, Fullstack Developer, DevOps, or SRE",
-            "Proficiency with cloud platforms (AWS, GCP, or Azure)",
-            "Knowledge of container orchestration (Docker, Kubernetes, Podman)",
-            "Ability to write Bash scripts",
-            "Understanding of JavaScript, TypeScript, or Python",
-            "Strong knowledge of networking, security, and system architecture",
-            "Experience with version control (Git, GitHub, GitLab, or Bitbucket)",
-            "Familiarity with CI/CD tools (Jenkins, GitLab CI, or GitHub Actions)",
-            "Understanding of infrastructure as code (Terraform, CloudFormation, Ansible) is a plus",
-            "Knowledge of GitOps (ArgoCD, FluxCD) is a plus",
-            "Experience with API Gateway (Nginx, Kong) is a plus"
-        ],
-        "benefits": [
-            "Annual Leave (6 days)",
-            "Personal leave (6 days)",
-            "Sick leave (30 days)",
-            "Social security",
-            "Annual holidays",
-            "Annual party",
-            "Lunch provided (for office employees)",
-            "Domestic and international outings",
-            "Annual bonus (performance-based)",
-            "Snacks provided",
-            "Office supplies",
-            "20,000 THB/month for training courses",
-            "MacBook provided after probation (for developers)",
-            "700 THB/month internet allowance"
-        ],
-        "salaryRange": [70000, 100000]
-    },
-    {
-        "tagName": "DevOps",
-        "position": "DevSecOps Engineer",
-        "company": "Wisesight (Thailand) Co., Ltd.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of experience in DevSecOps or related roles",
-            "Proficiency in CI/CD tools (GitHub Actions, ArgoCD)",
-            "Experience with cloud platforms (AWS, Google Cloud)",
-            "Proficiency in Infrastructure as Code tools (CDK, Terraform, CloudFormation, Ansible)",
-            "Expertise in containerization (Docker, Kubernetes)",
-            "Scripting skills in TypeScript, Golang, or Bash",
-            "Familiarity with monitoring and logging tools (Prometheus, Grafana, ELK Stack, Grafana Loki)",
-            "Strong understanding of networking, firewalls, load balancing, and DNS",
-            "Version control expertise with Git",
-            "Knowledge of securing infrastructure and compliance practices",
-            "Problem-solving and troubleshooting skills",
-            "Understanding of microservices architecture and SDLC"
-        ],
-        "benefits": [
-            "Social Security",
-            "Group Health Insurance",
-            "Dentistry Fee",
-            "Work from home 12 Days/Year",
-            "Medical Checkup",
-            "Annual Bonus",
-            "Salary & Performance Reviews",
-            "Flexible working hours",
-            "Sports clubs support",
-            "MacBook for Developer"
-        ],
-        "salaryRange": [35000, 50000]
-    },
+	{
+		"tagName": "DevOps",
+		"position": "DevOps Engineer",
+		"company": "AMASS CORPORATION (THAILAND) CO., LTD.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of experience in DevOps or related roles",
+			"Proficiency in Linux system engineering",
+			"Experience with CI/CD pipelines (preferably GitHub Actions)",
+			"Infrastructure as Code (IaC) experience with Terraform",
+			"Familiarity with configuration management tools (Ansible, Salt)",
+			"Experience with binary/artifact management (e.g., JFrog Artifactory)",
+			"Knowledge of logging and monitoring tools (Grafana, Promtail, Loki)",
+			"Kubernetes administration and Helm experience (preferred)",
+			"Experience with AWS services (e.g., EC2, ECS, RDS, S3, Lambda, API Gateway, Elasticache, EKS, etc.)",
+			"Proficiency in at least one programming language (preferably Python, Java, Node.js, or Angular)",
+			"Experience with Kafka platform management",
+			"Familiarity with Keycloak or API Management tools",
+			"Knowledge of GitOps tools (e.g., ArgoCD)",
+			"Ability to ensure compliance with security, regulatory, and audit requirements"
+		],
+		"benefits": [],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "DevOps",
+		"position": "DevOps",
+		"company": "บริษัท มายออเดอร์ อินเทลลิเจนซ์ จำกัด",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"1-2+ years of experience as Backend Developer, Fullstack Developer, DevOps, or SRE",
+			"Proficiency with cloud platforms (AWS, GCP, or Azure)",
+			"Knowledge of container orchestration (Docker, Kubernetes, Podman)",
+			"Ability to write Bash scripts",
+			"Understanding of JavaScript, TypeScript, or Python",
+			"Strong knowledge of networking, security, and system architecture",
+			"Experience with version control (Git, GitHub, GitLab, or Bitbucket)",
+			"Familiarity with CI/CD tools (Jenkins, GitLab CI, or GitHub Actions)",
+			"Understanding of infrastructure as code (Terraform, CloudFormation, Ansible) is a plus",
+			"Knowledge of GitOps (ArgoCD, FluxCD) is a plus",
+			"Experience with API Gateway (Nginx, Kong) is a plus"
+		],
+		"benefits": [
+			"Annual Leave (6 days)",
+			"Personal leave (6 days)",
+			"Sick leave (30 days)",
+			"Social security",
+			"Annual holidays",
+			"Annual party",
+			"Lunch provided (for office employees)",
+			"Domestic and international outings",
+			"Annual bonus (performance-based)",
+			"Snacks provided",
+			"Office supplies",
+			"20,000 THB/month for training courses",
+			"MacBook provided after probation (for developers)",
+			"700 THB/month internet allowance"
+		],
+		"salaryRange": [70000, 100000]
+	},
+	{
+		"tagName": "DevOps",
+		"position": "DevSecOps Engineer",
+		"company": "Wisesight (Thailand) Co., Ltd.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of experience in DevSecOps or related roles",
+			"Proficiency in CI/CD tools (GitHub Actions, ArgoCD)",
+			"Experience with cloud platforms (AWS, Google Cloud)",
+			"Proficiency in Infrastructure as Code tools (CDK, Terraform, CloudFormation, Ansible)",
+			"Expertise in containerization (Docker, Kubernetes)",
+			"Scripting skills in TypeScript, Golang, or Bash",
+			"Familiarity with monitoring and logging tools (Prometheus, Grafana, ELK Stack, Grafana Loki)",
+			"Strong understanding of networking, firewalls, load balancing, and DNS",
+			"Version control expertise with Git",
+			"Knowledge of securing infrastructure and compliance practices",
+			"Problem-solving and troubleshooting skills",
+			"Understanding of microservices architecture and SDLC"
+		],
+		"benefits": [
+			"Social Security",
+			"Group Health Insurance",
+			"Dentistry Fee",
+			"Work from home 12 Days/Year",
+			"Medical Checkup",
+			"Annual Bonus",
+			"Salary & Performance Reviews",
+			"Flexible working hours",
+			"Sports clubs support",
+			"MacBook for Developer"
+		],
+		"salaryRange": [35000, 50000]
+	},
 
-    {
-        "tagName": "Testing (SDET)",
-        "position": "Senior Quality Assurance Automation Engineer",
-        "company": "Kiatnakin Phatra Financial Group",
-        "yearsOfExperience": 5,
-        "requiredSkills": [
-            "5+ years of experience as a Quality Assurance Engineer",
-            "2+ years of experience in automated software testing",
-            "Ability to build and maintain test automation frameworks (Backend and Frontend)",
-            "Strong understanding of project requirements and business case analysis",
-            "Proficiency in writing and understanding SQL scripts",
-            "Experience in developing test scripts, scenarios, and methodologies",
-            "Skills in identifying quality risks and managing defect tracking",
-            "Ability to analyze and improve test scripts created by peers",
-            "Strong documentation skills for test cases, results, and defect management",
-            "Leadership and coaching skills in quality assurance"
-        ],
-        "benefits": [
-            "Provident fund",
-            "Performance-based bonus",
-            "Health insurance",
-            "Life insurance",
-            "Annual Leave",
-            "Birthday Leave",
-            "Personal Leave",
-            "Employee loan benefits",
-            "Various financial assistance programs"
-        ],
-        "salaryRange": [60000, 100000]
-    },
-    {
-        "tagName": "Testing (SDET)",
-        "position": "Senior Quality Assurance Automation Engineer",
-        "company": "Kiatnakin Phatra Financial Group",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of experience as a Quality Assurance Engineer",
-            "1+ year of experience with Automation Testing tools",
-            "Knowledge of testing methodologies and ability to create test cases, data, and reports",
-            "Experience in building and maintaining test automation frameworks (Backend and Frontend)",
-            "Proficiency in understanding and writing SQL scripts (preferred)",
-            "Familiarity with Agile methodologies (Scrum, Kanban) and tools like Jira, Confluence, SharePoint (preferred)",
-            "Experience with CI platforms and Git (preferred)",
-            "Strong problem-solving, teamwork, and responsibility"
-        ],
-        "benefits": [
-            "Provident fund",
-            "Performance-based bonus",
-            "Health insurance",
-            "Life insurance",
-            "Annual Leave",
-            "Birthday Leave",
-            "Personal Leave",
-            "Employee loan benefits",
-            "Various financial assistance programs"
-        ],
-        "salaryRange": [35000, 80000]
-    },
-    {
-        "tagName": "Testing (SDET)",
-        "position": "Software QA Engineer",
-        "company": "AMASS CORPORATION (THAILAND) CO., LTD.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2-3+ years of experience as a QA Automation/Test Engineer",
-            "Proficiency in Quality Management Software and Processes",
-            "Knowledge of software testing for Web Applications, Web Services, XML, GUI, Reports, and Databases",
-            "Experience with testing tools and technologies (Windows, Solaris, Apache TomEE, Crystal Reports, Oracle, SQL Server, Web Services, XML)",
-            "Familiarity with version control systems (Git, Subversion)",
-            "Ability to design, document, and maintain test cases, test data, and regression/automated scripts",
-            "Experience with defect tracking, escalation, and retesting in testing phases (Peer, System, Regression)",
-            "Strong analytical and problem-solving skills for defect resolution",
-            "Experience in the financial services or similarly complex domains (preferred)",
-            "Excellent communication and collaboration skills with developers, analysts, and clients"
-        ],
-        "benefits": [],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "Testing (SDET)",
-        "position": "Automate Tester",
-        "company": "The Prodigy (Thailand) Co., Ltd.",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science, Engineering, or related fields",
-            "Experience in Insurance, Banking, or Financial sectors is a plus",
-            "1+ years of experience with Robot Framework for automated testing",
-            "Proficiency in English communication",
-            "Ability to create and execute SIT/UAT plans",
-            "Experience in documenting system manuals and test scenarios",
-            "Problem-solving and collaboration skills",
-            "Ability to start immediately is an advantage"
-        ],
-        "benefits": [
-            "Flexible working hours",
-            "Housing allowance",
-            "Overtime pay",
-            "Travel allowance",
-            "Work from home",
-            "Laptop Allowance",
-            "Diligent Allowance"
-        ],
-        "salaryRange": [30000, 90000]
-    },
-    {
-        "tagName": "Testing (SDET)",
-        "position": "Automate Tester",
-        "company": "Tech Soft Holding Co., Ltd.",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science, Computer Engineering, IT or related fields",
-            "1-8+ years of experience in test processes",
-            "Experience in Application, System, and Software Testing methodologies",
-            "Minimum 1 year of test automation experience (preferred)",
-            "Familiar with Agile and cross-functional team environments",
-            "Experience with JIRA or issue tracking software",
-            "Experience in automated testing design and implementation",
-            "Proficient in functional and performance testing",
-            "Experience with automation tools (Espresso, XCUITest, Robot Framework, TestNG, Cucumber, Selenium WebDriver)",
-            "Experience creating test cases for mobile and API testing",
-            "Experience in mobile and API test execution",
-            "Understanding of Kibana logs",
-            "Basic knowledge of SQL",
-            "Understanding of sequence diagrams",
-            "Experience in web/mobile application development",
-            "Proficiency in programming languages (Java, Python, PHP)",
-            "Problem-solving, communication, and teamwork skills",
-            "Fast learner and adaptable"
-        ],
-        "benefits": [
-            "Annual Leave (6 days), increasing by 1 day annually",
-            "Sick leave (30 days)",
-            "Life and accident insurance (after 4-month probation)",
-            "Social security",
-            "Annual salary adjustment",
-            "Annual health check-up",
-            "At least 3 personal leave days per year with supporting documents",
-            "Company outing and staff party",
-            "2 employee uniforms (after probation)",
-            "IT skill training programs",
-            "Company-provided notebook",
-            "Birthday gift"
-        ],
-        "salaryRange": [40000, 70000]
-    },
-    {
-        "tagName": "Testing (SDET)",
-        "position": "Senior Automation Software Tester (Quality Assurance)",
-        "company": "THiNKNET Co., Ltd.",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Experience in designing and developing Test Scenarios, Test Cases, and Test Scripts",
-            "Ability to collaborate on requirement gathering and system design",
-            "Proficiency in identifying and debugging system errors",
-            "Experience in preparing User Acceptance Test (UAT) documentation",
-            "Cypress",
-            "Selenium",
-            "Robot Framework",
-            "Flutter Test Tool"
-        ],
-        "benefits": [
-            "Annual Leave",
-            "Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-            "Training and course allowances for skill development (both soft and hard skills)",
-            "Health benefits (vaccination and dental care)",
-            "Health insurance",
-            "Accident insurance",
-            "Performance-based bonuses",
-            "Merit-based salary adjustments",
-            "Financial support for personal events (weddings, ordinations, funerals)"
-        ],
-        "salaryRange": [40000, 70000]
-    },
+	{
+		"tagName": "Testing (SDET)",
+		"position": "Senior Quality Assurance Automation Engineer",
+		"company": "Kiatnakin Phatra Financial Group",
+		"yearsOfExperience": 5,
+		"requiredSkills": [
+			"5+ years of experience as a Quality Assurance Engineer",
+			"2+ years of experience in automated software testing",
+			"Ability to build and maintain test automation frameworks (Backend and Frontend)",
+			"Strong understanding of project requirements and business case analysis",
+			"Proficiency in writing and understanding SQL scripts",
+			"Experience in developing test scripts, scenarios, and methodologies",
+			"Skills in identifying quality risks and managing defect tracking",
+			"Ability to analyze and improve test scripts created by peers",
+			"Strong documentation skills for test cases, results, and defect management",
+			"Leadership and coaching skills in quality assurance"
+		],
+		"benefits": [
+			"Provident fund",
+			"Performance-based bonus",
+			"Health insurance",
+			"Life insurance",
+			"Annual Leave",
+			"Birthday Leave",
+			"Personal Leave",
+			"Employee loan benefits",
+			"Various financial assistance programs"
+		],
+		"salaryRange": [60000, 100000]
+	},
+	{
+		"tagName": "Testing (SDET)",
+		"position": "Senior Quality Assurance Automation Engineer",
+		"company": "Kiatnakin Phatra Financial Group",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of experience as a Quality Assurance Engineer",
+			"1+ year of experience with Automation Testing tools",
+			"Knowledge of testing methodologies and ability to create test cases, data, and reports",
+			"Experience in building and maintaining test automation frameworks (Backend and Frontend)",
+			"Proficiency in understanding and writing SQL scripts (preferred)",
+			"Familiarity with Agile methodologies (Scrum, Kanban) and tools like Jira, Confluence, SharePoint (preferred)",
+			"Experience with CI platforms and Git (preferred)",
+			"Strong problem-solving, teamwork, and responsibility"
+		],
+		"benefits": [
+			"Provident fund",
+			"Performance-based bonus",
+			"Health insurance",
+			"Life insurance",
+			"Annual Leave",
+			"Birthday Leave",
+			"Personal Leave",
+			"Employee loan benefits",
+			"Various financial assistance programs"
+		],
+		"salaryRange": [35000, 80000]
+	},
+	{
+		"tagName": "Testing (SDET)",
+		"position": "Software QA Engineer",
+		"company": "AMASS CORPORATION (THAILAND) CO., LTD.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2-3+ years of experience as a QA Automation/Test Engineer",
+			"Proficiency in Quality Management Software and Processes",
+			"Knowledge of software testing for Web Applications, Web Services, XML, GUI, Reports, and Databases",
+			"Experience with testing tools and technologies (Windows, Solaris, Apache TomEE, Crystal Reports, Oracle, SQL Server, Web Services, XML)",
+			"Familiarity with version control systems (Git, Subversion)",
+			"Ability to design, document, and maintain test cases, test data, and regression/automated scripts",
+			"Experience with defect tracking, escalation, and retesting in testing phases (Peer, System, Regression)",
+			"Strong analytical and problem-solving skills for defect resolution",
+			"Experience in the financial services or similarly complex domains (preferred)",
+			"Excellent communication and collaboration skills with developers, analysts, and clients"
+		],
+		"benefits": [],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "Testing (SDET)",
+		"position": "Automate Tester",
+		"company": "The Prodigy (Thailand) Co., Ltd.",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science, Engineering, or related fields",
+			"Experience in Insurance, Banking, or Financial sectors is a plus",
+			"1+ years of experience with Robot Framework for automated testing",
+			"Proficiency in English communication",
+			"Ability to create and execute SIT/UAT plans",
+			"Experience in documenting system manuals and test scenarios",
+			"Problem-solving and collaboration skills",
+			"Ability to start immediately is an advantage"
+		],
+		"benefits": [
+			"Flexible working hours",
+			"Housing allowance",
+			"Overtime pay",
+			"Travel allowance",
+			"Work from home",
+			"Laptop Allowance",
+			"Diligent Allowance"
+		],
+		"salaryRange": [30000, 90000]
+	},
+	{
+		"tagName": "Testing (SDET)",
+		"position": "Automate Tester",
+		"company": "Tech Soft Holding Co., Ltd.",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science, Computer Engineering, IT or related fields",
+			"1-8+ years of experience in test processes",
+			"Experience in Application, System, and Software Testing methodologies",
+			"Minimum 1 year of test automation experience (preferred)",
+			"Familiar with Agile and cross-functional team environments",
+			"Experience with JIRA or issue tracking software",
+			"Experience in automated testing design and implementation",
+			"Proficient in functional and performance testing",
+			"Experience with automation tools (Espresso, XCUITest, Robot Framework, TestNG, Cucumber, Selenium WebDriver)",
+			"Experience creating test cases for mobile and API testing",
+			"Experience in mobile and API test execution",
+			"Understanding of Kibana logs",
+			"Basic knowledge of SQL",
+			"Understanding of sequence diagrams",
+			"Experience in web/mobile application development",
+			"Proficiency in programming languages (Java, Python, PHP)",
+			"Problem-solving, communication, and teamwork skills",
+			"Fast learner and adaptable"
+		],
+		"benefits": [
+			"Annual Leave (6 days), increasing by 1 day annually",
+			"Sick leave (30 days)",
+			"Life and accident insurance (after 4-month probation)",
+			"Social security",
+			"Annual salary adjustment",
+			"Annual health check-up",
+			"At least 3 personal leave days per year with supporting documents",
+			"Company outing and staff party",
+			"2 employee uniforms (after probation)",
+			"IT skill training programs",
+			"Company-provided notebook",
+			"Birthday gift"
+		],
+		"salaryRange": [40000, 70000]
+	},
+	{
+		"tagName": "Testing (SDET)",
+		"position": "Senior Automation Software Tester (Quality Assurance)",
+		"company": "THiNKNET Co., Ltd.",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Experience in designing and developing Test Scenarios, Test Cases, and Test Scripts",
+			"Ability to collaborate on requirement gathering and system design",
+			"Proficiency in identifying and debugging system errors",
+			"Experience in preparing User Acceptance Test (UAT) documentation",
+			"Cypress",
+			"Selenium",
+			"Robot Framework",
+			"Flutter Test Tool"
+		],
+		"benefits": [
+			"Annual Leave",
+			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
+			"Training and course allowances for skill development (both soft and hard skills)",
+			"Health benefits (vaccination and dental care)",
+			"Health insurance",
+			"Accident insurance",
+			"Performance-based bonuses",
+			"Merit-based salary adjustments",
+			"Financial support for personal events (weddings, ordinations, funerals)"
+		],
+		"salaryRange": [40000, 70000]
+	},
 
-    {
-        "tagName": "Data",
-        "position": "Senior Data Engineer",
-        "company": "THiNKNET Co., Ltd.",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Experience in designing and developing complex data storage systems",
-            "Proficiency in ETL processes and tools",
-            "Knowledge of Data Warehousing and Data Lakes",
-            "Experience with databases (SQL and NoSQL)",
-            "Familiarity with Big Data technologies",
-            "Proficiency in Python programming",
-            "Experience with cloud technologies",
-            "Strong problem-solving and data analysis skills",
-            "Ability to collaborate with development teams"
-        ],
-        "benefits": [
-            "Annual Leave",
-            "Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-            "Training and course allowances for skill development (both soft and hard skills)",
-            "Health benefits (vaccination and dental care)",
-            "Health insurance",
-            "Accident insurance",
-            "Performance-based bonuses",
-            "Merit-based salary adjustments",
-            "Financial support for personal events (weddings, ordinations, funerals)"
-        ],
-        "salaryRange": [40000, 100000]
-    },
-    {
-        "tagName": "Data",
-        "position": "Data Engineer",
-        "company": "THiNKNET Co., Ltd.",
-        "yearsOfExperience": 1,
-        "requiredSkills": [
-            "Proficiency in Python programming",
-            "Experience with ETL processes and tools",
-            "Knowledge of Data Warehousing and Data Lakes",
-            "Familiarity with databases (SQL and NoSQL)",
-            "Experience with Big Data technologies",
-            "Understanding of cloud technologies",
-            "Ability to design and manage complex data storage systems",
-            "Strong problem-solving and data analysis skills",
-            "Collaboration skills for working with development teams"
-        ],
-        "benefits": [
-            "Annual Leave",
-            "Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-            "Training and course allowances for skill development (both soft and hard skills)",
-            "Health benefits (vaccination and dental care)",
-            "Health insurance",
-            "Accident insurance",
-            "Performance-based bonuses",
-            "Merit-based salary adjustments",
-            "Financial support for personal events (weddings, ordinations, funerals)"
-        ],
-        "salaryRange": [25000, 70000]
-    },
-    {
-        "tagName": "Data",
-        "position": "Data Product",
-        "company": "Kiatnakin Phatra Financial Group",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2-10 years of experience in data analytics, strategy, or product management",
-            "Strong analytical skills and data intuition",
-            "Proficiency in SQL; familiarity with a programming language is a plus",
-            "Ability to design and build scalable data products and solutions",
-            "Problem-solving skills with a results-oriented mindset",
-            "Passion for transforming data into impactful insights and solutions",
-            "Strong collaboration and communication skills to work with stakeholders",
-            "Motivated to drive data literacy and build a data-driven culture"
-        ],
-        "benefits": [
-            "Provident fund",
-            "Performance-based bonus",
-            "Health insurance",
-            "Life insurance",
-            "Annual Leave",
-            "Birthday Leave",
-            "Personal Leave",
-            "Employee loan benefits",
-            "Various financial assistance programs"
-        ],
-        "salaryRange": [0, 0]
-    },
+	{
+		"tagName": "Data",
+		"position": "Senior Data Engineer",
+		"company": "THiNKNET Co., Ltd.",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Experience in designing and developing complex data storage systems",
+			"Proficiency in ETL processes and tools",
+			"Knowledge of Data Warehousing and Data Lakes",
+			"Experience with databases (SQL and NoSQL)",
+			"Familiarity with Big Data technologies",
+			"Proficiency in Python programming",
+			"Experience with cloud technologies",
+			"Strong problem-solving and data analysis skills",
+			"Ability to collaborate with development teams"
+		],
+		"benefits": [
+			"Annual Leave",
+			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
+			"Training and course allowances for skill development (both soft and hard skills)",
+			"Health benefits (vaccination and dental care)",
+			"Health insurance",
+			"Accident insurance",
+			"Performance-based bonuses",
+			"Merit-based salary adjustments",
+			"Financial support for personal events (weddings, ordinations, funerals)"
+		],
+		"salaryRange": [40000, 100000]
+	},
+	{
+		"tagName": "Data",
+		"position": "Data Engineer",
+		"company": "THiNKNET Co., Ltd.",
+		"yearsOfExperience": 1,
+		"requiredSkills": [
+			"Proficiency in Python programming",
+			"Experience with ETL processes and tools",
+			"Knowledge of Data Warehousing and Data Lakes",
+			"Familiarity with databases (SQL and NoSQL)",
+			"Experience with Big Data technologies",
+			"Understanding of cloud technologies",
+			"Ability to design and manage complex data storage systems",
+			"Strong problem-solving and data analysis skills",
+			"Collaboration skills for working with development teams"
+		],
+		"benefits": [
+			"Annual Leave",
+			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
+			"Training and course allowances for skill development (both soft and hard skills)",
+			"Health benefits (vaccination and dental care)",
+			"Health insurance",
+			"Accident insurance",
+			"Performance-based bonuses",
+			"Merit-based salary adjustments",
+			"Financial support for personal events (weddings, ordinations, funerals)"
+		],
+		"salaryRange": [25000, 70000]
+	},
+	{
+		"tagName": "Data",
+		"position": "Data Product",
+		"company": "Kiatnakin Phatra Financial Group",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2-10 years of experience in data analytics, strategy, or product management",
+			"Strong analytical skills and data intuition",
+			"Proficiency in SQL; familiarity with a programming language is a plus",
+			"Ability to design and build scalable data products and solutions",
+			"Problem-solving skills with a results-oriented mindset",
+			"Passion for transforming data into impactful insights and solutions",
+			"Strong collaboration and communication skills to work with stakeholders",
+			"Motivated to drive data literacy and build a data-driven culture"
+		],
+		"benefits": [
+			"Provident fund",
+			"Performance-based bonus",
+			"Health insurance",
+			"Life insurance",
+			"Annual Leave",
+			"Birthday Leave",
+			"Personal Leave",
+			"Employee loan benefits",
+			"Various financial assistance programs"
+		],
+		"salaryRange": [0, 0]
+	},
 
-    {
-        "tagName": "ML / AI",
-        "position": "AI Scientist",
-        "company": "SCB DataX Co., Ltd.",
-        "yearsOfExperience": 1,
-        "requiredSkills": [
-            "Expertise in Generative AI technologies (LLMs, ASR)",
-            "Proven experience in designing and prototyping AI models from concept to proof-of-concept",
-            "Proficiency in Python and AI/ML libraries (e.g., transformers, PyTorch)",
-            "Experience with cloud platforms",
-            "Strong understanding of AI and machine learning principles",
-            "Bachelor's degree in engineering, computer science, statistics, or related quantitative fields",
-            "Strong communication skills to explain AI concepts to technical and non-technical stakeholders"
-        ],
-        "benefits": [],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "ML / AI",
-        "position": "AI Engineer",
-        "company": "SCB DataX Co., Ltd.",
-        "yearsOfExperience": 1,
-        "requiredSkills": [
-            "Strong knowledge of machine learning, deep learning, and generative algorithms",
-            "Experience with Generative AI prompt engineering techniques",
-            "Proficiency in ML/AI serving optimization and deployment strategies",
-            "Familiarity with ML/AIOps and monitoring tools",
-            "Ability to write clean code and apply software engineering principles",
-            "Experience with Python, Torch, TensorFlow, CUDA, and SparkML",
-            "Proficiency in Docker and Kubernetes",
-            "Experience with Apache Spark for large-scale data processing",
-            "Understanding of CI/CD workflows for AI and data pipelines",
-            "Experience in collaborating with Git and implementing Git strategies",
-            "Strong understanding of data structures and manipulation techniques",
-            "Ability to conduct quantitative research and experiments",
-            "Familiarity with Agile and product development practices"
-        ],
-        "benefits": [],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "ML / AI",
-        "position": "Artificial Intelligence Engineer (AI Engineer)",
-        "company": "THiNKNET Co., Ltd.",
-        "yearsOfExperience": 1,
-        "requiredSkills": [
-            "Proficiency in AI system design using Machine Learning, Deep Learning, and Neural Networks",
-            "Ability to create and train models with appropriate algorithms for problem-solving",
-            "Experience in testing and evaluating AI systems to meet user requirements",
-            "Proficiency in Python, R, Java, and C++",
-            "Familiarity with ETL/ELT processes",
-            "Experience with Jupyter Notebook",
-            "Knowledge of TensorFlow and OpenCV",
-            "Experience with containerization tools like Docker",
-            "Strong problem-solving and troubleshooting skills for AI systems"
-        ],
-        "benefits": [
-            "Annual Leave",
-            "Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-            "Training and course allowances for skill development (both soft and hard skills)",
-            "Health benefits (vaccination and dental care)",
-            "Health insurance",
-            "Accident insurance",
-            "Performance-based bonuses",
-            "Merit-based salary adjustments",
-            "Financial support for personal events (weddings, ordinations, funerals)"
-        ],
-        "salaryRange": [25000, 70000]
-    },
+	{
+		"tagName": "ML / AI",
+		"position": "AI Scientist",
+		"company": "SCB DataX Co., Ltd.",
+		"yearsOfExperience": 1,
+		"requiredSkills": [
+			"Expertise in Generative AI technologies (LLMs, ASR)",
+			"Proven experience in designing and prototyping AI models from concept to proof-of-concept",
+			"Proficiency in Python and AI/ML libraries (e.g., transformers, PyTorch)",
+			"Experience with cloud platforms",
+			"Strong understanding of AI and machine learning principles",
+			"Bachelor's degree in engineering, computer science, statistics, or related quantitative fields",
+			"Strong communication skills to explain AI concepts to technical and non-technical stakeholders"
+		],
+		"benefits": [],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "ML / AI",
+		"position": "AI Engineer",
+		"company": "SCB DataX Co., Ltd.",
+		"yearsOfExperience": 1,
+		"requiredSkills": [
+			"Strong knowledge of machine learning, deep learning, and generative algorithms",
+			"Experience with Generative AI prompt engineering techniques",
+			"Proficiency in ML/AI serving optimization and deployment strategies",
+			"Familiarity with ML/AIOps and monitoring tools",
+			"Ability to write clean code and apply software engineering principles",
+			"Experience with Python, Torch, TensorFlow, CUDA, and SparkML",
+			"Proficiency in Docker and Kubernetes",
+			"Experience with Apache Spark for large-scale data processing",
+			"Understanding of CI/CD workflows for AI and data pipelines",
+			"Experience in collaborating with Git and implementing Git strategies",
+			"Strong understanding of data structures and manipulation techniques",
+			"Ability to conduct quantitative research and experiments",
+			"Familiarity with Agile and product development practices"
+		],
+		"benefits": [],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "ML / AI",
+		"position": "Artificial Intelligence Engineer (AI Engineer)",
+		"company": "THiNKNET Co., Ltd.",
+		"yearsOfExperience": 1,
+		"requiredSkills": [
+			"Proficiency in AI system design using Machine Learning, Deep Learning, and Neural Networks",
+			"Ability to create and train models with appropriate algorithms for problem-solving",
+			"Experience in testing and evaluating AI systems to meet user requirements",
+			"Proficiency in Python, R, Java, and C++",
+			"Familiarity with ETL/ELT processes",
+			"Experience with Jupyter Notebook",
+			"Knowledge of TensorFlow and OpenCV",
+			"Experience with containerization tools like Docker",
+			"Strong problem-solving and troubleshooting skills for AI systems"
+		],
+		"benefits": [
+			"Annual Leave",
+			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
+			"Training and course allowances for skill development (both soft and hard skills)",
+			"Health benefits (vaccination and dental care)",
+			"Health insurance",
+			"Accident insurance",
+			"Performance-based bonuses",
+			"Merit-based salary adjustments",
+			"Financial support for personal events (weddings, ordinations, funerals)"
+		],
+		"salaryRange": [25000, 70000]
+	},
 
-    {
-        "tagName": "Software Development",
-        "position": "Software Engineer",
-        "company": "M Intelligence Co.,Ltd.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science, Software Engineering, MIS, MBA, or equivalent experience",
-            "2+ years of experience in software development or system implementation (Fresh graduates welcome)",
-            "Experience in Front-end, Back-end, or Full Stack development",
-            "Knowledge of Java platform, HTML, JavaScript, and web development components",
-            "Proficiency in Vue.js, Node.js, React, Next.js, Angular, XML, JSON, and API development",
-            "Experience with Salesforce or other CRM systems (preferred)",
-            "Strong initiative, self-motivation, and ability to deliver high-quality work",
-            "Excellent verbal, presentation, and interpersonal communication skills"
-        ],
-        "benefits": [
-            "Annual Leave (15 days)",
-            "Birthday Leave",
-            "Company trips",
-            "Flexible working hours",
-            "Annual bonus of at least 1 month",
-            "Provident fund by UOB",
-            "Flexi Benefit of 8,000 THB per year",
-            "Social security",
-            "Health insurance (available after probation)",
-            "Annual health check-up",
-            "Travel expenses for client meetings (per company policy)",
-            "Certification exam fee reimbursement (as specified by the company)",
-            "Weekly parties with complimentary beer, wine, and spirits"
-        ],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "Software Development",
-        "position": "Senior Software Engineer",
-        "company": "Kiatnakin Phatra Financial Group",
-        "yearsOfExperience": 5,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science or related fields",
-            "5+ years of experience in testing, maintaining, and deploying software products",
-            "3+ years of experience in designing large-scale software architecture",
-            "Experience with Microservice architecture",
-            "Proficiency in .NET, Golang, React, and JavaScript",
-            "Experience with Flutter, native iOS, and Android development",
-            "Knowledge of SQL/NoSQL databases (e.g., SQL Server, MySQL, Postgres, MongoDB)",
-            "Experience in developing mobile banking or financial applications",
-            "Strong skills in performance optimization and debugging low-level code (e.g., OS, System profiling)",
-            "Ability to collaborate with cross-functional teams and provide code reviews"       
-        ],
-        "benefits": [
-            "Provident fund",
-            "Performance-based bonus",
-            "Health insurance",
-            "Life insurance",
-            "Annual Leave",
-            "Birthday Leave",
-            "Personal Leave",
-            "Employee loan benefits",
-            "Various financial assistance programs"
-        ],
-        "salaryRange": [60000, 110000]
-    },
-    {
-        "tagName": "Software Development",
-        "position": "Senior Software Engineer (Typescript,React)",
-        "company": "Wisesight (Thailand) Co., Ltd.",
-        "yearsOfExperience": 4,
-        "requiredSkills": [
-            "4+ years of experience with Go and databases (MySQL, PostgreSQL, MongoDB)",
-            "1+ years of experience with Docker, Kubernetes, IaaC, RabbitMQ, Redis, gRPC, REST, and CI/CD",
-            "Proficiency in writing clean, high-quality code and improving existing code",
-            "Familiarity with Linux environments",
-            "Passion for software development best practices",
-            "Experience with AWS platforms and Social Network APIs (Facebook, Twitter) is a plus",
-            "Understanding of Agile Manifesto or Scrum Framework is a plus",
-            "Strong communication skills, including with non-technical stakeholders"
-        ],
-        "benefits": [
-            "Social Security",
-            "Group Health Insurance",
-            "Dentistry Fee",
-            "Work from home 12 Days/Year",
-            "Medical Checkup",
-            "Annual Bonus",
-            "Salary & Performance Reviews",
-            "Flexible working hours",
-            "Sports clubs support",
-            "MacBook for Developer"
+	{
+		"tagName": "Software Development",
+		"position": "Software Engineer",
+		"company": "M Intelligence Co.,Ltd.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science, Software Engineering, MIS, MBA, or equivalent experience",
+			"2+ years of experience in software development or system implementation (Fresh graduates welcome)",
+			"Experience in Front-end, Back-end, or Full Stack development",
+			"Knowledge of Java platform, HTML, JavaScript, and web development components",
+			"Proficiency in Vue.js, Node.js, React, Next.js, Angular, XML, JSON, and API development",
+			"Experience with Salesforce or other CRM systems (preferred)",
+			"Strong initiative, self-motivation, and ability to deliver high-quality work",
+			"Excellent verbal, presentation, and interpersonal communication skills"
+		],
+		"benefits": [
+			"Annual Leave (15 days)",
+			"Birthday Leave",
+			"Company trips",
+			"Flexible working hours",
+			"Annual bonus of at least 1 month",
+			"Provident fund by UOB",
+			"Flexi Benefit of 8,000 THB per year",
+			"Social security",
+			"Health insurance (available after probation)",
+			"Annual health check-up",
+			"Travel expenses for client meetings (per company policy)",
+			"Certification exam fee reimbursement (as specified by the company)",
+			"Weekly parties with complimentary beer, wine, and spirits"
+		],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "Software Development",
+		"position": "Senior Software Engineer",
+		"company": "Kiatnakin Phatra Financial Group",
+		"yearsOfExperience": 5,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science or related fields",
+			"5+ years of experience in testing, maintaining, and deploying software products",
+			"3+ years of experience in designing large-scale software architecture",
+			"Experience with Microservice architecture",
+			"Proficiency in .NET, Golang, React, and JavaScript",
+			"Experience with Flutter, native iOS, and Android development",
+			"Knowledge of SQL/NoSQL databases (e.g., SQL Server, MySQL, Postgres, MongoDB)",
+			"Experience in developing mobile banking or financial applications",
+			"Strong skills in performance optimization and debugging low-level code (e.g., OS, System profiling)",
+			"Ability to collaborate with cross-functional teams and provide code reviews"
+		],
+		"benefits": [
+			"Provident fund",
+			"Performance-based bonus",
+			"Health insurance",
+			"Life insurance",
+			"Annual Leave",
+			"Birthday Leave",
+			"Personal Leave",
+			"Employee loan benefits",
+			"Various financial assistance programs"
+		],
+		"salaryRange": [60000, 110000]
+	},
+	{
+		"tagName": "Software Development",
+		"position": "Senior Software Engineer (Typescript,React)",
+		"company": "Wisesight (Thailand) Co., Ltd.",
+		"yearsOfExperience": 4,
+		"requiredSkills": [
+			"4+ years of experience with Go and databases (MySQL, PostgreSQL, MongoDB)",
+			"1+ years of experience with Docker, Kubernetes, IaaC, RabbitMQ, Redis, gRPC, REST, and CI/CD",
+			"Proficiency in writing clean, high-quality code and improving existing code",
+			"Familiarity with Linux environments",
+			"Passion for software development best practices",
+			"Experience with AWS platforms and Social Network APIs (Facebook, Twitter) is a plus",
+			"Understanding of Agile Manifesto or Scrum Framework is a plus",
+			"Strong communication skills, including with non-technical stakeholders"
+		],
+		"benefits": [
+			"Social Security",
+			"Group Health Insurance",
+			"Dentistry Fee",
+			"Work from home 12 Days/Year",
+			"Medical Checkup",
+			"Annual Bonus",
+			"Salary & Performance Reviews",
+			"Flexible working hours",
+			"Sports clubs support",
+			"MacBook for Developer"
+		],
+		"salaryRange": [70000, 90000]
+	},
+	{
+		"tagName": "Software Development",
+		"position": "Senior UX/UI design",
+		"company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"2-3 years of experience as a UX/UI Designer",
+			"Proficiency in Figma (components, auto layout, design systems)",
+			"Strong understanding of UX principles and interaction design",
+			"Experience in usability testing and data-driven design",
+			"Portfolio showcasing responsive designs and design systems",
+			"Meticulous attention to detail and pixel-perfect design skills",
+			"Excellent communication and collaboration skills"
+		],
+		"benefits": ["Annual Leave (12 days)", "Provided lunch", "Coffee and hot/cold beverages"],
+		"salaryRange": [40000, 100000]
+	},
+	{
+		"tagName": "Software Development",
+		"position": "Software Engineer",
+		"company": "THiNKNET Co., Ltd.",
+		"yearsOfExperience": 1,
+		"requiredSkills": [
+			"Experience in developing Web and Mobile Applications using ReactJS, React Native, and Flutter",
+			"Proficiency in Microservice development with Node.js and GraphQL",
+			"Knowledge of HTML, CSS, SCSS, and JavaScript",
+			"Experience with database design (MongoDB, MySQL, PostgreSQL)",
+			"Familiarity with writing and designing Development Test Cases",
+			"Knowledge of containerization and orchestration tools (Docker, Kubernetes)",
+			"Experience with cloud platforms (AWS, Firebase)",
+			"Familiarity with CI/CD tools (Jenkins)",
+			"Strong problem-solving and teamwork skills"
+		],
+		"benefits": [
+			"Annual Leave",
+			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
+			"Training and course allowances for skill development (both soft and hard skills)",
+			"Health benefits (vaccination and dental care)",
+			"Health insurance",
+			"Accident insurance",
+			"Performance-based bonuses",
+			"Merit-based salary adjustments",
+			"Financial support for personal events (weddings, ordinations, funerals)"
+		],
+		"salaryRange": [25000, 70000]
+	},
+	{
+		"tagName": "Software Development",
+		"position": "Senior Software Engineer",
+		"company": "THiNKNET Co., Ltd.",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Bachelor's degree in Engineering, Computer Science, or related fields",
+			"3-5+ years of experience in Web and Mobile Application Development",
+			"Proficiency in ReactJS, React Native, Flutter, and Node.js",
+			"Experience with Microservices and GraphQL",
+			"Knowledge of HTML, CSS, SCSS, and JavaScript",
+			"Experience with databases (MongoDB, MySQL, PostgreSQL)",
+			"Familiarity with writing Test Cases (Unit, Integration, System Tests)",
+			"Knowledge of Docker, Kubernetes, and Jenkins",
+			"Experience with cloud platforms (AWS, Firebase)"
+		],
+		"benefits": [
+			"Annual Leave",
+			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
+			"Training and course allowances for skill development (both soft and hard skills)",
+			"Health benefits (vaccination and dental care)",
+			"Health insurance",
+			"Accident insurance",
+			"Performance-based bonuses",
+			"Merit-based salary adjustments",
+			"Financial support for personal events (weddings, ordinations, funerals)"
+		],
+		"salaryRange": [40000, 100000]
+	},
 
-        ],
-        "salaryRange": [70000, 90000]
-    },
-    {
-        "tagName": "Software Development",
-        "position": "Senior UX/UI design",
-        "company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "2-3 years of experience as a UX/UI Designer",
-            "Proficiency in Figma (components, auto layout, design systems)",
-            "Strong understanding of UX principles and interaction design",
-            "Experience in usability testing and data-driven design",
-            "Portfolio showcasing responsive designs and design systems",
-            "Meticulous attention to detail and pixel-perfect design skills",
-            "Excellent communication and collaboration skills"
-        ],
-        "benefits": [
-            "Annual Leave (12 days)",
-            "Provided lunch",
-            "Coffee and hot/cold beverages"
-        ],
-        "salaryRange": [40000, 100000]
-    },
-    {
-        "tagName": "Software Development",
-        "position": "Software Engineer",
-        "company": "THiNKNET Co., Ltd.",
-        "yearsOfExperience": 1,
-        "requiredSkills": [
-            "Experience in developing Web and Mobile Applications using ReactJS, React Native, and Flutter",
-            "Proficiency in Microservice development with Node.js and GraphQL",
-            "Knowledge of HTML, CSS, SCSS, and JavaScript",
-            "Experience with database design (MongoDB, MySQL, PostgreSQL)",
-            "Familiarity with writing and designing Development Test Cases",
-            "Knowledge of containerization and orchestration tools (Docker, Kubernetes)",
-            "Experience with cloud platforms (AWS, Firebase)",
-            "Familiarity with CI/CD tools (Jenkins)",
-            "Strong problem-solving and teamwork skills"
-        ],
-        "benefits": [
-            "Annual Leave",
-            "Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-            "Training and course allowances for skill development (both soft and hard skills)",
-            "Health benefits (vaccination and dental care)",
-            "Health insurance",
-            "Accident insurance",
-            "Performance-based bonuses",
-            "Merit-based salary adjustments",
-            "Financial support for personal events (weddings, ordinations, funerals)"
-        ],
-        "salaryRange": [25000, 70000]
-    },
-    {
-        "tagName": "Software Development",
-        "position": "Senior Software Engineer",
-        "company": "THiNKNET Co., Ltd.",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Bachelor's degree in Engineering, Computer Science, or related fields",
-            "3-5+ years of experience in Web and Mobile Application Development",
-            "Proficiency in ReactJS, React Native, Flutter, and Node.js",
-            "Experience with Microservices and GraphQL",
-            "Knowledge of HTML, CSS, SCSS, and JavaScript",
-            "Experience with databases (MongoDB, MySQL, PostgreSQL)",
-            "Familiarity with writing Test Cases (Unit, Integration, System Tests)",
-            "Knowledge of Docker, Kubernetes, and Jenkins",
-            "Experience with cloud platforms (AWS, Firebase)"
-        ],
-        "benefits": [
-            "Annual Leave",
-            "Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-            "Training and course allowances for skill development (both soft and hard skills)",
-            "Health benefits (vaccination and dental care)",
-            "Health insurance",
-            "Accident insurance",
-            "Performance-based bonuses",
-            "Merit-based salary adjustments",
-            "Financial support for personal events (weddings, ordinations, funerals)"
-        ],
-        "salaryRange": [40000, 100000]
-    },
+	{
+		"tagName": "Full Stack",
+		"position": "Backend Developer (Golang / JAVA / Kotlin)",
+		"company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
+		"yearsOfExperience": 4,
+		"requiredSkills": [
+			"Full-stack development experience (e.g., Java, Golang, Kotlin for back-end; JavaScript, React, TypeScript for front-end)",
+			"Proficiency in developing and maintaining RESTful APIs",
+			"Familiarity with microservices architecture and event-driven systems",
+			"Strong performance optimization, debugging, and monitoring skills",
+			"Expertise in designing scalable systems using Golang or Java Spring Boot",
+			"Database experience with SQL (MySQL) and NoSQL (MongoDB)",
+			"Experience with caching tools like Redis",
+			"Knowledge of messaging systems like Apache Kafka",
+			"Experience with backend testing frameworks (Mockito, Go's testing library)",
+			"Familiarity with monitoring tools (Prometheus, Grafana, ELK/EFK Stack, Rancher)",
+			"Hands-on experience with Docker, Kubernetes, and CI/CD tools (GitLab CI)",
+			"Knowledge of real-time communication protocols (e.g., WebSocket)",
+			"Understanding of authentication mechanisms (JWT, OAuth 2.0)",
+			"Ability to work effectively remotely in cross-functional teams",
+			"Strong communication, collaboration, and problem-solving skills",
+			"Ability to write clean, maintainable, and scalable code"
+		],
+		"benefits": [
+			"Work from Anywhere policy",
+			"Flexible working hours",
+			"Vacation leave and birthday leave",
+			"Annual health checkup",
+			"Group health insurance",
+			"Provident fund"
+		],
+		"salaryRange": [70000, 120000]
+	},
+	{
+		"tagName": "Full Stack",
+		"position": "Full Stack Developer",
+		"company": "W JAMES VENTURES CO., LTD.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of experience in React.js, Golang, and Node.js",
+			"Proficiency in React Native with a focus on best practices and performance improvements",
+			"Experience with PostgreSQL, MongoDB, and Redis databases",
+			"Ability to integrate with Third-Party APIs and internal APIs",
+			"Strong understanding of Git structure and version control best practices",
+			"Ability to identify issues, implement best practices, and suggest improvements",
+			"Experience implementing UI/UX designs with smooth animations for excellent user experience",
+			"Collaboration skills to work effectively with UI/UX teams, Project Managers, and Product Owners",
+			"Ability to provide technical solutions and consultations as needed",
+			"Strong problem-solving and process improvement skills"
+		],
+		"benefits": [
+			"Social security",
+			"Group insurance",
+			"Quarterly Company Night events",
+			"Annual Company Outing",
+			"Unlimited free snacks and beverages",
+			"Access to Board Games, Nintendo, Netflix, PlayStation (customizable upon request)",
+			"Free courses for skill development",
+			"Birthday gift and birthday month leave",
+			"MacBook provided for work"
+		],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "Full Stack",
+		"position": "Full Stack Developer",
+		"company": "Crazy Factory Trading Co,.Ltd.",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Fluency in at least 2 programming languages (e.g., PHP7, TypeScript/JavaScript)",
+			"Experience with web technologies (HTML5, CSS3, MySQL, Elasticsearch)",
+			"Familiarity with tools and platforms (Docker, GIT, Travis, AWS, Phalcon)",
+			"Knowledge of API design and implementation",
+			"Experience with Agile development, Scrum, BDD/TDD, and OOP",
+			"Ability to adapt to new technologies quickly",
+			"Strong understanding of SEO and strategies for high-volume traffic",
+			"Experience working with shop systems and creating user experiences",
+			"Proficiency in English (written and verbal) for team collaboration",
+			"B.Sc. or Master's degree in Computer Science or related field (preferred)",
+			"Commitment to code quality and teamwork"
+		],
+		"benefits": [
+			"Social security",
+			"Annual health check-up",
+			"Attendance bonus",
+			"Salary adjustment per company policy",
+			"Performance-based bonus per company policy",
+			"Maternity allowance",
+			"Marriage allowance",
+			"Ordination allowance",
+			"Funeral assistance (parents, spouse, children)",
+			"Lunch provided"
+		],
+		"salaryRange": [65000, 150000]
+	},
+	{
+		"tagName": "Full Stack",
+		"position": "Full Stack Developer",
+		"company": "Gofive Co.,Ltd. (บริษัท โกไฟว์ จำกัด)",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Proficiency in C#, HTML, CSS, JavaScript, and TypeScript",
+			"Experience with Angular Framework",
+			"Knowledge of .NET Framework and .NET Core",
+			"Expertise in SQL Server design and management",
+			"Basic knowledge of Internet Information Service (IIS)",
+			"Understanding of RESTful APIs and Web Services",
+			"Strong foundation in Data Structures, Algorithms, and OOP",
+			"Familiarity with Coding Standards, Design Patterns, Microservices, and Best Practices",
+			"Ability to perform Code Reviews for security and standard compliance"
+		],
+		"benefits": [
+			"Flexible working hours",
+			"Work from home when needed (upon discussion with supervisor)",
+			"Company-provided laptop or use your personal device",
+			"Direct access to the CEO for sharing new ideas",
+			"Unlimited snacks and refreshments",
+			"Upskilling courses as desired",
+			"Annual performance bonus",
+			"Annual company outing",
+			"Provident fund",
+			"Health insurance and annual health check-up"
+		],
+		"salaryRange": [35000, 80000]
+	},
+	{
+		"tagName": "Full Stack",
+		"position": "Go/ Flutter Developer",
+		"company": "Amass Corporation (Thailand) Co., Ltd.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of experience in software development",
+			"Strong foundation in Computer Science (Algorithms, Data Structures)",
+			"Proficiency in Golang and Flutter",
+			"Experience with programming languages (Rust, Go, Java, Node.js/TypeScript, Python)",
+			"Experience with RDBMS (MySQL, PostgreSQL) and NoSQL",
+			"Knowledge of API/Web service development (RESTful services)",
+			"Experience with front-end frameworks (Vue.js, React, Angular) is a plus",
+			"Familiarity with GitOps/DevOps, TDD, Kubernetes, Docker, Google Cloud, AWS (preferred)",
+			"Ability to perform code reviews and ensure high code quality",
+			"Strong communication and collaboration skills with cross-functional teams"
+		],
+		"benefits": [],
+		"salaryRange": [35000, 80000]
+	},
 
-    {
-        "tagName": "Full Stack",
-        "position": "Backend Developer (Golang / JAVA / Kotlin)",
-        "company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
-        "yearsOfExperience": 4,
-        "requiredSkills": [
-            "Full-stack development experience (e.g., Java, Golang, Kotlin for back-end; JavaScript, React, TypeScript for front-end)",
-            "Proficiency in developing and maintaining RESTful APIs",
-            "Familiarity with microservices architecture and event-driven systems",
-            "Strong performance optimization, debugging, and monitoring skills",
-            "Expertise in designing scalable systems using Golang or Java Spring Boot",
-            "Database experience with SQL (MySQL) and NoSQL (MongoDB)",
-            "Experience with caching tools like Redis",
-            "Knowledge of messaging systems like Apache Kafka",
-            "Experience with backend testing frameworks (Mockito, Go's testing library)",
-            "Familiarity with monitoring tools (Prometheus, Grafana, ELK/EFK Stack, Rancher)",
-            "Hands-on experience with Docker, Kubernetes, and CI/CD tools (GitLab CI)",
-            "Knowledge of real-time communication protocols (e.g., WebSocket)",
-            "Understanding of authentication mechanisms (JWT, OAuth 2.0)",
-            "Ability to work effectively remotely in cross-functional teams",
-            "Strong communication, collaboration, and problem-solving skills",
-            "Ability to write clean, maintainable, and scalable code"
-        ],
-        "benefits": [
-            "Work from Anywhere policy",
-            "Flexible working hours",
-            "Vacation leave and birthday leave",
-            "Annual health checkup",
-            "Group health insurance",
-            "Provident fund"
-        ],
-        "salaryRange": [70000, 120000]
-    },
-    {
-        "tagName": "Full Stack",
-        "position": "Full Stack Developer",
-        "company": "W JAMES VENTURES CO., LTD.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of experience in React.js, Golang, and Node.js",
-            "Proficiency in React Native with a focus on best practices and performance improvements",
-            "Experience with PostgreSQL, MongoDB, and Redis databases",
-            "Ability to integrate with Third-Party APIs and internal APIs",
-            "Strong understanding of Git structure and version control best practices",
-            "Ability to identify issues, implement best practices, and suggest improvements",
-            "Experience implementing UI/UX designs with smooth animations for excellent user experience",
-            "Collaboration skills to work effectively with UI/UX teams, Project Managers, and Product Owners",
-            "Ability to provide technical solutions and consultations as needed",
-            "Strong problem-solving and process improvement skills"
-        ],
-        "benefits": [
-            "Social security",
-            "Group insurance",
-            "Quarterly Company Night events",
-            "Annual Company Outing",
-            "Unlimited free snacks and beverages",
-            "Access to Board Games, Nintendo, Netflix, PlayStation (customizable upon request)",
-            "Free courses for skill development",
-            "Birthday gift and birthday month leave",
-            "MacBook provided for work"
-        ],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "Full Stack",
-        "position": "Full Stack Developer",
-        "company": "Crazy Factory Trading Co,.Ltd.",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Fluency in at least 2 programming languages (e.g., PHP7, TypeScript/JavaScript)",
-            "Experience with web technologies (HTML5, CSS3, MySQL, Elasticsearch)",
-            "Familiarity with tools and platforms (Docker, GIT, Travis, AWS, Phalcon)",
-            "Knowledge of API design and implementation",
-            "Experience with Agile development, Scrum, BDD/TDD, and OOP",
-            "Ability to adapt to new technologies quickly",
-            "Strong understanding of SEO and strategies for high-volume traffic",
-            "Experience working with shop systems and creating user experiences",
-            "Proficiency in English (written and verbal) for team collaboration",
-            "B.Sc. or Master's degree in Computer Science or related field (preferred)",
-            "Commitment to code quality and teamwork"
-        ],
-        "benefits": [
-            "Social security",
-            "Annual health check-up",
-            "Attendance bonus",
-            "Salary adjustment per company policy",
-            "Performance-based bonus per company policy",
-            "Maternity allowance",
-            "Marriage allowance",
-            "Ordination allowance",
-            "Funeral assistance (parents, spouse, children)",
-            "Lunch provided"
-        ],
-        "salaryRange": [65000, 150000]
-    },
-    {
-        "tagName": "Full Stack",
-        "position": "Full Stack Developer",
-        "company": "Gofive Co.,Ltd. (บริษัท โกไฟว์ จำกัด)",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Proficiency in C#, HTML, CSS, JavaScript, and TypeScript",
-            "Experience with Angular Framework",
-            "Knowledge of .NET Framework and .NET Core",
-            "Expertise in SQL Server design and management",
-            "Basic knowledge of Internet Information Service (IIS)",
-            "Understanding of RESTful APIs and Web Services",
-            "Strong foundation in Data Structures, Algorithms, and OOP",
-            "Familiarity with Coding Standards, Design Patterns, Microservices, and Best Practices",
-            "Ability to perform Code Reviews for security and standard compliance"
-        ],
-        "benefits": [
-            "Flexible working hours",
-            "Work from home when needed (upon discussion with supervisor)",
-            "Company-provided laptop or use your personal device",
-            "Direct access to the CEO for sharing new ideas",
-            "Unlimited snacks and refreshments",
-            "Upskilling courses as desired",
-            "Annual performance bonus",
-            "Annual company outing",
-            "Provident fund",
-            "Health insurance and annual health check-up"
-        ],
-        "salaryRange": [35000, 80000]
-    },
-    {
-        "tagName": "Full Stack",
-        "position": "Go/ Flutter Developer",
-        "company": "Amass Corporation (Thailand) Co., Ltd.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of experience in software development",
-            "Strong foundation in Computer Science (Algorithms, Data Structures)",
-            "Proficiency in Golang and Flutter",
-            "Experience with programming languages (Rust, Go, Java, Node.js/TypeScript, Python)",
-            "Experience with RDBMS (MySQL, PostgreSQL) and NoSQL",
-            "Knowledge of API/Web service development (RESTful services)",
-            "Experience with front-end frameworks (Vue.js, React, Angular) is a plus",
-            "Familiarity with GitOps/DevOps, TDD, Kubernetes, Docker, Google Cloud, AWS (preferred)",
-            "Ability to perform code reviews and ensure high code quality",
-            "Strong communication and collaboration skills with cross-functional teams"
-        ],
-        "benefits": [],
-        "salaryRange": [35000, 80000]
-    },
+	{
+		"tagName": "Data center engineer operation",
+		"position": "Database Administrator",
+		"company": "Tech Soft Holding Co., Ltd.",
+		"yearsOfExperience": 3,
+		"requiredSkills": [
+			"Bachelor's/Master's degree in Computer Science, IT, MIS, or related fields",
+			"3-5 years of experience in database, system, and security administration",
+			"1-2 years of project management experience",
+			"Proficiency in Microsoft products (Windows Server, Exchange, Proxy, SharePoint, etc.)",
+			"Experience in AS400 (OSi7 or later) management and administration",
+			"Skills in database configuration and administration (MSSQL, Oracle, DB2)",
+			"IT security product management and administration skills"
+		],
+		"benefits": [
+			"Annual Leave (6 days), increasing by 1 day annually",
+			"Sick leave (30 days)",
+			"Life and accident insurance (after 4-month probation)",
+			"Social security",
+			"Annual salary adjustment",
+			"Annual health check-up",
+			"At least 3 personal leave days per year with supporting documents",
+			"Company outing and staff party",
+			"2 employee uniforms (after probation)",
+			"IT skill training programs",
+			"Company-provided notebook",
+			"Birthday gift"
+		],
+		"salaryRange": [40000, 60000]
+	},
 
-    {
-        "tagName": "Data center engineer operation",
-        "position": "Database Administrator",
-        "company": "Tech Soft Holding Co., Ltd.",
-        "yearsOfExperience": 3,
-        "requiredSkills": [
-            "Bachelor's/Master's degree in Computer Science, IT, MIS, or related fields",
-            "3-5 years of experience in database, system, and security administration",
-            "1-2 years of project management experience",
-            "Proficiency in Microsoft products (Windows Server, Exchange, Proxy, SharePoint, etc.)",
-            "Experience in AS400 (OSi7 or later) management and administration",
-            "Skills in database configuration and administration (MSSQL, Oracle, DB2)",
-            "IT security product management and administration skills"
-        ],
-        "benefits": [
-            "Annual Leave (6 days), increasing by 1 day annually",
-            "Sick leave (30 days)",
-            "Life and accident insurance (after 4-month probation)",
-            "Social security",
-            "Annual salary adjustment",
-            "Annual health check-up",
-            "At least 3 personal leave days per year with supporting documents",
-            "Company outing and staff party",
-            "2 employee uniforms (after probation)",
-            "IT skill training programs",
-            "Company-provided notebook",
-            "Birthday gift"
-        ],
-        "salaryRange": [40000, 60000]
-    },
+	{
+		"tagName": "Cloud",
+		"position": "Cloud Engineer",
+		"company": "AMASS CORPORATION (THAILAND) CO., LTD.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"2+ years of work experience",
+			"Expertise in Windows and Linux system engineering",
+			"Experience with CI/CD pipelines (preferably GitHub Actions)",
+			"Infrastructure as Code (IaC) experience with Terraform",
+			"Knowledge of configuration management tools (SALT, Ansible)",
+			"Experience with binary/artifact management (e.g., JFrog Artifactory)",
+			"Familiarity with logging and monitoring tools (Grafana, Promtail, Consul, Loki)",
+			"Experience with Kubernetes, Helm, and GitOps tools (e.g., ArgoCD)",
+			"Understanding of Microservices Architecture and Service Mesh",
+			"Proficiency in at least one programming language (preferably Python)",
+			"Experience with post-platform build configurations (e.g., SQL, IIS, Software-Defined Networks)",
+			"Ability to establish effective monitoring and alerting using Grafana dashboards",
+			"Strong understanding of regulatory, security, and audit compliance"
+		],
+		"benefits": [],
+		"salaryRange": [0, 0]
+	},
 
-    {
-        "tagName": "Cloud",
-        "position": "Cloud Engineer",
-        "company": "AMASS CORPORATION (THAILAND) CO., LTD.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "2+ years of work experience",
-            "Expertise in Windows and Linux system engineering",
-            "Experience with CI/CD pipelines (preferably GitHub Actions)",
-            "Infrastructure as Code (IaC) experience with Terraform",
-            "Knowledge of configuration management tools (SALT, Ansible)",
-            "Experience with binary/artifact management (e.g., JFrog Artifactory)",
-            "Familiarity with logging and monitoring tools (Grafana, Promtail, Consul, Loki)",
-            "Experience with Kubernetes, Helm, and GitOps tools (e.g., ArgoCD)",
-            "Understanding of Microservices Architecture and Service Mesh",
-            "Proficiency in at least one programming language (preferably Python)",
-            "Experience with post-platform build configurations (e.g., SQL, IIS, Software-Defined Networks)",
-            "Ability to establish effective monitoring and alerting using Grafana dashboards",
-            "Strong understanding of regulatory, security, and audit compliance"
-        ],
-        "benefits": [],
-        "salaryRange": [0, 0]
-    },
+	{
+		"tagName": "Production",
+		"position": "COBOL Developer",
+		"company": "NTT DATA (Thailand) Co., Ltd.",
+		"yearsOfExperience": 1,
+		"requiredSkills": [
+			"Experience in COBOL programming on mainframe systems",
+			"Familiarity with JCL and CICS (preferred)",
+			"Experience in the banking industry (preferred)"
+		],
+		"benefits": [
+			"Annual Leave (12 up to 21 Days)",
+			"Personal Leave (7 Days)",
+			"Special leave (e.g., paternity leave, wedding leave, ordination leave, family care leave)",
+			"Annual performance bonus and salary adjustment",
+			"Annual health check-up",
+			"Provident fund (employer contribution 100% after 5 years of service)",
+			"Premium health insurance (OPD/IPD)",
+			"Life insurance",
+			"Accident insurance (20,000 THB per incident)",
+			"Dental coverage (3,400 THB/year, plus 900 THB from social security)",
+			"Free Udemy online training courses for all employees",
+			"Long-service awards every 5 years"
+		],
+		"salaryRange": [70000, 90000]
+	},
 
-    {
-        "tagName": "Production",
-        "position": "COBOL Developer",
-        "company": "NTT DATA (Thailand) Co., Ltd.",
-        "yearsOfExperience": 1,
-        "requiredSkills": [
-            "Experience in COBOL programming on mainframe systems",
-            "Familiarity with JCL and CICS (preferred)",
-            "Experience in the banking industry (preferred)"
-        ],
-        "benefits": [
-            "Annual Leave (12 up to 21 Days)",
-            "Personal Leave (7 Days)",
-            "Special leave (e.g., paternity leave, wedding leave, ordination leave, family care leave)",
-            "Annual performance bonus and salary adjustment",
-            "Annual health check-up",
-            "Provident fund (employer contribution 100% after 5 years of service)",
-            "Premium health insurance (OPD/IPD)",
-            "Life insurance",
-            "Accident insurance (20,000 THB per incident)",
-            "Dental coverage (3,400 THB/year, plus 900 THB from social security)",
-            "Free Udemy online training courses for all employees",
-            "Long-service awards every 5 years"
-        ],
-        "salaryRange": [70000, 90000]
-    },
+	{
+		"tagName": "General",
+		"position": "Product Owner",
+		"company": "M Intelligence Co.,Ltd.",
+		"yearsOfExperience": 2,
+		"requiredSkills": [
+			"Bachelor's/Master's degree in Software Engineering, Computer Science, Digital Marketing, or related fields",
+			"2+ years of experience as a Product Manager or Product Owner in complex technologies",
+			"Experience working in a Scrum environment",
+			"Proficiency in requirements management and process modeling",
+			"Strong analytical skills to prioritize and validate complex materials",
+			"Excellent communication, facilitation, and presentation skills",
+			"Ability to work effectively with cross-functional teams, from Developers to Executives",
+			"Basic understanding of software implementation and CRM solutions (Salesforce is a plus)",
+			"Familiarity with SaaS and Marketing Technology (preferred)"
+		],
+		"benefits": [
+			"Annual Leave (15 days)",
+			"Birthday Leave",
+			"Company trips",
+			"Flexible working hours",
+			"Annual bonus of at least 1 month",
+			"Provident fund by UOB",
+			"Flexi Benefit of 8,000 THB per year",
+			"Social security",
+			"Health insurance (available after probation)",
+			"Annual health check-up",
+			"Travel expenses for client meetings (per company policy)",
+			"Certification exam fee reimbursement (as specified by the company)",
+			"Weekly parties with complimentary beer, wine, and spirits"
+		],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "General",
+		"position": "Systems Accounting & IT Audit (Accounting)",
+		"company": "บริษัท ธนาคาร ซีไอเอ็มบี ไทย จำกัด (มหาชน).",
+		"yearsOfExperience": 10,
+		"requiredSkills": [
+			"Bachelor's degree in IT, Computer Science, or related fields",
+			"CISA, CISSP, or CIA certifications (preferred)",
+			"7+ years of IT auditing experience in Banking or Financial Institutions",
+			"Proficiency in auditing guidelines, regulatory requirements, and industry directives",
+			"Ability to identify business risks, control deficiencies, and recommend risk mitigation strategies",
+			"Strong analytical, problem-solving, communication, and presentation skills",
+			"Fluency in English (spoken and written)",
+			"Ability to work independently and provide advisory services on control systems and regulatory compliance"
+		],
+		"benefits": [
+			"Annual Leave (15 Days)",
+			"Personal Leave (10 Days)",
+			"Health insurance",
+			"Staff loan",
+			"Flexible arrangement",
+			"International working environment"
+		],
+		"salaryRange": [0, 0]
+	},
 
-    {
-        "tagName": "General",
-        "position": "Product Owner",
-        "company": "M Intelligence Co.,Ltd.",
-        "yearsOfExperience": 2,
-        "requiredSkills": [
-            "Bachelor's/Master's degree in Software Engineering, Computer Science, Digital Marketing, or related fields",
-            "2+ years of experience as a Product Manager or Product Owner in complex technologies",
-            "Experience working in a Scrum environment",
-            "Proficiency in requirements management and process modeling",
-            "Strong analytical skills to prioritize and validate complex materials",
-            "Excellent communication, facilitation, and presentation skills",
-            "Ability to work effectively with cross-functional teams, from Developers to Executives",
-            "Basic understanding of software implementation and CRM solutions (Salesforce is a plus)",
-            "Familiarity with SaaS and Marketing Technology (preferred)"
-        ],
-        "benefits": [
-            "Annual Leave (15 days)",
-            "Birthday Leave",
-            "Company trips",
-            "Flexible working hours",
-            "Annual bonus of at least 1 month",
-            "Provident fund by UOB",
-            "Flexi Benefit of 8,000 THB per year",
-            "Social security",
-            "Health insurance (available after probation)",
-            "Annual health check-up",
-            "Travel expenses for client meetings (per company policy)",
-            "Certification exam fee reimbursement (as specified by the company)",
-            "Weekly parties with complimentary beer, wine, and spirits"
-        ],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "General",
-        "position": "Systems Accounting & IT Audit (Accounting)",
-        "company": "บริษัท ธนาคาร ซีไอเอ็มบี ไทย จำกัด (มหาชน).",
-        "yearsOfExperience": 10,
-        "requiredSkills": [
-            "Bachelor's degree in IT, Computer Science, or related fields",
-            "CISA, CISSP, or CIA certifications (preferred)",
-            "7+ years of IT auditing experience in Banking or Financial Institutions",
-            "Proficiency in auditing guidelines, regulatory requirements, and industry directives",
-            "Ability to identify business risks, control deficiencies, and recommend risk mitigation strategies",
-            "Strong analytical, problem-solving, communication, and presentation skills",
-            "Fluency in English (spoken and written)",
-            "Ability to work independently and provide advisory services on control systems and regulatory compliance"
-        ],
-        "benefits": [
-            "Annual Leave (15 Days)",
-            "Personal Leave (10 Days)",
-            "Health insurance",
-            "Staff loan",
-            "Flexible arrangement",
-            "International working environment"
-        ],
-        "salaryRange": [0, 0]
-    },
-
-    
-    {
-        "tagName": "Game Development",
-        "position": "Game Developer ( Frontend / Backend & Fullstack )",
-        "company": "RIEVEL GAMES CO., LTD.",
-        "yearsOfExperience": 10,
-        "requiredSkills": [
-            "Proficiency in C# programming language",
-            "Experience with Unity3D",
-            "Ability to develop programs based on requirements",
-            "Understanding of online multiplayer systems",
-            "Skill in estimating work time and planning development tasks",
-            "Experience in developing mobile apps for iOS and Android (preferred)"
-        ],
-        "benefits": [],
-        "salaryRange": [0, 0]
-    },
-    {
-        "tagName": "Game Development",
-        "position": "Frontend Developer (Game Developer)",
-        "company": "STARCUBE CO., LTD.",
-        "yearsOfExperience": 10,
-        "requiredSkills": [
-            "Bachelor's degree in Computer Science, Computing, or Computer Engineering",
-            "2+ years of experience in game development",
-            "Proficiency in game engines (Cocos Creator or Unity)",
-            "Strong knowledge of JavaScript",
-            "Experience with scripting, textures, animation, GUI styles, and shaders",
-            "Ability to design and implement robust, high-performance applications",
-            "Skills in converting business or game requirements into technical specifications",
-            "Experience with optimizing game performance across devices"
-        ],
-        "benefits": [
-            "Group insurance",
-            "Performance Bonus"
-        ],
-        "salaryRange": [30000, 120000]
-    }
-
+	{
+		"tagName": "Game Development",
+		"position": "Game Developer ( Frontend / Backend & Fullstack )",
+		"company": "RIEVEL GAMES CO., LTD.",
+		"yearsOfExperience": 10,
+		"requiredSkills": [
+			"Proficiency in C# programming language",
+			"Experience with Unity3D",
+			"Ability to develop programs based on requirements",
+			"Understanding of online multiplayer systems",
+			"Skill in estimating work time and planning development tasks",
+			"Experience in developing mobile apps for iOS and Android (preferred)"
+		],
+		"benefits": [],
+		"salaryRange": [0, 0]
+	},
+	{
+		"tagName": "Game Development",
+		"position": "Frontend Developer (Game Developer)",
+		"company": "STARCUBE CO., LTD.",
+		"yearsOfExperience": 10,
+		"requiredSkills": [
+			"Bachelor's degree in Computer Science, Computing, or Computer Engineering",
+			"2+ years of experience in game development",
+			"Proficiency in game engines (Cocos Creator or Unity)",
+			"Strong knowledge of JavaScript",
+			"Experience with scripting, textures, animation, GUI styles, and shaders",
+			"Ability to design and implement robust, high-performance applications",
+			"Skills in converting business or game requirements into technical specifications",
+			"Experience with optimizing game performance across devices"
+		],
+		"benefits": ["Group insurance", "Performance Bonus"],
+		"salaryRange": [30000, 120000]
+	}
 ]
