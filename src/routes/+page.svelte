@@ -1,9 +1,17 @@
 <script lang="ts">
-	import Loading from '$lib/components/Loading.svelte';
 	import OddsLogoUrl from '$lib/assets/images/odds_logo.svg?url';
+	import CompanyBenefit from '$lib/components/CompanyBenefit.svelte';
+	import Loading from '$lib/components/Loading.svelte';
+	import SalaryBoosting from '$lib/components/SalaryBoosting.svelte';
+	import SalaryCalculator from '$lib/components/SalaryCalculator.svelte';
+	import SalaryChart from '$lib/components/SalaryChart.svelte';
+	import SalaryTable from '$lib/components/SalaryTable.svelte';
+	import { companySalaries } from '$lib/data/salaryData';
+	import { customSalaries } from '$lib/stores/salaryStore';
 	import { onMount } from 'svelte';
 
 	let isLoading = true;
+	$: combinedSalaryData = [...companySalaries, ...$customSalaries];
 
 	onMount(() => {
 		setTimeout(() => {
@@ -49,7 +57,7 @@
 							<span class="mr-2">🎯</span>
 							คำนวณตำแหน่งเงินเดือนของคุณ
 						</h2>
-						<!-- <SalaryCalculator salaryData={combinedSalaryData} /> -->
+						<SalaryCalculator salaryData={combinedSalaryData} />
 					</section>
 
 					<section class="mb-12">
@@ -57,7 +65,7 @@
 							<span class="mr-2">📈</span>
 							การกระจายตัวของเงินเดือน
 						</h2>
-						<!-- <SalaryChart salaryData={combinedSalaryData} /> -->
+						<SalaryChart salaryData={combinedSalaryData} />
 					</section>
 
 					<section class="mb-12">
@@ -65,7 +73,7 @@
 							<span class="mr-2">🏢</span>
 							รายการเงินเดือนตามบริษัท
 						</h2>
-						<!-- <SalaryTable salaryData={combinedSalaryData} /> -->
+						<SalaryTable salaryData={combinedSalaryData} />
 					</section>
 
 					<section class="mb-12">
@@ -73,7 +81,7 @@
 							<span class="mr-2">🎯</span>
 							ทักษะที่จำเป็นสำหรับตำแหน่งงาน
 						</h2>
-						<!-- <SalaryBoosting /> -->
+						<SalaryBoosting />
 					</section>
 
 					<section class="mb-12">
@@ -81,7 +89,7 @@
 							<span class="mr-2">🎁</span>
 							สวัสดิการของบริษัท
 						</h2>
-						<!-- <CompanyBenefit /> -->
+						<CompanyBenefit />
 					</section>
 				</div>
 			</div>
