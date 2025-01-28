@@ -2,3 +2,21 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+    html {
+        font-family: 'NotoSansThai', system-ui;
+    }
+}
+
+:global(table) {
+    @apply w-full border-collapse text-sm my-4 bg-white;
+}
+
+:global(th, td) {
+    @apply border border-gray-200 p-3 text-left;
+}
+
+:global(th) {
+    @apply bg-gray-50 font-semibold text-gray-700;
+}
