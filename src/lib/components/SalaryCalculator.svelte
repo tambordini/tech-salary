@@ -1,14 +1,16 @@
 <script lang="ts">
-	import { customSalaries, newestEntry } from '$lib/stores/salaryStore';
-	import type { CompanySalary } from '$lib/types/salary';
 	import { slide } from 'svelte/transition';
+	import type { CompanySalary } from '../types/salary';
+	import { customSalaries, newestEntry } from '../stores/salaryStore';
+	import tagOptions from '$lib/data/tags.json';
+	import levelOptions from '$lib/data/levels.json';
 
 	const chevronDownIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-  </svg>`;
+	  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+	</svg>`;
 	const chevronUpIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-  </svg>`;
+	  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+	</svg>`;
 
 	export let salaryData: CompanySalary[];
 
@@ -60,19 +62,18 @@
 	}
 
 	function validateLevel(value: string) {
-		if (!value) return 'กรุณาระบุระดับตำแหน่ง';
-		if (value.length < 2) return 'ระดับตำแหน่งต้องมีอย่างน้อย 2 ตัวอักษร';
+		if (!value) return 'กรุณาเลือกระดับตำแหน่ง';
 		return '';
 	}
 
 	function validateTag(value: string) {
-		if (!value) return 'กรุณาระบุแท็ก';
+		if (!value) return 'กรุณาเลือกแท็ก';
 		return '';
 	}
 
 	function validateStock(value: string) {
 		const num = Number(value.replace(/,/g, ''));
-		if (!value) return ''; // Optional field
+		if (!value) return '';
 		if (num < 0) return 'มูลค่าหุ้นต้องไม่ต่ำกว่า 0 บาท';
 		if (num > 10000000) return 'มูลค่าหุ้นต้องไม่เกิน 10,000,000 บาท';
 		return '';
@@ -80,7 +81,7 @@
 
 	function validateBonus(value: string) {
 		const num = Number(value.replace(/,/g, ''));
-		if (!value) return ''; // Optional field
+		if (!value) return '';
 		if (num < 0) return 'โบนัสต้องไม่ต่ำกว่า 0 บาท';
 		if (num > 1000000) return 'โบนัสต้องไม่เกิน 1,000,000 บาท';
 		return '';
@@ -114,7 +115,6 @@
 		errors.bonus = validateBonus(value);
 	}, 300);
 
-	// Modified input handlers
 	function handleSalaryInput(event: Event) {
 		const input = event.target as HTMLInputElement;
 		const value = input.value.replace(/,/g, '');
@@ -164,7 +164,6 @@
 		return Object.values(errors).every((error) => !error);
 	}
 
-	// Format salary with commas
 	function formatSalary(value: string) {
 		return value.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 	}
@@ -212,7 +211,6 @@
 			newestEntry.set(`${company}-${level}`);
 			setTimeout(() => newestEntry.set(null), 3000);
 
-			// Reset form
 			salary = '';
 			experience = '';
 			company = '';
@@ -231,8 +229,8 @@
 	<button
 		on:click={() => (isExpanded = !isExpanded)}
 		class="flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-blue-600
-           to-blue-700 px-6 py-3 font-medium
-           text-white transition-all duration-200 hover:from-blue-700 hover:to-blue-800"
+			 to-blue-700 px-6 py-3 font-medium
+			 text-white transition-all duration-200 hover:from-blue-700 hover:to-blue-800"
 	>
 		{@html isExpanded ? chevronUpIcon : chevronDownIcon}
 		{isExpanded ? 'ซ่อนการคำนวณ' : 'เริ่มคำนวณเงินเดือน'}
@@ -253,7 +251,7 @@
 								on:input={handleSalaryInput}
 								on:blur={handleSalaryInput}
 								class="w-full rounded-lg border p-3 transition-all duration-200
-               {errors.salary
+				 {errors.salary
 									? 'border-red-500 focus:border-red-500 focus:ring-red-500'
 									: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
 								placeholder="ระบุเงินเดือน"
@@ -277,7 +275,7 @@
 								on:blur={handleExperienceInput}
 								bind:value={experience}
 								class="w-full rounded-lg border p-3 transition-all duration-200
-               {errors.experience
+				 {errors.experience
 									? 'border-red-500 focus:border-red-500 focus:ring-red-500'
 									: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
 								placeholder="ระบุจำนวนปี"
@@ -301,7 +299,7 @@
 								bind:value={company}
 								minlength="2"
 								class="w-full rounded-lg border p-3 transition-all duration-200
-               {errors.company
+				 {errors.company
 									? 'border-red-500 focus:border-red-500 focus:ring-red-500'
 									: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
 								placeholder="ระบุชื่อบริษัท"
@@ -315,15 +313,18 @@
 							<label for="level" class="block text-sm font-medium text-gray-700"
 								>ระดับตำแหน่ง *</label
 							>
-							<input
+							<select
 								id="level"
-								type="text"
 								bind:value={level}
-								on:input={(e) => debouncedValidateLevel((e.target as HTMLInputElement).value)}
+								on:change={(e) => debouncedValidateLevel((e.target as HTMLSelectElement).value)}
 								class="w-full rounded-lg border p-3 transition-all duration-200
-               {errors.level ? 'border-red-500' : 'border-gray-300'}"
-								placeholder="เช่น Senior, Staff"
-							/>
+				 {errors.level ? 'border-red-500' : 'border-gray-300'}"
+							>
+								<option value="">เลือกระดับตำแหน่ง</option>
+								{#each levelOptions as option}
+									<option value={option}>{option}</option>
+								{/each}
+							</select>
 							{#if errors.level}
 								<p class="mt-1 text-sm text-red-500">{errors.level}</p>
 							{/if}
@@ -331,15 +332,18 @@
 
 						<div class="space-y-2">
 							<label for="tag" class="block text-sm font-medium text-gray-700">แท็ก *</label>
-							<input
+							<select
 								id="tag"
-								type="text"
 								bind:value={tag}
-								on:input={(e) => debouncedValidateTag((e.target as HTMLInputElement).value)}
+								on:change={(e) => debouncedValidateTag((e.target as HTMLSelectElement).value)}
 								class="w-full rounded-lg border p-3 transition-all duration-200
-               {errors.tag ? 'border-red-500' : 'border-gray-300'}"
-								placeholder="เช่น Frontend, Backend"
-							/>
+				 {errors.tag ? 'border-red-500' : 'border-gray-300'}"
+							>
+								<option value="">เลือกแท็ก</option>
+								{#each tagOptions as option}
+									<option value={option}>{option}</option>
+								{/each}
+							</select>
 							{#if errors.tag}
 								<p class="mt-1 text-sm text-red-500">{errors.tag}</p>
 							{/if}
@@ -347,7 +351,6 @@
 					</div>
 				</div>
 
-				<!-- Additional Compensation Section -->
 				<div class="space-y-6">
 					<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 						<div class="space-y-2">
@@ -361,7 +364,7 @@
 								on:input={handleStockInput}
 								on:blur={handleStockInput}
 								class="w-full rounded-lg border p-3 transition-all duration-200
-               {errors.stock ? 'border-red-500' : 'border-gray-300'}"
+				 {errors.stock ? 'border-red-500' : 'border-gray-300'}"
 								placeholder="ระบุมูลค่าหุ้น"
 							/>
 							{#if errors.stock}
@@ -378,7 +381,7 @@
 								on:input={handleBonusInput}
 								on:blur={handleBonusInput}
 								class="w-full rounded-lg border p-3 transition-all duration-200
-               {errors.bonus ? 'border-red-500' : 'border-gray-300'}"
+				 {errors.bonus ? 'border-red-500' : 'border-gray-300'}"
 								placeholder="ระบุโบนัส"
 							/>
 							{#if errors.bonus}
@@ -394,9 +397,9 @@
 					on:click={calculateRank}
 					disabled={isCalculating}
 					class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 font-medium
-                 text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
-                 disabled:opacity-50 sm:py-3
-                 {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
+				   text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
+				   disabled:opacity-50 sm:py-3
+				   {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
 				>
 					{isCalculating ? 'กำลังคำนวณ...' : 'คำนวณอันดับ'}
 				</button>
@@ -404,9 +407,9 @@
 					on:click={addToData}
 					disabled={isSubmitting}
 					class="flex-1 rounded-lg bg-gradient-to-r from-green-600 to-green-700 px-6 py-4 font-medium
-                 text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
-                 disabled:opacity-50 sm:py-3
-                 {isSubmitting ? 'opacity-75' : 'hover:from-green-700 hover:to-green-800'}"
+				   text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
+				   disabled:opacity-50 sm:py-3
+				   {isSubmitting ? 'opacity-75' : 'hover:from-green-700 hover:to-green-800'}"
 				>
 					{isSubmitting ? 'กำลังบันทึก...' : 'เพิ่มข้อมูล'}
 				</button>

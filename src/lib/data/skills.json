@@ -21,26 +21,26 @@
 			"Good command of English (written and spoken)"
 		],
 		"benefits": [
-			"Annual Leave (15 Days)",
-			"Birthday Leave",
-			"Monthly phone allowance",
-			"Generous annual bonus",
-			"Social security",
-			"Group insurance (health, accident, and life)",
-			"Provident fund (3-15%, employee-selected)",
-			"Employee savings cooperative",
-			"Flexible benefits (e.g., LASIK, smartwatches, gym memberships, laser clinics, ergonomic products, lifestyle purchases)",
-			"Special mortgage rates for home loans",
-			"Shuttle service to MRT & BTS",
-			"Employee cafeteria",
-			"On-site marketplace",
-			"Automated beverage machines (e.g., Tao Bin)",
-			"Multipurpose sports fields and football pitches",
-			"Fitness center",
-			"On-site medical clinic",
-			"Medical telecare services",
-			"Mental health counseling services",
-			"On-site health massage center",
+			"วันลาพักร้อนประจำปี (15 วัน)",
+			"วันลาวันเกิด",
+			"ค่าโทรศัพท์รายเดือน",
+			"โบนัสประจำปี",
+			"ประกันสังคม",
+			"ประกันกลุ่ม (สุขภาพ, อุบัติเหตุ, และชีวิต)",
+			"กองทุนสำรองเลี้ยงชีพ (3-15%, เลือกโดยพนักงาน)",
+			"สหกรณ์ออมทรัพย์พนักงาน",
+			"สิทธิประโยชน์แบบยืดหยุ่น (เช่น ทำเลสิก, สมาร์ทวอทช์, ค่าสมาชิกฟิตเนส, คลินิกเลเซอร์, สินค้าเพื่อสุขภาพ, และอื่นๆ)",
+			"อัตราดอกเบี้ยพิเศษสำหรับสินเชื่อบ้าน",
+			"รถรับ-ส่งไป MRT และ BTS",
+			"โรงอาหารพนักงาน",
+			"ตลาดนัดในออฟิศ",
+			"ตู้เครื่องดื่มอัตโนมัติ (เช่น ตู้เต่าบิน)",
+			"สนามกีฬาเอนกประสงค์และสนามฟุตบอล",
+			"ศูนย์ฟิตเนส",
+			"คลินิกการแพทย์ในออฟฟิศ",
+			"บริการแพทย์ทางไกล (Telecare)",
+			"บริการให้คำปรึกษาด้านสุขภาพจิต",
+			"ศูนย์นวดเพื่อสุขภาพในออฟฟิศ",
 			"Co-working space"
 		],
 		"salaryRange": [0, 0]
@@ -48,7 +48,7 @@
 	{
 		"tagName": "Lead",
 		"position": "Tech Lead, Senior Front-End Developer",
-		"company": "N/A",
+		"company": "",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
 			"HTML5, CSS3, Sass/LESS",
@@ -66,25 +66,25 @@
 			"CI/CD Pipelines for Front-End (Netlify, GitHub Actions)"
 		],
 		"benefits": [
-			"Social Security",
-			"Health Insurance (OPD/IPD)",
-			"Annual Leave (10-20 days)",
-			"Flexible Working Hours",
-			"Hybrid/Remote Work",
-			"Training Budget",
-			"Performance Bonus",
-			"Salary Adjustment",
-			"Team Activities (Company Trip, Parties)",
-			"Stock Options (for startups)",
-			"Profit Sharing",
-			"Overseas Training or Business Trips"
+			"ประกันสังคม",
+			"ประกันสุขภาพ (OPD/IPD)",
+			"วันลาพักร้อนประจำปี (10-20 วัน)",
+			"เวลาการทำงานที่ยืดหยุ่น",
+			"การทำงานแบบ Hybrid/Remote",
+			"งบประมาณสำหรับการฝึกอบรม",
+			"โบนัสตามผลการปฏิบัติงาน",
+			"การปรับเงินเดือน",
+			"กิจกรรมทีม (ทริปบริษัท, ปาร์ตี้)",
+			"สิทธิ์ซื้อหุ้นบริษัท (สำหรับสตาร์ทอัพ)",
+			"การแบ่งปันผลกำไร",
+			"การฝึกอบรมหรือทริปธุรกิจในต่างประเทศ"
 		],
 		"salaryRange": [130000, 180000]
 	},
 	{
 		"tagName": "Lead",
 		"position": "VP IT Project Management",
-		"company": "บริษัท ซิลค์สแปน จำกัด (SILKSPAN Co., Ltd.)",
+		"company": "SILKSPAN Co., Ltd.",
 		"yearsOfExperience": 5,
 		"requiredSkills": [
 			"Proficiency in IT Project Management (5+ years)",
@@ -102,24 +102,24 @@
 			"Ability to work on-site at the office"
 		],
 		"benefits": [
-			"Annual salary adjustment",
-			"Special paid leave (e.g., marriage, maternity, funeral)",
-			"Legal paid leave (personal, sick, vacation)",
-			"13+ public holidays",
-			"Annual Leave (6-14 days)",
-			"Financial assistance for special occasions",
-			"Medical expense support",
-			"Attendance bonus",
-			"Performance incentives",
-			"Phone and parking allowance (certain positions)",
-			"Accident and health insurance",
-			"Annual flu vaccination",
-			"Training and development programs",
-			"Company uniforms",
-			"Lunch allowance (Saturday work)",
-			"Social security",
-			"Workmen's compensation fund",
-			"Recreational activities (e.g., parties, trips)"
+			"วันหยุดนักขัตฤกษ์ 13 วันขึ้นไป",
+			"วันลาพักร้อนประจำปี (6-14 วัน)",
+			"วันลาพิเศษ (เช่น ลาสมรส, ลาคลอด, ลางานศพ)",
+			"วันลาตามกฎหมาย (ลากิจ, ลาป่วย, ลาพักร้อน)",
+			"การปรับเงินเดือนประจำปี",
+			"เงินช่วยเหลือในโอกาสพิเศษ",
+			"การสนับสนุนค่ารักษาพยาบาล",
+			"เบี้ยขยัน",
+			"โบนัสตามผลงาน",
+			"ค่าโทรศัพท์และค่าจอดรถ (เฉพาะบางตำแหน่ง)",
+			"ประกันอุบัติเหตุและสุขภาพ",
+			"วัคซีนไข้หวัดใหญ่ประจำปี",
+			"โปรแกรมฝึกอบรมและพัฒนาทักษะ",
+			"ชุดยูนิฟอร์มบริษัท",
+			"ค่าอาหารกลางวัน (เฉพาะการทำงานวันเสาร์)",
+			"ประกันสังคม",
+			"กองทุนเงินทดแทน",
+			"กิจกรรมสันทนาการ (เช่น งานเลี้ยง, ทริปท่องเที่ยว)"
 		],
 		"salaryRange": [100000, 150000]
 	},
@@ -140,14 +140,14 @@
 			"Bachelor's degree in Computer Science or related field"
 		],
 		"benefits": [
-			"Monthly attendance bonus",
-			"Life insurance and social security",
-			"Provident fund",
-			"Annual company trips",
-			"Laptop rental allowance",
-			"Birthday gifts",
-			"Congratulatory gift baskets",
-			"Employee uniforms"
+			"เบี้ยขยันรายเดือน",
+			"ประกันชีวิตและประกันสังคม",
+			"กองทุนสำรองเลี้ยงชีพ",
+			"ทริปบริษัทประจำปี",
+			"ค่าเช่าอุปกรณ์แล็ปท็อป",
+			"ของขวัญวันเกิด",
+			"กระเช้าแสดงความยินดี",
+			"ชุดยูนิฟอร์มพนักงาน"
 		],
 		"salaryRange": [80000, 130000]
 	},
@@ -167,18 +167,17 @@
 			"Excellent verbal and written communication skills"
 		],
 		"benefits": [
-			"Monthly attendance bonus",
-			"Life insurance and social security",
-			"Provident fund",
-			"Annual company trips",
-			"Laptop rental allowance",
-			"Birthday gifts",
-			"Congratulatory gift baskets",
-			"Employee uniforms"
+			"เบี้ยขยันรายเดือน",
+			"ประกันชีวิตและประกันสังคม",
+			"กองทุนสำรองเลี้ยงชีพ",
+			"ทริปบริษัทประจำปี",
+			"ค่าเช่าอุปกรณ์แล็ปท็อป",
+			"ของขวัญวันเกิด",
+			"กระเช้าแสดงความยินดี",
+			"ชุดยูนิฟอร์มพนักงาน"
 		],
 		"salaryRange": [80000, 130000]
 	},
-
 	{
 		"tagName": "Mobile (iOS + Android)",
 		"position": "Mobile Developer (Flutter)",
@@ -195,18 +194,18 @@
 			"Strong teamwork and ability to work under pressure"
 		],
 		"benefits": [
-			"Annual Leave (6 days), increasing by 1 day annually",
-			"Sick leave (30 days)",
-			"Life and accident insurance (after 4-month probation)",
-			"Social security",
-			"Annual salary adjustment",
-			"Annual health check-up",
-			"At least 3 personal leave days per year with supporting documents",
-			"Company outing and staff party",
-			"2 employee uniforms (after probation)",
-			"IT skill training programs",
-			"Company-provided notebook",
-			"Birthday gift"
+			"วันลาพักร้อน (6 วัน) เพิ่มขึ้นปีละ 1 วัน",
+			"ลาป่วย (30 วัน)",
+			"ประกันชีวิตและอุบัติเหตุ (หลังผ่านทดลองงาน 4 เดือน)",
+			"ประกันสังคม",
+			"การปรับเงินเดือนประจำปี",
+			"ตรวจสุขภาพประจำปี",
+			"วันลากิจอย่างน้อย 3 วันต่อปี พร้อมเอกสารประกอบ",
+			"ทริปบริษัทและงานเลี้ยงพนักงาน",
+			"ชุดยูนิฟอร์มพนักงาน 2 ชุด (หลังผ่านทดลองงาน)",
+			"โปรแกรมฝึกอบรมทักษะด้านไอที",
+			"โน๊ตบุ๊คที่บริษัทจัดหาให้",
+			"ของขวัญวันเกิด"
 		],
 		"salaryRange": [40000, 60000]
 	},
@@ -233,11 +232,10 @@
 		"benefits": [],
 		"salaryRange": [0, 0]
 	},
-
 	{
 		"tagName": "Web Development (Front-End)",
 		"position": "Frontend Developer (React)",
-		"company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
+		"company": "KASIKORN LINE Co., Ltd.",
 		"yearsOfExperience": 4,
 		"requiredSkills": [
 			"Bachelor's degree in Computer Science, IT, or related fields",
@@ -253,19 +251,19 @@
 			"Strong communication and collaboration skills"
 		],
 		"benefits": [
-			"Work from Anywhere policy",
-			"Flexible working hours",
-			"Vacation leave and birthday leave",
-			"Annual health checkup",
-			"Group health insurance",
-			"Provident fund"
+			"นโยบาย Work from Anywhere",
+			"เวลาการทำงานที่ยืดหยุ่น",
+			"วันลาพักร้อนและวันลาวันเกิด",
+			"ตรวจสุขภาพประจำปี",
+			"ประกันสุขภาพกลุ่ม",
+			"กองทุนสำรองเลี้ยงชีพ"
 		],
 		"salaryRange": [70000, 120000]
 	},
 	{
 		"tagName": "Web Development (Front-End)",
 		"position": "-",
-		"company": "N/A",
+		"company": "",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
 			"HTML5, CSS3, Sass/LESS",
@@ -283,25 +281,25 @@
 			"CI/CD Pipelines for Front-End (Netlify, GitHub Actions)"
 		],
 		"benefits": [
-			"Social Security",
-			"Health Insurance (OPD/IPD)",
-			"Annual Leave (10-20 days)",
-			"Flexible Working Hours",
-			"Hybrid/Remote Work",
-			"Training Budget",
-			"Performance Bonus",
-			"Salary Adjustment",
-			"Team Activities (Company Trip, Parties)",
-			"Stock Options (for startups)",
-			"Profit Sharing",
-			"Overseas Training or Business Trips"
+			"วันลาพักร้อนประจำปี (10-20 วัน)",
+			"ประกันสังคม",
+			"ประกันสุขภาพ (OPD/IPD)",
+			"เวลาทำงานที่ยืดหยุ่น",
+			"การทำงานแบบ Hybrid/Remote",
+			"งบประมาณสำหรับการฝึกอบรม",
+			"โบนัสตามผลงาน",
+			"การปรับเงินเดือน",
+			"กิจกรรมทีม (ทริปบริษัท, ปาร์ตี้)",
+			"สิทธิ์ซื้อหุ้นบริษัท (สำหรับสตาร์ทอัพ)",
+			"การแบ่งปันผลกำไร",
+			"การฝึกอบรมหรือติดต่อธุรกิจในต่างประเทศ"
 		],
 		"salaryRange": [70000, 120000]
 	},
 	{
 		"tagName": "Web Development (Front-End)",
 		"position": "Front-End Developer (AI & Web3)",
-		"company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
+		"company": "MILLIONAIRE 9 CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
 			"2+ years of experience in HTML5, CSS, JavaScript, and TypeScript",
@@ -312,13 +310,13 @@
 			"Experience with React Native for mobile app development (plus)",
 			"Knowledge of blockchain and Web3 interfaces (plus)"
 		],
-		"benefits": ["Annual Leave (12 days)", "Lunch provided", "Coffee and hot/cold beverages"],
+		"benefits": ["วันลาพักร้อนประจำปี (12 วัน)", "อาหารกลางวัน", "กาแฟและเครื่องดื่มร้อน/เย็น"],
 		"salaryRange": [40000, 100000]
 	},
 	{
 		"tagName": "Web Development (Front-End)",
 		"position": "-",
-		"company": "N/A",
+		"company": "",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
 			"Proven experience as an Angular/TypeScript Developer or similar role",
@@ -330,11 +328,10 @@
 		"benefits": [],
 		"salaryRange": [40000, 100000]
 	},
-
 	{
 		"tagName": "Backend",
 		"position": "Backend Developer (Golang / JAVA / Kotlin)",
-		"company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
+		"company": "KASIKORN LINE Co., Ltd.",
 		"yearsOfExperience": 4,
 		"requiredSkills": [
 			"Proficiency in developing and maintaining RESTful APIs",
@@ -354,36 +351,36 @@
 			"Excellent communication and collaboration skills"
 		],
 		"benefits": [
-			"Work from Anywhere policy",
-			"Flexible working hours",
-			"Vacation leave and birthday leave",
-			"Annual health checkup",
-			"Group health insurance",
-			"Provident fund"
+			"นโยบาย Work from Anywhere",
+			"เวลาการทำงานที่ยืดหยุ่น",
+			"วันลาพักร้อนและวันลาวันเกิด",
+			"ตรวจสุขภาพประจำปี",
+			"ประกันสุขภาพกลุ่ม",
+			"กองทุนสำรองเลี้ยงชีพ"
 		],
 		"salaryRange": [70000, 120000]
 	},
 	{
 		"tagName": "Backend",
 		"position": "Backend Developer",
-		"company": "ธนาคารกรุงไทย จำกัด (มหาชน)",
+		"company": "KRUNG THAI BANK PUBLIC COMPANY LIMITED",
 		"yearsOfExperience": 3,
 		"requiredSkills": ["Java fundamentals and OOP", "Spring, Spring Boot, Hibernate, MyBatis"],
 		"benefits": [
-			"Performance-based bonus (based on bank performance)",
-			"Low-interest home and car loans",
-			"Free medical care at public hospitals",
-			"Provident fund",
-			"Social security fund",
-			"Work from home (1 office day per month, currently)",
-			"Annual Leave (15 days)"
+			"วันลาพักร้อนประจำปี (15 วัน)",
+			"โบนัสตามผลการดำเนินงาน (ขึ้นอยู่กับผลประกอบการของธนาคาร)",
+			"สินเชื่อบ้านและรถยนต์ดอกเบี้ยต่ำ",
+			"ค่ารักษาพยาบาลฟรีที่โรงพยาบาลรัฐ",
+			"กองทุนสำรองเลี้ยงชีพ",
+			"กองทุนประกันสังคม",
+			"การทำงานจากที่บ้าน (เข้าออฟฟิศเดือนละ 1 วัน ในปัจจุบัน)"
 		],
 		"salaryRange": [0, 0]
 	},
 	{
 		"tagName": "Backend",
 		"position": "Java Developer",
-		"company": "บริษัท มายกรุ๊ป อินเทลลิเจ้นท์ จำกัด",
+		"company": "MY GROUP INTELLIGENT CO., LTD.",
 		"yearsOfExperience": 5,
 		"requiredSkills": [
 			"Java development (3+ years)",
@@ -395,13 +392,13 @@
 			"Coding standards and documentation"
 		],
 		"benefits": [
-			"Social security",
-			"Health insurance",
-			"Employee uniforms",
-			"Festive events and activities",
-			"Annual salary adjustment (performance-based)",
-			"Annual bonus (performance-based)",
-			"Overseas trips (performance-based)"
+			"ประกันสังคม",
+			"ประกันสุขภาพ",
+			"ชุดยูนิฟอร์มพนักงาน",
+			"กิจกรรมและงานเทศกาลต่างๆ",
+			"การปรับเงินเดือนประจำปี (ตามผลงาน)",
+			"โบนัสประจำปี (ตามผลงาน)",
+			"ทริปต่างประเทศ (ตามผลงาน)"
 		],
 		"salaryRange": [100000, 150000]
 	},
@@ -419,14 +416,14 @@
 			"Strong debugging and troubleshooting skills"
 		],
 		"benefits": [
-			"Monthly attendance bonus",
-			"Life insurance and social security",
-			"Provident fund",
-			"Annual company trips",
-			"Laptop rental allowance",
-			"Birthday gifts",
-			"Congratulatory gift baskets",
-			"Employee uniforms"
+			"เบี้ยขยันรายเดือน",
+			"ประกันชีวิตและประกันสังคม",
+			"กองทุนสำรองเลี้ยงชีพ",
+			"ทริปบริษัทประจำปี",
+			"ค่าเช่าอุปกรณ์แล็ปท็อป",
+			"ของขวัญวันเกิด",
+			"กระเช้าแสดงความยินดี",
+			"ชุดยูนิฟอร์มพนักงาน"
 		],
 		"salaryRange": [50000, 100000]
 	},
@@ -446,20 +443,20 @@
 			"Strong analytical and quantitative skills"
 		],
 		"benefits": [
-			"Flexible working hours",
-			"Housing allowance",
-			"Overtime pay",
-			"Travel allowance",
-			"Work from home",
-			"Laptop Allowance",
-			"Diligent Allowance"
+			"เวลาทำงานที่ยืดหยุ่น",
+			"ค่าเช่าที่พัก",
+			"ค่าล่วงเวลา",
+			"ค่าเดินทาง",
+			"การทำงานจากที่บ้าน",
+			"ค่าใช้จ่ายสำหรับแล็ปท็อป",
+			"เบี้ยขยัน"
 		],
 		"salaryRange": [30000, 50000]
 	},
 	{
 		"tagName": "Backend",
 		"position": "Back-End Developer (AI & Web3)",
-		"company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
+		"company": "MILLIONAIRE 9 CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
 			"2+ years of experience as a Backend Developer",
@@ -471,10 +468,9 @@
 			"Familiarity with cloud platforms (AWS, GCP) and containerization (Docker) is a plus",
 			"Strong problem-solving and communication skills"
 		],
-		"benefits": ["Annual Leave (12 days)", "Provided lunch", "Coffee and hot/cold beverages"],
+		"benefits": ["วันลาพักร้อนประจำปี (12 วัน)", "อาหารกลางวัน", "กาแฟและเครื่องดื่มร้อน/เย็น"],
 		"salaryRange": [25000, 100000]
 	},
-
 	{
 		"tagName": "API Development (Back-End)",
 		"position": "Senior Software Engineer (Golang)",
@@ -491,16 +487,16 @@
 			"Strong communication skills, including with non-technical stakeholders"
 		],
 		"benefits": [
-			"Social Security",
-			"Group Health Insurance",
-			"Dentistry Fee",
-			"Work from home 12 Days/Year",
-			"Medical Checkup",
-			"Annual Bonus",
-			"Salary & Performance Reviews",
-			"Flexible working hours",
-			"Sports clubs support",
-			"MacBook for Developer"
+			"ประกันสังคม",
+			"ประกันสุขภาพกลุ่ม",
+			"ค่าทันตกรรม",
+			"การทำงานจากที่บ้าน 12 วัน/ปี",
+			"ตรวจสุขภาพประจำปี",
+			"โบนัสประจำปี",
+			"การปรับเงินเดือนและการประเมินผลการทำงาน",
+			"เวลาทำงานที่ยืดหยุ่น",
+			"การสนับสนุนชมรมกีฬา",
+			"MacBook สำหรับนักพัฒนา"
 		],
 		"salaryRange": [70000, 90000]
 	},
@@ -516,18 +512,18 @@
 			"Familiarity with Agile practices (plus)"
 		],
 		"benefits": [
-			"Annual Leave (6 days), increasing by 1 day annually",
-			"Sick leave (30 days)",
-			"Life and accident insurance (after 4-month probation)",
-			"Social security",
-			"Annual salary adjustment",
-			"Annual health check-up",
-			"At least 3 personal leave days per year with supporting documents",
-			"Company outing and staff party",
-			"2 employee uniforms (after probation)",
-			"IT skill training programs",
-			"Company-provided notebook",
-			"Birthday gift"
+			"วันลาพักร้อน (6 วัน) เพิ่มขึ้นปีละ 1 วัน",
+			"ลาป่วย (30 วัน)",
+			"ประกันชีวิตและอุบัติเหตุ (หลังผ่านทดลองงาน 4 เดือน)",
+			"ประกันสังคม",
+			"การปรับเงินเดือนประจำปี",
+			"ตรวจสุขภาพประจำปี",
+			"วันลากิจอย่างน้อย 3 วันต่อปี พร้อมเอกสารประกอบ",
+			"ทริปบริษัทและงานเลี้ยงพนักงาน",
+			"ชุดยูนิฟอร์มพนักงาน 2 ชุด (หลังผ่านทดลองงาน)",
+			"โปรแกรมฝึกอบรมทักษะด้านไอที",
+			"โน๊ตบุ๊คที่บริษัทจัดหาให้",
+			"ของขวัญวันเกิด"
 		],
 		"salaryRange": [40000, 90000]
 	},
@@ -547,14 +543,14 @@
 			"Knowledge of configuration management"
 		],
 		"benefits": [
-			"Monthly attendance bonus",
-			"Life insurance and social security",
-			"Provident fund",
-			"Annual company trips",
-			"Laptop rental allowance",
-			"Birthday gifts",
-			"Congratulatory gift baskets",
-			"Employee uniforms"
+			"เบี้ยขยันรายเดือน",
+			"ประกันชีวิตและประกันสังคม",
+			"กองทุนสำรองเลี้ยงชีพ",
+			"ทริปบริษัทประจำปี",
+			"ค่าเช่าอุปกรณ์แล็ปท็อป",
+			"ของขวัญวันเกิด",
+			"กระเช้าแสดงความยินดี",
+			"ชุดยูนิฟอร์มพนักงาน"
 		],
 		"salaryRange": [35000, 70000]
 	},
@@ -573,17 +569,16 @@
 			"Problem-solving and debugging skills"
 		],
 		"benefits": [
-			"Flexible working hours",
-			"Housing allowance",
-			"Overtime pay",
-			"Travel allowance",
-			"Work from home",
-			"Laptop Allowance",
-			"Diligent Allowance"
+			"เวลาทำงานที่ยืดหยุ่น",
+			"ค่าเช่าที่พัก",
+			"ค่าล่วงเวลา",
+			"ค่าเดินทาง",
+			"การทำงานจากที่บ้าน",
+			"ค่าใช้จ่ายสำหรับแล็ปท็อป",
+			"เบี้ยขยัน"
 		],
 		"salaryRange": [35000, 120000]
 	},
-
 	{
 		"tagName": "DevOps",
 		"position": "DevOps Engineer",
@@ -611,7 +606,7 @@
 	{
 		"tagName": "DevOps",
 		"position": "DevOps",
-		"company": "บริษัท มายออเดอร์ อินเทลลิเจนซ์ จำกัด",
+		"company": "MYORDER INTELLIGENCE CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
 			"1-2+ years of experience as Backend Developer, Fullstack Developer, DevOps, or SRE",
@@ -627,20 +622,20 @@
 			"Experience with API Gateway (Nginx, Kong) is a plus"
 		],
 		"benefits": [
-			"Annual Leave (6 days)",
-			"Personal leave (6 days)",
-			"Sick leave (30 days)",
-			"Social security",
-			"Annual holidays",
-			"Annual party",
-			"Lunch provided (for office employees)",
-			"Domestic and international outings",
-			"Annual bonus (performance-based)",
-			"Snacks provided",
-			"Office supplies",
-			"20,000 THB/month for training courses",
-			"MacBook provided after probation (for developers)",
-			"700 THB/month internet allowance"
+			"วันลาพักร้อนประจำปี (6 วัน)",
+			"วันลากิจ (6 วัน)",
+			"วันลาป่วย (30 วัน)",
+			"ประกันสังคม",
+			"วันหยุดประจำปี",
+			"งานเลี้ยงประจำปี",
+			"อาหารกลางวัน (สำหรับพนักงานออฟฟิศ)",
+			"ทริปท่องเที่ยวทั้งในและต่างประเทศ",
+			"โบนัสประจำปี (ตามผลงาน)",
+			"ขนมและของว่าง",
+			"อุปกรณ์สำนักงาน",
+			"งบประมาณสำหรับคอร์สฝึกอบรม 20,000 บาท/เดือน",
+			"MacBook (สำหรับนักพัฒนา หลังผ่านโปร)",
+			"ค่าอินเทอร์เน็ต 700 บาท/เดือน"
 		],
 		"salaryRange": [70000, 100000]
 	},
@@ -664,20 +659,19 @@
 			"Understanding of microservices architecture and SDLC"
 		],
 		"benefits": [
-			"Social Security",
-			"Group Health Insurance",
-			"Dentistry Fee",
-			"Work from home 12 Days/Year",
-			"Medical Checkup",
-			"Annual Bonus",
-			"Salary & Performance Reviews",
-			"Flexible working hours",
-			"Sports clubs support",
-			"MacBook for Developer"
+			"ประกันสังคม",
+			"ประกันสุขภาพกลุ่ม",
+			"ค่าทันตกรรม",
+			"การทำงานจากที่บ้าน 12 วัน/ปี",
+			"ตรวจสุขภาพประจำปี",
+			"โบนัสประจำปี",
+			"การปรับเงินเดือนและการประเมินผลการทำงาน",
+			"เวลาทำงานที่ยืดหยุ่น",
+			"การสนับสนุนชมรมกีฬา",
+			"MacBook สำหรับนักพัฒนา"
 		],
 		"salaryRange": [35000, 50000]
 	},
-
 	{
 		"tagName": "Testing (SDET)",
 		"position": "Senior Quality Assurance Automation Engineer",
@@ -696,15 +690,15 @@
 			"Leadership and coaching skills in quality assurance"
 		],
 		"benefits": [
-			"Provident fund",
-			"Performance-based bonus",
-			"Health insurance",
-			"Life insurance",
-			"Annual Leave",
-			"Birthday Leave",
-			"Personal Leave",
-			"Employee loan benefits",
-			"Various financial assistance programs"
+			"กองทุนสำรองเลี้ยงชีพ",
+			"โบนัสตามผลงาน",
+			"ประกันสุขภาพ",
+			"ประกันชีวิต",
+			"วันลาพักร้อน",
+			"วันลาวันเกิด",
+			"วันลากิจ",
+			"สิทธิประโยชน์เงินกู้สำหรับพนักงาน",
+			"โครงการช่วยเหลือทางการเงินต่างๆ"
 		],
 		"salaryRange": [60000, 100000]
 	},
@@ -724,15 +718,15 @@
 			"Strong problem-solving, teamwork, and responsibility"
 		],
 		"benefits": [
-			"Provident fund",
-			"Performance-based bonus",
-			"Health insurance",
-			"Life insurance",
-			"Annual Leave",
-			"Birthday Leave",
-			"Personal Leave",
-			"Employee loan benefits",
-			"Various financial assistance programs"
+			"กองทุนสำรองเลี้ยงชีพ",
+			"โบนัสตามผลงาน",
+			"ประกันสุขภาพ",
+			"ประกันชีวิต",
+			"วันลาพักร้อน",
+			"วันลาวันเกิด",
+			"วันลากิจ",
+			"สิทธิประโยชน์เงินกู้สำหรับพนักงาน",
+			"โครงการช่วยเหลือทางการเงินต่างๆ"
 		],
 		"salaryRange": [35000, 80000]
 	},
@@ -772,13 +766,13 @@
 			"Ability to start immediately is an advantage"
 		],
 		"benefits": [
-			"Flexible working hours",
-			"Housing allowance",
-			"Overtime pay",
-			"Travel allowance",
-			"Work from home",
-			"Laptop Allowance",
-			"Diligent Allowance"
+			"เวลาทำงานที่ยืดหยุ่น",
+			"ค่าเช่าที่พัก",
+			"ค่าล่วงเวลา",
+			"ค่าเดินทาง",
+			"การทำงานจากที่บ้าน",
+			"ค่าใช้จ่ายสำหรับแล็ปท็อป",
+			"เบี้ยขยัน"
 		],
 		"salaryRange": [30000, 90000]
 	},
@@ -808,18 +802,18 @@
 			"Fast learner and adaptable"
 		],
 		"benefits": [
-			"Annual Leave (6 days), increasing by 1 day annually",
-			"Sick leave (30 days)",
-			"Life and accident insurance (after 4-month probation)",
-			"Social security",
-			"Annual salary adjustment",
-			"Annual health check-up",
-			"At least 3 personal leave days per year with supporting documents",
-			"Company outing and staff party",
-			"2 employee uniforms (after probation)",
-			"IT skill training programs",
-			"Company-provided notebook",
-			"Birthday gift"
+			"วันลาพักร้อน (6 วัน) เพิ่มขึ้นปีละ 1 วัน",
+			"ลาป่วย (30 วัน)",
+			"ประกันชีวิตและอุบัติเหตุ (หลังผ่านทดลองงาน 4 เดือน)",
+			"ประกันสังคม",
+			"การปรับเงินเดือนประจำปี",
+			"ตรวจสุขภาพประจำปี",
+			"วันลากิจอย่างน้อย 3 วันต่อปี พร้อมเอกสารประกอบ",
+			"ทริปบริษัทและงานเลี้ยงพนักงาน",
+			"ชุดยูนิฟอร์มพนักงาน 2 ชุด (หลังผ่านทดลองงาน)",
+			"โปรแกรมฝึกอบรมทักษะด้านไอที",
+			"โน๊ตบุ๊คที่บริษัทจัดหาให้",
+			"ของขวัญวันเกิด"
 		],
 		"salaryRange": [40000, 70000]
 	},
@@ -839,19 +833,18 @@
 			"Flutter Test Tool"
 		],
 		"benefits": [
-			"Annual Leave",
-			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-			"Training and course allowances for skill development (both soft and hard skills)",
-			"Health benefits (vaccination and dental care)",
-			"Health insurance",
-			"Accident insurance",
-			"Performance-based bonuses",
-			"Merit-based salary adjustments",
-			"Financial support for personal events (weddings, ordinations, funerals)"
+			"วันลาพักร้อน",
+			"โน๊ตบุ๊คและอุปกรณ์ทำงานที่บ้าน (จอภาพ, โต๊ะ, เก้าอี้) ที่บริษัทจัดหาให้",
+			"งบประมาณสำหรับการฝึกอบรมและคอร์สพัฒนาทักษะ (ทั้ง Soft Skills และ Hard Skills)",
+			"สวัสดิการด้านสุขภาพ (การฉีดวัคซีนและค่าทันตกรรม)",
+			"ประกันสุขภาพ",
+			"ประกันอุบัติเหตุ",
+			"โบนัสตามผลงาน",
+			"การปรับเงินเดือนตามผลงาน",
+			"เงินช่วยเหลือในโอกาสส่วนตัว (งานแต่งงาน, งานบวช, งานศพ)"
 		],
 		"salaryRange": [40000, 70000]
 	},
-
 	{
 		"tagName": "Data",
 		"position": "Senior Data Engineer",
@@ -869,15 +862,15 @@
 			"Ability to collaborate with development teams"
 		],
 		"benefits": [
-			"Annual Leave",
-			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-			"Training and course allowances for skill development (both soft and hard skills)",
-			"Health benefits (vaccination and dental care)",
-			"Health insurance",
-			"Accident insurance",
-			"Performance-based bonuses",
-			"Merit-based salary adjustments",
-			"Financial support for personal events (weddings, ordinations, funerals)"
+			"วันลาพักร้อน",
+			"โน๊ตบุ๊คและอุปกรณ์ทำงานที่บ้าน (จอภาพ, โต๊ะ, เก้าอี้) ที่บริษัทจัดหาให้",
+			"งบประมาณสำหรับการฝึกอบรมและคอร์สพัฒนาทักษะ (ทั้ง Soft Skills และ Hard Skills)",
+			"สวัสดิการด้านสุขภาพ (การฉีดวัคซีนและค่าทันตกรรม)",
+			"ประกันสุขภาพ",
+			"ประกันอุบัติเหตุ",
+			"โบนัสตามผลงาน",
+			"การปรับเงินเดือนตามผลงาน",
+			"เงินช่วยเหลือในโอกาสส่วนตัว (งานแต่งงาน, งานบวช, งานศพ)"
 		],
 		"salaryRange": [40000, 100000]
 	},
@@ -898,15 +891,15 @@
 			"Collaboration skills for working with development teams"
 		],
 		"benefits": [
-			"Annual Leave",
-			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-			"Training and course allowances for skill development (both soft and hard skills)",
-			"Health benefits (vaccination and dental care)",
-			"Health insurance",
-			"Accident insurance",
-			"Performance-based bonuses",
-			"Merit-based salary adjustments",
-			"Financial support for personal events (weddings, ordinations, funerals)"
+			"วันลาพักร้อน",
+			"โน๊ตบุ๊คและอุปกรณ์ทำงานที่บ้าน (จอภาพ, โต๊ะ, เก้าอี้) ที่บริษัทจัดหาให้",
+			"งบประมาณสำหรับการฝึกอบรมและคอร์สพัฒนาทักษะ (ทั้ง Soft Skills และ Hard Skills)",
+			"สวัสดิการด้านสุขภาพ (การฉีดวัคซีนและค่าทันตกรรม)",
+			"ประกันสุขภาพ",
+			"ประกันอุบัติเหตุ",
+			"โบนัสตามผลงาน",
+			"การปรับเงินเดือนตามผลงาน",
+			"เงินช่วยเหลือในโอกาสส่วนตัว (งานแต่งงาน, งานบวช, งานศพ)"
 		],
 		"salaryRange": [25000, 70000]
 	},
@@ -926,19 +919,18 @@
 			"Motivated to drive data literacy and build a data-driven culture"
 		],
 		"benefits": [
-			"Provident fund",
-			"Performance-based bonus",
-			"Health insurance",
-			"Life insurance",
-			"Annual Leave",
-			"Birthday Leave",
-			"Personal Leave",
-			"Employee loan benefits",
-			"Various financial assistance programs"
+			"กองทุนสำรองเลี้ยงชีพ",
+			"โบนัสตามผลงาน",
+			"ประกันสุขภาพ",
+			"ประกันชีวิต",
+			"วันลาพักร้อน",
+			"วันลาวันเกิด",
+			"วันลากิจ",
+			"สิทธิประโยชน์เงินกู้สำหรับพนักงาน",
+			"โครงการช่วยเหลือทางการเงินต่างๆ"
 		],
 		"salaryRange": [0, 0]
 	},
-
 	{
 		"tagName": "ML / AI",
 		"position": "AI Scientist",
@@ -996,23 +988,22 @@
 			"Strong problem-solving and troubleshooting skills for AI systems"
 		],
 		"benefits": [
-			"Annual Leave",
-			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-			"Training and course allowances for skill development (both soft and hard skills)",
-			"Health benefits (vaccination and dental care)",
-			"Health insurance",
-			"Accident insurance",
-			"Performance-based bonuses",
-			"Merit-based salary adjustments",
-			"Financial support for personal events (weddings, ordinations, funerals)"
+			"วันลาพักร้อน",
+			"โน๊ตบุ๊คและอุปกรณ์ทำงานที่บ้าน (จอภาพ, โต๊ะ, เก้าอี้) ที่บริษัทจัดหาให้",
+			"งบประมาณสำหรับการฝึกอบรมและคอร์สพัฒนาทักษะ (ทั้ง Soft Skills และ Hard Skills)",
+			"สวัสดิการด้านสุขภาพ (การฉีดวัคซีนและค่าทันตกรรม)",
+			"ประกันสุขภาพ",
+			"ประกันอุบัติเหตุ",
+			"โบนัสตามผลงาน",
+			"การปรับเงินเดือนตามผลงาน",
+			"เงินช่วยเหลือในโอกาสส่วนตัว (งานแต่งงาน, งานบวช, งานศพ)"
 		],
 		"salaryRange": [25000, 70000]
 	},
-
 	{
 		"tagName": "Software Development",
 		"position": "Software Engineer",
-		"company": "M Intelligence Co.,Ltd.",
+		"company": "M Intelligence Co., Ltd.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
 			"Bachelor's degree in Computer Science, Software Engineering, MIS, MBA, or equivalent experience",
@@ -1025,19 +1016,19 @@
 			"Excellent verbal, presentation, and interpersonal communication skills"
 		],
 		"benefits": [
-			"Annual Leave (15 days)",
-			"Birthday Leave",
-			"Company trips",
-			"Flexible working hours",
-			"Annual bonus of at least 1 month",
-			"Provident fund by UOB",
-			"Flexi Benefit of 8,000 THB per year",
-			"Social security",
-			"Health insurance (available after probation)",
-			"Annual health check-up",
-			"Travel expenses for client meetings (per company policy)",
-			"Certification exam fee reimbursement (as specified by the company)",
-			"Weekly parties with complimentary beer, wine, and spirits"
+			"วันลาพักร้อนประจำปี (15 วัน)",
+			"วันลาวันเกิด",
+			"ทริปบริษัท",
+			"เวลาทำงานที่ยืดหยุ่น",
+			"โบนัสประจำปีอย่างน้อย 1 เดือน",
+			"กองทุนสำรองเลี้ยงชีพโดย UOB",
+			"สิทธิประโยชน์แบบยืดหยุ่น 8,000 บาทต่อปี",
+			"ประกันสังคม",
+			"ประกันสุขภาพ (มีสิทธิหลังผ่านทดลองงาน)",
+			"ตรวจสุขภาพประจำปี",
+			"ค่าเดินทางสำหรับการประชุมลูกค้า (ตามนโยบายของบริษัท)",
+			"คืนเงินค่าสอบใบรับรอง (ตามที่บริษัทกำหนด)",
+			"ปาร์ตี้รายสัปดาห์ พร้อมเบียร์, ไวน์, และเครื่องดื่มแอลกอฮอล์ฟรี"
 		],
 		"salaryRange": [0, 0]
 	},
@@ -1059,15 +1050,15 @@
 			"Ability to collaborate with cross-functional teams and provide code reviews"
 		],
 		"benefits": [
-			"Provident fund",
-			"Performance-based bonus",
-			"Health insurance",
-			"Life insurance",
-			"Annual Leave",
-			"Birthday Leave",
-			"Personal Leave",
-			"Employee loan benefits",
-			"Various financial assistance programs"
+			"กองทุนสำรองเลี้ยงชีพ",
+			"โบนัสตามผลงาน",
+			"ประกันสุขภาพ",
+			"ประกันชีวิต",
+			"วันลาพักร้อน",
+			"วันลาวันเกิด",
+			"วันลากิจ",
+			"สิทธิประโยชน์เงินกู้สำหรับพนักงาน",
+			"โครงการช่วยเหลือทางการเงินต่างๆ"
 		],
 		"salaryRange": [60000, 110000]
 	},
@@ -1087,23 +1078,23 @@
 			"Strong communication skills, including with non-technical stakeholders"
 		],
 		"benefits": [
-			"Social Security",
-			"Group Health Insurance",
-			"Dentistry Fee",
-			"Work from home 12 Days/Year",
-			"Medical Checkup",
-			"Annual Bonus",
-			"Salary & Performance Reviews",
-			"Flexible working hours",
-			"Sports clubs support",
-			"MacBook for Developer"
+			"ประกันสังคม",
+			"ประกันสุขภาพกลุ่ม",
+			"ค่าทันตกรรม",
+			"การทำงานจากที่บ้าน 12 วัน/ปี",
+			"ตรวจสุขภาพประจำปี",
+			"โบนัสประจำปี",
+			"การปรับเงินเดือนและการประเมินผลการทำงาน",
+			"เวลาทำงานที่ยืดหยุ่น",
+			"การสนับสนุนชมรมกีฬา",
+			"MacBook สำหรับนักพัฒนา"
 		],
 		"salaryRange": [70000, 90000]
 	},
 	{
 		"tagName": "Software Development",
 		"position": "Senior UX/UI design",
-		"company": "บริษัท มิลเลี่ยนแนร์ 9 จำกัด",
+		"company": "MILLIONAIRE 9 CO., LTD.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
 			"2-3 years of experience as a UX/UI Designer",
@@ -1114,7 +1105,7 @@
 			"Meticulous attention to detail and pixel-perfect design skills",
 			"Excellent communication and collaboration skills"
 		],
-		"benefits": ["Annual Leave (12 days)", "Provided lunch", "Coffee and hot/cold beverages"],
+		"benefits": ["วันลาพักร้อนประจำปี (12 วัน)", "อาหารกลางวัน", "กาแฟและเครื่องดื่มร้อน/เย็น"],
 		"salaryRange": [40000, 100000]
 	},
 	{
@@ -1134,15 +1125,15 @@
 			"Strong problem-solving and teamwork skills"
 		],
 		"benefits": [
-			"Annual Leave",
-			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-			"Training and course allowances for skill development (both soft and hard skills)",
-			"Health benefits (vaccination and dental care)",
-			"Health insurance",
-			"Accident insurance",
-			"Performance-based bonuses",
-			"Merit-based salary adjustments",
-			"Financial support for personal events (weddings, ordinations, funerals)"
+			"วันลาพักร้อน",
+			"โน๊ตบุ๊คและอุปกรณ์ทำงานที่บ้าน (จอภาพ, โต๊ะ, เก้าอี้) ที่บริษัทจัดหาให้",
+			"งบประมาณสำหรับการฝึกอบรมและคอร์สพัฒนาทักษะ (ทั้ง Soft Skills และ Hard Skills)",
+			"สวัสดิการด้านสุขภาพ (การฉีดวัคซีนและค่าทันตกรรม)",
+			"ประกันสุขภาพ",
+			"ประกันอุบัติเหตุ",
+			"โบนัสตามผลงาน",
+			"การปรับเงินเดือนตามผลงาน",
+			"เงินช่วยเหลือในโอกาสส่วนตัว (งานแต่งงาน, งานบวช, งานศพ)"
 		],
 		"salaryRange": [25000, 70000]
 	},
@@ -1163,23 +1154,22 @@
 			"Experience with cloud platforms (AWS, Firebase)"
 		],
 		"benefits": [
-			"Annual Leave",
-			"Company-provided notebook and work-from-home equipment (monitor, desk, chair)",
-			"Training and course allowances for skill development (both soft and hard skills)",
-			"Health benefits (vaccination and dental care)",
-			"Health insurance",
-			"Accident insurance",
-			"Performance-based bonuses",
-			"Merit-based salary adjustments",
-			"Financial support for personal events (weddings, ordinations, funerals)"
+			"วันลาพักร้อน",
+			"โน๊ตบุ๊คและอุปกรณ์ทำงานที่บ้าน (จอภาพ, โต๊ะ, เก้าอี้) ที่บริษัทจัดหาให้",
+			"งบประมาณสำหรับการฝึกอบรมและคอร์สพัฒนาทักษะ (ทั้ง Soft Skills และ Hard Skills)",
+			"สวัสดิการด้านสุขภาพ (การฉีดวัคซีนและค่าทันตกรรม)",
+			"ประกันสุขภาพ",
+			"ประกันอุบัติเหตุ",
+			"โบนัสตามผลงาน",
+			"การปรับเงินเดือนตามผลงาน",
+			"เงินช่วยเหลือในโอกาสส่วนตัว (งานแต่งงาน, งานบวช, งานศพ)"
 		],
 		"salaryRange": [40000, 100000]
 	},
-
 	{
 		"tagName": "Full Stack",
 		"position": "Backend Developer (Golang / JAVA / Kotlin)",
-		"company": "KASIKORN LINE Co., Ltd. (บริษัท กสิกร ไลน์ จำกัด)",
+		"company": "KASIKORN LINE Co., Ltd.",
 		"yearsOfExperience": 4,
 		"requiredSkills": [
 			"Full-stack development experience (e.g., Java, Golang, Kotlin for back-end; JavaScript, React, TypeScript for front-end)",
@@ -1200,12 +1190,12 @@
 			"Ability to write clean, maintainable, and scalable code"
 		],
 		"benefits": [
-			"Work from Anywhere policy",
-			"Flexible working hours",
-			"Vacation leave and birthday leave",
-			"Annual health checkup",
-			"Group health insurance",
-			"Provident fund"
+			"นโยบาย Work from Anywhere",
+			"เวลาการทำงานที่ยืดหยุ่น",
+			"วันลาพักร้อนและวันลาวันเกิด",
+			"ตรวจสุขภาพประจำปี",
+			"ประกันสุขภาพกลุ่ม",
+			"กองทุนสำรองเลี้ยงชีพ"
 		],
 		"salaryRange": [70000, 120000]
 	},
@@ -1227,15 +1217,15 @@
 			"Strong problem-solving and process improvement skills"
 		],
 		"benefits": [
-			"Social security",
-			"Group insurance",
-			"Quarterly Company Night events",
-			"Annual Company Outing",
-			"Unlimited free snacks and beverages",
-			"Access to Board Games, Nintendo, Netflix, PlayStation (customizable upon request)",
-			"Free courses for skill development",
-			"Birthday gift and birthday month leave",
-			"MacBook provided for work"
+			"ประกันสังคม",
+			"ประกันกลุ่ม",
+			"งานเลี้ยงบริษัททุกไตรมาส",
+			"ทริปบริษัทประจำปี",
+			"ขนมและเครื่องดื่มฟรีไม่จำกัด",
+			"สิทธิ์การเข้าถึงบอร์ดเกม, Nintendo, Netflix, PlayStation (สามารถขอเพิ่มเติมได้)",
+			"คอร์สเรียนพัฒนาทักษะฟรี",
+			"ของขวัญวันเกิดและวันลาวันเกิด",
+			"MacBook สำหรับการทำงาน"
 		],
 		"salaryRange": [0, 0]
 	},
@@ -1258,23 +1248,23 @@
 			"Commitment to code quality and teamwork"
 		],
 		"benefits": [
-			"Social security",
-			"Annual health check-up",
-			"Attendance bonus",
-			"Salary adjustment per company policy",
-			"Performance-based bonus per company policy",
-			"Maternity allowance",
-			"Marriage allowance",
-			"Ordination allowance",
-			"Funeral assistance (parents, spouse, children)",
-			"Lunch provided"
+			"ประกันสังคม",
+			"ตรวจสุขภาพประจำปี",
+			"เบี้ยขยัน",
+			"การปรับเงินเดือนตามนโยบายของบริษัท",
+			"โบนัสตามผลงานตามนโยบายของบริษัท",
+			"เงินช่วยเหลือกรณีคลอดบุตร",
+			"เงินช่วยเหลือกรณีสมรส",
+			"เงินช่วยเหลือกรณีอุปสมบท",
+			"เงินช่วยเหลือกรณีงานศพ (บิดา, มารดา, คู่สมรส, บุตร)",
+			"อาหารกลางวัน"
 		],
 		"salaryRange": [65000, 150000]
 	},
 	{
 		"tagName": "Full Stack",
 		"position": "Full Stack Developer",
-		"company": "Gofive Co.,Ltd. (บริษัท โกไฟว์ จำกัด)",
+		"company": "Gofive Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
 			"Proficiency in C#, HTML, CSS, JavaScript, and TypeScript",
@@ -1288,16 +1278,16 @@
 			"Ability to perform Code Reviews for security and standard compliance"
 		],
 		"benefits": [
-			"Flexible working hours",
-			"Work from home when needed (upon discussion with supervisor)",
-			"Company-provided laptop or use your personal device",
-			"Direct access to the CEO for sharing new ideas",
-			"Unlimited snacks and refreshments",
-			"Upskilling courses as desired",
-			"Annual performance bonus",
-			"Annual company outing",
-			"Provident fund",
-			"Health insurance and annual health check-up"
+			"เวลาทำงานที่ยืดหยุ่น",
+			"ทำงานจากที่บ้านได้ตามความจำเป็น (พูดคุยกับหัวหน้าได้)",
+			"โน๊ตบุ๊คที่บริษัทจัดหาให้ หรือใช้เครื่องส่วนตัวได้",
+			"เข้าถึง CEO ได้โดยตรงสำหรับการเสนอไอเดียใหม่ๆ",
+			"ขนมและเครื่องดื่มฟรีไม่จำกัด",
+			"คอร์สพัฒนาทักษะตามที่ต้องการ",
+			"โบนัสประจำปีตามผลงาน",
+			"ทริปบริษัทประจำปี",
+			"กองทุนสำรองเลี้ยงชีพ",
+			"ประกันสุขภาพและตรวจสุขภาพประจำปี"
 		],
 		"salaryRange": [35000, 80000]
 	},
@@ -1321,7 +1311,6 @@
 		"benefits": [],
 		"salaryRange": [35000, 80000]
 	},
-
 	{
 		"tagName": "Data center engineer operation",
 		"position": "Database Administrator",
@@ -1337,22 +1326,21 @@
 			"IT security product management and administration skills"
 		],
 		"benefits": [
-			"Annual Leave (6 days), increasing by 1 day annually",
-			"Sick leave (30 days)",
-			"Life and accident insurance (after 4-month probation)",
-			"Social security",
-			"Annual salary adjustment",
-			"Annual health check-up",
-			"At least 3 personal leave days per year with supporting documents",
-			"Company outing and staff party",
-			"2 employee uniforms (after probation)",
-			"IT skill training programs",
-			"Company-provided notebook",
-			"Birthday gift"
+			"วันลาพักร้อน (6 วัน) เพิ่มขึ้นปีละ 1 วัน",
+			"ลาป่วย (30 วัน)",
+			"ประกันชีวิตและอุบัติเหตุ (หลังผ่านทดลองงาน 4 เดือน)",
+			"ประกันสังคม",
+			"การปรับเงินเดือนประจำปี",
+			"ตรวจสุขภาพประจำปี",
+			"วันลากิจอย่างน้อย 3 วันต่อปี พร้อมเอกสารประกอบ",
+			"ทริปบริษัทและงานเลี้ยงพนักงาน",
+			"ชุดยูนิฟอร์มพนักงาน 2 ชุด (หลังผ่านทดลองงาน)",
+			"โปรแกรมฝึกอบรมทักษะด้านไอที",
+			"โน๊ตบุ๊คที่บริษัทจัดหาให้",
+			"ของขวัญวันเกิด"
 		],
 		"salaryRange": [40000, 60000]
 	},
-
 	{
 		"tagName": "Cloud",
 		"position": "Cloud Engineer",
@@ -1376,7 +1364,6 @@
 		"benefits": [],
 		"salaryRange": [0, 0]
 	},
-
 	{
 		"tagName": "Production",
 		"position": "COBOL Developer",
@@ -1388,26 +1375,25 @@
 			"Experience in the banking industry (preferred)"
 		],
 		"benefits": [
-			"Annual Leave (12 up to 21 Days)",
-			"Personal Leave (7 Days)",
-			"Special leave (e.g., paternity leave, wedding leave, ordination leave, family care leave)",
-			"Annual performance bonus and salary adjustment",
-			"Annual health check-up",
-			"Provident fund (employer contribution 100% after 5 years of service)",
-			"Premium health insurance (OPD/IPD)",
-			"Life insurance",
-			"Accident insurance (20,000 THB per incident)",
-			"Dental coverage (3,400 THB/year, plus 900 THB from social security)",
-			"Free Udemy online training courses for all employees",
-			"Long-service awards every 5 years"
+			"วันลาพักร้อนประจำปี (12 ถึง 21 วัน)",
+			"วันลากิจ (7 วัน)",
+			"วันลาพิเศษ (เช่น ลาเพื่อเลี้ยงดูบุตร, ลาวันแต่งงาน, ลาบวช, ลาดูแลครอบครัว)",
+			"โบนัสประจำปีและการปรับเงินเดือนตามผลงาน",
+			"ตรวจสุขภาพประจำปี",
+			"กองทุนสำรองเลี้ยงชีพ (นายจ้างสมทบ 100% หลังทำงานครบ 5 ปี)",
+			"ประกันสุขภาพระดับพรีเมียม (OPD/IPD)",
+			"ประกันชีวิต",
+			"ประกันอุบัติเหตุ (20,000 บาทต่อครั้ง)",
+			"ค่าทันตกรรม (3,400 บาท/ปี และ 900 บาทเพิ่มเติมจากประกันสังคม)",
+			"คอร์สเรียนออนไลน์ฟรีจาก Udemy สำหรับพนักงานทุกคน",
+			"รางวัลสำหรับพนักงานที่ทำงานครบทุก 5 ปี"
 		],
 		"salaryRange": [70000, 90000]
 	},
-
 	{
 		"tagName": "General",
 		"position": "Product Owner",
-		"company": "M Intelligence Co.,Ltd.",
+		"company": "M Intelligence Co., Ltd.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
 			"Bachelor's/Master's degree in Software Engineering, Computer Science, Digital Marketing, or related fields",
@@ -1421,26 +1407,26 @@
 			"Familiarity with SaaS and Marketing Technology (preferred)"
 		],
 		"benefits": [
-			"Annual Leave (15 days)",
-			"Birthday Leave",
-			"Company trips",
-			"Flexible working hours",
-			"Annual bonus of at least 1 month",
-			"Provident fund by UOB",
-			"Flexi Benefit of 8,000 THB per year",
-			"Social security",
-			"Health insurance (available after probation)",
-			"Annual health check-up",
-			"Travel expenses for client meetings (per company policy)",
-			"Certification exam fee reimbursement (as specified by the company)",
-			"Weekly parties with complimentary beer, wine, and spirits"
+			"วันลาพักร้อนประจำปี (15 วัน)",
+			"วันลาวันเกิด",
+			"ทริปบริษัท",
+			"เวลาทำงานที่ยืดหยุ่น",
+			"โบนัสประจำปีอย่างน้อย 1 เดือน",
+			"กองทุนสำรองเลี้ยงชีพโดย UOB",
+			"สิทธิประโยชน์แบบยืดหยุ่น 8,000 บาทต่อปี",
+			"ประกันสังคม",
+			"ประกันสุขภาพ (มีสิทธิหลังผ่านทดลองงาน)",
+			"ตรวจสุขภาพประจำปี",
+			"ค่าเดินทางสำหรับการประชุมลูกค้า (ตามนโยบายของบริษัท)",
+			"คืนเงินค่าสอบใบรับรอง (ตามที่บริษัทกำหนด)",
+			"ปาร์ตี้รายสัปดาห์ พร้อมเบียร์, ไวน์, และเครื่องดื่มแอลกอฮอล์ฟรี"
 		],
 		"salaryRange": [0, 0]
 	},
 	{
 		"tagName": "General",
 		"position": "Systems Accounting & IT Audit (Accounting)",
-		"company": "บริษัท ธนาคาร ซีไอเอ็มบี ไทย จำกัด (มหาชน).",
+		"company": "CIMB THAI BANK PUBLIC COMPANY LIMITED",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
 			"Bachelor's degree in IT, Computer Science, or related fields",
@@ -1453,16 +1439,15 @@
 			"Ability to work independently and provide advisory services on control systems and regulatory compliance"
 		],
 		"benefits": [
-			"Annual Leave (15 Days)",
-			"Personal Leave (10 Days)",
-			"Health insurance",
-			"Staff loan",
-			"Flexible arrangement",
-			"International working environment"
+			"วันลาพักร้อนประจำปี (15 วัน)",
+			"วันลากิจ (10 วัน)",
+			"ประกันสุขภาพ",
+			"เงินกู้สำหรับพนักงาน",
+			"การทำงานที่ยืดหยุ่น",
+			"สภาพแวดล้อมการทำงานระดับสากล"
 		],
 		"salaryRange": [0, 0]
 	},
-
 	{
 		"tagName": "Game Development",
 		"position": "Game Developer ( Frontend / Backend & Fullstack )",
@@ -1494,7 +1479,7 @@
 			"Skills in converting business or game requirements into technical specifications",
 			"Experience with optimizing game performance across devices"
 		],
-		"benefits": ["Group insurance", "Performance Bonus"],
+		"benefits": ["ประกันกลุ่ม", "โบนัสตามผลงาน"],
 		"salaryRange": [30000, 120000]
 	}
 ]
