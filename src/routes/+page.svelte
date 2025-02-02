@@ -6,17 +6,19 @@
 	import SalaryCalculator from '$lib/components/SalaryCalculator.svelte';
 	import SalaryChart from '$lib/components/SalaryChart.svelte';
 	import SalaryTable from '$lib/components/SalaryTable.svelte';
-	import { companySalaries } from '$lib/data/salaryData';
-	import { customSalaries } from '$lib/stores/salaryStore';
 	import { onMount } from 'svelte';
 
-	let isLoading = true;
-	$: combinedSalaryData = [...companySalaries, ...$customSalaries];
+	import type { PageServerData } from "./$types";
+	import type { CompanySalary } from "$lib/types/salary"
 
-	onMount(() => {
-		setTimeout(() => {
-			isLoading = false;
-		}, 1500);
+	let isLoading = $state<boolean>(true);
+	let combinedSalaryData = $state<CompanySalary[]>([]);
+
+	const { data }: { data: PageServerData } = $props();
+	combinedSalaryData = data.salary;
+
+	onMount(async () => {
+		setTimeout(() => { isLoading = false }, 200);
 	});
 </script>
 
