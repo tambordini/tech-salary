@@ -1,9 +1,8 @@
 <script lang="ts">
+	import levelOptions from '$lib/data/levels.json';
+	import tagOptions from '$lib/data/tags.json';
 	import { slide } from 'svelte/transition';
 	import type { CompanySalary } from '../types/salary';
-	import { customSalaries, newestEntry } from '../stores/salaryStore';
-	import tagOptions from '$lib/data/tags.json';
-	import levelOptions from '$lib/data/levels.json';
 
 	const chevronDownIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
 	  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -19,14 +18,11 @@
 	let experience = '';
 	let company = '';
 	let isCalculating = false;
-	let isSubmitting = false;
 	let errors: Record<string, string> = {};
 	let result: { rank: number; total: number; percentile: number } | null = null;
 
 	let level = '';
 	let tag = '';
-	let stock = '';
-	let bonus = '';
 
 	function debounce<T extends (...args: any[]) => void>(
 		fn: T,
@@ -71,22 +67,6 @@
 		return '';
 	}
 
-	function validateStock(value: string) {
-		const num = Number(value.replace(/,/g, ''));
-		if (!value) return '';
-		if (num < 0) return 'มูลค่าหุ้นต้องไม่ต่ำกว่า 0 บาท';
-		if (num > 10000000) return 'มูลค่าหุ้นต้องไม่เกิน 10,000,000 บาท';
-		return '';
-	}
-
-	function validateBonus(value: string) {
-		const num = Number(value.replace(/,/g, ''));
-		if (!value) return '';
-		if (num < 0) return 'โบนัสต้องไม่ต่ำกว่า 0 บาท';
-		if (num > 1000000) return 'โบนัสต้องไม่เกิน 1,000,000 บาท';
-		return '';
-	}
-
 	const debouncedValidateSalary = debounce((value: string) => {
 		errors.salary = validateSalary(value);
 	}, 300);
@@ -105,14 +85,6 @@
 
 	const debouncedValidateTag = debounce((value: string) => {
 		errors.tag = validateTag(value);
-	}, 300);
-
-	const debouncedValidateStock = debounce((value: string) => {
-		errors.stock = validateStock(value);
-	}, 300);
-
-	const debouncedValidateBonus = debounce((value: string) => {
-		errors.bonus = validateBonus(value);
 	}, 300);
 
 	function handleSalaryInput(event: Event) {
@@ -135,31 +107,13 @@
 		debouncedValidateCompany(value);
 	}
 
-	function handleStockInput(event: Event) {
-		const input = event.target as HTMLInputElement;
-		const value = input.value.replace(/,/g, '');
-		stock = value;
-		input.value = formatSalary(value);
-		debouncedValidateStock(value);
-	}
-
-	function handleBonusInput(event: Event) {
-		const input = event.target as HTMLInputElement;
-		const value = input.value.replace(/,/g, '');
-		bonus = value;
-		input.value = formatSalary(value);
-		debouncedValidateBonus(value);
-	}
-
 	function validateForm() {
 		errors = {
 			salary: validateSalary(salary),
 			experience: validateExperience(experience),
 			company: validateCompany(company),
 			level: validateLevel(level),
-			tag: validateTag(tag),
-			stock: validateStock(stock),
-			bonus: validateBonus(bonus)
+			tag: validateTag(tag)
 		};
 		return Object.values(errors).every((error) => !error);
 	}
@@ -184,43 +138,6 @@
 			result = { rank, total, percentile };
 		} finally {
 			isCalculating = false;
-		}
-	}
-
-	async function addToData() {
-		if (!validateForm()) return;
-
-		isSubmitting = true;
-		try {
-			const baseSalary = Number(salary.replace(/,/g, ''));
-			const stockValue = Number(stock.replace(/,/g, '')) || 0;
-			const bonusValue = Number(bonus.replace(/,/g, '')) || 0;
-
-			const newEntry: CompanySalary = {
-				company,
-				level,
-				tag,
-				experience,
-				salary: baseSalary,
-				stock: stockValue,
-				bonus: bonusValue,
-				totalCompensation: baseSalary + stockValue + bonusValue
-			};
-
-			customSalaries.update((entries) => [...entries, newEntry]);
-			newestEntry.set(`${company}-${level}`);
-			setTimeout(() => newestEntry.set(null), 3000);
-
-			salary = '';
-			experience = '';
-			company = '';
-			level = '';
-			tag = '';
-			stock = '';
-			bonus = '';
-			errors = {};
-		} finally {
-			isSubmitting = false;
 		}
 	}
 </script>
@@ -350,46 +267,6 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="space-y-6">
-					<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-						<div class="space-y-2">
-							<label for="stock" class="block text-sm font-medium text-gray-700"
-								>มูลค่าหุ้นต่อปี</label
-							>
-							<input
-								id="stock"
-								type="text"
-								inputmode="numeric"
-								on:input={handleStockInput}
-								on:blur={handleStockInput}
-								class="w-full rounded-lg border p-3 transition-all duration-200
-				 {errors.stock ? 'border-red-500' : 'border-gray-300'}"
-								placeholder="ระบุมูลค่าหุ้น"
-							/>
-							{#if errors.stock}
-								<p class="mt-1 text-sm text-red-500">{errors.stock}</p>
-							{/if}
-						</div>
-
-						<div class="space-y-2">
-							<label for="bonus" class="block text-sm font-medium text-gray-700">โบนัสต่อปี</label>
-							<input
-								id="bonus"
-								type="text"
-								inputmode="numeric"
-								on:input={handleBonusInput}
-								on:blur={handleBonusInput}
-								class="w-full rounded-lg border p-3 transition-all duration-200
-				 {errors.bonus ? 'border-red-500' : 'border-gray-300'}"
-								placeholder="ระบุโบนัส"
-							/>
-							{#if errors.bonus}
-								<p class="mt-1 text-sm text-red-500">{errors.bonus}</p>
-							{/if}
-						</div>
-					</div>
-				</div>
 			</div>
 
 			<div class="mt-6 flex flex-col gap-3 sm:flex-row sm:gap-4">
@@ -402,16 +279,6 @@
 				   {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
 				>
 					{isCalculating ? 'กำลังคำนวณ...' : 'คำนวณอันดับ'}
-				</button>
-				<button
-					on:click={addToData}
-					disabled={isSubmitting}
-					class="flex-1 rounded-lg bg-gradient-to-r from-green-600 to-green-700 px-6 py-4 font-medium
-				   text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
-				   disabled:opacity-50 sm:py-3
-				   {isSubmitting ? 'opacity-75' : 'hover:from-green-700 hover:to-green-800'}"
-				>
-					{isSubmitting ? 'กำลังบันทึก...' : 'เพิ่มข้อมูล'}
 				</button>
 			</div>
 		</div>
