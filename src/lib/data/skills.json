@@ -5,6 +5,7 @@
 		"company": "SCB Tech X Co., Ltd.",
 		"yearsOfExperience": 15,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's/Master's degree in Computer Science, Computer Engineering, or related fields",
 			"15+ years of software development experience (Java, JavaScript, TypeScript)",
 			"5+ years of experience managing software development teams as a Technical Lead",
@@ -51,6 +52,7 @@
 		"company": "",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"HTML5, CSS3, Sass/LESS",
 			"JavaScript (ES6+), TypeScript",
 			"React.js, Vue.js, Angular",
@@ -87,6 +89,7 @@
 		"company": "SILKSPAN Co., Ltd.",
 		"yearsOfExperience": 5,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Proficiency in IT Project Management (5+ years)",
 			"Strong knowledge of project scope, objectives, and technical feasibility",
 			"Experience with resource allocation and project planning",
@@ -129,6 +132,7 @@
 		"company": "ASCGroup",
 		"yearsOfExperience": 9,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"7+ years of development experience",
 			"2+ years as Team Lead",
 			"Strong in Node.js, React.js, NestJS",
@@ -157,6 +161,7 @@
 		"company": "ASCGroup",
 		"yearsOfExperience": 9,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"5+ years of technical experience (3+ years in product/service implementation)",
 			"Expertise in Angular, React.js, or Vue.js",
 			"Strong in .Net, .Net Core, and C#",
@@ -184,6 +189,7 @@
 		"company": "Tech Soft Holding Co., Ltd.",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science, IT, or related fields",
 			"2+ years of experience in Mobile Application Development",
 			"Proficiency in Flutter, Android Studio, C#.Net, .Net Core, and Full Stack Development",
@@ -215,6 +221,7 @@
 		"company": "AMASS CORPORATION (THAILAND) CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of experience in mobile development using Flutter, Kotlin, and Swift",
 			"Ability to design and analyze requirements",
 			"Experience with production support (preferred)",
@@ -238,6 +245,7 @@
 		"company": "KASIKORN LINE Co., Ltd.",
 		"yearsOfExperience": 4,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science, IT, or related fields",
 			"4+ years of front-end development experience",
 			"Strong expertise in React, TypeScript, and JavaScript (ES5/ES6+)",
@@ -266,6 +274,7 @@
 		"company": "",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"HTML5, CSS3, Sass/LESS",
 			"JavaScript (ES6+), TypeScript",
 			"React.js, Vue.js, Angular",
@@ -302,6 +311,7 @@
 		"company": "MILLIONAIRE 9 CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of experience in HTML5, CSS, JavaScript, and TypeScript",
 			"Proficiency in modern frameworks like Next.js and React",
 			"Experience with Redux, Tailwind CSS, and responsive design",
@@ -319,6 +329,7 @@
 		"company": "",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Proven experience as an Angular/TypeScript Developer or similar role",
 			"Strong understanding of Angular framework concepts including components, services, routing, and dependency injection",
 			"Experience with version control systems (Git)",
@@ -334,6 +345,7 @@
 		"company": "KASIKORN LINE Co., Ltd.",
 		"yearsOfExperience": 4,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Proficiency in developing and maintaining RESTful APIs",
 			"Familiarity with microservices architecture and event-driven systems",
 			"Expertise in backend performance optimization, debugging, and monitoring",
@@ -365,7 +377,11 @@
 		"position": "Backend Developer",
 		"company": "KRUNG THAI BANK PUBLIC COMPANY LIMITED",
 		"yearsOfExperience": 3,
-		"requiredSkills": ["Java fundamentals and OOP", "Spring, Spring Boot, Hibernate, MyBatis"],
+		"requiredSkills": [
+			"IELTS 5.5 in every band",
+			"Java fundamentals and OOP",
+			"Spring, Spring Boot, Hibernate, MyBatis"
+		],
 		"benefits": [
 			"วันลาพักร้อนประจำปี (15 วัน)",
 			"โบนัสตามผลการดำเนินงาน (ขึ้นอยู่กับผลประกอบการของธนาคาร)",
@@ -383,6 +399,7 @@
 		"company": "MY GROUP INTELLIGENT CO., LTD.",
 		"yearsOfExperience": 5,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Java development (3+ years)",
 			"Java fundamentals and OOP",
 			"Spring, Spring Boot, Hibernate, MyBatis",
@@ -408,6 +425,7 @@
 		"company": "ASCGroup",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in IT, MIS, Computer Science, or related fields",
 			"3+ years of experience in Java programming",
 			"Proficiency in Java, SQL, Python, and .Net",
@@ -433,6 +451,7 @@
 		"company": "The Prodigy (Thailand) Co., Ltd.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science, Computer Engineering, MIS, or related fields",
 			"2+ years of experience with VB.NET, ASP.NET, C#.NET, or .NET Framework",
 			"Proficiency in Oracle Database and Microsoft SQL Server",
@@ -459,6 +478,7 @@
 		"company": "MILLIONAIRE 9 CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of experience as a Backend Developer",
 			"Proficiency in Node.js, Python, or similar backend languages",
 			"Experience with SQL and NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB)",
@@ -477,6 +497,7 @@
 		"company": "Wisesight (Thailand) Co., Ltd.",
 		"yearsOfExperience": 4,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"4+ years of experience with Go and databases (MySQL, PostgreSQL, MongoDB)",
 			"1+ years of experience with Docker, Kubernetes, IaaC, RabbitMQ, Redis, gRPC, REST, and CI/CD",
 			"Proficiency in writing clean, high-quality code and improving existing code",
@@ -506,6 +527,7 @@
 		"company": "Tech Soft Holding Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"3+ years of experience as a Java Developer (Spring Boot)",
 			"Skill in Docker, Jenkins, CI/CD, and Kubernetes (preferred)",
 			"Positive thinking and growth mindset",
@@ -533,6 +555,7 @@
 		"company": "ASCGroup",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science or related fields",
 			"2+ years of Java development experience",
 			"Proficient in Java frameworks, APIs, and Jasper",
@@ -560,6 +583,7 @@
 		"company": "The Prodigy (Thailand) Co., Ltd.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in IT, Computer Science, or related fields",
 			"2+ years of software development experience",
 			"Strong proficiency in Java and Spring Boot",
@@ -585,6 +609,7 @@
 		"company": "AMASS CORPORATION (THAILAND) CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of experience in DevOps or related roles",
 			"Proficiency in Linux system engineering",
 			"Experience with CI/CD pipelines (preferably GitHub Actions)",
@@ -609,6 +634,7 @@
 		"company": "MYORDER INTELLIGENCE CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"1-2+ years of experience as Backend Developer, Fullstack Developer, DevOps, or SRE",
 			"Proficiency with cloud platforms (AWS, GCP, or Azure)",
 			"Knowledge of container orchestration (Docker, Kubernetes, Podman)",
@@ -645,6 +671,7 @@
 		"company": "Wisesight (Thailand) Co., Ltd.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of experience in DevSecOps or related roles",
 			"Proficiency in CI/CD tools (GitHub Actions, ArgoCD)",
 			"Experience with cloud platforms (AWS, Google Cloud)",
@@ -678,6 +705,7 @@
 		"company": "Kiatnakin Phatra Financial Group",
 		"yearsOfExperience": 5,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"5+ years of experience as a Quality Assurance Engineer",
 			"2+ years of experience in automated software testing",
 			"Ability to build and maintain test automation frameworks (Backend and Frontend)",
@@ -708,6 +736,7 @@
 		"company": "Kiatnakin Phatra Financial Group",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of experience as a Quality Assurance Engineer",
 			"1+ year of experience with Automation Testing tools",
 			"Knowledge of testing methodologies and ability to create test cases, data, and reports",
@@ -736,6 +765,7 @@
 		"company": "AMASS CORPORATION (THAILAND) CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2-3+ years of experience as a QA Automation/Test Engineer",
 			"Proficiency in Quality Management Software and Processes",
 			"Knowledge of software testing for Web Applications, Web Services, XML, GUI, Reports, and Databases",
@@ -756,6 +786,7 @@
 		"company": "The Prodigy (Thailand) Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science, Engineering, or related fields",
 			"Experience in Insurance, Banking, or Financial sectors is a plus",
 			"1+ years of experience with Robot Framework for automated testing",
@@ -782,6 +813,7 @@
 		"company": "Tech Soft Holding Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science, Computer Engineering, IT or related fields",
 			"1-8+ years of experience in test processes",
 			"Experience in Application, System, and Software Testing methodologies",
@@ -823,6 +855,7 @@
 		"company": "THiNKNET Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Experience in designing and developing Test Scenarios, Test Cases, and Test Scripts",
 			"Ability to collaborate on requirement gathering and system design",
 			"Proficiency in identifying and debugging system errors",
@@ -851,6 +884,7 @@
 		"company": "THiNKNET Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Experience in designing and developing complex data storage systems",
 			"Proficiency in ETL processes and tools",
 			"Knowledge of Data Warehousing and Data Lakes",
@@ -880,6 +914,7 @@
 		"company": "THiNKNET Co., Ltd.",
 		"yearsOfExperience": 1,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Proficiency in Python programming",
 			"Experience with ETL processes and tools",
 			"Knowledge of Data Warehousing and Data Lakes",
@@ -909,6 +944,7 @@
 		"company": "Kiatnakin Phatra Financial Group",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2-10 years of experience in data analytics, strategy, or product management",
 			"Strong analytical skills and data intuition",
 			"Proficiency in SQL; familiarity with a programming language is a plus",
@@ -937,6 +973,7 @@
 		"company": "SCB DataX Co., Ltd.",
 		"yearsOfExperience": 1,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Expertise in Generative AI technologies (LLMs, ASR)",
 			"Proven experience in designing and prototyping AI models from concept to proof-of-concept",
 			"Proficiency in Python and AI/ML libraries (e.g., transformers, PyTorch)",
@@ -954,6 +991,7 @@
 		"company": "SCB DataX Co., Ltd.",
 		"yearsOfExperience": 1,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Strong knowledge of machine learning, deep learning, and generative algorithms",
 			"Experience with Generative AI prompt engineering techniques",
 			"Proficiency in ML/AI serving optimization and deployment strategies",
@@ -977,6 +1015,7 @@
 		"company": "THiNKNET Co., Ltd.",
 		"yearsOfExperience": 1,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Proficiency in AI system design using Machine Learning, Deep Learning, and Neural Networks",
 			"Ability to create and train models with appropriate algorithms for problem-solving",
 			"Experience in testing and evaluating AI systems to meet user requirements",
@@ -1006,6 +1045,7 @@
 		"company": "M Intelligence Co., Ltd.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science, Software Engineering, MIS, MBA, or equivalent experience",
 			"2+ years of experience in software development or system implementation (Fresh graduates welcome)",
 			"Experience in Front-end, Back-end, or Full Stack development",
@@ -1038,6 +1078,7 @@
 		"company": "Kiatnakin Phatra Financial Group",
 		"yearsOfExperience": 5,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science or related fields",
 			"5+ years of experience in testing, maintaining, and deploying software products",
 			"3+ years of experience in designing large-scale software architecture",
@@ -1068,6 +1109,7 @@
 		"company": "Wisesight (Thailand) Co., Ltd.",
 		"yearsOfExperience": 4,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"4+ years of experience with Go and databases (MySQL, PostgreSQL, MongoDB)",
 			"1+ years of experience with Docker, Kubernetes, IaaC, RabbitMQ, Redis, gRPC, REST, and CI/CD",
 			"Proficiency in writing clean, high-quality code and improving existing code",
@@ -1097,6 +1139,7 @@
 		"company": "MILLIONAIRE 9 CO., LTD.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2-3 years of experience as a UX/UI Designer",
 			"Proficiency in Figma (components, auto layout, design systems)",
 			"Strong understanding of UX principles and interaction design",
@@ -1114,6 +1157,7 @@
 		"company": "THiNKNET Co., Ltd.",
 		"yearsOfExperience": 1,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Experience in developing Web and Mobile Applications using ReactJS, React Native, and Flutter",
 			"Proficiency in Microservice development with Node.js and GraphQL",
 			"Knowledge of HTML, CSS, SCSS, and JavaScript",
@@ -1143,6 +1187,7 @@
 		"company": "THiNKNET Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Engineering, Computer Science, or related fields",
 			"3-5+ years of experience in Web and Mobile Application Development",
 			"Proficiency in ReactJS, React Native, Flutter, and Node.js",
@@ -1172,6 +1217,7 @@
 		"company": "KASIKORN LINE Co., Ltd.",
 		"yearsOfExperience": 4,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Full-stack development experience (e.g., Java, Golang, Kotlin for back-end; JavaScript, React, TypeScript for front-end)",
 			"Proficiency in developing and maintaining RESTful APIs",
 			"Familiarity with microservices architecture and event-driven systems",
@@ -1205,6 +1251,7 @@
 		"company": "W JAMES VENTURES CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of experience in React.js, Golang, and Node.js",
 			"Proficiency in React Native with a focus on best practices and performance improvements",
 			"Experience with PostgreSQL, MongoDB, and Redis databases",
@@ -1235,6 +1282,7 @@
 		"company": "Crazy Factory Trading Co,.Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Fluency in at least 2 programming languages (e.g., PHP7, TypeScript/JavaScript)",
 			"Experience with web technologies (HTML5, CSS3, MySQL, Elasticsearch)",
 			"Familiarity with tools and platforms (Docker, GIT, Travis, AWS, Phalcon)",
@@ -1267,6 +1315,7 @@
 		"company": "Gofive Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Proficiency in C#, HTML, CSS, JavaScript, and TypeScript",
 			"Experience with Angular Framework",
 			"Knowledge of .NET Framework and .NET Core",
@@ -1297,6 +1346,7 @@
 		"company": "Amass Corporation (Thailand) Co., Ltd.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of experience in software development",
 			"Strong foundation in Computer Science (Algorithms, Data Structures)",
 			"Proficiency in Golang and Flutter",
@@ -1317,6 +1367,7 @@
 		"company": "Tech Soft Holding Co., Ltd.",
 		"yearsOfExperience": 3,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's/Master's degree in Computer Science, IT, MIS, or related fields",
 			"3-5 years of experience in database, system, and security administration",
 			"1-2 years of project management experience",
@@ -1347,6 +1398,7 @@
 		"company": "AMASS CORPORATION (THAILAND) CO., LTD.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"2+ years of work experience",
 			"Expertise in Windows and Linux system engineering",
 			"Experience with CI/CD pipelines (preferably GitHub Actions)",
@@ -1370,6 +1422,7 @@
 		"company": "NTT DATA (Thailand) Co., Ltd.",
 		"yearsOfExperience": 1,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Experience in COBOL programming on mainframe systems",
 			"Familiarity with JCL and CICS (preferred)",
 			"Experience in the banking industry (preferred)"
@@ -1396,6 +1449,7 @@
 		"company": "M Intelligence Co., Ltd.",
 		"yearsOfExperience": 2,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's/Master's degree in Software Engineering, Computer Science, Digital Marketing, or related fields",
 			"2+ years of experience as a Product Manager or Product Owner in complex technologies",
 			"Experience working in a Scrum environment",
@@ -1429,6 +1483,7 @@
 		"company": "CIMB THAI BANK PUBLIC COMPANY LIMITED",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in IT, Computer Science, or related fields",
 			"CISA, CISSP, or CIA certifications (preferred)",
 			"7+ years of IT auditing experience in Banking or Financial Institutions",
@@ -1454,6 +1509,7 @@
 		"company": "RIEVEL GAMES CO., LTD.",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Proficiency in C# programming language",
 			"Experience with Unity3D",
 			"Ability to develop programs based on requirements",
@@ -1470,6 +1526,7 @@
 		"company": "STARCUBE CO., LTD.",
 		"yearsOfExperience": 10,
 		"requiredSkills": [
+			"IELTS 5.5 in every band",
 			"Bachelor's degree in Computer Science, Computing, or Computer Engineering",
 			"2+ years of experience in game development",
 			"Proficiency in game engines (Cocos Creator or Unity)",
