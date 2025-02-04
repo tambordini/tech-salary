@@ -27,6 +27,9 @@
 	}
 
 	$: sortedSalaryData = [...salaryData].sort((a, b) => {
+		const companyCompare = a.company.localeCompare(b.company);
+		if (companyCompare !== 0) return companyCompare;
+
 		const totalA = (Number(a.salary) || 0) + (Number(a.stock) || 0) + (Number(a.bonus) || 0);
 		const totalB = (Number(b.salary) || 0) + (Number(b.stock) || 0) + (Number(b.bonus) || 0);
 		return totalB - totalA;
@@ -46,9 +49,14 @@
 		if (currentPage > 1) currentPage--;
 	}
 
-	function generatePageNumbers(current: number, total: number): (number | string)[] {
+	function generatePageNumbers(
+		current: number,
+		total: number,
+		isMobile: boolean
+	): (number | string)[] {
 		const pages: (number | string)[] = [];
-		const delta = 2;
+		// Show fewer numbers on mobile
+		const delta = isMobile ? 1 : 2;
 
 		for (let i = 1; i <= total; i++) {
 			if (i === 1 || i === total || (i >= current - delta && i <= current + delta)) {
@@ -61,10 +69,18 @@
 		return [...new Set(pages)];
 	}
 
+	let isMobile: boolean;
+
+	function checkMobile() {
+		isMobile = window.innerWidth < 640;
+	}
+
 	function goToPage(page: number) {
 		currentPage = page;
 	}
 </script>
+
+<svelte:window on:resize={checkMobile} />
 
 <div class="container mx-auto p-2 sm:p-4">
 	<div class="overflow-x-auto rounded-xl border border-gray-100 shadow-lg">
@@ -143,19 +159,19 @@
 	</div>
 
 	<div
-		class="mt-4 flex flex-col items-center justify-between gap-4 px-2 sm:mt-6 sm:flex-row sm:px-4"
+		class="mt-4 flex flex-col items-center justify-between gap-2 px-2 sm:mt-6 sm:flex-row sm:gap-4 sm:px-4"
 	>
-		<div class="text-sm text-gray-700">
+		<div class="text-xs text-gray-700 sm:text-sm">
 			Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(
 				currentPage * itemsPerPage,
 				sortedSalaryData.length
 			)} of {sortedSalaryData.length} entries
 		</div>
-		<div class="flex items-center gap-2">
+		<div class="flex items-center gap-1 sm:gap-2">
 			<button
 				on:click={prevPage}
 				disabled={currentPage === 1}
-				class="rounded-lg border px-4 py-2 text-sm font-medium transition-colors duration-200 {currentPage ===
+				class="rounded-lg border px-2 py-1 text-xs font-medium transition-colors duration-200 sm:px-4 sm:py-2 sm:text-sm {currentPage ===
 				1
 					? 'cursor-not-allowed border-gray-200 bg-gray-50 text-gray-400'
 					: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
@@ -164,13 +180,13 @@
 				←
 			</button>
 
-			{#each generatePageNumbers(currentPage, totalPages) as page}
+			{#each generatePageNumbers(currentPage, totalPages, isMobile) as page}
 				{#if typeof page === 'string'}
-					<span class="px-4 py-2 text-gray-700">{page}</span>
+					<span class="px-2 py-1 text-xs text-gray-700 sm:px-4 sm:py-2 sm:text-sm">{page}</span>
 				{:else}
 					<button
 						on:click={() => goToPage(page)}
-						class="rounded-lg border px-4 py-2 text-sm font-medium transition-colors duration-200 {currentPage ===
+						class="rounded-lg border px-2 py-1 text-xs font-medium transition-colors duration-200 sm:px-4 sm:py-2 sm:text-sm {currentPage ===
 						page
 							? 'border-[#0056a9] bg-[#0056a9] text-white'
 							: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
@@ -183,7 +199,7 @@
 			<button
 				on:click={nextPage}
 				disabled={currentPage === totalPages}
-				class="rounded-lg border px-4 py-2 text-sm font-medium transition-colors duration-200 {currentPage ===
+				class="rounded-lg border px-2 py-1 text-xs font-medium transition-colors duration-200 sm:px-4 sm:py-2 sm:text-sm {currentPage ===
 				totalPages
 					? 'cursor-not-allowed border-gray-200 bg-gray-50 text-gray-400'
 					: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
