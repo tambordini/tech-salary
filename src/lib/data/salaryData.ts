@@ -1,7 +1,24 @@
 import type { CompanySalary } from '../types/salary';
 import salaryJsonData from './data.json';
 
-export const companySalaries: CompanySalary[] = salaryJsonData.map((item) => ({
+const uniqueSalaryData = salaryJsonData.filter(
+	(item, index, self) =>
+		index ===
+		self.findIndex(
+			(t) =>
+				t.company === item.company &&
+				t.levelName === item.levelName &&
+				t.tagName === item.tagName &&
+				t.yearsOfExperience === item.yearsOfExperience &&
+				t.yearsAtCompany === item.yearsAtCompany &&
+				t.totalCompensation === item.totalCompensation &&
+				t.base === item.base &&
+				t.stock === item.stock &&
+				t.bonus === item.bonus
+		)
+);
+
+export const companySalaries: CompanySalary[] = uniqueSalaryData.map((item) => ({
 	company: item.company,
 	level: item.levelName,
 	tag: item.tagName,

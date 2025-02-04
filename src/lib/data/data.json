@@ -1,16 +1,5 @@
 [
 	{
-		"company": "Odd-E (Thailand) ...",
-		"levelName": "Senior",
-		"tagName": "Web Development (Front-End)",
-		"yearsOfExperience": 6,
-		"yearsAtCompany": 6,
-		"totalCompensation": "80000",
-		"base": "80000",
-		"stock": "N/A",
-		"bonus": "N/A"
-	},
-	{
 		"company": "Bedrock Analytic",
 		"levelName": "-",
 		"tagName": "Data",
@@ -119,17 +108,6 @@
 		"base": "96620",
 		"stock": "N/A",
 		"bonus": "4200"
-	},
-	{
-		"company": "ODDS",
-		"levelName": "hidden",
-		"tagName": "hidden",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 5,
-		"totalCompensation": "97000",
-		"base": "97000",
-		"stock": "N/A",
-		"bonus": "N/A"
 	},
 	{
 		"company": "Thomson Reuters",
@@ -3666,17 +3644,6 @@
 		"bonus": "N/A"
 	},
 	{
-		"company": "ODDS",
-		"levelName": "L3",
-		"tagName": "Full Stack",
-		"yearsOfExperience": 3,
-		"yearsAtCompany": 2,
-		"totalCompensation": "84000",
-		"base": "84000",
-		"stock": "N/A",
-		"bonus": "N/A"
-	},
-	{
 		"company": "LSEG",
 		"levelName": "Senior",
 		"tagName": "API Development (Back-End)",
@@ -6441,17 +6408,6 @@
 		"base": "145000",
 		"stock": "N/A",
 		"bonus": "33300"
-	},
-	{
-		"company": "ODDS",
-		"levelName": "-",
-		"tagName": "Full Stack",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 3,
-		"totalCompensation": "109266",
-		"base": "109270",
-		"stock": "N/A",
-		"bonus": "N/A"
 	},
 	{
 		"company": "Agoda",
