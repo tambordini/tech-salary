@@ -2,8 +2,8 @@
 	{
 		"company": "Bedrock Analytic",
 		"levelName": "-",
-		"tagName": "Data",
 		"yearsOfExperience": 5,
+		"tagName": "Data",
 		"yearsAtCompany": 3,
 		"totalCompensation": "45900",
 		"base": "45900",
@@ -13,8 +13,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "50000",
 		"base": "50000",
@@ -24,8 +24,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Software Engineer Analyst",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 2,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "47083",
 		"base": "40000",
@@ -35,8 +35,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 7,
+		"tagName": "Data",
 		"yearsAtCompany": 6,
 		"totalCompensation": "205417",
 		"base": "170000",
@@ -46,8 +46,8 @@
 	{
 		"company": "Zappy",
 		"levelName": "L2",
-		"tagName": "Developer Relations",
 		"yearsOfExperience": 1,
+		"tagName": "Developer Relations",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "20000",
 		"base": "20000",
@@ -57,8 +57,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "152125",
 		"base": "150000",
@@ -68,8 +68,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "43167",
 		"base": "37000",
@@ -79,8 +79,8 @@
 	{
 		"company": "Arise",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -90,8 +90,8 @@
 	{
 		"company": "Progaming",
 		"levelName": "Junior",
-		"tagName": "Game Development",
 		"yearsOfExperience": 1,
+		"tagName": "Game Development",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "19000",
 		"base": "19000",
@@ -101,8 +101,8 @@
 	{
 		"company": "Beam Mobility",
 		"levelName": "II",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "100782",
 		"base": "96620",
@@ -112,8 +112,8 @@
 	{
 		"company": "Thomson Reuters",
 		"levelName": "TR4",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "116667",
 		"base": "100000",
@@ -123,8 +123,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "E2",
-		"tagName": "DevOps",
 		"yearsOfExperience": 7,
+		"tagName": "DevOps",
 		"yearsAtCompany": 4,
 		"totalCompensation": "92500",
 		"base": "92500",
@@ -134,8 +134,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "L3",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 6,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "58167",
 		"base": "50000",
@@ -146,8 +146,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "E3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "101000",
 		"base": "101000",
@@ -157,8 +157,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 12,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "267500",
 		"base": "225000",
@@ -168,8 +168,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Lead",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "115000",
 		"base": "115000",
@@ -179,8 +179,8 @@
 	{
 		"company": "Arise",
 		"levelName": "Senior",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 3,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -190,8 +190,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "154000",
 		"base": "154000",
@@ -201,8 +201,8 @@
 	{
 		"company": "Adastra",
 		"levelName": "3",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 6,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "67000",
 		"base": "60000",
@@ -212,8 +212,8 @@
 	{
 		"company": "Tri Petch IT Solu...",
 		"levelName": "S1",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "68333",
 		"base": "60000",
@@ -223,8 +223,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "218750",
 		"base": "185000",
@@ -234,8 +234,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Middle",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -245,8 +245,8 @@
 	{
 		"company": "Mycourseville",
 		"levelName": "Junier",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "34667",
 		"base": "34700",
@@ -256,8 +256,8 @@
 	{
 		"company": "Bluebik Vulcan",
 		"levelName": "-",
-		"tagName": "Data",
 		"yearsOfExperience": 1,
+		"tagName": "Data",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "42833",
 		"base": "37000",
@@ -267,8 +267,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "26000",
 		"base": "26000",
@@ -278,8 +278,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "158333",
 		"base": "150000",
@@ -289,8 +289,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "E1",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 2,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "48000",
 		"base": "48000",
@@ -300,8 +300,8 @@
 	{
 		"company": "BetterBe",
 		"levelName": "Co-op",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 1,
+		"tagName": "ML / AI",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "12000",
 		"base": "12000",
@@ -311,8 +311,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "90000",
 		"base": "8300",
@@ -322,8 +322,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "Senior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "147000",
 		"base": "147000",
@@ -333,8 +333,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "222778",
 		"base": "220000",
@@ -344,8 +344,8 @@
 	{
 		"company": "Helius Tech",
 		"levelName": "L2",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 5,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -355,8 +355,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "35000",
 		"base": "1000",
@@ -366,8 +366,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "Consultant",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "115444",
 		"base": "115440",
@@ -377,8 +377,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106667",
 		"base": "90000",
@@ -388,8 +388,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 5,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 3,
 		"totalCompensation": "140000",
 		"base": "140000",
@@ -399,8 +399,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "110000",
 		"base": "80000",
@@ -410,8 +410,8 @@
 	{
 		"company": "United Nations",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 14,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "111079",
 		"base": "111080",
@@ -421,8 +421,8 @@
 	{
 		"company": "TTB Spark",
 		"levelName": "-",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 6,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "78750",
 		"base": "63000",
@@ -432,8 +432,8 @@
 	{
 		"company": "AI & Robotics Ven...",
 		"levelName": "-",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 2,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 2,
 		"totalCompensation": "27000",
 		"base": "27000",
@@ -443,8 +443,8 @@
 	{
 		"company": "Microsoft",
 		"levelName": "62",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 5,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 2,
 		"totalCompensation": "493750",
 		"base": "333330",
@@ -454,8 +454,8 @@
 	{
 		"company": "MAQE",
 		"levelName": "Lead",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 9,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 9,
 		"totalCompensation": "115000",
 		"base": "115000",
@@ -465,8 +465,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "134167",
 		"base": "124580",
@@ -476,8 +476,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 10,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 5,
 		"totalCompensation": "171750",
 		"base": "137000",
@@ -487,8 +487,8 @@
 	{
 		"company": "bangchak",
 		"levelName": "6",
-		"tagName": "Data",
 		"yearsOfExperience": 3,
+		"tagName": "Data",
 		"yearsAtCompany": 1,
 		"totalCompensation": "67000",
 		"base": "42000",
@@ -498,8 +498,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 6,
 		"totalCompensation": "206667",
 		"base": "165000",
@@ -509,8 +509,8 @@
 	{
 		"company": "Gable",
 		"levelName": "11",
-		"tagName": "Data",
 		"yearsOfExperience": 1,
+		"tagName": "Data",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "35000",
 		"base": "35000",
@@ -520,8 +520,8 @@
 	{
 		"company": "Dohome",
 		"levelName": "L3",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 2,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 1,
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -531,8 +531,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "215000",
 		"base": "215000",
@@ -542,8 +542,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "75833",
 		"base": "70000",
@@ -553,8 +553,8 @@
 	{
 		"company": "TrueMoney",
 		"levelName": "L5",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 6,
 		"totalCompensation": "72500",
 		"base": "60000",
@@ -564,8 +564,8 @@
 	{
 		"company": "DTGO",
 		"levelName": "-",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 10,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -575,8 +575,8 @@
 	{
 		"company": "Testlio",
 		"levelName": "L3",
-		"tagName": "DevOps",
 		"yearsOfExperience": 2,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "4179",
 		"base": "4200",
@@ -586,8 +586,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "Consultant",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "84000",
 		"base": "84000",
@@ -597,8 +597,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "75000",
 		"base": "75000",
@@ -608,8 +608,8 @@
 	{
 		"company": "Ai Gen",
 		"levelName": "L5",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 10,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 3,
 		"totalCompensation": "83333",
 		"base": "83330",
@@ -619,8 +619,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "226800",
 		"base": "189000",
@@ -630,8 +630,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "Senior Consultant",
-		"tagName": "DevOps",
 		"yearsOfExperience": 7,
+		"tagName": "DevOps",
 		"yearsAtCompany": 2,
 		"totalCompensation": "180000",
 		"base": "180000",
@@ -641,8 +641,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 11,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "130000",
 		"base": "130000",
@@ -652,8 +652,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "405733",
 		"base": "263000",
@@ -663,8 +663,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "202500",
 		"base": "165000",
@@ -674,8 +674,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "GG9",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "43333",
 		"base": "43300",
@@ -685,8 +685,8 @@
 	{
 		"company": "Bitkub",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "59280",
 		"base": "59300",
@@ -696,8 +696,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "Senior qa",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 5,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "72000",
 		"base": "72000",
@@ -707,8 +707,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "157500",
 		"base": "132500",
@@ -718,8 +718,8 @@
 	{
 		"company": "Allianz",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 7,
 		"totalCompensation": "117167",
 		"base": "100000",
@@ -729,8 +729,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Lead",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "115000",
 		"base": "115000",
@@ -740,8 +740,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Staff Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "108917",
 		"base": "101000",
@@ -751,8 +751,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150833",
 		"base": "130000",
@@ -762,8 +762,8 @@
 	{
 		"company": "Opn",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "155000",
 		"base": "155000",
@@ -771,21 +771,10 @@
 		"bonus": "N/A"
 	},
 	{
-		"company": "Accenture",
-		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 2,
-		"totalCompensation": "90417",
-		"base": "75800",
-		"stock": "N/A",
-		"bonus": "14600"
-	},
-	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 8,
 		"totalCompensation": "190000",
 		"base": "190000",
@@ -796,8 +785,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "157000",
 		"base": "157000",
@@ -807,8 +796,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "Middle .Net Developer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "47500",
 		"base": "47500",
@@ -818,8 +807,8 @@
 	{
 		"company": "Innopia Global",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -829,8 +818,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106930",
 		"base": "106930",
@@ -840,8 +829,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "100000",
 		"base": "80000",
@@ -851,8 +840,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Staff Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "108917",
 		"base": "101000",
@@ -862,8 +851,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150833",
 		"base": "130000",
@@ -873,8 +862,8 @@
 	{
 		"company": "Opn",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "155000",
 		"base": "155000",
@@ -882,21 +871,10 @@
 		"bonus": "N/A"
 	},
 	{
-		"company": "Accenture",
-		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 2,
-		"totalCompensation": "90417",
-		"base": "75800",
-		"stock": "N/A",
-		"bonus": "14600"
-	},
-	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 8,
 		"totalCompensation": "190000",
 		"base": "190000",
@@ -907,8 +885,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "157000",
 		"base": "157000",
@@ -918,8 +896,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "Middle .Net Developer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "47500",
 		"base": "47500",
@@ -929,8 +907,8 @@
 	{
 		"company": "Innopia Global",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -940,8 +918,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106930",
 		"base": "106930",
@@ -951,8 +929,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "100000",
 		"base": "80000",
@@ -962,8 +940,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Staff Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "108917",
 		"base": "101000",
@@ -973,8 +951,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150833",
 		"base": "130000",
@@ -984,8 +962,8 @@
 	{
 		"company": "Opn",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "155000",
 		"base": "155000",
@@ -993,21 +971,10 @@
 		"bonus": "N/A"
 	},
 	{
-		"company": "Accenture",
-		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 2,
-		"totalCompensation": "90417",
-		"base": "75800",
-		"stock": "N/A",
-		"bonus": "14600"
-	},
-	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 8,
 		"totalCompensation": "190000",
 		"base": "190000",
@@ -1018,8 +985,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "157000",
 		"base": "157000",
@@ -1029,8 +996,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "Middle .Net Developer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "47500",
 		"base": "47500",
@@ -1040,8 +1007,8 @@
 	{
 		"company": "Innopia Global",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -1051,8 +1018,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106930",
 		"base": "106930",
@@ -1062,8 +1029,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "100000",
 		"base": "80000",
@@ -1073,8 +1040,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Staff Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "108917",
 		"base": "101000",
@@ -1084,8 +1051,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150833",
 		"base": "130000",
@@ -1095,8 +1062,8 @@
 	{
 		"company": "Opn",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "155000",
 		"base": "155000",
@@ -1104,21 +1071,10 @@
 		"bonus": "N/A"
 	},
 	{
-		"company": "Accenture",
-		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 2,
-		"totalCompensation": "90417",
-		"base": "75800",
-		"stock": "N/A",
-		"bonus": "14600"
-	},
-	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 8,
 		"totalCompensation": "190000",
 		"base": "190000",
@@ -1129,8 +1085,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "157000",
 		"base": "157000",
@@ -1140,8 +1096,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "Middle .Net Developer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "47500",
 		"base": "47500",
@@ -1151,8 +1107,8 @@
 	{
 		"company": "Innopia Global",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -1162,8 +1118,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106930",
 		"base": "106930",
@@ -1173,8 +1129,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "100000",
 		"base": "80000",
@@ -1184,8 +1140,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Staff Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "108917",
 		"base": "101000",
@@ -1195,8 +1151,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150833",
 		"base": "130000",
@@ -1206,8 +1162,8 @@
 	{
 		"company": "Opn",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "155000",
 		"base": "155000",
@@ -1215,21 +1171,10 @@
 		"bonus": "N/A"
 	},
 	{
-		"company": "Accenture",
-		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 2,
-		"totalCompensation": "90417",
-		"base": "75800",
-		"stock": "N/A",
-		"bonus": "14600"
-	},
-	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 8,
 		"totalCompensation": "190000",
 		"base": "190000",
@@ -1240,8 +1185,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "157000",
 		"base": "157000",
@@ -1251,8 +1196,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "Middle .Net Developer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "47500",
 		"base": "47500",
@@ -1262,8 +1207,8 @@
 	{
 		"company": "Innopia Global",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -1273,8 +1218,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106930",
 		"base": "106930",
@@ -1284,8 +1229,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "100000",
 		"base": "80000",
@@ -1295,8 +1240,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Staff Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "108917",
 		"base": "101000",
@@ -1306,8 +1251,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150833",
 		"base": "130000",
@@ -1317,8 +1262,8 @@
 	{
 		"company": "Opn",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "155000",
 		"base": "155000",
@@ -1326,33 +1271,21 @@
 		"bonus": "N/A"
 	},
 	{
-		"company": "Accenture",
-		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 2,
-		"totalCompensation": "90417",
-		"base": "75800",
-		"stock": "N/A",
-		"bonus": "14600"
-	},
-	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 8,
 		"totalCompensation": "190000",
 		"base": "190000",
 		"stock": "N/A",
 		"bonus": "N/A"
 	},
-
 	{
 		"company": "ScreenCloud",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "157000",
 		"base": "157000",
@@ -1362,8 +1295,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "Middle .Net Developer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "47500",
 		"base": "47500",
@@ -1373,8 +1306,8 @@
 	{
 		"company": "Innopia Global",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -1384,8 +1317,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106930",
 		"base": "106930",
@@ -1395,8 +1328,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "100000",
 		"base": "80000",
@@ -1406,8 +1339,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Staff Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "108917",
 		"base": "101000",
@@ -1417,8 +1350,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150833",
 		"base": "130000",
@@ -1428,8 +1361,8 @@
 	{
 		"company": "Opn",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "155000",
 		"base": "155000",
@@ -1439,8 +1372,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "90417",
 		"base": "75800",
@@ -1450,8 +1383,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 8,
 		"totalCompensation": "190000",
 		"base": "190000",
@@ -1462,8 +1395,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "157000",
 		"base": "157000",
@@ -1473,8 +1406,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "Middle .Net Developer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "47500",
 		"base": "47500",
@@ -1484,8 +1417,8 @@
 	{
 		"company": "Innopia Global",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -1495,8 +1428,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106930",
 		"base": "106930",
@@ -1506,8 +1439,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "100000",
 		"base": "80000",
@@ -1517,8 +1450,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Staff Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "108917",
 		"base": "101000",
@@ -1528,8 +1461,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150833",
 		"base": "130000",
@@ -1539,8 +1472,8 @@
 	{
 		"company": "Opn",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "155000",
 		"base": "155000",
@@ -1548,21 +1481,10 @@
 		"bonus": "N/A"
 	},
 	{
-		"company": "Accenture",
-		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
-		"yearsOfExperience": 5,
-		"yearsAtCompany": 2,
-		"totalCompensation": "90417",
-		"base": "75800",
-		"stock": "N/A",
-		"bonus": "14600"
-	},
-	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 8,
 		"totalCompensation": "190000",
 		"base": "190000",
@@ -1573,8 +1495,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "157000",
 		"base": "157000",
@@ -1584,8 +1506,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "Middle .Net Developer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "47500",
 		"base": "47500",
@@ -1595,8 +1517,8 @@
 	{
 		"company": "Innopia Global",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -1606,8 +1528,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106930",
 		"base": "106930",
@@ -1617,8 +1539,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "100000",
 		"base": "80000",
@@ -1628,8 +1550,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "E2",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "100833",
 		"base": "92500",
@@ -1639,8 +1561,8 @@
 	{
 		"company": "IBM Digital Talen...",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -1650,8 +1572,8 @@
 	{
 		"company": "Q-CHANG",
 		"levelName": "Senior",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "86000",
 		"base": "86000",
@@ -1661,8 +1583,8 @@
 	{
 		"company": "Aureus Company",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "62083",
 		"base": "60000",
@@ -1672,8 +1594,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 7,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "96250",
 		"base": "83420",
@@ -1683,8 +1605,8 @@
 	{
 		"company": "LINE",
 		"levelName": "L3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "103936",
 		"base": "103940",
@@ -1694,8 +1616,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Team Leader",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 7,
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -1705,8 +1627,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Associate Software Engineer",
-		"tagName": "DevOps",
 		"yearsOfExperience": 1,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "45833",
 		"base": "41700",
@@ -1716,8 +1638,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Team Leader",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -1727,8 +1649,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "180000",
 		"base": "180000",
@@ -1738,8 +1660,8 @@
 	{
 		"company": "Alstom",
 		"levelName": "L3",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 2,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "30083",
 		"base": "28000",
@@ -1749,8 +1671,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -1760,8 +1682,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "104167",
 		"base": "100000",
@@ -1771,8 +1693,8 @@
 	{
 		"company": "PBC",
 		"levelName": "Middle",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 2,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -1782,8 +1704,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 24,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "215667",
 		"base": "200000",
@@ -1794,8 +1716,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "-",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "78167",
 		"base": "67000",
@@ -1805,8 +1727,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "-",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "72583",
 		"base": "67000",
@@ -1816,8 +1738,8 @@
 	{
 		"company": "Bangchak",
 		"levelName": "L7",
-		"tagName": "RPA",
 		"yearsOfExperience": 6,
+		"tagName": "RPA",
 		"yearsAtCompany": 1,
 		"totalCompensation": "83033",
 		"base": "51700",
@@ -1827,8 +1749,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 4,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "151667",
 		"base": "151670",
@@ -1838,8 +1760,8 @@
 	{
 		"company": "Extend it resources",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 5,
 		"totalCompensation": "7333",
 		"base": "7300",
@@ -1849,8 +1771,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "160000",
 		"base": "160000",
@@ -1860,8 +1782,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "18000",
 		"base": "18000",
@@ -1871,8 +1793,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "153000",
 		"base": "153000",
@@ -1882,8 +1804,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "GG9",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 2,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "56332",
 		"base": "51900",
@@ -1893,8 +1815,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "E2",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "90000",
 		"base": "75000",
@@ -1904,8 +1826,8 @@
 	{
 		"company": "bitkub",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "50000",
 		"base": "50000",
@@ -1915,8 +1837,8 @@
 	{
 		"company": "Beam Mobility",
 		"levelName": "L6",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 6,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "14000",
 		"base": "14000",
@@ -1926,8 +1848,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "76233",
 		"base": "60400",
@@ -1937,8 +1859,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 4,
+		"tagName": "Data",
 		"yearsAtCompany": 2,
 		"totalCompensation": "106250",
 		"base": "106250",
@@ -1948,8 +1870,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "47000",
 		"base": "42000",
@@ -1959,8 +1881,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "174667",
 		"base": "158000",
@@ -1970,8 +1892,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 8,
 		"totalCompensation": "335223",
 		"base": "183330",
@@ -1981,8 +1903,8 @@
 	{
 		"company": "BTSC",
 		"levelName": "Engineer",
-		"tagName": "Networking",
 		"yearsOfExperience": 6,
+		"tagName": "Networking",
 		"yearsAtCompany": 4,
 		"totalCompensation": "29167",
 		"base": "25000",
@@ -1992,8 +1914,8 @@
 	{
 		"company": "ExxonMobil",
 		"levelName": "CL22",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 2,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "48750",
 		"base": "48800",
@@ -2003,8 +1925,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "30000",
 		"base": "30000",
@@ -2014,8 +1936,8 @@
 	{
 		"company": "Axons",
 		"levelName": "-",
-		"tagName": "Data",
 		"yearsOfExperience": 4,
+		"tagName": "Data",
 		"yearsAtCompany": 2,
 		"totalCompensation": "61333",
 		"base": "53000",
@@ -2025,8 +1947,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "45000",
 		"base": "45000",
@@ -2036,8 +1958,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "80000",
 		"base": "80000",
@@ -2047,8 +1969,8 @@
 	{
 		"company": "RentSpree",
 		"levelName": "L4",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "95000",
 		"base": "95000",
@@ -2058,8 +1980,8 @@
 	{
 		"company": "Arise",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "34000",
 		"base": "34000",
@@ -2069,8 +1991,8 @@
 	{
 		"company": "Alyssa Global",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "140000",
 		"base": "140000",
@@ -2080,8 +2002,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "Senior",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "119333",
 		"base": "101000",
@@ -2091,8 +2013,8 @@
 	{
 		"company": "FPT Software",
 		"levelName": "Senior Engineer",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 4,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "67000",
 		"base": "67000",
@@ -2102,8 +2024,8 @@
 	{
 		"company": "EPAM Systems",
 		"levelName": "L2",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -2113,8 +2035,8 @@
 	{
 		"company": "AXONS",
 		"levelName": "-",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "40833",
 		"base": "35000",
@@ -2124,8 +2046,8 @@
 	{
 		"company": "TTB Bank",
 		"levelName": "L2",
-		"tagName": "DevOps",
 		"yearsOfExperience": 11,
+		"tagName": "DevOps",
 		"yearsAtCompany": 2,
 		"totalCompensation": "58333",
 		"base": "50000",
@@ -2135,8 +2057,8 @@
 	{
 		"company": "JIBSOFT",
 		"levelName": "L1",
-		"tagName": "DevOps",
 		"yearsOfExperience": 3,
+		"tagName": "DevOps",
 		"yearsAtCompany": 1,
 		"totalCompensation": "44000",
 		"base": "44000",
@@ -2146,8 +2068,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "96667",
 		"base": "85000",
@@ -2157,8 +2079,8 @@
 	{
 		"company": "RRR",
 		"levelName": "-",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 5,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "75000",
 		"base": "60000",
@@ -2168,8 +2090,8 @@
 	{
 		"company": "MetroSystem",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "26750",
 		"base": "25000",
@@ -2179,8 +2101,8 @@
 	{
 		"company": "Wisesoft",
 		"levelName": "-",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 9,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 9,
 		"totalCompensation": "71000",
 		"base": "71000",
@@ -2190,8 +2112,8 @@
 	{
 		"company": "Rudy Technology",
 		"levelName": "Mid Level",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 3,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "23000",
 		"base": "23000",
@@ -2201,8 +2123,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -2212,8 +2134,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "79650",
 		"base": "73900",
@@ -2223,8 +2145,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "B1",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "37500",
 		"base": "30000",
@@ -2234,8 +2156,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "218925",
 		"base": "189000",
@@ -2245,8 +2167,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "19833",
 		"base": "19000",
@@ -2256,8 +2178,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 1,
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -2267,8 +2189,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "30000",
 		"base": "30000",
@@ -2278,8 +2200,8 @@
 	{
 		"company": "True Digital Group",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "80833",
 		"base": "75000",
@@ -2289,8 +2211,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Associate Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "83666",
 		"base": "77200",
@@ -2300,8 +2222,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "45000",
 		"base": "47500",
@@ -2311,8 +2233,8 @@
 	{
 		"company": "Arise By Infinitas",
 		"levelName": "Associate",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 1,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "34000",
 		"base": "34000",
@@ -2322,8 +2244,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "114333",
 		"base": "98000",
@@ -2333,8 +2255,8 @@
 	{
 		"company": "Axonstech",
 		"levelName": "L3",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 4,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "58333",
 		"base": "55000",
@@ -2344,8 +2266,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "32467",
 		"base": "30800",
@@ -2355,8 +2277,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "L3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "87750",
 		"base": "81000",
@@ -2366,8 +2288,8 @@
 	{
 		"company": "TNSI",
 		"levelName": "L3",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 7,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "55000",
 		"base": "55000",
@@ -2377,8 +2299,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 2,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "93600",
 		"base": "78600",
@@ -2388,8 +2310,8 @@
 	{
 		"company": "Codefin",
 		"levelName": "Mid Level",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "42833",
 		"base": "42000",
@@ -2399,8 +2321,8 @@
 	{
 		"company": "Western Digital",
 		"levelName": "L2",
-		"tagName": "DevOps",
 		"yearsOfExperience": 7,
+		"tagName": "DevOps",
 		"yearsAtCompany": 3,
 		"totalCompensation": "35000",
 		"base": "35000",
@@ -2410,8 +2332,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "80000",
 		"base": "80000",
@@ -2421,8 +2343,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "147000",
 		"base": "147000",
@@ -2432,8 +2354,8 @@
 	{
 		"company": "INSIGHTERA",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "37917",
 		"base": "35000",
@@ -2443,8 +2365,8 @@
 	{
 		"company": "Oozou",
 		"levelName": "No",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 10,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "9417",
 		"base": "9400",
@@ -2454,8 +2376,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "25000",
 		"base": "25000",
@@ -2465,8 +2387,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "40833",
 		"base": "40000",
@@ -2476,8 +2398,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "116667",
 		"base": "100000",
@@ -2487,8 +2409,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 14,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 7,
 		"totalCompensation": "214500",
 		"base": "182000",
@@ -2498,8 +2420,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 5,
 		"totalCompensation": "175333",
 		"base": "142000",
@@ -2509,8 +2431,8 @@
 	{
 		"company": "Bluebik Vulcan",
 		"levelName": "-",
-		"tagName": "Data",
 		"yearsOfExperience": 2,
+		"tagName": "Data",
 		"yearsAtCompany": 2,
 		"totalCompensation": "44333",
 		"base": "38500",
@@ -2520,8 +2442,8 @@
 	{
 		"company": "ASG",
 		"levelName": "L2",
-		"tagName": "DevOps",
 		"yearsOfExperience": "N/A",
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "17500",
 		"base": "17500",
@@ -2531,8 +2453,8 @@
 	{
 		"company": "Allianz",
 		"levelName": "L3",
-		"tagName": "Lead",
 		"yearsOfExperience": 7,
+		"tagName": "Lead",
 		"yearsAtCompany": 3,
 		"totalCompensation": "90833",
 		"base": "80000",
@@ -2542,8 +2464,8 @@
 	{
 		"company": "Yggdrazil Group",
 		"levelName": "Junior",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "36000",
 		"base": "36000",
@@ -2553,8 +2475,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "112667",
 		"base": "91000",
@@ -2564,8 +2486,8 @@
 	{
 		"company": "ExxonMobil",
 		"levelName": "CL22",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "42000",
 		"base": "42000",
@@ -2575,8 +2497,8 @@
 	{
 		"company": "LINE",
 		"levelName": "L1",
-		"tagName": "Data",
 		"yearsOfExperience": "N/A",
+		"tagName": "Data",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "33333",
 		"base": "25000",
@@ -2586,8 +2508,8 @@
 	{
 		"company": "LINE MAN Wongnai",
 		"levelName": "Mid",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "65000",
 		"base": "65000",
@@ -2597,8 +2519,8 @@
 	{
 		"company": "Western Digital",
 		"levelName": "L3",
-		"tagName": "Production",
 		"yearsOfExperience": 10,
+		"tagName": "Production",
 		"yearsAtCompany": 7,
 		"totalCompensation": "50000",
 		"base": "50000",
@@ -2608,8 +2530,8 @@
 	{
 		"company": "TTB",
 		"levelName": "L2",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 9,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "119369",
 		"base": "88750",
@@ -2619,8 +2541,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 6,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 6,
 		"totalCompensation": "160667",
 		"base": "134000",
@@ -2630,8 +2552,8 @@
 	{
 		"company": "SS&C Technologies",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 4,
 		"totalCompensation": "45000",
 		"base": "45000",
@@ -2641,8 +2563,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "L1",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 4,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 3,
 		"totalCompensation": "67700",
 		"base": "58000",
@@ -2652,8 +2574,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -2663,8 +2585,8 @@
 	{
 		"company": "Alstom",
 		"levelName": "L2",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 6,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "49583",
 		"base": "45800",
@@ -2675,8 +2597,8 @@
 	{
 		"company": "ScreenCloud",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "157500",
 		"base": "157500",
@@ -2686,8 +2608,8 @@
 	{
 		"company": "ATA IT",
 		"levelName": "L4",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "65000",
 		"base": "65000",
@@ -2697,8 +2619,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Associate Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "85816",
 		"base": "77300",
@@ -2708,8 +2630,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -2719,8 +2641,8 @@
 	{
 		"company": "Prudential Life A...",
 		"levelName": "VP",
-		"tagName": "Data",
 		"yearsOfExperience": 14,
+		"tagName": "Data",
 		"yearsAtCompany": 4,
 		"totalCompensation": "243750",
 		"base": "195000",
@@ -2730,8 +2652,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "85000",
 		"base": "85000",
@@ -2741,8 +2663,8 @@
 	{
 		"company": "NewMedia",
 		"levelName": "L1",
-		"tagName": "Data",
 		"yearsOfExperience": 3,
+		"tagName": "Data",
 		"yearsAtCompany": 2,
 		"totalCompensation": "8333",
 		"base": "4200",
@@ -2752,8 +2674,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 12,
+		"tagName": "hidden",
 		"yearsAtCompany": 1,
 		"totalCompensation": "428902",
 		"base": "428900",
@@ -2763,8 +2685,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "27000",
 		"base": "27000",
@@ -2774,8 +2696,8 @@
 	{
 		"company": "Factsblend",
 		"levelName": "IC2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "30000",
 		"base": "30000",
@@ -2785,8 +2707,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "37917",
 		"base": "35000",
@@ -2796,8 +2718,8 @@
 	{
 		"company": "Allianz",
 		"levelName": "L4",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 11,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "118333",
 		"base": "110000",
@@ -2807,8 +2729,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Associate Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": "N/A",
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "62050",
 		"base": "56500",
@@ -2818,8 +2740,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Associate Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "73450",
 		"base": "67800",
@@ -2829,8 +2751,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "133333",
 		"base": "133330",
@@ -2840,8 +2762,8 @@
 	{
 		"company": "Oozou",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -2851,8 +2773,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -2863,8 +2785,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 1,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "61507",
 		"base": "61500",
@@ -2874,8 +2796,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "157500",
 		"base": "135000",
@@ -2885,8 +2807,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "132500",
 		"base": "132500",
@@ -2896,8 +2818,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "233333",
 		"base": "200000",
@@ -2907,8 +2829,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "140000",
 		"base": "140000",
@@ -2918,8 +2840,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -2929,8 +2851,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "140000",
 		"base": "140000",
@@ -2940,8 +2862,8 @@
 	{
 		"company": "Oozou",
 		"levelName": "Senior",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 10,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -2951,8 +2873,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "15000",
 		"base": "15000",
@@ -2962,8 +2884,8 @@
 	{
 		"company": "TISCO Bank",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -2973,8 +2895,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 11,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "85260",
 		"base": "85260",
@@ -2984,8 +2906,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "Lead Software Engineer",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 11,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "169333",
 		"base": "136000",
@@ -2995,8 +2917,8 @@
 	{
 		"company": "United Nations",
 		"levelName": "L1",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "64147",
 		"base": "64099.99999999999",
@@ -3006,8 +2928,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "C6",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 12,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "274167",
 		"base": "235000",
@@ -3017,8 +2939,8 @@
 	{
 		"company": "Gother",
 		"levelName": "L2",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -3028,8 +2950,8 @@
 	{
 		"company": "Honest Technologies",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 11,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 5,
 		"totalCompensation": "325535",
 		"base": "290000",
@@ -3039,8 +2961,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -3050,8 +2972,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "Mid Level",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "71500",
 		"base": "71500",
@@ -3061,8 +2983,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "169439",
 		"base": "169440",
@@ -3072,8 +2994,8 @@
 	{
 		"company": "PTT Digital",
 		"levelName": "Senior",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "87000",
 		"base": "84000",
@@ -3083,8 +3005,8 @@
 	{
 		"company": "RentSpree",
 		"levelName": "L4",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "80367",
 		"base": "76200",
@@ -3094,8 +3016,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Data",
 		"yearsOfExperience": 8,
+		"tagName": "Data",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "211500",
 		"base": "200000",
@@ -3105,8 +3027,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "190000",
 		"base": "160000",
@@ -3116,8 +3038,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 9,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "260163",
 		"base": "190000",
@@ -3127,8 +3049,8 @@
 	{
 		"company": "Chomchob",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "50000",
 		"base": "50000",
@@ -3138,8 +3060,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 10,
+		"tagName": "Data",
 		"yearsAtCompany": 5,
 		"totalCompensation": "202500",
 		"base": "200000",
@@ -3149,8 +3071,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "122324",
 		"base": "122320",
@@ -3160,8 +3082,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "162000",
 		"base": "162000",
@@ -3171,8 +3093,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "213910",
 		"base": "213910",
@@ -3182,8 +3104,8 @@
 	{
 		"company": "NTT DATA",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Cloud",
 		"yearsOfExperience": 1,
+		"tagName": "Cloud",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "25000",
 		"base": "25000",
@@ -3193,8 +3115,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "167752",
 		"base": "152500",
@@ -3204,8 +3126,8 @@
 	{
 		"company": "Aigen",
 		"levelName": "Junior",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 2,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 2,
 		"totalCompensation": "43333",
 		"base": "40000",
@@ -3215,8 +3137,8 @@
 	{
 		"company": "Seven Peaks Software",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "42000",
 		"base": "42000",
@@ -3226,8 +3148,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "172663",
 		"base": "172660",
@@ -3237,8 +3159,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "170000",
 		"base": "170000",
@@ -3248,8 +3170,8 @@
 	{
 		"company": "Western Digital",
 		"levelName": "L1",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "40417",
 		"base": "40000",
@@ -3259,8 +3181,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Lead Software Engineer",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 5,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 5,
 		"totalCompensation": "384291",
 		"base": "260000",
@@ -3270,8 +3192,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 5,
 		"totalCompensation": "79458",
 		"base": "79500",
@@ -3281,8 +3203,8 @@
 	{
 		"company": "Coda Payments",
 		"levelName": "L4",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "171000",
 		"base": "171000",
@@ -3292,8 +3214,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "140000",
 		"base": "140000",
@@ -3303,8 +3225,8 @@
 	{
 		"company": "NCR",
 		"levelName": "Grade 10",
-		"tagName": "Level 2",
 		"yearsOfExperience": 2,
+		"tagName": "Level 2",
 		"yearsAtCompany": 2,
 		"totalCompensation": "65000",
 		"base": "65000",
@@ -3314,8 +3236,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "127333",
 		"base": "104000",
@@ -3325,8 +3247,8 @@
 	{
 		"company": "Buzzebees",
 		"levelName": "Junior",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "37333",
 		"base": "34500",
@@ -3336,8 +3258,8 @@
 	{
 		"company": "CRM Company",
 		"levelName": "L2",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "43500",
 		"base": "43500",
@@ -3347,8 +3269,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "297242",
 		"base": "297240",
@@ -3358,8 +3280,8 @@
 	{
 		"company": "King Power",
 		"levelName": "Junior",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 2,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "30000",
 		"base": "30000",
@@ -3369,8 +3291,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "165000",
 		"base": "140000",
@@ -3380,8 +3302,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 13,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "281005",
 		"base": "251110",
@@ -3391,8 +3313,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "130000",
 		"base": "130000",
@@ -3402,8 +3324,8 @@
 	{
 		"company": "ZUZU Hospitality",
 		"levelName": "L1",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -3413,8 +3335,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "IC1",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "75000",
 		"base": "65000",
@@ -3424,8 +3346,8 @@
 	{
 		"company": "Magic Box Solution",
 		"levelName": "Middle Full-Stack Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "46000",
 		"base": "46000",
@@ -3435,8 +3357,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -3446,8 +3368,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "125000",
 		"base": "125000",
@@ -3457,8 +3379,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "242500",
 		"base": "180000",
@@ -3468,8 +3390,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "114667",
 		"base": "98000",
@@ -3479,8 +3401,8 @@
 	{
 		"company": "Softbaked",
 		"levelName": "Senior",
-		"tagName": "DevOps",
 		"yearsOfExperience": 4,
+		"tagName": "DevOps",
 		"yearsAtCompany": 4,
 		"totalCompensation": "58926",
 		"base": "51400",
@@ -3490,8 +3412,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "162389",
 		"base": "139280",
@@ -3501,8 +3423,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 11,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "263042",
 		"base": "193040",
@@ -3512,8 +3434,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 1,
+		"tagName": "Data",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "66500",
 		"base": "59000",
@@ -3524,8 +3446,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 5,
 		"totalCompensation": "106167",
 		"base": "98000",
@@ -3535,8 +3457,8 @@
 	{
 		"company": "Thai Credit Bank",
 		"levelName": "Junior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "75833",
 		"base": "70000",
@@ -3546,8 +3468,8 @@
 	{
 		"company": "LINE",
 		"levelName": "L3",
-		"tagName": "DevOps",
 		"yearsOfExperience": 9,
+		"tagName": "DevOps",
 		"yearsAtCompany": 3,
 		"totalCompensation": "153333",
 		"base": "141670",
@@ -3557,8 +3479,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 11,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -3568,8 +3490,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 8,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 4,
 		"totalCompensation": "130000",
 		"base": "130000",
@@ -3579,8 +3501,8 @@
 	{
 		"company": "Smartclick",
 		"levelName": "L2",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 5,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -3590,8 +3512,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -3601,8 +3523,8 @@
 	{
 		"company": "Charoen Pokphand ...",
 		"levelName": "-",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 3,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 1,
 		"totalCompensation": "81667",
 		"base": "70000",
@@ -3612,8 +3534,8 @@
 	{
 		"company": "Oozou",
 		"levelName": "Senior",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 10,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "113186",
 		"base": "113190",
@@ -3623,8 +3545,8 @@
 	{
 		"company": "Sirius",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 6,
+		"tagName": "hidden",
 		"yearsAtCompany": 1,
 		"totalCompensation": "147000",
 		"base": "147000",
@@ -3635,8 +3557,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "90054",
 		"base": "90050",
@@ -3646,8 +3568,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "Senior",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "70000",
 		"base": "65000",
@@ -3657,8 +3579,8 @@
 	{
 		"company": "Opn",
 		"levelName": "Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -3668,8 +3590,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "45000",
 		"base": "45000",
@@ -3679,8 +3601,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 6,
+		"tagName": "hidden",
 		"yearsAtCompany": 1,
 		"totalCompensation": "145000",
 		"base": "145000",
@@ -3690,8 +3612,8 @@
 	{
 		"company": "Ascend Commerce",
 		"levelName": "Senior",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 5,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "52000",
 		"base": "52000",
@@ -3701,8 +3623,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "197167",
 		"base": "168000",
@@ -3712,8 +3634,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "164925",
 		"base": "164930",
@@ -3723,8 +3645,8 @@
 	{
 		"company": "Webim",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "69407",
 		"base": "69400",
@@ -3734,8 +3656,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Software Engineer Analyst",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "53000",
 		"base": "53000",
@@ -3745,8 +3667,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "215707",
 		"base": "215710",
@@ -3756,8 +3678,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 6,
 		"totalCompensation": "174749",
 		"base": "116500",
@@ -3767,8 +3689,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 3,
+		"tagName": "Data",
 		"yearsAtCompany": 1,
 		"totalCompensation": "154000",
 		"base": "140000",
@@ -3778,8 +3700,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Team Leader",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "130000",
 		"base": "120000",
@@ -3789,8 +3711,8 @@
 	{
 		"company": "BVC",
 		"levelName": "L3",
-		"tagName": "Networking",
 		"yearsOfExperience": 5,
+		"tagName": "Networking",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "36543",
 		"base": "35200",
@@ -3800,8 +3722,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "190833",
 		"base": "170000",
@@ -3811,8 +3733,8 @@
 	{
 		"company": "Baania",
 		"levelName": "L3",
-		"tagName": "Data",
 		"yearsOfExperience": 7,
+		"tagName": "Data",
 		"yearsAtCompany": 6,
 		"totalCompensation": "50000",
 		"base": "50000",
@@ -3822,8 +3744,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Team Leader",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 6,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "162500",
 		"base": "150000",
@@ -3833,8 +3755,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "166667",
 		"base": "166670",
@@ -3844,8 +3766,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "70000",
 		"base": "60000",
@@ -3855,8 +3777,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "175915",
 		"base": "175910",
@@ -3866,8 +3788,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "168750",
 		"base": "135000",
@@ -3877,8 +3799,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Backend",
 		"yearsOfExperience": 3,
+		"tagName": "Backend",
 		"yearsAtCompany": 1,
 		"totalCompensation": "128333",
 		"base": "110000",
@@ -3888,8 +3810,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "108333",
 		"base": "100000",
@@ -3899,8 +3821,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "147000",
 		"base": "147000",
@@ -3910,8 +3832,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 7,
+		"tagName": "hidden",
 		"yearsAtCompany": 4,
 		"totalCompensation": "84167",
 		"base": "80000",
@@ -3921,8 +3843,8 @@
 	{
 		"company": "True Digital Group",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 6,
+		"tagName": "hidden",
 		"yearsAtCompany": 4,
 		"totalCompensation": "101108",
 		"base": "101110",
@@ -3932,8 +3854,8 @@
 	{
 		"company": "2c2p",
 		"levelName": "-",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "60500",
 		"base": "60500",
@@ -3943,8 +3865,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -3954,8 +3876,8 @@
 	{
 		"company": "Siam Commercial Bank",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 8,
+		"tagName": "Data",
 		"yearsAtCompany": 2,
 		"totalCompensation": "212500",
 		"base": "175000",
@@ -3965,8 +3887,8 @@
 	{
 		"company": "ATA",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 15,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "166927",
 		"base": "166930",
@@ -3976,8 +3898,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 3,
+		"tagName": "hidden",
 		"yearsAtCompany": 3,
 		"totalCompensation": "73899",
 		"base": "73900",
@@ -3987,8 +3909,8 @@
 	{
 		"company": "SCB Tech X",
 		"levelName": "-",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 10,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "125000",
 		"base": "100000",
@@ -3998,8 +3920,8 @@
 	{
 		"company": "Servion Global So...",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 10,
 		"totalCompensation": "105000",
 		"base": "105000",
@@ -4009,8 +3931,8 @@
 	{
 		"company": "TTB",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "64500",
 		"base": "52000",
@@ -4020,8 +3942,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 2,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "76000",
 		"base": "76000",
@@ -4031,8 +3953,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "283422",
 		"base": "221710",
@@ -4042,8 +3964,8 @@
 	{
 		"company": "Central Retail",
 		"levelName": "-",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 6,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "75000",
 		"base": "75000",
@@ -4053,8 +3975,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "220000",
 		"base": "220000",
@@ -4064,8 +3986,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "248795",
 		"base": "9000",
@@ -4075,8 +3997,8 @@
 	{
 		"company": "True Digital Group",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 8,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -4086,8 +4008,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "140000",
 		"base": "140000",
@@ -4097,8 +4019,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "242601",
 		"base": "208370",
@@ -4108,8 +4030,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "32000",
 		"base": "32000",
@@ -4119,8 +4041,8 @@
 	{
 		"company": "Forward Labs",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "32000",
 		"base": "32000",
@@ -4130,8 +4052,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "44813",
 		"base": "44800",
@@ -4141,8 +4063,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Lead Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 8,
+		"tagName": "Data",
 		"yearsAtCompany": 4,
 		"totalCompensation": "359160",
 		"base": "225000",
@@ -4152,8 +4074,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "12500",
 		"base": "12500",
@@ -4163,8 +4085,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "207445",
 		"base": "177810",
@@ -4174,8 +4096,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 15,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "175000",
 		"base": "140000",
@@ -4185,8 +4107,8 @@
 	{
 		"company": "Motili",
 		"levelName": "L3",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 7,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "130000",
 		"base": "130000",
@@ -4196,8 +4118,8 @@
 	{
 		"company": "IT Company",
 		"levelName": "-",
-		"tagName": "Data",
 		"yearsOfExperience": 3,
+		"tagName": "Data",
 		"yearsAtCompany": 1,
 		"totalCompensation": "83333",
 		"base": "83300",
@@ -4207,8 +4129,8 @@
 	{
 		"company": "TT Software Solution",
 		"levelName": "L2",
-		"tagName": "DevOps",
 		"yearsOfExperience": 5,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "50000",
 		"base": "50000",
@@ -4218,8 +4140,8 @@
 	{
 		"company": "Opn",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "245070",
 		"base": "245070",
@@ -4229,8 +4151,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 6,
+		"tagName": "Data",
 		"yearsAtCompany": 4,
 		"totalCompensation": "125000",
 		"base": "100000",
@@ -4240,8 +4162,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "188691",
 		"base": "162160",
@@ -4251,8 +4173,8 @@
 	{
 		"company": "Appman",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "36750",
 		"base": "36700",
@@ -4262,8 +4184,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Software Engineer Analyst",
-		"tagName": "DevOps",
 		"yearsOfExperience": 2,
+		"tagName": "DevOps",
 		"yearsAtCompany": 1,
 		"totalCompensation": "38000",
 		"base": "38000",
@@ -4273,8 +4195,8 @@
 	{
 		"company": "Sirius",
 		"levelName": "Mid Level",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 1,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -4284,8 +4206,8 @@
 	{
 		"company": "OOZOU",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -4295,8 +4217,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Data",
 		"yearsOfExperience": 10,
+		"tagName": "Data",
 		"yearsAtCompany": 5,
 		"totalCompensation": "169167",
 		"base": "166670",
@@ -4306,8 +4228,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Lead Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "444252",
 		"base": "225000",
@@ -4317,8 +4239,8 @@
 	{
 		"company": "BRED-IT",
 		"levelName": "L2",
-		"tagName": "DevOps",
 		"yearsOfExperience": 1,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "130500",
 		"base": "118000",
@@ -4328,8 +4250,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "70073",
 		"base": "68000",
@@ -4339,8 +4261,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -4350,8 +4272,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -4361,8 +4283,8 @@
 	{
 		"company": "WiseSight",
 		"levelName": "Senior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "54167",
 		"base": "50000",
@@ -4372,8 +4294,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Associate Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": "N/A",
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "62833",
 		"base": "58000",
@@ -4383,8 +4305,8 @@
 	{
 		"company": "Zipmex",
 		"levelName": "L3",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "220000",
 		"base": "220000",
@@ -4394,8 +4316,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -4405,8 +4327,8 @@
 	{
 		"company": "Outsourcify",
 		"levelName": "Senior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "39000",
 		"base": "39000",
@@ -4416,8 +4338,8 @@
 	{
 		"company": "ARV",
 		"levelName": "L1",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "57000",
 		"base": "57000",
@@ -4427,8 +4349,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 5,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "110988",
 		"base": "110990",
@@ -4438,8 +4360,8 @@
 	{
 		"company": "Jenosize",
 		"levelName": "-",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 7,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "55000",
 		"base": "55000",
@@ -4449,8 +4371,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "35208",
 		"base": "32500",
@@ -4460,8 +4382,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Associate Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 2,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "65000",
 		"base": "65000",
@@ -4471,8 +4393,8 @@
 	{
 		"company": "Software House",
 		"levelName": "Junior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -4482,8 +4404,8 @@
 	{
 		"company": "PTTEP",
 		"levelName": "L2",
-		"tagName": "Reservoir",
 		"yearsOfExperience": 4,
+		"tagName": "Reservoir",
 		"yearsAtCompany": 4,
 		"totalCompensation": "93850",
 		"base": "62600",
@@ -4493,8 +4415,8 @@
 	{
 		"company": "NIMBL.ai",
 		"levelName": "L3",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 8,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "150009",
 		"base": "150010",
@@ -4504,8 +4426,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "44254",
 		"base": "44300",
@@ -4515,8 +4437,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Associate Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "39217",
 		"base": "39200",
@@ -4526,8 +4448,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Software Engineer Analyst",
-		"tagName": "DevOps",
 		"yearsOfExperience": 2,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "41167",
 		"base": "41200",
@@ -4537,8 +4459,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "165000",
 		"base": "140000",
@@ -4548,8 +4470,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -4559,8 +4481,8 @@
 	{
 		"company": "Innopia",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "58000",
 		"base": "58000",
@@ -4570,8 +4492,8 @@
 	{
 		"company": "Krungsri",
 		"levelName": "1",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 1,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "30000",
 		"base": "30000",
@@ -4581,8 +4503,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 8,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 4,
 		"totalCompensation": "200000",
 		"base": "160000",
@@ -4592,8 +4514,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "DevOps",
 		"yearsOfExperience": 9,
+		"tagName": "DevOps",
 		"yearsAtCompany": 5,
 		"totalCompensation": "141667",
 		"base": "125000",
@@ -4603,8 +4525,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 5,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "175000",
 		"base": "150000",
@@ -4614,8 +4536,8 @@
 	{
 		"company": "Harari Wireless",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 4,
 		"totalCompensation": "37917",
 		"base": "35000",
@@ -4625,8 +4547,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "153333",
 		"base": "125000",
@@ -4636,8 +4558,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "180833",
 		"base": "180830",
@@ -4647,8 +4569,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Data",
 		"yearsOfExperience": 7,
+		"tagName": "Data",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "211771",
 		"base": "166670",
@@ -4658,8 +4580,8 @@
 	{
 		"company": "Insight Pro",
 		"levelName": "L1",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 4,
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -4669,8 +4591,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 15,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "175000",
 		"base": "140000",
@@ -4680,8 +4602,8 @@
 	{
 		"company": "Brikl",
 		"levelName": "Mid Level Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "83333",
 		"base": "83300",
@@ -4691,8 +4613,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 7,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "173967",
 		"base": "173970",
@@ -4702,8 +4624,8 @@
 	{
 		"company": "TISCO",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "45000",
 		"base": "45000",
@@ -4713,8 +4635,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 14,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "190667",
 		"base": "154000",
@@ -4724,8 +4646,8 @@
 	{
 		"company": "Central Retail Di...",
 		"levelName": "L3",
-		"tagName": "DevOps",
 		"yearsOfExperience": 6,
+		"tagName": "DevOps",
 		"yearsAtCompany": 2,
 		"totalCompensation": "130000",
 		"base": "130000",
@@ -4735,8 +4657,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L1",
-		"tagName": "DevOps",
 		"yearsOfExperience": 1,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -4746,8 +4668,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "59583",
 		"base": "55000",
@@ -4757,8 +4679,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "67167",
 		"base": "62000",
@@ -4768,8 +4690,8 @@
 	{
 		"company": "Zipmex",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 11,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "244200",
 		"base": "244200",
@@ -4779,8 +4701,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "133333",
 		"base": "133330",
@@ -4790,8 +4712,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "L3",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "63000",
 		"base": "51000",
@@ -4801,8 +4723,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "84167",
 		"base": "80000",
@@ -4812,8 +4734,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Associate Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "36200",
 		"base": "36200",
@@ -4824,8 +4746,8 @@
 	{
 		"company": "Sunday",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "33333",
 		"base": "33300",
@@ -4835,8 +4757,8 @@
 	{
 		"company": "OOZOU",
 		"levelName": "Lead",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 4,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -4846,8 +4768,8 @@
 	{
 		"company": "Brikl",
 		"levelName": "Mid Level",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "80000",
 		"base": "80000",
@@ -4857,8 +4779,8 @@
 	{
 		"company": "Decathlon",
 		"levelName": "L1",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 1,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "25000",
 		"base": "25000",
@@ -4868,8 +4790,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "IC2",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "135000",
 		"base": "110000",
@@ -4879,8 +4801,8 @@
 	{
 		"company": "SCB Tech X",
 		"levelName": "-",
-		"tagName": "Data",
 		"yearsOfExperience": 4,
+		"tagName": "Data",
 		"yearsAtCompany": 1,
 		"totalCompensation": "130600",
 		"base": "105600",
@@ -4890,8 +4812,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "37500",
 		"base": "35000",
@@ -4901,8 +4823,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "Senior Consultant",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 17,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "160000",
 		"base": "160000",
@@ -4912,8 +4834,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "151250",
 		"base": "125000",
@@ -4923,8 +4845,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Software Engineer Analyst",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 3,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "59583",
 		"base": "55000",
@@ -4935,8 +4857,8 @@
 	{
 		"company": "SCG",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 5,
 		"totalCompensation": "112500",
 		"base": "75000",
@@ -4946,8 +4868,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "31250",
 		"base": "30000",
@@ -4957,8 +4879,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L4",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "172202",
 		"base": "172200",
@@ -4968,8 +4890,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "Junior",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "44000",
 		"base": "44000",
@@ -4979,8 +4901,8 @@
 	{
 		"company": "Opn",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "53500",
 		"base": "53500",
@@ -4990,8 +4912,8 @@
 	{
 		"company": "Binance",
 		"levelName": "L3",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 14,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "215252",
 		"base": "215250",
@@ -5001,8 +4923,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 4,
+		"tagName": "hidden",
 		"yearsAtCompany": 3,
 		"totalCompensation": "38407",
 		"base": "32900",
@@ -5012,8 +4934,8 @@
 	{
 		"company": "Bitkub",
 		"levelName": "L3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "101333",
 		"base": "88000",
@@ -5023,8 +4945,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L4",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "228049",
 		"base": "175000",
@@ -5034,8 +4956,8 @@
 	{
 		"company": "Lotus's",
 		"levelName": "L2",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 7,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "88750",
 		"base": "88750",
@@ -5046,8 +4968,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "Senior Consultant",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 12,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "174900",
 		"base": "174900",
@@ -5057,8 +4979,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "64661",
 		"base": "64700",
@@ -5068,8 +4990,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "5000",
 		"base": "5000",
@@ -5079,8 +5001,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "206667",
 		"base": "165000",
@@ -5090,8 +5012,8 @@
 	{
 		"company": "Solomon Cordwell ...",
 		"levelName": "L5",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 11,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "202500",
 		"base": "135000",
@@ -5101,8 +5023,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior",
-		"tagName": "Data",
 		"yearsOfExperience": 5,
+		"tagName": "Data",
 		"yearsAtCompany": 4,
 		"totalCompensation": "132021",
 		"base": "132020",
@@ -5112,8 +5034,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L1",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "100333",
 		"base": "79500",
@@ -5123,8 +5045,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 7,
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -5134,8 +5056,8 @@
 	{
 		"company": "InnovestX",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "98930",
 		"base": "70000",
@@ -5145,8 +5067,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "240193",
 		"base": "240190",
@@ -5156,8 +5078,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "70000",
 		"base": "60000",
@@ -5167,8 +5089,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "41083",
 		"base": "13600",
@@ -5178,8 +5100,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "163333",
 		"base": "130000",
@@ -5189,8 +5111,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -5200,8 +5122,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 9,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 9,
 		"totalCompensation": "246314",
 		"base": "190000",
@@ -5211,8 +5133,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Data",
 		"yearsOfExperience": 3,
+		"tagName": "Data",
 		"yearsAtCompany": 1,
 		"totalCompensation": "149167",
 		"base": "120000",
@@ -5222,8 +5144,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -5233,8 +5155,8 @@
 	{
 		"company": "Brikl",
 		"levelName": "Senior",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 6,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "95000",
 		"base": "95000",
@@ -5244,8 +5166,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "-",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 5,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -5255,8 +5177,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 5,
 		"totalCompensation": "108333",
 		"base": "100000",
@@ -5266,8 +5188,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 3,
+		"tagName": "hidden",
 		"yearsAtCompany": 1,
 		"totalCompensation": "65000",
 		"base": "65000",
@@ -5277,8 +5199,8 @@
 	{
 		"company": "Pomelo Fashion",
 		"levelName": "Associate",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 2,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "45000",
 		"base": "45000",
@@ -5288,8 +5210,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "IC3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 11,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "165000",
 		"base": "165000",
@@ -5299,8 +5221,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "L3",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "66000",
 		"base": "66000",
@@ -5310,8 +5232,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "Associate",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "45833",
 		"base": "45800",
@@ -5321,8 +5243,8 @@
 	{
 		"company": "Zmyhome",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -5332,8 +5254,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "115625",
 		"base": "92500",
@@ -5343,8 +5265,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "104833",
 		"base": "89830",
@@ -5354,8 +5276,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -5365,8 +5287,8 @@
 	{
 		"company": "The Stock Exchang...",
 		"levelName": "-",
-		"tagName": "DevOps",
 		"yearsOfExperience": 10,
+		"tagName": "DevOps",
 		"yearsAtCompany": 10,
 		"totalCompensation": "180000",
 		"base": "90000",
@@ -5376,8 +5298,8 @@
 	{
 		"company": "Yannix",
 		"levelName": "-",
-		"tagName": "Production",
 		"yearsOfExperience": 5,
+		"tagName": "Production",
 		"yearsAtCompany": 3,
 		"totalCompensation": "81667",
 		"base": "65000",
@@ -5387,8 +5309,8 @@
 	{
 		"company": "Yannix",
 		"levelName": "-",
-		"tagName": "Production",
 		"yearsOfExperience": 4,
+		"tagName": "Production",
 		"yearsAtCompany": 2,
 		"totalCompensation": "37900",
 		"base": "37900",
@@ -5398,8 +5320,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L1",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -5409,8 +5331,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "32500",
 		"base": "30000",
@@ -5420,8 +5342,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L1",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -5431,8 +5353,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "Senior Consultant",
-		"tagName": "DevOps",
 		"yearsOfExperience": 5,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "162000",
 		"base": "162000",
@@ -5442,8 +5364,8 @@
 	{
 		"company": "Levell11",
 		"levelName": "Senior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -5453,8 +5375,8 @@
 	{
 		"company": "T-Box",
 		"levelName": "Head of IT Development",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -5464,8 +5386,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 11,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "49364",
 		"base": "49400",
@@ -5475,8 +5397,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Software Engineer",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 3,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -5486,8 +5408,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 2,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "87250",
 		"base": "87250",
@@ -5497,8 +5419,8 @@
 	{
 		"company": "LINE",
 		"levelName": "Senior",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "96833",
 		"base": "91000",
@@ -5508,8 +5430,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -5519,8 +5441,8 @@
 	{
 		"company": "ThoughtWorks",
 		"levelName": "Mid Level",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "62000",
 		"base": "62000",
@@ -5530,8 +5452,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -5541,8 +5463,8 @@
 	{
 		"company": "SKYict",
 		"levelName": "L1",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": "N/A",
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "50000",
 		"base": "50000",
@@ -5552,8 +5474,8 @@
 	{
 		"company": "United Nations",
 		"levelName": "L2",
-		"tagName": "Blockchain",
 		"yearsOfExperience": 5,
+		"tagName": "Blockchain",
 		"yearsAtCompany": 3,
 		"totalCompensation": "107903",
 		"base": "107900",
@@ -5563,8 +5485,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Associate Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": "N/A",
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "58922",
 		"base": "58900",
@@ -5574,8 +5496,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "170000",
 		"base": "170000",
@@ -5585,8 +5507,8 @@
 	{
 		"company": "LSEG",
 		"levelName": "L3",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -5596,8 +5518,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 5,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 1,
 		"totalCompensation": "110000",
 		"base": "110000",
@@ -5607,8 +5529,8 @@
 	{
 		"company": "True Digital Group",
 		"levelName": "IT Specialist",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "120000",
 		"base": "120000",
@@ -5618,8 +5540,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "DevOps",
 		"yearsOfExperience": 8,
+		"tagName": "DevOps",
 		"yearsAtCompany": 4,
 		"totalCompensation": "145000",
 		"base": "120000",
@@ -5629,8 +5551,8 @@
 	{
 		"company": "Beam Mobility",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -5640,8 +5562,8 @@
 	{
 		"company": "Amazon",
 		"levelName": "L3",
-		"tagName": "Data center engineer operation",
 		"yearsOfExperience": "N/A",
+		"tagName": "Data center engineer operation",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "42000",
 		"base": "42000",
@@ -5651,8 +5573,8 @@
 	{
 		"company": "A-HOST",
 		"levelName": "Technical Consultant",
-		"tagName": "DevOps",
 		"yearsOfExperience": 2,
+		"tagName": "DevOps",
 		"yearsAtCompany": 2,
 		"totalCompensation": "32500",
 		"base": "30000",
@@ -5662,8 +5584,8 @@
 	{
 		"company": "Krungsri Auto",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "73000",
 		"base": "73000",
@@ -5673,8 +5595,8 @@
 	{
 		"company": "ExxonMobil",
 		"levelName": "L1",
-		"tagName": "DevOps",
 		"yearsOfExperience": 2,
+		"tagName": "DevOps",
 		"yearsAtCompany": 1,
 		"totalCompensation": "40853",
 		"base": "40900",
@@ -5684,8 +5606,8 @@
 	{
 		"company": "Refinitiv",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "73333",
 		"base": "65000",
@@ -5695,8 +5617,8 @@
 	{
 		"company": "True Corporation",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "33833",
 		"base": "29000",
@@ -5706,8 +5628,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -5717,8 +5639,8 @@
 	{
 		"company": "Rabbit care",
 		"levelName": "IC4",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "87906",
 		"base": "87910",
@@ -5728,8 +5650,8 @@
 	{
 		"company": "TNIS",
 		"levelName": "Junior",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "35024",
 		"base": "35000",
@@ -5739,8 +5661,8 @@
 	{
 		"company": "Krungsri",
 		"levelName": "L3",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 5,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "56167",
 		"base": "49500",
@@ -5750,8 +5672,8 @@
 	{
 		"company": "SCG",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "72000",
 		"base": "72000",
@@ -5761,8 +5683,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "80000",
 		"base": "75000",
@@ -5773,8 +5695,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -5784,8 +5706,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "80000",
 		"base": "80000",
@@ -5795,8 +5717,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "32500",
 		"base": "30000",
@@ -5806,8 +5728,8 @@
 	{
 		"company": "Rentspree",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "41833",
 		"base": "39500",
@@ -5817,8 +5739,8 @@
 	{
 		"company": "Central Digital",
 		"levelName": "Senior",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "86333",
 		"base": "78000",
@@ -5828,8 +5750,8 @@
 	{
 		"company": "Zigma world tech",
 		"levelName": "L3",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 3,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "57500",
 		"base": "45000",
@@ -5839,8 +5761,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 4,
+		"tagName": "hidden",
 		"yearsAtCompany": 1,
 		"totalCompensation": "50246",
 		"base": "50200",
@@ -5850,8 +5772,8 @@
 	{
 		"company": "KKP",
 		"levelName": "-",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 7,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "85000",
 		"base": "0.2",
@@ -5861,8 +5783,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "35000",
 		"base": "35000",
@@ -5872,8 +5794,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "45167",
 		"base": "42000",
@@ -5883,8 +5805,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "87500",
 		"base": "70000",
@@ -5894,8 +5816,8 @@
 	{
 		"company": "ExxonMobil",
 		"levelName": "Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "100000",
 		"base": "100000",
@@ -5905,8 +5827,8 @@
 	{
 		"company": "Naver",
 		"levelName": "Solution Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "97500",
 		"base": "91670",
@@ -5916,8 +5838,8 @@
 	{
 		"company": "Ascend Money",
 		"levelName": "L3",
-		"tagName": "Networking",
 		"yearsOfExperience": 6,
+		"tagName": "Networking",
 		"yearsAtCompany": 6,
 		"totalCompensation": "62333",
 		"base": "54000",
@@ -5927,8 +5849,8 @@
 	{
 		"company": "The Primo",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "32500",
 		"base": "30000",
@@ -5938,8 +5860,8 @@
 	{
 		"company": "IBM",
 		"levelName": "Associate Engineer",
-		"tagName": "DevOps",
 		"yearsOfExperience": 3,
+		"tagName": "DevOps",
 		"yearsAtCompany": 1,
 		"totalCompensation": "66667",
 		"base": "66700",
@@ -5949,8 +5871,8 @@
 	{
 		"company": "Teradyne",
 		"levelName": "Senior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "114750",
 		"base": "87750",
@@ -5960,8 +5882,8 @@
 	{
 		"company": "Ascend Commerce",
 		"levelName": "L3",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "70000",
 		"base": "70000",
@@ -5971,8 +5893,8 @@
 	{
 		"company": "Refinitiv",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 2,
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "76619",
 		"base": "76600",
@@ -5983,8 +5905,8 @@
 	{
 		"company": "TTB Spark",
 		"levelName": "Senior",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "80000",
 		"base": "80000",
@@ -5994,8 +5916,8 @@
 	{
 		"company": "Gosoft",
 		"levelName": "E5",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 2,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "30000",
 		"base": "30000",
@@ -6005,8 +5927,8 @@
 	{
 		"company": "Refinitiv",
 		"levelName": "Senior",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 4,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "100617",
 		"base": "100620",
@@ -6016,8 +5938,8 @@
 	{
 		"company": "Thaicredit Retail...",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "7083",
 		"base": "7100",
@@ -6027,8 +5949,8 @@
 	{
 		"company": "Suntory",
 		"levelName": "L3",
-		"tagName": "DevOps",
 		"yearsOfExperience": 1,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "104167",
 		"base": "100000",
@@ -6038,8 +5960,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "11",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "64981",
 		"base": "60000",
@@ -6049,8 +5971,8 @@
 	{
 		"company": "Rabbit Care",
 		"levelName": "L2",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 4,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -6060,8 +5982,8 @@
 	{
 		"company": "Omise",
 		"levelName": "L3",
-		"tagName": "DevOps",
 		"yearsOfExperience": 6,
+		"tagName": "DevOps",
 		"yearsAtCompany": 3,
 		"totalCompensation": "229626",
 		"base": "229630",
@@ -6071,8 +5993,8 @@
 	{
 		"company": "Sirius",
 		"levelName": "Junior-Mid",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 2,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "75000",
 		"base": "60000",
@@ -6082,8 +6004,8 @@
 	{
 		"company": "Alstom",
 		"levelName": "Software Engineer",
-		"tagName": "Software Development",
 		"yearsOfExperience": 4,
+		"tagName": "Software Development",
 		"yearsAtCompany": 1,
 		"totalCompensation": "43333",
 		"base": "40000",
@@ -6093,8 +6015,8 @@
 	{
 		"company": "GISC",
 		"levelName": "Senior Programmer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "51667",
 		"base": "35000",
@@ -6104,8 +6026,8 @@
 	{
 		"company": "Baandy",
 		"levelName": "Manager",
-		"tagName": "DevOps",
 		"yearsOfExperience": 8,
+		"tagName": "DevOps",
 		"yearsAtCompany": 3,
 		"totalCompensation": "90000",
 		"base": "90000",
@@ -6115,8 +6037,8 @@
 	{
 		"company": "Apple",
 		"levelName": "ICT3",
-		"tagName": "DevOps",
 		"yearsOfExperience": 2,
+		"tagName": "DevOps",
 		"yearsAtCompany": 2,
 		"totalCompensation": "39682",
 		"base": "37800",
@@ -6126,8 +6048,8 @@
 	{
 		"company": "Alstom",
 		"levelName": "Senior",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 2,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "52500",
 		"base": "52500",
@@ -6137,8 +6059,8 @@
 	{
 		"company": "ExxonMobil",
 		"levelName": "L3",
-		"tagName": "Applications (Salesforce, Workday, etc)",
 		"yearsOfExperience": 7,
+		"tagName": "Applications (Salesforce, Workday, etc)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "150000",
 		"base": "150000",
@@ -6148,8 +6070,8 @@
 	{
 		"company": "Amazon",
 		"levelName": "SDE II",
-		"tagName": "Data",
 		"yearsOfExperience": 13,
+		"tagName": "Data",
 		"yearsAtCompany": 1,
 		"totalCompensation": "234819",
 		"base": "178460",
@@ -6159,8 +6081,8 @@
 	{
 		"company": "LINE",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "46167",
 		"base": "39500",
@@ -6170,8 +6092,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": "N/A",
+		"tagName": "hidden",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "40000",
 		"base": "40000",
@@ -6181,8 +6103,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "IC3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "152500",
 		"base": "130000",
@@ -6192,8 +6114,8 @@
 	{
 		"company": "Zipmex",
 		"levelName": "hidden",
-		"tagName": "hidden",
 		"yearsOfExperience": 5,
+		"tagName": "hidden",
 		"yearsAtCompany": 2,
 		"totalCompensation": "220812",
 		"base": "220810",
@@ -6203,8 +6125,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "183333",
 		"base": "150000",
@@ -6214,8 +6136,8 @@
 	{
 		"company": "Sertis",
 		"levelName": "L2",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 4,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 2,
 		"totalCompensation": "84000",
 		"base": "84000",
@@ -6225,8 +6147,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 4,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "155000",
 		"base": "130000",
@@ -6236,8 +6158,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 3,
+		"tagName": "hidden",
 		"yearsAtCompany": 3,
 		"totalCompensation": "28000",
 		"base": "28000",
@@ -6247,8 +6169,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 8,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "71250",
 		"base": "15800",
@@ -6258,8 +6180,8 @@
 	{
 		"company": "Coforge",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "70417",
 		"base": "65000",
@@ -6269,8 +6191,8 @@
 	{
 		"company": "Ascend Group",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "105000",
 		"base": "90000",
@@ -6280,8 +6202,8 @@
 	{
 		"company": "Lineman",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "53000",
 		"base": "53000",
@@ -6291,8 +6213,8 @@
 	{
 		"company": "Ascend Group",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "131477",
 		"base": "112690",
@@ -6302,8 +6224,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L5",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 5,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "159043",
 		"base": "159040",
@@ -6313,8 +6235,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L1",
-		"tagName": "Data",
 		"yearsOfExperience": 8,
+		"tagName": "Data",
 		"yearsAtCompany": 6,
 		"totalCompensation": "172500",
 		"base": "150000",
@@ -6324,8 +6246,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "Associate Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "36000",
 		"base": "36000",
@@ -6335,8 +6257,8 @@
 	{
 		"company": "Arthur",
 		"levelName": "L4",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "91987",
 		"base": "91990",
@@ -6346,8 +6268,8 @@
 	{
 		"company": "MFEC Public Compa...",
 		"levelName": "-",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 1,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "38583",
 		"base": "34000",
@@ -6357,8 +6279,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "IC4",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 11,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 5,
 		"totalCompensation": "232739",
 		"base": "179600",
@@ -6368,8 +6290,8 @@
 	{
 		"company": "Thai Software Eng...",
 		"levelName": "L7",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 20,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 15,
 		"totalCompensation": "114500",
 		"base": "97000",
@@ -6379,8 +6301,8 @@
 	{
 		"company": "SCG",
 		"levelName": "L3",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 4,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "64000",
 		"base": "64000",
@@ -6390,8 +6312,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "IC2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "145833",
 		"base": "140000",
@@ -6401,8 +6323,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "178333",
 		"base": "145000",
@@ -6412,8 +6334,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L5",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 6,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "12929",
 		"base": "11300",
@@ -6423,8 +6345,8 @@
 	{
 		"company": "Accenture",
 		"levelName": "CL10",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "51960",
 		"base": "48000",
@@ -6434,8 +6356,8 @@
 	{
 		"company": "KBTG",
 		"levelName": "-",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 1,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "55000",
 		"base": "55000",
@@ -6445,8 +6367,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L4",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 10,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "195915",
 		"base": "167930",
@@ -6456,8 +6378,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 3,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 3,
 		"totalCompensation": "141484",
 		"base": "119290",
@@ -6467,8 +6389,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "119020",
 		"base": "109860",
@@ -6478,8 +6400,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 5,
 		"totalCompensation": "240599",
 		"base": "152580",
@@ -6489,8 +6411,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 9,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "208333",
 		"base": "180920",
@@ -6500,8 +6422,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "IC2",
-		"tagName": "Data",
 		"yearsOfExperience": 2,
+		"tagName": "Data",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -6511,8 +6433,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 3,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "175585",
 		"base": "139350",
@@ -6522,8 +6444,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "151667",
 		"base": "130000",
@@ -6533,8 +6455,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L6",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 6,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 5,
 		"totalCompensation": "308333",
 		"base": "200000",
@@ -6544,8 +6466,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 7,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "227273",
 		"base": "165040",
@@ -6555,8 +6477,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L5",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 11,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "338713",
 		"base": "307920",
@@ -6566,8 +6488,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "229978",
 		"base": "183980",
@@ -6577,8 +6499,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L2",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 12,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 4,
 		"totalCompensation": "218579",
 		"base": "177600",
@@ -6588,8 +6510,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "125683",
 		"base": "125680",
@@ -6599,8 +6521,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Lead Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 6,
 		"totalCompensation": "285016",
 		"base": "171010",
@@ -6610,8 +6532,8 @@
 	{
 		"company": "Omisego",
 		"levelName": "-",
-		"tagName": "Blockchain",
 		"yearsOfExperience": 5,
+		"tagName": "Blockchain",
 		"yearsAtCompany": 2,
 		"totalCompensation": "183445",
 		"base": "183440",
@@ -6621,8 +6543,8 @@
 	{
 		"company": "True Corporation",
 		"levelName": "L3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 21,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 6,
 		"totalCompensation": "175000",
 		"base": "150000",
@@ -6632,8 +6554,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "148438",
 		"base": "130210.00000000001",
@@ -6643,8 +6565,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "33333",
 		"base": "12500",
@@ -6654,8 +6576,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L5",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 10,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "249221",
 		"base": "207680",
@@ -6665,8 +6587,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "128407",
 		"base": "110060",
@@ -6676,8 +6598,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L4",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 10,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "195915",
 		"base": "167930",
@@ -6687,8 +6609,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L4",
-		"tagName": "Testing (SDET)",
 		"yearsOfExperience": 10,
+		"tagName": "Testing (SDET)",
 		"yearsAtCompany": 1,
 		"totalCompensation": "195915",
 		"base": "167930",
@@ -6698,8 +6620,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff Software Engineer",
-		"tagName": "Mobile (iOS + Android)",
 		"yearsOfExperience": 6,
+		"tagName": "Mobile (iOS + Android)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "197917",
 		"base": "169270",
@@ -6709,8 +6631,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 5,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "152653",
 		"base": "150150",
@@ -6720,8 +6642,8 @@
 	{
 		"company": "Xero",
 		"levelName": "Software Engineer",
-		"tagName": "DevOps",
 		"yearsOfExperience": 1,
+		"tagName": "DevOps",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "140940",
 		"base": "40300",
@@ -6731,8 +6653,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 5,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "185743",
 		"base": "158130",
@@ -6742,8 +6664,8 @@
 	{
 		"company": "Electronic Digima...",
 		"levelName": "Senior",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 5,
 		"totalCompensation": "45000",
 		"base": "45000",
@@ -6753,8 +6675,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "75180",
 		"base": "75200",
@@ -6764,8 +6686,8 @@
 	{
 		"company": "Codefin",
 		"levelName": "-",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 2,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "36500",
 		"base": "36500",
@@ -6776,8 +6698,8 @@
 	{
 		"company": "TMB",
 		"levelName": "-",
-		"tagName": "General",
 		"yearsOfExperience": 8,
+		"tagName": "General",
 		"yearsAtCompany": 2,
 		"totalCompensation": "60000",
 		"base": "60000",
@@ -6787,8 +6709,8 @@
 	{
 		"company": "JODS",
 		"levelName": "L1",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 1,
+		"tagName": "Full Stack",
 		"yearsAtCompany": "N/A",
 		"totalCompensation": "50000",
 		"base": "50000",
@@ -6798,8 +6720,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Senior Software Engineer",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 7,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 7,
 		"totalCompensation": "166131",
 		"base": "147370",
@@ -6809,8 +6731,8 @@
 	{
 		"company": "Software Engineer",
 		"levelName": "-",
-		"tagName": "hidden",
 		"yearsOfExperience": 4,
+		"tagName": "hidden",
 		"yearsAtCompany": 4,
 		"totalCompensation": "42000",
 		"base": "42000",
@@ -6820,8 +6742,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "Staff",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 4,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 1,
 		"totalCompensation": "115304",
 		"base": "91720",
@@ -6831,8 +6753,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "L3",
-		"tagName": "ML / AI",
 		"yearsOfExperience": 3,
+		"tagName": "ML / AI",
 		"yearsAtCompany": 3,
 		"totalCompensation": "12500",
 		"base": "12500",
@@ -6842,8 +6764,8 @@
 	{
 		"company": "Agoda",
 		"levelName": "IC2",
-		"tagName": "Full Stack",
 		"yearsOfExperience": 6,
+		"tagName": "Full Stack",
 		"yearsAtCompany": 2,
 		"totalCompensation": "129179",
 		"base": "113980",
@@ -6853,8 +6775,8 @@
 	{
 		"company": "Refinitiv",
 		"levelName": "Engineer",
-		"tagName": "Web Development (Front-End)",
 		"yearsOfExperience": 2,
+		"tagName": "Web Development (Front-End)",
 		"yearsAtCompany": 2,
 		"totalCompensation": "47835",
 		"base": "37800",
@@ -6864,8 +6786,8 @@
 	{
 		"company": "Ascend Group",
 		"levelName": "Senior Software Engineer",
-		"tagName": "API Development (Back-End)",
 		"yearsOfExperience": 10,
+		"tagName": "API Development (Back-End)",
 		"yearsAtCompany": 3,
 		"totalCompensation": "90000",
 		"base": "90000",
@@ -6875,8 +6797,8 @@
 	{
 		"company": "True Corporation",
 		"levelName": "L2",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 21,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 6,
 		"totalCompensation": "105000",
 		"base": "90000",
@@ -6886,8 +6808,8 @@
 	{
 		"company": "Thomson Reuters",
 		"levelName": "TR3",
-		"tagName": "Distributed Systems (Back-End)",
 		"yearsOfExperience": 13,
+		"tagName": "Distributed Systems (Back-End)",
 		"yearsAtCompany": 10,
 		"totalCompensation": "78333",
 		"base": "70000",

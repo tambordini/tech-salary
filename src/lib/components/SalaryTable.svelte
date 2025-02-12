@@ -55,7 +55,6 @@
 		isMobile: boolean
 	): (number | string)[] {
 		const pages: (number | string)[] = [];
-		// Show fewer numbers on mobile
 		const delta = isMobile ? 1 : 2;
 
 		for (let i = 1; i <= total; i++) {
@@ -135,7 +134,9 @@
 						>
 						<td class="px-3 py-3 text-xs text-gray-700 sm:px-6 sm:py-4 sm:text-sm">{level}</td>
 						<td class="px-3 py-3 text-xs text-gray-700 sm:px-6 sm:py-4 sm:text-sm">{tag}</td>
-						<td class="px-3 py-3 text-xs text-gray-700 sm:px-6 sm:py-4 sm:text-sm">{experience}</td>
+						<td class="px-3 py-3 text-xs text-gray-700 sm:px-6 sm:py-4 sm:text-sm"
+							>{experience} Years</td
+						>
 						<td
 							class="px-3 py-3 text-right text-xs font-medium text-gray-900 sm:px-6 sm:py-4 sm:text-sm"
 							>{formatCurrency(totalCompensation)}</td
