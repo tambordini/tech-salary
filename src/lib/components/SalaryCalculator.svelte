@@ -1,28 +1,20 @@
 <script lang="ts">
 	import levelOptions from '$lib/data/levels.json';
-	import tagOptions from '$lib/data/tags.json';
 	import { slide } from 'svelte/transition';
 	import type { CompanySalary } from '../types/salary';
 
-	const chevronDownIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
-	  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-	</svg>`;
-	const chevronUpIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
-	  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-	</svg>`;
-
 	export let salaryData: CompanySalary[];
 
-	let isExpanded = false;
 	let salary = '';
 	let experience = '';
-	let company = '';
 	let isCalculating = false;
 	let errors: Record<string, string> = {};
 	let result: { rank: number; total: number; percentile: number } | null = null;
+	let noDataFound = false;
 
 	let level = '';
-	let tag = '';
+	let calculatedLevel = '';
+	let calculatedExperience = '';
 
 	function debounce<T extends (...args: any[]) => void>(
 		fn: T,
@@ -51,19 +43,8 @@
 		return '';
 	}
 
-	function validateCompany(value: string) {
-		if (!value) return 'กรุณาระบุชื่อบริษัท';
-		if (value.length < 2) return 'ชื่อบริษัทต้องมีอย่างน้อย 2 ตัวอักษร';
-		return '';
-	}
-
 	function validateLevel(value: string) {
 		if (!value) return 'กรุณาเลือกระดับตำแหน่ง';
-		return '';
-	}
-
-	function validateTag(value: string) {
-		if (!value) return 'กรุณาเลือกแท็ก';
 		return '';
 	}
 
@@ -75,16 +56,8 @@
 		errors.experience = validateExperience(value);
 	}, 300);
 
-	const debouncedValidateCompany = debounce((value: string) => {
-		errors.company = validateCompany(value);
-	}, 300);
-
 	const debouncedValidateLevel = debounce((value: string) => {
 		errors.level = validateLevel(value);
-	}, 300);
-
-	const debouncedValidateTag = debounce((value: string) => {
-		errors.tag = validateTag(value);
 	}, 300);
 
 	function handleSalaryInput(event: Event) {
@@ -101,19 +74,11 @@
 		debouncedValidateExperience(value);
 	}
 
-	function handleCompanyInput(event: Event) {
-		const value = (event.target as HTMLInputElement).value;
-		company = value;
-		debouncedValidateCompany(value);
-	}
-
 	function validateForm() {
 		errors = {
 			salary: validateSalary(salary),
 			experience: validateExperience(experience),
-			company: validateCompany(company),
-			level: validateLevel(level),
-			tag: validateTag(tag)
+			level: validateLevel(level)
 		};
 		return Object.values(errors).every((error) => !error);
 	}
@@ -127,14 +92,42 @@
 
 		isCalculating = true;
 		try {
+			calculatedLevel = level;
+			calculatedExperience = experience;
 			const salaryNum = Number(salary.replace(/,/g, ''));
-			const allSalaries = salaryData
-				.flatMap((company) => company.totalCompensation)
+			const expNum = Number(experience);
+
+			const filteredSalaries = salaryData
+				.filter((data) => {
+					return data.level === calculatedLevel && Number(data.experience) === expNum;
+				})
+				.flatMap((company) => Number(company.salary))
 				.filter((salary): salary is number => typeof salary === 'number' && !isNaN(salary))
 				.sort((a, b) => b - a);
-			const rank = allSalaries.filter((s) => s >= salaryNum).length;
-			const total = allSalaries.length;
-			const percentile = ((total - rank) / total) * 100;
+
+			if (filteredSalaries.length === 0) {
+				noDataFound = true;
+				result = null;
+				return;
+			}
+
+			noDataFound = false;
+
+			const higherCount = filteredSalaries.filter((s) => s > salaryNum).length;
+			const equalCount = filteredSalaries.filter((s) => s === salaryNum).length;
+
+			let rank: number;
+			if (higherCount === 0) {
+				rank = 1;
+			} else if (equalCount > 0) {
+				rank = higherCount + 1;
+			} else {
+				rank = higherCount + 1;
+			}
+
+			const total = filteredSalaries.length;
+			const percentile = ((total - higherCount) / total) * 100;
+
 			result = { rank, total, percentile };
 		} finally {
 			isCalculating = false;
@@ -143,153 +136,113 @@
 </script>
 
 <div class="rounded-xl border border-gray-100 bg-white p-4 shadow-lg sm:p-8">
-	<button
-		on:click={() => (isExpanded = !isExpanded)}
-		class="flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-blue-600
-			 to-blue-700 px-6 py-3 font-medium
-			 text-white transition-all duration-200 hover:from-blue-700 hover:to-blue-800"
-	>
-		{@html isExpanded ? chevronUpIcon : chevronDownIcon}
-		{isExpanded ? 'ซ่อนการคำนวณ' : 'เริ่มคำนวณเงินเดือน'}
-	</button>
-
-	{#if isExpanded}
-		<div transition:slide={{ duration: 300 }} class="mt-6">
-			<div class="space-y-8">
-				<div class="space-y-6">
-					<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-						<div class="space-y-2">
-							<label for="salary" class="block text-sm font-medium text-gray-700">เงินเดือน *</label
-							>
-							<input
-								id="salary"
-								type="text"
-								inputmode="numeric"
-								on:input={handleSalaryInput}
-								on:blur={handleSalaryInput}
-								class="w-full rounded-lg border p-3 transition-all duration-200
+	<div transition:slide={{ duration: 300 }}>
+		<div class="space-y-8">
+			<div class="space-y-6">
+				<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+					<div class="space-y-2">
+						<label for="salary" class="block text-sm font-medium text-gray-700">เงินเดือน *</label>
+						<input
+							id="salary"
+							type="text"
+							inputmode="numeric"
+							on:input={handleSalaryInput}
+							on:blur={handleSalaryInput}
+							class="w-full rounded-lg border p-3 transition-all duration-200
 				 {errors.salary
-									? 'border-red-500 focus:border-red-500 focus:ring-red-500'
-									: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
-								placeholder="ระบุเงินเดือน"
-							/>
-							{#if errors.salary}
-								<p class="mt-1 text-sm text-red-500">{errors.salary}</p>
-							{/if}
-						</div>
-
-						<div class="space-y-2">
-							<label for="year" class="block text-sm font-medium text-gray-700"
-								>ประสบการณ์ (ปี) *</label
-							>
-							<input
-								id="year"
-								type="number"
-								min="0"
-								max="50"
-								step="0.5"
-								on:input={handleExperienceInput}
-								on:blur={handleExperienceInput}
-								bind:value={experience}
-								class="w-full rounded-lg border p-3 transition-all duration-200
-				 {errors.experience
-									? 'border-red-500 focus:border-red-500 focus:ring-red-500'
-									: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
-								placeholder="ระบุจำนวนปี"
-							/>
-							{#if errors.experience}
-								<p class="mt-1 text-sm text-red-500">{errors.experience}</p>
-							{/if}
-						</div>
+								? 'border-red-500 focus:border-red-500 focus:ring-red-500'
+								: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
+							placeholder="ระบุเงินเดือน"
+						/>
+						{#if errors.salary}
+							<p class="mt-1 text-sm text-red-500">{errors.salary}</p>
+						{/if}
 					</div>
-				</div>
 
-				<div class="space-y-6">
-					<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-						<div class="space-y-2">
-							<label for="company" class="block text-sm font-medium text-gray-700">บริษัท *</label>
-							<input
-								id="company"
-								type="text"
-								on:input={handleCompanyInput}
-								on:blur={handleCompanyInput}
-								bind:value={company}
-								minlength="2"
-								class="w-full rounded-lg border p-3 transition-all duration-200
-				 {errors.company
-									? 'border-red-500 focus:border-red-500 focus:ring-red-500'
-									: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
-								placeholder="ระบุชื่อบริษัท"
-							/>
-							{#if errors.company}
-								<p class="mt-1 text-sm text-red-500">{errors.company}</p>
-							{/if}
-						</div>
+					<div class="space-y-2">
+						<label for="year" class="block text-sm font-medium text-gray-700"
+							>ประสบการณ์ (ปี) *</label
+						>
+						<input
+							id="year"
+							type="number"
+							min="0"
+							max="50"
+							step="0.5"
+							on:input={handleExperienceInput}
+							on:blur={handleExperienceInput}
+							bind:value={experience}
+							class="w-full rounded-lg border p-3 transition-all duration-200
+				 {errors.experience
+								? 'border-red-500 focus:border-red-500 focus:ring-red-500'
+								: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
+							placeholder="ระบุจำนวนปี"
+						/>
+						{#if errors.experience}
+							<p class="mt-1 text-sm text-red-500">{errors.experience}</p>
+						{/if}
+					</div>
 
-						<div class="space-y-2">
-							<label for="level" class="block text-sm font-medium text-gray-700"
-								>ระดับตำแหน่ง *</label
-							>
-							<select
-								id="level"
-								bind:value={level}
-								on:change={(e) => debouncedValidateLevel((e.target as HTMLSelectElement).value)}
-								class="w-full rounded-lg border p-3 transition-all duration-200
-				 {errors.level ? 'border-red-500' : 'border-gray-300'}"
-							>
-								<option value="">เลือกระดับตำแหน่ง</option>
-								{#each levelOptions as option}
-									<option value={option}>{option}</option>
-								{/each}
-							</select>
-							{#if errors.level}
-								<p class="mt-1 text-sm text-red-500">{errors.level}</p>
-							{/if}
-						</div>
-
-						<div class="space-y-2">
-							<label for="tag" class="block text-sm font-medium text-gray-700">แท็ก *</label>
-							<select
-								id="tag"
-								bind:value={tag}
-								on:change={(e) => debouncedValidateTag((e.target as HTMLSelectElement).value)}
-								class="w-full rounded-lg border p-3 transition-all duration-200
-				 {errors.tag ? 'border-red-500' : 'border-gray-300'}"
-							>
-								<option value="">เลือกแท็ก</option>
-								{#each tagOptions as option}
-									<option value={option}>{option}</option>
-								{/each}
-							</select>
-							{#if errors.tag}
-								<p class="mt-1 text-sm text-red-500">{errors.tag}</p>
-							{/if}
-						</div>
+					<div class="space-y-2">
+						<label for="level" class="block text-sm font-medium text-gray-700">ระดับตำแหน่ง *</label
+						>
+						<select
+							id="level"
+							bind:value={level}
+							on:change={(e) => debouncedValidateLevel((e.target as HTMLSelectElement).value)}
+							class="w-full rounded-lg border p-3 transition-all duration-200
+					 {errors.level ? 'border-red-500' : 'border-gray-300'}"
+						>
+							<option value="">เลือกระดับตำแหน่ง</option>
+							{#each levelOptions as option}
+								<option value={option}>{option}</option>
+							{/each}
+						</select>
+						{#if errors.level}
+							<p class="mt-1 text-sm text-red-500">{errors.level}</p>
+						{/if}
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="mt-6 flex flex-col gap-3 sm:flex-row sm:gap-4">
-				<button
-					on:click={calculateRank}
-					disabled={isCalculating}
-					class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 font-medium
+		<div class="mt-6 flex flex-col gap-3 sm:flex-row sm:gap-4">
+			<button
+				on:click={calculateRank}
+				disabled={isCalculating}
+				class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 font-medium
 				   text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
 				   disabled:opacity-50 sm:py-3
 				   {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
-				>
-					{isCalculating ? 'กำลังคำนวณ...' : 'คำนวณอันดับ'}
-				</button>
+			>
+				{isCalculating ? 'กำลังคำนวณ...' : 'คำนวณอันดับ'}
+			</button>
+		</div>
+	</div>
+
+	{#if noDataFound}
+		<div
+			transition:slide={{ duration: 300 }}
+			class="mt-6 rounded-xl border border-yellow-200 bg-gradient-to-br from-yellow-50 to-yellow-100 p-6"
+		>
+			<h3 class="mb-3 text-xl font-semibold text-yellow-900">ไม่พบข้อมูล</h3>
+			<div class="space-y-3">
+				<p class="text-gray-700">
+					ยังไม่มีข้อมูลเงินเดือนสำหรับ
+					<span class="font-semibold text-yellow-800">{calculatedLevel}</span>
+					ที่มีประสบการณ์ <span class="font-semibold text-yellow-800">{calculatedExperience}</span> ปี
+				</p>
+				<p class="text-sm text-gray-600">
+					ลองปรับเปลี่ยนระดับตำแหน่งหรือจำนวนปีประสบการณ์เพื่อดูข้อมูลอื่นๆ
+				</p>
 			</div>
 		</div>
-	{/if}
-
-	{#if result}
+	{:else if result}
 		<div
 			transition:slide={{ duration: 300 }}
 			class="mt-6 rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50 to-blue-100 p-6"
 		>
-			<h3 class="mb-3 text-xl font-semibold text-blue-900">ผลการคำนวณ</h3>
+			<h3 class="mb-3 text-xl font-semibold text-blue-900">ผลการคำนวณ (เงินเดือนพื้นฐาน)</h3>
 			<div class="space-y-3">
 				<p class="text-gray-700">
 					คุณอยู่อันดับที่ <span class="font-semibold text-blue-800">{result.rank}</span>
@@ -297,9 +250,6 @@
 				</p>
 				<p class="text-2xl font-bold text-blue-800">
 					Percentile: {result.percentile.toFixed(2)}%
-				</p>
-				<p class="text-sm text-gray-600">
-					(เงินเดือนของคุณสูงกว่า {result.percentile.toFixed(2)}% ของข้อมูลทั้งหมด)
 				</p>
 			</div>
 		</div>
