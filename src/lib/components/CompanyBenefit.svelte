@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { tagSkills as skillsData } from '$lib/data/tagSkillData';
-	import type { TagSkill } from '$lib/types/tagSkill';
+	import { tagSkills as skillsData } from '../data/tagSkillData';
+	import type { TagSkill } from '../types/tagSkill';
 
 	let uniqueCompanies: TagSkill[] = [];
 	let currentPage: number = 1;
@@ -15,11 +15,16 @@
 	function prepareUniqueCompanies() {
 		const seen = new Set();
 		uniqueCompanies = skillsData.filter((item) => {
-			if (seen.has(item.company)) {
-				return false;
-			}
-			seen.add(item.company);
-			return true;
+		if (item.company === '') {
+			return false;
+		}
+
+		if (seen.has(item.company)) {
+			return false;
+		}
+
+		seen.add(item.company);
+		return true;
 		});
 		totalItems = uniqueCompanies.length;
 		totalPages = Math.ceil(totalItems / itemsPerPage);
@@ -75,119 +80,123 @@
 	prepareUniqueCompanies();
 </script>
 
-<div class="rounded-xl border border-gray-100 bg-white p-4 shadow-lg sm:p-8">
-	<div class="mb-6 grid grid-cols-2 gap-4 md:grid-cols-4">
-		{#each getPaginatedItems() as company}
-			<button class="company-card" on:click={() => openModal(company.company)}>
-				{company.company}
-			</button>
-		{/each}
+<div class="bg-white p-4 sm:p-8 rounded-xl shadow-lg border border-gray-100">
+	<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+	  {#each getPaginatedItems() as company}
+		<button class="company-card" on:click={() => openModal(company.company)}>
+		  {company.company}
+		</button>
+	  {/each}
 	</div>
-
+  
 	{#if showModal}
 		<div class="modal">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">{selectedCompany}</h2>
-					<button class="close-btn" on:click={closeModal}>x</button>
-				</div>
-				<h3 class="mb-3 text-lg font-medium">สวัสดิการ</h3>
-				<ul>
-					{#if selectedBenefits.length > 0}
-						{#each selectedBenefits as benefit}
-							<li class="benefit-item">- {benefit}</li>
-						{/each}
-					{:else}
-						<li class="benefit-item">- ไม่มีข้อมูลสวัสดิการ</li>
-					{/if}
-				</ul>
-				<button
-					class="mt-4 rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
-					on:click={closeModal}
-				>
-					Close
-				</button>
+			<div class="modal-content relative">
+			<div class="modal-header">
+				<h2 class="modal-title">{selectedCompany}</h2>
+				<button class="close-btn" on:click={closeModal}>x</button>
+			</div>
+			<h3 class="text-lg font-medium mb-3">สวัสดิการ</h3>
+			<ul class="benefit-list">
+				{#if selectedBenefits.length > 0}
+				{#each selectedBenefits as benefit}
+					<li class="benefit-item">- {benefit}</li>
+				{/each}
+				{:else}
+				<li class="benefit-item">- ไม่มีข้อมูลสวัสดิการ</li>
+				{/if}
+			</ul>
+			<button
+				class="absolute bottom-4 right-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+				on:click={closeModal}
+			>
+				ปิด
+			</button>
 			</div>
 		</div>
 	{/if}
 </div>
-
-<div class="mt-4 flex flex-col items-center justify-between gap-4 px-2 sm:mt-6 sm:flex-row sm:px-4">
+  
+<div class="mt-4 sm:mt-6 flex flex-col sm:flex-row items-center justify-between px-2 sm:px-4 gap-4">
 	<div class="text-sm text-gray-700">
-		Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(
-			currentPage * itemsPerPage,
-			uniqueCompanies.length
-		)} of {uniqueCompanies.length} entries
+	  Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(
+		currentPage * itemsPerPage,
+		uniqueCompanies.length,
+	  )} of {uniqueCompanies.length} entries
 	</div>
 	<div class="flex items-center gap-2">
-		<button
-			on:click={prevPage}
-			disabled={currentPage === 1}
-			class="rounded-lg border px-4 py-2 text-sm font-medium transition-colors duration-200 {currentPage ===
-			1
-				? 'cursor-not-allowed border-gray-200 bg-gray-50 text-gray-400'
-				: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
-			aria-label="Previous page"
-		>
-			←
-		</button>
-
-		{#each generatePageNumbers(currentPage, totalPages) as page}
-			{#if typeof page === 'string'}
-				<span class="px-4 py-2 text-gray-700">{page}</span>
-			{:else}
-				<button
-					on:click={() => goToPage(page)}
-					class="rounded-lg border px-4 py-2 text-sm font-medium transition-colors duration-200 {currentPage ===
-					page
-						? 'border-[#0056a9] bg-[#0056a9] text-white'
-						: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
-				>
-					{page}
-				</button>
-			{/if}
-		{/each}
-
-		<button
-			on:click={nextPage}
-			disabled={currentPage === totalPages}
-			class="rounded-lg border px-4 py-2 text-sm font-medium transition-colors duration-200 {currentPage ===
-			totalPages
-				? 'cursor-not-allowed border-gray-200 bg-gray-50 text-gray-400'
-				: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
-			aria-label="Next page"
-		>
-			→
-		</button>
+	  <button
+		on:click={prevPage}
+		disabled={currentPage === 1}
+		class="px-4 py-2 text-sm font-medium rounded-lg border transition-colors duration-200 {currentPage ===
+		1
+		  ? 'bg-gray-50 text-gray-400 border-gray-200 cursor-not-allowed'
+		  : 'bg-white text-[#0056a9] border-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
+		aria-label="Previous page"
+	  >
+		←
+	  </button>
+  
+	  {#each generatePageNumbers(currentPage, totalPages) as page}
+		{#if typeof page === 'string'}
+		  <span class="px-4 py-2 text-gray-700">{page}</span>
+		{:else}
+		  <button
+			on:click={() => goToPage(page)}
+			class="px-4 py-2 text-sm font-medium rounded-lg border transition-colors duration-200 {currentPage ===
+			page
+			  ? 'bg-[#0056a9] text-white border-[#0056a9]'
+			  : 'bg-white text-[#0056a9] border-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
+		  >
+			{page}
+		  </button>
+		{/if}
+	  {/each}
+  
+	  <button
+		on:click={nextPage}
+		disabled={currentPage === totalPages}
+		class="px-4 py-2 text-sm font-medium rounded-lg border transition-colors duration-200 {currentPage ===
+		totalPages
+		  ? 'bg-gray-50 text-gray-400 border-gray-200 cursor-not-allowed'
+		  : 'bg-white text-[#0056a9] border-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
+		aria-label="Next page"
+	  >
+		→
+	  </button>
 	</div>
 </div>
-
+  
 <style>
 	.company-card {
-		@apply cursor-pointer rounded-lg bg-gray-100 p-4 text-center font-semibold text-blue-500 shadow-md hover:bg-gray-200;
+	  @apply bg-gray-100 text-blue-500 font-semibold text-center p-4 rounded-lg shadow-md cursor-pointer hover:bg-gray-200;
 	}
-
+  
 	.modal {
-		@apply fixed inset-0 flex items-center justify-center bg-black bg-opacity-50;
+	  @apply fixed inset-0 flex items-center justify-center bg-black bg-opacity-50;
 	}
-
+  
 	.modal-content {
-		@apply w-full max-w-md rounded-lg bg-white p-6 shadow-lg;
+	  @apply bg-white p-6 rounded-lg shadow-lg max-w-3xl w-full h-[80vh];
 	}
-
+  
 	.modal-header {
-		@apply mb-4 flex items-center justify-between;
+	  @apply flex justify-between items-center mb-4;
 	}
-
+  
 	.modal-title {
-		@apply text-xl font-semibold;
+	  @apply text-xl font-semibold;
 	}
-
+  
 	.close-btn {
-		@apply cursor-pointer text-gray-600 hover:text-gray-800;
+	  @apply text-gray-600 hover:text-gray-800 cursor-pointer;
 	}
-
+  
 	.benefit-item {
-		@apply mb-2 text-gray-700;
+	  @apply text-gray-700 mb-2;
+	}
+  
+	.benefit-list {
+	  @apply overflow-y-auto border border-gray-200 rounded p-4 h-[58vh];
 	}
 </style>
