@@ -62,7 +62,7 @@
 		const model = await use.load();
 		const embeddings = await model.embed(skills);
 
-		const similarityThreshold = 0.7;
+		const similarityThreshold = 0.75;
 		const groupedSkills = [];
 		const visited = new Set();
 
@@ -87,7 +87,7 @@
 				}
 			}
 
-			groupedSkills.push(group.join(' / '));
+			groupedSkills.push(group.join('  ◦  '));
 		}
 
 		return groupedSkills;
