@@ -3,7 +3,7 @@
 	import CompanyBenefit from '$lib/components/CompanyBenefit.svelte';
 	import Loading from '$lib/components/Loading.svelte';
 	import SalaryBoosting from '$lib/components/SalaryBoosting.svelte';
-	import SalaryCalculator from '$lib/components/SalaryCalculator.svelte';
+	import SalaryCalculator from '$lib/components/SalaryCalculator/SalaryCalculator.svelte';
 	import SalaryChart from '$lib/components/SalaryChart.svelte';
 	import SalaryTable from '$lib/components/SalaryTable/SalaryTable.svelte';
 	import { companySalaries } from '$lib/data/salaryData';

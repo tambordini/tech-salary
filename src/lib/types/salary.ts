@@ -8,3 +8,10 @@ export interface CompanySalary {
 	bonus: number;
 	totalCompensation: number;
 }
+
+export type SalaryResult = {
+	rank: number;
+	total: number;
+	percentile: number;
+	salary: number;
+};
