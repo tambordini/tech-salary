@@ -15,6 +15,7 @@
 	let result: { rank: number; total: number; percentile: number; salary: number } | null = null;
 	let noDataFound = false;
 
+	let filteredSalaries: number[] = [];
 	let level = '';
 	let calculatedLevel = '';
 	let calculatedExperience = '';
@@ -64,15 +65,13 @@
 			const salaryNum = Number(salary.replace(/,/g, ''));
 			const expNum = Number(experience);
 
-			const filteredSalaries = salaryData
+			filteredSalaries = salaryData
 				.filter((data) => {
 					return data.level === calculatedLevel && Number(data.experience) === expNum;
 				})
 				.flatMap((company) => Number(company.salary))
 				.filter((salary): salary is number => typeof salary === 'number' && !isNaN(salary))
 				.sort((a, b) => b - a);
-
-			console.log(filteredSalaries);
 
 			if (filteredSalaries.length === 0) {
 				noDataFound = true;
@@ -216,6 +215,6 @@
 			</div>
 		</div>
 	{:else if result}
-		<ResultCard {result} />
+		<ResultCard {result} salariesData={filteredSalaries} />
 	{/if}
 </div>
