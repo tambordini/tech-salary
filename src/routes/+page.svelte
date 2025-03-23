@@ -5,7 +5,7 @@
 	import SalaryBoosting from '$lib/components/SalaryBoosting.svelte';
 	import SalaryCalculator from '$lib/components/SalaryCalculator.svelte';
 	import SalaryChart from '$lib/components/SalaryChart.svelte';
-	import SalaryTable from '$lib/components/SalaryTable.svelte';
+	import SalaryTable from '$lib/components/SalaryTable/SalaryTable.svelte';
 	import { companySalaries } from '$lib/data/salaryData';
 	import { customSalaries } from '$lib/stores/salaryStore';
 	import { onMount } from 'svelte';
@@ -16,7 +16,7 @@
 	onMount(() => {
 		setTimeout(() => {
 			isLoading = false;
-		}, 1500);
+		}, 1000);
 	});
 </script>
 
