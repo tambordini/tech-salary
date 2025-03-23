@@ -12,7 +12,7 @@
 	let currentPage = 1;
 
 	let sortColumn: keyof CompanySalary | 'totalCompensation' = 'company';
-	let sortDirection: 'asc' | 'desc' = 'asc';
+	let sortDirection: 'asc' | 'desc' | 'none' = 'asc';
 
 	let filters = {
 		company: '',
@@ -22,7 +22,13 @@
 
 	function onSort(column: keyof CompanySalary | 'totalCompensation') {
 		if (sortColumn === column) {
-			sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+			if (sortDirection === 'asc') {
+				sortDirection = 'desc';
+			} else if (sortDirection === 'desc') {
+				sortDirection = 'none';
+			} else {
+				sortDirection = 'asc';
+			}
 		} else {
 			sortColumn = column;
 			sortDirection = 'asc';

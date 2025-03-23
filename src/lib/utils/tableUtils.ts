@@ -12,31 +12,28 @@ export const applyFilters = (
 	});
 };
 
-export const sortData = (
-	data: CompanySalary[],
-	sortColumn: keyof CompanySalary | 'totalCompensation',
-	sortDirection: 'asc' | 'desc'
-): CompanySalary[] => {
+export function sortData<T extends { base?: number; bonus?: number; stock?: number }>(
+	data: T[],
+	column: keyof T | 'totalCompensation',
+	direction: 'asc' | 'desc' | 'none'
+): T[] {
+	if (direction === 'none') {
+		return [...data];
+	}
+
 	return [...data].sort((a, b) => {
-		const multiplier = sortDirection === 'asc' ? 1 : -1;
+		const aValue =
+			column === 'totalCompensation' ? (a.base || 0) + (a.bonus || 0) + (a.stock || 0) : a[column];
+		const bValue =
+			column === 'totalCompensation' ? (b.base || 0) + (b.bonus || 0) + (b.stock || 0) : b[column];
 
-		if (sortColumn === 'totalCompensation') {
-			const totalA = (Number(a.salary) || 0) + (Number(a.stock) || 0) + (Number(a.bonus) || 0);
-			const totalB = (Number(b.salary) || 0) + (Number(b.stock) || 0) + (Number(b.bonus) || 0);
-			return (totalB - totalA) * multiplier;
+		if (direction === 'asc') {
+			return aValue > bValue ? 1 : -1;
+		} else {
+			return aValue < bValue ? 1 : -1;
 		}
-
-		if (['salary', 'stock', 'bonus', 'experience'].includes(sortColumn)) {
-			const valA = Number(a[sortColumn]) || 0;
-			const valB = Number(b[sortColumn]) || 0;
-			return (valB - valA) * multiplier;
-		}
-
-		const strA = String(a[sortColumn] || '');
-		const strB = String(b[sortColumn] || '');
-		return strA.localeCompare(strB) * multiplier;
 	});
-};
+}
 
 export const paginateData = <T>(data: T[], currentPage: number, itemsPerPage: number): T[] => {
 	return data.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
