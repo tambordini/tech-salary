@@ -5,16 +5,18 @@
 	import { slide } from 'svelte/transition';
 	import type { CompanySalary } from '../../types/salary';
 	import ResultCard from './ResultCard.svelte';
+	import { experienceRanges } from '$lib/data/experienceRanges';
 
 	export let salaryData: CompanySalary[];
 
 	let salary = '';
-	let experience = '';
+	let selectedRange = '';
 	let isCalculating = false;
 	let errors: Record<string, string> = {};
 	let result: { rank: number; total: number; percentile: number; salary: number } | null = null;
 	let noDataFound = false;
 
+	let filteredSalaries: number[] = [];
 	let level = '';
 	let calculatedLevel = '';
 	let calculatedExperience = '';
@@ -39,16 +41,10 @@
 		debouncedValidateSalary(value);
 	};
 
-	const handleExperienceInput = (event: Event) => {
-		const value = (event.target as HTMLInputElement).value;
-		experience = value;
-		debouncedValidateExperience(value);
-	};
-
 	const validateForm = () => {
 		errors = {
 			salary: validateSalary(salary),
-			experience: validateExperience(experience),
+			experience: validateExperience(selectedRange),
 			level: validateLevel(level)
 		};
 		return Object.values(errors).every((error) => !error);
@@ -60,19 +56,18 @@
 		isCalculating = true;
 		try {
 			calculatedLevel = level;
-			calculatedExperience = experience;
+			calculatedExperience = selectedRange;
 			const salaryNum = Number(salary.replace(/,/g, ''));
-			const expNum = Number(experience);
+			const [minExp, maxExp] = selectedRange.split('-').map(Number);
 
-			const filteredSalaries = salaryData
+			filteredSalaries = salaryData
 				.filter((data) => {
-					return data.level === calculatedLevel && Number(data.experience) === expNum;
+					const exp = Number(data.experience);
+					return data.level === calculatedLevel && exp >= minExp && exp <= maxExp;
 				})
 				.flatMap((company) => Number(company.salary))
 				.filter((salary): salary is number => typeof salary === 'number' && !isNaN(salary))
 				.sort((a, b) => b - a);
-
-			console.log(filteredSalaries);
 
 			if (filteredSalaries.length === 0) {
 				noDataFound = true;
@@ -138,24 +133,21 @@
 					</div>
 
 					<div class="space-y-2">
-						<label for="year" class="block text-sm font-medium text-gray-700"
-							>ประสบการณ์ (ปี) *</label
+						<label for="experience" class="block text-sm font-medium text-gray-700"
+							>ประสบการณ์ *</label
 						>
-						<input
-							id="year"
-							type="number"
-							min="0"
-							max="50"
-							step="0.5"
-							on:input={handleExperienceInput}
-							on:blur={handleExperienceInput}
-							bind:value={experience}
+						<select
+							id="experience"
+							bind:value={selectedRange}
+							on:change={(e) => debouncedValidateExperience((e.target as HTMLSelectElement).value)}
 							class="w-full rounded-lg border p-3 transition-all duration-200
-				 {errors.experience
-								? 'border-red-500 focus:border-red-500 focus:ring-red-500'
-								: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
-							placeholder="ระบุจำนวนปี"
-						/>
+							{errors.experience ? 'border-red-500' : 'border-gray-300'}"
+						>
+							<option value="">เลือกช่วงประสบการณ์</option>
+							{#each experienceRanges as range}
+								<option value="{range.min}-{range.max}">{range.label}</option>
+							{/each}
+						</select>
 						{#if errors.experience}
 							<p class="mt-1 text-sm text-red-500">{errors.experience}</p>
 						{/if}
@@ -216,6 +208,6 @@
 			</div>
 		</div>
 	{:else if result}
-		<ResultCard {result} />
+		<ResultCard {result} salariesData={filteredSalaries} />
 	{/if}
 </div>
