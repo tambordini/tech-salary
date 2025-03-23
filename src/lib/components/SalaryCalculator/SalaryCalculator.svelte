@@ -1,7 +1,10 @@
 <script lang="ts">
 	import levelOptions from '$lib/data/levels.json';
+	import { debounce, formatSalary } from '$lib/utils/helpers';
+	import { validateExperience, validateLevel, validateSalary } from '$lib/utils/validation';
 	import { slide } from 'svelte/transition';
-	import type { CompanySalary } from '../types/salary';
+	import type { CompanySalary } from '../../types/salary';
+	import ResultCard from './ResultCard.svelte';
 
 	export let salaryData: CompanySalary[];
 
@@ -9,44 +12,12 @@
 	let experience = '';
 	let isCalculating = false;
 	let errors: Record<string, string> = {};
-	let result: { rank: number; total: number; percentile: number } | null = null;
+	let result: { rank: number; total: number; percentile: number; salary: number } | null = null;
 	let noDataFound = false;
 
 	let level = '';
 	let calculatedLevel = '';
 	let calculatedExperience = '';
-
-	function debounce<T extends (...args: any[]) => void>(
-		fn: T,
-		delay: number
-	): (...args: Parameters<T>) => void {
-		let timeoutId: ReturnType<typeof setTimeout>;
-		return (...args: Parameters<T>) => {
-			clearTimeout(timeoutId);
-			timeoutId = setTimeout(() => fn(...args), delay);
-		};
-	}
-
-	function validateSalary(value: string) {
-		const num = Number(value.replace(/,/g, ''));
-		if (!value) return 'กรุณาระบุเงินเดือน';
-		if (num < 1000) return 'เงินเดือนต้องมากกว่า 1,000 บาท';
-		if (num > 1000000) return 'เงินเดือนต้องไม่เกิน 1,000,000 บาท';
-		return '';
-	}
-
-	function validateExperience(value: string) {
-		const num = Number(value);
-		if (!value) return 'กรุณาระบุประสบการณ์';
-		if (num < 0) return 'ประสบการณ์ต้องไม่ต่ำกว่า 0 ปี';
-		if (num > 50) return 'ประสบการณ์ต้องไม่เกิน 50 ปี';
-		return '';
-	}
-
-	function validateLevel(value: string) {
-		if (!value) return 'กรุณาเลือกระดับตำแหน่ง';
-		return '';
-	}
 
 	const debouncedValidateSalary = debounce((value: string) => {
 		errors.salary = validateSalary(value);
@@ -60,34 +31,30 @@
 		errors.level = validateLevel(value);
 	}, 300);
 
-	function handleSalaryInput(event: Event) {
+	const handleSalaryInput = (event: Event) => {
 		const input = event.target as HTMLInputElement;
 		const value = input.value.replace(/,/g, '');
 		salary = value;
 		input.value = formatSalary(value);
 		debouncedValidateSalary(value);
-	}
+	};
 
-	function handleExperienceInput(event: Event) {
+	const handleExperienceInput = (event: Event) => {
 		const value = (event.target as HTMLInputElement).value;
 		experience = value;
 		debouncedValidateExperience(value);
-	}
+	};
 
-	function validateForm() {
+	const validateForm = () => {
 		errors = {
 			salary: validateSalary(salary),
 			experience: validateExperience(experience),
 			level: validateLevel(level)
 		};
 		return Object.values(errors).every((error) => !error);
-	}
+	};
 
-	function formatSalary(value: string) {
-		return value.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-	}
-
-	async function calculateRank() {
+	const calculateSalaryRank = async () => {
 		if (!validateForm()) return;
 
 		isCalculating = true;
@@ -105,34 +72,45 @@
 				.filter((salary): salary is number => typeof salary === 'number' && !isNaN(salary))
 				.sort((a, b) => b - a);
 
+			console.log(filteredSalaries);
+
 			if (filteredSalaries.length === 0) {
 				noDataFound = true;
 				result = null;
 				return;
 			}
-
 			noDataFound = false;
 
 			const higherCount = filteredSalaries.filter((s) => s > salaryNum).length;
 			const equalCount = filteredSalaries.filter((s) => s === salaryNum).length;
-
-			let rank: number;
-			if (higherCount === 0) {
-				rank = 1;
-			} else if (equalCount > 0) {
-				rank = higherCount + 1;
-			} else {
-				rank = higherCount + 1;
-			}
+			const rank = higherCount + 1;
 
 			const total = filteredSalaries.length;
-			const percentile = ((total - higherCount) / total) * 100;
+			let percentile;
 
-			result = { rank, total, percentile };
+			const totalWithUser = filteredSalaries.length + 1;
+
+			if (total === 0) {
+				percentile = 100;
+			} else if (equalCount === 0) {
+				percentile = ((totalWithUser - higherCount - 1) / totalWithUser) * 100;
+			} else {
+				const midPointRank = higherCount + equalCount / 2;
+				percentile = ((totalWithUser - midPointRank) / totalWithUser) * 100;
+			}
+
+			percentile = Math.max(0, Math.min(100, percentile));
+
+			result = {
+				rank,
+				total: totalWithUser,
+				percentile,
+				salary: salaryNum
+			};
 		} finally {
 			isCalculating = false;
 		}
-	}
+	};
 </script>
 
 <div class="rounded-xl border border-gray-100 bg-white p-4 shadow-lg sm:p-8">
@@ -208,7 +186,7 @@
 
 		<div class="mt-6 flex flex-col gap-3 sm:flex-row sm:gap-4">
 			<button
-				on:click={calculateRank}
+				on:click={calculateSalaryRank}
 				disabled={isCalculating}
 				class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 font-medium
 				   text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
@@ -238,20 +216,6 @@
 			</div>
 		</div>
 	{:else if result}
-		<div
-			transition:slide={{ duration: 300 }}
-			class="mt-6 rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50 to-blue-100 p-6"
-		>
-			<h3 class="mb-3 text-xl font-semibold text-blue-900">ผลการคำนวณ (เงินเดือนพื้นฐาน)</h3>
-			<div class="space-y-3">
-				<p class="text-gray-700">
-					คุณอยู่อันดับที่ <span class="font-semibold text-blue-800">{result.rank}</span>
-					จากทั้งหมด <span class="font-semibold text-blue-800">{result.total}</span> คน
-				</p>
-				<p class="text-2xl font-bold text-blue-800">
-					Percentile: {result.percentile.toFixed(2)}%
-				</p>
-			</div>
-		</div>
+		<ResultCard {result} />
 	{/if}
 </div>
