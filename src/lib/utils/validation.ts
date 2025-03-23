@@ -6,13 +6,12 @@ export function validateSalary(value: string): string {
 	return '';
 }
 
-export function validateExperience(value: string): string {
-	const num = Number(value);
-	if (!value) return 'กรุณาระบุประสบการณ์';
-	if (num < 0) return 'ประสบการณ์ต้องไม่ต่ำกว่า 0 ปี';
-	if (num > 50) return 'ประสบการณ์ต้องไม่เกิน 50 ปี';
+export const validateExperience = (value: string): string => {
+	if (!value) {
+		return 'กรุณาเลือกช่วงประสบการณ์';
+	}
 	return '';
-}
+};
 
 export function validateLevel(value: string): string {
 	if (!value) return 'กรุณาเลือกระดับตำแหน่ง';
