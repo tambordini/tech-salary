@@ -6,6 +6,11 @@
 	import type { CompanySalary } from '../../types/salary';
 	import ResultCard from './ResultCard.svelte';
 	import { experienceRanges } from '$lib/data/experienceRanges';
+	import { Button } from '$lib/components/ui/button';
+	import { Input } from '$lib/components/ui/input';
+	import { Label } from '$lib/components/ui/label';
+	import * as Select from '$lib/components/ui/select';
+	import * as Card from '$lib/components/ui/card';
 
 	export let salaryData: CompanySalary[];
 
@@ -20,6 +25,20 @@
 	let level = '';
 	let calculatedLevel = '';
 	let calculatedExperience = '';
+	let selectedExperienceRange: { value: string; label: string } | undefined = undefined;
+	let selectedLevelOption: { value: string; label: string } | undefined = undefined;
+
+	$: {
+		if (selectedExperienceRange) {
+			selectedRange = selectedExperienceRange.value;
+		}
+	}
+
+	$: {
+		if (selectedLevelOption) {
+			level = selectedLevelOption.value;
+		}
+	}
 
 	const debouncedValidateSalary = debounce((value: string) => {
 		errors.salary = validateSalary(value);
@@ -48,6 +67,20 @@
 			level: validateLevel(level)
 		};
 		return Object.values(errors).every((error) => !error);
+	};
+
+	const handleExperienceChange = (selected: any) => {
+		if (selected?.value) {
+			selectedRange = selected.value;
+			debouncedValidateExperience(selected.value);
+		}
+	};
+
+	const handleLevelChange = (selected: any) => {
+		if (selected?.value) {
+			level = selected.value;
+			debouncedValidateLevel(selected.value);
+		}
 	};
 
 	const calculateSalaryRank = async () => {
@@ -108,109 +141,110 @@
 	};
 </script>
 
-<div class="rounded-xl border border-gray-100 bg-white p-4 shadow-lg sm:p-8">
-	<div transition:slide={{ duration: 300 }}>
-		<div class="space-y-4 sm:space-y-6">
-			<div class="space-y-3 sm:space-y-4">
-				<div class="grid grid-cols-1 gap-3 sm:gap-4 md:grid-cols-3">
-					<div class="space-y-1.5">
-						<label for="salary" class="block text-xs font-medium text-gray-700 sm:text-sm"
-							>เงินเดือน *</label
-						>
-						<input
-							id="salary"
-							type="text"
-							inputmode="numeric"
-							on:input={handleSalaryInput}
-							on:blur={handleSalaryInput}
-							class="w-full rounded-lg border px-2 py-1.5 text-sm transition-all duration-200 sm:px-2.5 sm:py-2
-				 {errors.salary
-								? 'border-red-500 focus:border-red-500 focus:ring-red-500'
-								: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
-							placeholder="ระบุเงินเดือน"
-						/>
-						{#if errors.salary}
-							<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.salary}</p>
-						{/if}
-					</div>
+<Card.Root class="border-gray-100 bg-white shadow-lg">
+	<Card.Content class="p-4 sm:p-8">
+		<div transition:slide={{ duration: 300 }}>
+			<div class="space-y-4 sm:space-y-6">
+				<div class="space-y-3 sm:space-y-4">
+					<div class="grid grid-cols-1 gap-3 sm:gap-4 md:grid-cols-3">
+						<div class="space-y-1.5">
+							<Label for="salary" class="text-xs font-medium text-gray-700 sm:text-sm"
+								>เงินเดือน *</Label
+							>
+							<Input
+								id="salary"
+								type="text"
+								inputmode="numeric"
+								on:input={handleSalaryInput}
+								on:blur={handleSalaryInput}
+								class={errors.salary ? 'border-red-500' : ''}
+								placeholder="ระบุเงินเดือน"
+							/>
+							{#if errors.salary}
+								<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.salary}</p>
+							{/if}
+						</div>
 
-					<div class="space-y-1.5">
-						<label for="experience" class="block text-xs font-medium text-gray-700 sm:text-sm"
-							>ประสบการณ์ *</label
-						>
-						<select
-							id="experience"
-							bind:value={selectedRange}
-							on:change={(e) => debouncedValidateExperience((e.target as HTMLSelectElement).value)}
-							class="w-full rounded-lg border px-2 py-1.5 text-sm transition-all duration-200 sm:px-2.5 sm:py-2
-							{errors.experience ? 'border-red-500' : 'border-gray-300'}"
-						>
-							<option value="">เลือกช่วงประสบการณ์</option>
-							{#each experienceRanges as range}
-								<option value="{range.min}-{range.max}">{range.label}</option>
-							{/each}
-						</select>
-						{#if errors.experience}
-							<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.experience}</p>
-						{/if}
-					</div>
+						<div class="space-y-1.5">
+							<Label for="experience" class="text-xs font-medium text-gray-700 sm:text-sm"
+								>ประสบการณ์ *</Label
+							>
+							<Select.Root
+								bind:selected={selectedExperienceRange}
+								onSelectedChange={handleExperienceChange}
+							>
+								<Select.Trigger class={errors.experience ? 'border-red-500' : ''}>
+									<Select.Value placeholder="เลือกช่วงประสบการณ์" />
+								</Select.Trigger>
+								<Select.Content class="max-h-60 overflow-y-auto">
+									{#each experienceRanges as range}
+										<Select.Item value="{range.min}-{range.max}" label={range.label}
+											>{range.label}</Select.Item
+										>
+									{/each}
+								</Select.Content>
+							</Select.Root>
+							{#if errors.experience}
+								<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.experience}</p>
+							{/if}
+						</div>
 
-					<div class="space-y-1.5">
-						<label for="level" class="block text-xs font-medium text-gray-700 sm:text-sm"
-							>ระดับตำแหน่ง *</label
-						>
-						<select
-							id="level"
-							bind:value={level}
-							on:change={(e) => debouncedValidateLevel((e.target as HTMLSelectElement).value)}
-							class="w-full rounded-lg border px-2 py-1.5 text-sm transition-all duration-200 sm:px-2.5 sm:py-2
-					 {errors.level ? 'border-red-500' : 'border-gray-300'}"
-						>
-							<option value="">เลือกระดับตำแหน่ง</option>
-							{#each levelOptions as option}
-								<option value={option}>{option}</option>
-							{/each}
-						</select>
-						{#if errors.level}
-							<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.level}</p>
-						{/if}
+						<div class="space-y-1.5">
+							<Label for="level" class="text-xs font-medium text-gray-700 sm:text-sm"
+								>ระดับตำแหน่ง *</Label
+							>
+							<Select.Root bind:selected={selectedLevelOption} onSelectedChange={handleLevelChange}>
+								<Select.Trigger class={errors.level ? 'border-red-500' : ''}>
+									<Select.Value placeholder="เลือกระดับตำแหน่ง" />
+								</Select.Trigger>
+								<Select.Content class="max-h-60 overflow-y-auto">
+									{#each levelOptions as option}
+										<Select.Item value={option} label={option}>{option}</Select.Item>
+									{/each}
+								</Select.Content>
+							</Select.Root>
+							{#if errors.level}
+								<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.level}</p>
+							{/if}
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="mt-4 flex flex-col gap-3 sm:mt-6 sm:flex-row sm:gap-4">
-			<button
-				on:click={calculateSalaryRank}
-				disabled={isCalculating}
-				class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all
-				   duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-50
-				   sm:text-base
-				   {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
-			>
-				{isCalculating ? 'กำลังคำนวณ...' : 'คำนวณอันดับ'}
-			</button>
-		</div>
-	</div>
-
-	{#if noDataFound}
-		<div
-			transition:slide={{ duration: 300 }}
-			class="mt-6 rounded-xl border border-yellow-200 bg-gradient-to-br from-yellow-50 to-yellow-100 p-6"
-		>
-			<h3 class="mb-3 text-xl font-semibold text-yellow-900">ไม่พบข้อมูล</h3>
-			<div class="space-y-3">
-				<p class="text-gray-700">
-					ยังไม่มีข้อมูลเงินเดือนสำหรับ
-					<span class="font-semibold text-yellow-800">{calculatedLevel}</span>
-					ที่มีประสบการณ์ <span class="font-semibold text-yellow-800">{calculatedExperience}</span> ปี
-				</p>
-				<p class="text-sm text-gray-600">
-					ลองปรับเปลี่ยนระดับตำแหน่งหรือจำนวนปีประสบการณ์เพื่อดูข้อมูลอื่นๆ
-				</p>
+			<div class="mt-4 flex flex-col gap-3 sm:mt-6 sm:flex-row sm:gap-4">
+				<Button
+					on:click={calculateSalaryRank}
+					disabled={isCalculating}
+					class="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-sm font-medium shadow-sm transition-all
+					   duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-50
+					   sm:text-base
+					   {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
+				>
+					{isCalculating ? 'กำลังคำนวณ...' : 'คำนวณอันดับ'}
+				</Button>
 			</div>
 		</div>
-	{:else if result}
-		<ResultCard {result} salariesData={filteredSalaries} />
-	{/if}
-</div>
+
+		{#if noDataFound}
+			<div
+				transition:slide={{ duration: 300 }}
+				class="mt-6 rounded-xl border border-yellow-200 bg-gradient-to-br from-yellow-50 to-yellow-100 p-6"
+			>
+				<h3 class="mb-3 text-xl font-semibold text-yellow-900">ไม่พบข้อมูล</h3>
+				<div class="space-y-3">
+					<p class="text-gray-700">
+						ยังไม่มีข้อมูลเงินเดือนสำหรับ
+						<span class="font-semibold text-yellow-800">{calculatedLevel}</span>
+						ที่มีประสบการณ์
+						<span class="font-semibold text-yellow-800">{calculatedExperience}</span> ปี
+					</p>
+					<p class="text-sm text-gray-600">
+						ลองปรับเปลี่ยนระดับตำแหน่งหรือจำนวนปีประสบการณ์เพื่อดูข้อมูลอื่นๆ
+					</p>
+				</div>
+			</div>
+		{:else if result}
+			<ResultCard {result} salariesData={filteredSalaries} />
+		{/if}
+	</Card.Content>
+</Card.Root>

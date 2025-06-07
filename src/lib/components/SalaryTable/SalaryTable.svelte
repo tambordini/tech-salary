@@ -63,7 +63,7 @@
 
 <svelte:window on:resize={checkMobile} />
 
-<div class="container">
+<div>
 	<TableFilters bind:filters />
 	<div class="relative overflow-hidden rounded-xl border border-gray-100 shadow-lg">
 		<div class="overflow-y-auto" style="max-height: {maxHeight};">
