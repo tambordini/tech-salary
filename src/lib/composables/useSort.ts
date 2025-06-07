@@ -16,19 +16,23 @@ export function useSort() {
 	});
 
 	function toggle(key: SortKey) {
+		console.log('Toggle called with:', key);
 		update((state) => {
+			console.log('Current state:', state);
 			if (state.key === key) {
-				// Cycle through: asc -> desc -> none
 				switch (state.direction) {
 					case 'asc':
+						console.log('Switching to desc');
 						return { key, direction: 'desc' };
 					case 'desc':
+						console.log('Switching to none');
 						return { key: null, direction: 'none' };
 					default:
+						console.log('Switching to asc');
 						return { key, direction: 'asc' };
 				}
 			} else {
-				// New column, start with asc
+				console.log('New column, setting to asc');
 				return { key, direction: 'asc' };
 			}
 		});
@@ -40,16 +44,21 @@ export function useSort() {
 		}
 
 		return [...data].sort((a, b) => {
-			// Get the value for sorting
-			const aVal = a[sortState.key as keyof CompanySalary];
-			const bVal = b[sortState.key as keyof CompanySalary];
+			let aVal: string | number;
+			let bVal: string | number;
 
-			// Handle numbers
+			if (sortState.key === 'totalCompensation') {
+				aVal = a.totalCompensation;
+				bVal = b.totalCompensation;
+			} else {
+				aVal = a[sortState.key as keyof CompanySalary];
+				bVal = b[sortState.key as keyof CompanySalary];
+			}
+
 			if (typeof aVal === 'number' && typeof bVal === 'number') {
 				return sortState.direction === 'asc' ? aVal - bVal : bVal - aVal;
 			}
 
-			// Handle strings
 			const aStr = String(aVal).toLowerCase();
 			const bStr = String(bVal).toLowerCase();
 

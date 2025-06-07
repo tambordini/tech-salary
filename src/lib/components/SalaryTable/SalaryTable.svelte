@@ -1,9 +1,9 @@
 <script lang="ts">
+	import { Card } from '$lib/components/ui/card';
+	import { TableHeader as ShadcnTableHeader, Table, TableBody } from '$lib/components/ui/table';
+	import { useSort } from '$lib/composables/useSort';
 	import type { CompanySalary } from '$lib/types/salary';
 	import { applyFilters, calculateTotalPages, paginateData } from '$lib/utils/tableUtils';
-	import { useSort } from '$lib/composables/useSort';
-	import { Card } from '$lib/components/ui/card';
-	import { Table, TableBody, TableHeader as ShadcnTableHeader } from '$lib/components/ui/table';
 	import Pagination from './Pagination.svelte';
 	import TableFilters from './TableFilters.svelte';
 	import TableHeader from './TableHeader.svelte';
@@ -15,7 +15,6 @@
 	let currentPage = 1;
 	let maxHeight = '60vh';
 
-	// Use the sort composable
 	const sortStore = useSort();
 
 	let filters = {
@@ -25,6 +24,7 @@
 	};
 
 	function onSort(column: keyof CompanySalary | 'totalCompensation') {
+		console.log(`Sorting by ${column}`);
 		sortStore.toggle(column);
 	}
 
@@ -60,7 +60,7 @@
 	<Card class="overflow-hidden">
 		<div class="overflow-y-auto" style="max-height: {maxHeight};">
 			<Table class="w-full table-fixed border-collapse">
-				<ShadcnTableHeader class="sticky top-0 z-10 bg-background border-b">
+				<ShadcnTableHeader class="sticky top-0 z-10 border-b bg-background">
 					<TableHeader sortState={$sortStore} {onSort} />
 				</ShadcnTableHeader>
 				<TableBody>
