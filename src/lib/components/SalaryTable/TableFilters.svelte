@@ -29,7 +29,7 @@
 			type="text"
 			bind:value={filters.company}
 			placeholder="Filter by company..."
-			class="w-full rounded-lg border border-gray-300 px-2.5 py-1.5 text-xs sm:px-3 sm:py-2 sm:text-sm"
+			class="w-full rounded-lg border border-gray-300 px-2 py-1 text-xs sm:px-2.5 sm:py-1.5 sm:text-sm"
 		/>
 	</div>
 	<div>
@@ -37,7 +37,7 @@
 			type="text"
 			bind:value={filters.level}
 			placeholder="Filter by level..."
-			class="w-full rounded-lg border border-gray-300 px-2.5 py-1.5 text-xs sm:px-3 sm:py-2 sm:text-sm"
+			class="w-full rounded-lg border border-gray-300 px-2 py-1 text-xs sm:px-2.5 sm:py-1.5 sm:text-sm"
 		/>
 	</div>
 	<div>
@@ -45,7 +45,7 @@
 			type="text"
 			bind:value={filters.tag}
 			placeholder="Filter by tag..."
-			class="w-full rounded-lg border border-gray-300 px-2.5 py-1.5 text-xs sm:px-3 sm:py-2 sm:text-sm"
+			class="w-full rounded-lg border border-gray-300 px-2 py-1 text-xs sm:px-2.5 sm:py-1.5 sm:text-sm"
 		/>
 	</div>
 </div>

@@ -123,7 +123,7 @@
 							inputmode="numeric"
 							on:input={handleSalaryInput}
 							on:blur={handleSalaryInput}
-							class="w-full rounded-lg border px-2.5 py-2 text-sm transition-all duration-200 sm:px-3 sm:py-2.5
+							class="w-full rounded-lg border px-2 py-1.5 text-sm transition-all duration-200 sm:px-2.5 sm:py-2
 				 {errors.salary
 								? 'border-red-500 focus:border-red-500 focus:ring-red-500'
 								: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
@@ -142,7 +142,7 @@
 							id="experience"
 							bind:value={selectedRange}
 							on:change={(e) => debouncedValidateExperience((e.target as HTMLSelectElement).value)}
-							class="w-full rounded-lg border px-2.5 py-2 text-sm transition-all duration-200 sm:px-3 sm:py-2.5
+							class="w-full rounded-lg border px-2 py-1.5 text-sm transition-all duration-200 sm:px-2.5 sm:py-2
 							{errors.experience ? 'border-red-500' : 'border-gray-300'}"
 						>
 							<option value="">เลือกช่วงประสบการณ์</option>
@@ -163,7 +163,7 @@
 							id="level"
 							bind:value={level}
 							on:change={(e) => debouncedValidateLevel((e.target as HTMLSelectElement).value)}
-							class="w-full rounded-lg border px-2.5 py-2 text-sm transition-all duration-200 sm:px-3 sm:py-2.5
+							class="w-full rounded-lg border px-2 py-1.5 text-sm transition-all duration-200 sm:px-2.5 sm:py-2
 					 {errors.level ? 'border-red-500' : 'border-gray-300'}"
 						>
 							<option value="">เลือกระดับตำแหน่ง</option>
@@ -184,7 +184,7 @@
 				on:click={calculateSalaryRank}
 				disabled={isCalculating}
 				class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all
-				   duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-3
+				   duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-50
 				   sm:text-base
 				   {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
 			>

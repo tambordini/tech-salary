@@ -115,7 +115,7 @@
 				>
 				<select
 					bind:value={userJob}
-					class="w-full rounded-lg border border-gray-300 px-2.5 py-2 text-sm focus:border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:px-3 sm:py-2.5"
+					class="w-full rounded-lg border border-gray-300 px-2 py-1.5 text-sm focus:border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:px-2.5 sm:py-2"
 				>
 					<option value="" disabled selected>เลือกตำแหน่งงาน</option>
 					{#each tagOptions as tag}
@@ -137,7 +137,7 @@
 					on:input={handleExperienceInput}
 					on:blur={handleExperienceInput}
 					bind:value={yearsOfExperience}
-					class="w-full rounded-lg border px-2.5 py-2 text-sm transition-all duration-200 sm:px-3 sm:py-2.5
+					class="w-full rounded-lg border px-2 py-1.5 text-sm transition-all duration-200 sm:px-2.5 sm:py-2
           {errors.experience
 						? 'border-red-500 focus:border-red-500 focus:ring-red-500'
 						: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
