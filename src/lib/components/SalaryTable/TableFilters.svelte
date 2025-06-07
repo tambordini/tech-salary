@@ -23,13 +23,13 @@
 	}
 </script>
 
-<div class="mb-4 grid grid-cols-1 gap-4 sm:grid-cols-3">
+<div class="mb-3 grid grid-cols-1 gap-2 sm:mb-4 sm:grid-cols-3 sm:gap-3">
 	<div>
 		<input
 			type="text"
 			bind:value={filters.company}
 			placeholder="Filter by company..."
-			class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm"
+			class="w-full rounded-lg border border-gray-300 px-2.5 py-1.5 text-xs sm:px-3 sm:py-2 sm:text-sm"
 		/>
 	</div>
 	<div>
@@ -37,7 +37,7 @@
 			type="text"
 			bind:value={filters.level}
 			placeholder="Filter by level..."
-			class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm"
+			class="w-full rounded-lg border border-gray-300 px-2.5 py-1.5 text-xs sm:px-3 sm:py-2 sm:text-sm"
 		/>
 	</div>
 	<div>
@@ -45,7 +45,7 @@
 			type="text"
 			bind:value={filters.tag}
 			placeholder="Filter by tag..."
-			class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm"
+			class="w-full rounded-lg border border-gray-300 px-2.5 py-1.5 text-xs sm:px-3 sm:py-2 sm:text-sm"
 		/>
 	</div>
 </div>

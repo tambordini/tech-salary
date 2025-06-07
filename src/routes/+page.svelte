@@ -10,7 +10,6 @@
 	import { onMount } from 'svelte';
 	import type { CompanySalary } from '$lib/types/salary';
 
-	let language = 'th';
 	let combinedSalaryData: CompanySalary[] = [];
 	let isLoading = true;
 
@@ -30,63 +29,23 @@
 			combinedSalaryData = [...companySalaries, ...$customSalaries];
 		});
 	}
-
-	const content = {
-		th: {
-			title: 'การวิเคราะห์เงินเดือนวิศวกรซอฟต์แวร์ในประเทศไทย',
-			poweredBy: 'Powered By:',
-			calculator: 'คำนวณตำแหน่งเงินเดือนของคุณ',
-			chart: 'การกระจายตัวของเงินเดือน',
-			table: 'รายการเงินเดือนตามบริษัท',
-			skills: 'ทักษะที่จำเป็นสำหรับตำแหน่งงาน',
-			benefits: 'สวัสดิการของบริษัท'
-		},
-		en: {
-			title: 'Software Engineer Salary Analysis in Thailand',
-			poweredBy: 'Powered By:',
-			calculator: 'Calculate Your Salary Position',
-			chart: 'Salary Distribution',
-			table: 'Company Salary List',
-			skills: 'Essential Skills for Positions',
-			benefits: 'Company Benefits'
-		}
-	};
 </script>
 
 <main class="min-h-screen bg-gray-50 py-4">
 	<div class="mx-auto max-w-[1024px] px-4 py-4 sm:px-8 sm:py-8">
 		<div class="overflow-hidden rounded-lg bg-white shadow-lg">
-			<!-- Fixed Language Toggle -->
-			<div class="fixed right-4 top-4 z-50">
-				<div class="flex overflow-hidden rounded-lg bg-white/95 shadow-lg backdrop-blur-sm">
-					<button
-						class="px-3 py-2 text-sm font-medium transition-all duration-200 {language === 'th'
-							? 'bg-blue-600 text-white'
-							: 'text-gray-600 hover:bg-gray-50'}"
-						on:click={() => (language = 'th')}
-					>
-						TH
-					</button>
-					<button
-						class="px-3 py-2 text-sm font-medium transition-all duration-200 {language === 'en'
-							? 'bg-blue-600 text-white'
-							: 'text-gray-600 hover:bg-gray-50'}"
-						on:click={() => (language = 'en')}
-					>
-						EN
-					</button>
-				</div>
-			</div>
-
 			<div class="bg-header bg-cover bg-center bg-no-repeat p-6 text-white sm:p-12">
 				<h1 class="mb-4 text-center text-xl font-bold sm:text-3xl">
-					{content[language as keyof typeof content].title}
+					การวิเคราะห์เงินเดือนวิศวกรซอฟต์แวร์ในประเทศไทย
 				</h1>
 				<div class="text-center text-gray-100">
 					<p class="flex items-center justify-center text-base sm:text-lg">
-						{content[language as keyof typeof content].poweredBy}
+						Powered By:
 						<img src={OddsLogoUrl} alt="ODDS Logo" class="ml-2 h-4 sm:h-6" />
 					</p>
+					<div class="mt-3 rounded-lg px-4 py-2 backdrop-blur-sm">
+						<p class="text-sm font-medium">ข้อมูลอัพเดทเมื่อ : 7 มิถุนายน 2568</p>
+					</div>
 				</div>
 			</div>
 
@@ -102,38 +61,30 @@
 					</div>
 				{:else}
 					<section class="mb-12">
-						<h2 class="mb-6 text-2xl font-semibold text-gray-800">
-							{content[language as keyof typeof content].calculator}
-						</h2>
+						<h2 class="mb-6 text-2xl font-semibold text-gray-800">คำนวณตำแหน่งเงินเดือนของคุณ</h2>
 						<SalaryCalculator salaryData={combinedSalaryData} />
 					</section>
 
 					<section class="mb-12">
-						<h2 class="mb-6 text-2xl font-semibold text-gray-800">
-							{content[language as keyof typeof content].chart}
-						</h2>
+						<h2 class="mb-6 text-2xl font-semibold text-gray-800">การกระจายตัวของเงินเดือน</h2>
 						<SalaryChart salaryData={combinedSalaryData} />
 					</section>
 
 					<section class="mb-12">
-						<h2 class="mb-6 text-2xl font-semibold text-gray-800">
-							{content[language as keyof typeof content].table}
-						</h2>
+						<h2 class="mb-6 text-2xl font-semibold text-gray-800">รายการเงินเดือนตามบริษัท</h2>
 						<SalaryTable salaryData={combinedSalaryData} />
 					</section>
 
 					<section class="mb-12">
 						<h2 class="mb-6 flex items-center text-2xl font-semibold text-gray-800">
-							<span class="mr-2">🎯</span>
-							{content[language as keyof typeof content].skills}
+							ทักษะที่จำเป็นสำหรับตำแหน่งงาน
 						</h2>
 						<SalaryBoosting />
 					</section>
 
 					<section class="mb-12">
 						<h2 class="mb-6 flex items-center text-2xl font-semibold text-gray-800">
-							<span class="mr-2">🎁</span>
-							{content[language as keyof typeof content].benefits}
+							สวัสดิการของบริษัท
 						</h2>
 						<CompanyBenefit />
 					</section>

@@ -110,37 +110,39 @@
 
 <div class="rounded-xl border border-gray-100 bg-white p-4 shadow-lg sm:p-8">
 	<div transition:slide={{ duration: 300 }}>
-		<div class="space-y-8">
-			<div class="space-y-6">
-				<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-					<div class="space-y-2">
-						<label for="salary" class="block text-sm font-medium text-gray-700">เงินเดือน *</label>
+		<div class="space-y-4 sm:space-y-6">
+			<div class="space-y-3 sm:space-y-4">
+				<div class="grid grid-cols-1 gap-3 sm:gap-4 md:grid-cols-3">
+					<div class="space-y-1.5">
+						<label for="salary" class="block text-xs font-medium text-gray-700 sm:text-sm"
+							>เงินเดือน *</label
+						>
 						<input
 							id="salary"
 							type="text"
 							inputmode="numeric"
 							on:input={handleSalaryInput}
 							on:blur={handleSalaryInput}
-							class="w-full rounded-lg border p-3 transition-all duration-200
+							class="w-full rounded-lg border px-2.5 py-2 text-sm transition-all duration-200 sm:px-3 sm:py-2.5
 				 {errors.salary
 								? 'border-red-500 focus:border-red-500 focus:ring-red-500'
 								: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
 							placeholder="ระบุเงินเดือน"
 						/>
 						{#if errors.salary}
-							<p class="mt-1 text-sm text-red-500">{errors.salary}</p>
+							<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.salary}</p>
 						{/if}
 					</div>
 
-					<div class="space-y-2">
-						<label for="experience" class="block text-sm font-medium text-gray-700"
+					<div class="space-y-1.5">
+						<label for="experience" class="block text-xs font-medium text-gray-700 sm:text-sm"
 							>ประสบการณ์ *</label
 						>
 						<select
 							id="experience"
 							bind:value={selectedRange}
 							on:change={(e) => debouncedValidateExperience((e.target as HTMLSelectElement).value)}
-							class="w-full rounded-lg border p-3 transition-all duration-200
+							class="w-full rounded-lg border px-2.5 py-2 text-sm transition-all duration-200 sm:px-3 sm:py-2.5
 							{errors.experience ? 'border-red-500' : 'border-gray-300'}"
 						>
 							<option value="">เลือกช่วงประสบการณ์</option>
@@ -149,18 +151,19 @@
 							{/each}
 						</select>
 						{#if errors.experience}
-							<p class="mt-1 text-sm text-red-500">{errors.experience}</p>
+							<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.experience}</p>
 						{/if}
 					</div>
 
-					<div class="space-y-2">
-						<label for="level" class="block text-sm font-medium text-gray-700">ระดับตำแหน่ง *</label
+					<div class="space-y-1.5">
+						<label for="level" class="block text-xs font-medium text-gray-700 sm:text-sm"
+							>ระดับตำแหน่ง *</label
 						>
 						<select
 							id="level"
 							bind:value={level}
 							on:change={(e) => debouncedValidateLevel((e.target as HTMLSelectElement).value)}
-							class="w-full rounded-lg border p-3 transition-all duration-200
+							class="w-full rounded-lg border px-2.5 py-2 text-sm transition-all duration-200 sm:px-3 sm:py-2.5
 					 {errors.level ? 'border-red-500' : 'border-gray-300'}"
 						>
 							<option value="">เลือกระดับตำแหน่ง</option>
@@ -169,20 +172,20 @@
 							{/each}
 						</select>
 						{#if errors.level}
-							<p class="mt-1 text-sm text-red-500">{errors.level}</p>
+							<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.level}</p>
 						{/if}
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="mt-6 flex flex-col gap-3 sm:flex-row sm:gap-4">
+		<div class="mt-4 flex flex-col gap-3 sm:mt-6 sm:flex-row sm:gap-4">
 			<button
 				on:click={calculateSalaryRank}
 				disabled={isCalculating}
-				class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 font-medium
-				   text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
-				   disabled:opacity-50 sm:py-3
+				class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all
+				   duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-3
+				   sm:text-base
 				   {isCalculating ? 'opacity-75' : 'hover:from-blue-700 hover:to-blue-800'}"
 			>
 				{isCalculating ? 'กำลังคำนวณ...' : 'คำนวณอันดับ'}
