@@ -40,7 +40,6 @@
 		return '';
 	}
 
-	// Filter skills by position and experience
 	function getSkillsByPositionAndExperience(tagName: string, yearsOfExperience: number) {
 		const relevantSkills: string[] = [];
 		skillsData.forEach((item) => {

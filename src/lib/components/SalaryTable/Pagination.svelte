@@ -32,10 +32,8 @@
 	$: endItem = Math.min(currentPage * itemsPerPage, totalItems);
 </script>
 
-<div
-	class="mt-4 flex flex-col items-center justify-between gap-2 px-2 sm:mt-6 sm:flex-row sm:gap-4 sm:px-4"
->
-	<div class="text-xs text-gray-700 sm:text-sm">
+<div class="flex flex-col items-center justify-between gap-2 px-2 sm:flex-row sm:gap-4 sm:px-4">
+	<div class="text-xs text-gray-700 sm:text-sm {isMobile ? 'hidden' : ''}">
 		Showing {startItem} to {endItem} of {totalItems} entries
 	</div>
 
@@ -49,7 +47,7 @@
 				: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
 			aria-label="Previous page"
 		>
-			←
+			{isMobile ? '‹' : '←'}
 		</button>
 
 		{#each pageNumbers as page}
@@ -77,7 +75,7 @@
 				: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
 			aria-label="Next page"
 		>
-			→
+			{isMobile ? '›' : '→'}
 		</button>
 	</div>
 </div>
