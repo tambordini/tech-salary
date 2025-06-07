@@ -1,7 +1,4 @@
 <script lang="ts">
-	import * as tf from '@tensorflow/tfjs';
-	import * as use from '@tensorflow-models/universal-sentence-encoder';
-
 	import { slide } from 'svelte/transition';
 	import { tagSkills as skillsData } from '$lib/data/tagSkillData';
 	import tagOptions from '$lib/data/tags.json';
@@ -59,12 +56,16 @@
 			return [];
 		}
 
-		const model = await use.load();
-		const embeddings = await model.embed(skills);
-
-		const similarityThreshold = 0.75;
+		const similarityThreshold = 0.3;
 		const groupedSkills = [];
 		const visited = new Set();
+
+		const skillWords = skills.map((skill) =>
+			skill
+				.toLowerCase()
+				.split(/[\s,.-]+/)
+				.filter((word) => word.length > 2)
+		);
 
 		for (let i = 0; i < skills.length; i++) {
 			if (visited.has(i)) continue;
@@ -74,12 +75,12 @@
 
 			for (let j = i + 1; j < skills.length; j++) {
 				if (visited.has(j)) continue;
-				const similarity = tf.tidy(() => {
-					const embeddingI = tf.slice(embeddings, [i, 0], [1, embeddings.shape[1]]);
-					const embeddingJ = tf.slice(embeddings, [j, 0], [1, embeddings.shape[1]]);
-					const dotProduct = tf.matMul(embeddingI, embeddingJ, false, true);
-					return dotProduct.arraySync()[0][0];
-				});
+
+				const wordsA = new Set(skillWords[i]);
+				const wordsB = new Set(skillWords[j]);
+				const intersection = new Set([...wordsA].filter((x) => wordsB.has(x)));
+				const union = new Set([...wordsA, ...wordsB]);
+				const similarity = intersection.size / union.size;
 
 				if (similarity > similarityThreshold) {
 					group.push(skills[j]);
@@ -93,13 +94,16 @@
 		return groupedSkills;
 	}
 
-	async function findSkills() {
+	function findSkills() {
 		isLoading = true;
 		isCalculated = false;
-		const filteredSkills = getSkillsByPositionAndExperience(userJob, yearsOfExperience!);
-		suggestedSkills = await groupSimilarSkills(filteredSkills);
-		isLoading = false;
-		isCalculated = true;
+
+		setTimeout(async () => {
+			const filteredSkills = getSkillsByPositionAndExperience(userJob, yearsOfExperience!);
+			suggestedSkills = await groupSimilarSkills(filteredSkills);
+			isLoading = false;
+			isCalculated = true;
+		}, 100);
 	}
 </script>
 
