@@ -40,7 +40,6 @@
 		return '';
 	}
 
-	// Filter skills by position and experience
 	function getSkillsByPositionAndExperience(tagName: string, yearsOfExperience: number) {
 		const relevantSkills: string[] = [];
 		skillsData.forEach((item) => {
@@ -108,13 +107,15 @@
 </script>
 
 <div class="rounded-xl border border-gray-100 bg-white p-4 shadow-lg sm:p-8">
-	<div class="space-y-8">
-		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-			<div class="space-y-2">
-				<label for="experiences" class="block text-sm font-medium text-gray-700">ตำแหน่งงาน</label>
+	<div class="space-y-6 sm:space-y-8">
+		<div class="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2">
+			<div class="space-y-1.5">
+				<label for="experiences" class="block text-xs font-medium text-gray-700 sm:text-sm"
+					>ตำแหน่งงาน</label
+				>
 				<select
 					bind:value={userJob}
-					class="w-full rounded-lg border border-gray-300 p-3 focus:border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+					class="w-full rounded-lg border border-gray-300 px-2 py-1.5 text-sm focus:border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:px-2.5 sm:py-2"
 				>
 					<option value="" disabled selected>เลือกตำแหน่งงาน</option>
 					{#each tagOptions as tag}
@@ -123,8 +124,8 @@
 				</select>
 			</div>
 
-			<div class="space-y-2">
-				<label for="experiences" class="block text-sm font-medium text-gray-700"
+			<div class="space-y-1.5">
+				<label for="experiences" class="block text-xs font-medium text-gray-700 sm:text-sm"
 					>ประสบการณ์ (ปี) *</label
 				>
 				<input
@@ -136,24 +137,24 @@
 					on:input={handleExperienceInput}
 					on:blur={handleExperienceInput}
 					bind:value={yearsOfExperience}
-					class="w-full rounded-lg border p-3 transition-all duration-200
+					class="w-full rounded-lg border px-2 py-1.5 text-sm transition-all duration-200 sm:px-2.5 sm:py-2
           {errors.experience
 						? 'border-red-500 focus:border-red-500 focus:ring-red-500'
 						: 'border-gray-300 focus:border-blue-500 focus:ring-blue-500'}"
 					placeholder="ระบุจำนวนปี"
 				/>
 				{#if errors.experience}
-					<p class="mt-1 text-sm text-red-500">{errors.experience}</p>
+					<p class="mt-1 text-xs text-red-500 sm:text-sm">{errors.experience}</p>
 				{/if}
 			</div>
 		</div>
 
-		<div class="mt-6 flex flex-col gap-3 sm:flex-row sm:gap-4">
+		<div class="mt-4 flex flex-col gap-3 sm:mt-6 sm:flex-row sm:gap-4">
 			<button
 				on:click={findSkills}
-				class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 font-medium
-          text-white shadow-sm transition-all duration-200 hover:shadow-md disabled:cursor-not-allowed
-          disabled:opacity-50 sm:py-3"
+				class="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all
+          duration-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-50 sm:px-6 sm:py-3
+          sm:text-base"
 			>
 				ค้นหา
 			</button>

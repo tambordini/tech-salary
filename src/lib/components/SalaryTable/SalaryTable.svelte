@@ -8,8 +8,9 @@
 
 	export let salaryData: CompanySalary[];
 
-	const itemsPerPage = 5;
+	const itemsPerPage = 10;
 	let currentPage = 1;
+	let maxHeight = '60vh';
 
 	let sortColumn: keyof CompanySalary | 'totalCompensation' = 'company';
 	let sortDirection: 'asc' | 'desc' | 'none' = 'asc';
@@ -47,6 +48,7 @@
 
 	function checkMobile() {
 		isMobile = window.innerWidth < 640;
+		maxHeight = isMobile ? '50vh' : '60vh';
 	}
 
 	function goToPage(page: number) {
@@ -61,29 +63,33 @@
 
 <svelte:window on:resize={checkMobile} />
 
-<div class="container mx-auto p-2 sm:p-4">
+<div class="container">
 	<TableFilters bind:filters />
-	<div class="overflow-x-auto rounded-xl border border-gray-100 shadow-lg">
-		<table class="min-w-full bg-white text-sm sm:text-base">
-			<thead>
-				<TableHeader {onSort} {sortColumn} {sortDirection} />
-			</thead>
-			<tbody class="divide-y divide-gray-100">
-				{#each paginatedData as rowData, i}
-					<TableRow {rowData} index={i} />
-				{/each}
-			</tbody>
-		</table>
-	</div>
+	<div class="relative overflow-hidden rounded-xl border border-gray-100 shadow-lg">
+		<div class="overflow-y-auto" style="max-height: {maxHeight};">
+			<table class="min-w-full bg-white text-sm sm:text-base">
+				<thead class="sticky top-0 z-10 bg-white shadow-sm">
+					<TableHeader {onSort} {sortColumn} {sortDirection} />
+				</thead>
+				<tbody class="divide-y divide-gray-100">
+					{#each paginatedData as rowData, i}
+						<TableRow {rowData} index={i} />
+					{/each}
+				</tbody>
+			</table>
+		</div>
 
-	<Pagination
-		{currentPage}
-		{totalPages}
-		totalItems={sortedSalaryData.length}
-		{itemsPerPage}
-		{isMobile}
-		onPrevPage={prevPage}
-		onNextPage={nextPage}
-		onGoToPage={goToPage}
-	/>
+		<div class="sticky bottom-0 border-t bg-white px-4 py-2">
+			<Pagination
+				{currentPage}
+				{totalPages}
+				totalItems={sortedSalaryData.length}
+				{itemsPerPage}
+				{isMobile}
+				onPrevPage={prevPage}
+				onNextPage={nextPage}
+				onGoToPage={goToPage}
+			/>
+		</div>
+	</div>
 </div>
