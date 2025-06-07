@@ -1,36 +1,36 @@
 <script lang="ts">
 	import type { CompanySalary } from '$lib/types/salary';
 	import { formatCurrency } from '$lib/utils/formatters';
+	import { TableRow, TableCell } from '$lib/components/ui/table';
 
 	export let rowData: CompanySalary;
 	export let index: number;
 </script>
 
-<tr
-	class="transition-colors duration-200 {index % 2 === 0 ? 'bg-white' : 'bg-slate-50/50'} 
-		? 'animate-pulse bg-green-50'
-		: 'hover:bg-blue-50/50'}"
+<TableRow
+	class="border-b transition-colors duration-200 {index % 2 === 0
+		? 'bg-white'
+		: 'bg-slate-50/50'} hover:bg-blue-50/50"
 >
-	<td class="px-3 py-3 text-xs font-medium text-gray-900 sm:px-6 sm:py-4 sm:text-sm"
-		>{rowData.company}</td
+	<TableCell class="w-[200px] border-r text-xs font-medium text-gray-900 sm:text-sm"
+		>{rowData.company}</TableCell
 	>
-	<td class="px-3 py-3 text-xs text-gray-700 sm:px-6 sm:py-4 sm:text-sm">{rowData.level}</td>
-	<td class="px-3 py-3 text-xs text-gray-700 sm:px-6 sm:py-4 sm:text-sm">{rowData.tag}</td>
-	<td class="px-3 py-3 text-xs text-gray-700 sm:px-6 sm:py-4 sm:text-sm"
-		>{rowData.experience} Years</td
+	<TableCell class="w-[140px] border-r text-xs text-gray-700 sm:text-sm">{rowData.level}</TableCell>
+	<TableCell class="w-[200px] border-r text-xs text-gray-700 sm:text-sm">{rowData.tag}</TableCell>
+	<TableCell class="w-[100px] border-r text-xs text-gray-700 sm:text-sm"
+		>{rowData.experience} Years</TableCell
 	>
-	<td class="px-3 py-3 text-right text-xs font-medium text-gray-900 sm:px-6 sm:py-4 sm:text-sm"
-		>{formatCurrency(rowData.totalCompensation)}</td
+	<TableCell class="w-[130px] border-r text-right text-xs font-medium text-gray-900 sm:text-sm"
+		>{formatCurrency(rowData.totalCompensation)}</TableCell
 	>
-	<td class="px-3 py-3 text-right text-xs font-medium text-gray-900 sm:px-6 sm:py-4 sm:text-sm"
-		>{formatCurrency(rowData.salary)}</td
+	<TableCell class="w-[120px] border-r text-right text-xs font-medium text-gray-900 sm:text-sm"
+		>{formatCurrency(rowData.salary)}</TableCell
 	>
-	<td
-		class="hidden px-3 py-3 text-right text-xs font-medium text-gray-900 sm:table-cell sm:px-6 sm:py-4 sm:text-sm"
-		>{formatCurrency(rowData.stock)}</td
+	<TableCell
+		class="w-[120px] border-r text-right text-xs font-medium text-gray-900 sm:table-cell sm:text-sm"
+		>{formatCurrency(rowData.stock)}</TableCell
 	>
-	<td
-		class="hidden px-3 py-3 text-right text-xs font-medium text-gray-900 sm:table-cell sm:px-6 sm:py-4 sm:text-sm"
-		>{formatCurrency(rowData.bonus)}</td
+	<TableCell class="w-[100px] text-right text-xs font-medium text-gray-900 sm:table-cell sm:text-sm"
+		>{formatCurrency(rowData.bonus)}</TableCell
 	>
-</tr>
+</TableRow>

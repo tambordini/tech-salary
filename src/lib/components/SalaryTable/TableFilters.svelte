@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { TableFilters } from '$lib/types/filters';
+	import { Input } from '$lib/components/ui/input';
 
 	export let filters: TableFilters;
 
@@ -25,27 +26,27 @@
 
 <div class="mb-3 grid grid-cols-1 gap-2 sm:mb-4 sm:grid-cols-3 sm:gap-3">
 	<div>
-		<input
+		<Input
 			type="text"
 			bind:value={filters.company}
 			placeholder="Filter by company..."
-			class="w-full rounded-lg border border-gray-300 px-2 py-1 text-xs sm:px-2.5 sm:py-1.5 sm:text-sm"
+			class="text-xs sm:text-sm"
 		/>
 	</div>
 	<div>
-		<input
+		<Input
 			type="text"
 			bind:value={filters.level}
 			placeholder="Filter by level..."
-			class="w-full rounded-lg border border-gray-300 px-2 py-1 text-xs sm:px-2.5 sm:py-1.5 sm:text-sm"
+			class="text-xs sm:text-sm"
 		/>
 	</div>
 	<div>
-		<input
+		<Input
 			type="text"
 			bind:value={filters.tag}
 			placeholder="Filter by tag..."
-			class="w-full rounded-lg border border-gray-300 px-2 py-1 text-xs sm:px-2.5 sm:py-1.5 sm:text-sm"
+			class="text-xs sm:text-sm"
 		/>
 	</div>
 </div>

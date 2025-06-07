@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { Button } from '$lib/components/ui/button';
+	import { ChevronLeft, ChevronRight } from 'lucide-svelte';
+
 	export let currentPage: number;
 	export let totalPages: number;
 	export let totalItems: number;
@@ -38,44 +41,41 @@
 	</div>
 
 	<div class="flex items-center gap-1 sm:gap-2">
-		<button
+		<Button
 			on:click={onPrevPage}
 			disabled={currentPage === 1}
-			class="rounded-lg border px-2 py-1 text-xs font-medium transition-colors duration-200 sm:px-4 sm:py-2 sm:text-sm {currentPage ===
-			1
-				? 'cursor-not-allowed border-gray-200 bg-gray-50 text-gray-400'
-				: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
-			aria-label="Previous page"
+			variant="outline"
+			size="sm"
+			class="h-8 w-8 p-0 sm:h-10 sm:w-10"
 		>
-			{isMobile ? '‹' : '←'}
-		</button>
+			<ChevronLeft class="h-4 w-4" />
+			<span class="sr-only">Previous page</span>
+		</Button>
 
 		{#each pageNumbers as page}
 			{#if typeof page === 'string'}
 				<span class="px-2 py-1 text-xs text-gray-700 sm:px-4 sm:py-2 sm:text-sm">{page}</span>
 			{:else}
-				<button
+				<Button
 					on:click={() => onGoToPage(page)}
-					class="rounded-lg border px-2 py-1 text-xs font-medium transition-colors duration-200 sm:px-4 sm:py-2 sm:text-sm {currentPage ===
-					page
-						? 'border-[#0056a9] bg-[#0056a9] text-white'
-						: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
+					variant={currentPage === page ? 'default' : 'outline'}
+					size="sm"
+					class="h-8 w-8 p-0 text-xs sm:h-10 sm:w-10 sm:text-sm"
 				>
 					{page}
-				</button>
+				</Button>
 			{/if}
 		{/each}
 
-		<button
+		<Button
 			on:click={onNextPage}
 			disabled={currentPage === totalPages}
-			class="rounded-lg border px-2 py-1 text-xs font-medium transition-colors duration-200 sm:px-4 sm:py-2 sm:text-sm {currentPage ===
-			totalPages
-				? 'cursor-not-allowed border-gray-200 bg-gray-50 text-gray-400'
-				: 'border-[#0056a9] bg-white text-[#0056a9] hover:bg-[#0056a9] hover:text-white'}"
-			aria-label="Next page"
+			variant="outline"
+			size="sm"
+			class="h-8 w-8 p-0 sm:h-10 sm:w-10"
 		>
-			{isMobile ? '›' : '→'}
-		</button>
+			<ChevronRight class="h-4 w-4" />
+			<span class="sr-only">Next page</span>
+		</Button>
 	</div>
 </div>

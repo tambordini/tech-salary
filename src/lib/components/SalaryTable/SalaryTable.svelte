@@ -1,6 +1,9 @@
 <script lang="ts">
 	import type { CompanySalary } from '$lib/types/salary';
-	import { applyFilters, calculateTotalPages, paginateData, sortData } from '$lib/utils/tableUtils';
+	import { applyFilters, calculateTotalPages, paginateData } from '$lib/utils/tableUtils';
+	import { useSort } from '$lib/composables/useSort';
+	import { Card } from '$lib/components/ui/card';
+	import { Table, TableBody, TableHeader as ShadcnTableHeader } from '$lib/components/ui/table';
 	import Pagination from './Pagination.svelte';
 	import TableFilters from './TableFilters.svelte';
 	import TableHeader from './TableHeader.svelte';
@@ -12,8 +15,8 @@
 	let currentPage = 1;
 	let maxHeight = '60vh';
 
-	let sortColumn: keyof CompanySalary | 'totalCompensation' = 'company';
-	let sortDirection: 'asc' | 'desc' | 'none' = 'asc';
+	// Use the sort composable
+	const sortStore = useSort();
 
 	let filters = {
 		company: '',
@@ -22,18 +25,7 @@
 	};
 
 	function onSort(column: keyof CompanySalary | 'totalCompensation') {
-		if (sortColumn === column) {
-			if (sortDirection === 'asc') {
-				sortDirection = 'desc';
-			} else if (sortDirection === 'desc') {
-				sortDirection = 'none';
-			} else {
-				sortDirection = 'asc';
-			}
-		} else {
-			sortColumn = column;
-			sortDirection = 'asc';
-		}
+		sortStore.toggle(column);
 	}
 
 	function nextPage() {
@@ -56,7 +48,7 @@
 	}
 
 	$: filteredData = applyFilters(salaryData, filters);
-	$: sortedSalaryData = sortData(filteredData, sortColumn, sortDirection);
+	$: sortedSalaryData = sortStore.sortData(filteredData, $sortStore);
 	$: totalPages = calculateTotalPages(sortedSalaryData.length, itemsPerPage);
 	$: paginatedData = paginateData(sortedSalaryData, currentPage, itemsPerPage);
 </script>
@@ -65,21 +57,21 @@
 
 <div>
 	<TableFilters bind:filters />
-	<div class="relative overflow-hidden rounded-xl border border-gray-100 shadow-lg">
+	<Card class="overflow-hidden">
 		<div class="overflow-y-auto" style="max-height: {maxHeight};">
-			<table class="min-w-full bg-white text-sm sm:text-base">
-				<thead class="sticky top-0 z-10 bg-white shadow-sm">
-					<TableHeader {onSort} {sortColumn} {sortDirection} />
-				</thead>
-				<tbody class="divide-y divide-gray-100">
+			<Table class="w-full table-fixed border-collapse">
+				<ShadcnTableHeader class="sticky top-0 z-10 bg-background border-b">
+					<TableHeader sortState={$sortStore} {onSort} />
+				</ShadcnTableHeader>
+				<TableBody>
 					{#each paginatedData as rowData, i}
 						<TableRow {rowData} index={i} />
 					{/each}
-				</tbody>
-			</table>
+				</TableBody>
+			</Table>
 		</div>
 
-		<div class="sticky bottom-0 border-t bg-white px-4 py-2">
+		<div class="sticky bottom-0 border-t bg-background px-4 py-2">
 			<Pagination
 				{currentPage}
 				{totalPages}
@@ -91,5 +83,5 @@
 				onGoToPage={goToPage}
 			/>
 		</div>
-	</div>
+	</Card>
 </div>
